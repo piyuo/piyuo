@@ -21,8 +21,8 @@ class IndexScreen extends StatelessWidget {
     debugPrint('default font family: ${DefaultTextStyle.of(context).style.fontFamily}');
     final colorScheme = Theme.of(context).colorScheme;
     return MultiProvider(
-      providers: [ChangeNotifierProvider<IndexScreenProvider>(create: (context) => IndexScreenProvider())],
-      child: Consumer<IndexScreenProvider>(
+      providers: [ChangeNotifierProvider<IndexPageProvider>(create: (context) => IndexPageProvider())],
+      child: Consumer<IndexPageProvider>(
         builder: (context, indexScreenProvider, _) {
           Widget restraintWidth(Widget child) {
             return Center(
@@ -112,10 +112,27 @@ class IndexScreen extends StatelessWidget {
           return LayoutBuilder(
             builder: (BuildContext context, BoxConstraints constraints) {
               return Scaffold(
-                backgroundColor: colorScheme.background,
-                body: SingleChildScrollView(
-                  child: Column(children: [buildCover(), const Divider(height: 1, thickness: 1), buildContent()]),
+                body: Stack(
+                  children: [
+                    Positioned.fill(
+                      child: Image.asset(
+                        'assets/images/background.webp',
+                        fit: BoxFit.cover, // 覆蓋整個螢幕
+                      ),
+                    ),
+                    SingleChildScrollView(
+                      child: Column(
+                        children: [
+                          buildCover(),
+                          const Divider(height: 1, thickness: 1),
+                          buildContent(),
+                          Container(height: 600),
+                        ],
+                      ),
+                    ),
+                  ],
                 ),
+
                 bottomNavigationBar: Container(
                   height: 60,
                   color: colorScheme.primary,
