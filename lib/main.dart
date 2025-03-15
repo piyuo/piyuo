@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:intl/intl.dart';
 import 'package:libcli/cli/cli.dart' as cli;
+import 'package:libcli/l10n/lib_localization.dart' as libcli_localization;
 import 'package:piyuo/index/index.dart' as index;
+import 'package:piyuo/l10n/app_localization.dart';
 
 main() => cli.run(() => const PiyuoWeb());
 
@@ -10,6 +14,28 @@ class PiyuoWeb extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(title: 'piyuo.com', home: const index.IndexScreen());
+    /// parse the locale string to a [Locale] object
+    Locale parseLocale(String localeString) {
+      final parts = localeString.split('_');
+      if (parts.length == 2) {
+        return Locale(parts[0], parts[1]);
+      } else {
+        return Locale(localeString);
+      }
+    }
+
+    return MaterialApp(
+      title: 'piyuo.com',
+      home: const index.IndexScreen(),
+      locale: Intl.defaultLocale == null ? Locale('en') : parseLocale(Intl.defaultLocale!),
+      localizationsDelegates: [
+        AppLocalization.delegate,
+        libcli_localization.LibLocalization.delegate,
+        GlobalMaterialLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+      ],
+      supportedLocales: const [Locale('en', 'US'), Locale('zh', 'TW')],
+    );
   }
 }

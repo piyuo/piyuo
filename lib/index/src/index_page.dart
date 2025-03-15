@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import 'glass_container.dart';
 import 'index_page_provider.dart';
 
 const kMaxContentWidth = 1024.0;
@@ -33,7 +34,7 @@ class IndexScreen extends StatelessWidget {
             );
           }
 
-          buildCover() {
+          buildToolbar() {
             return Container(
               padding: const EdgeInsets.fromLTRB(0, 20, 0, 60),
               child: restraintWidth(
@@ -109,9 +110,41 @@ class IndexScreen extends StatelessWidget {
             );
           }
 
+          buildAppBar() {
+            return Row(
+              children: [
+                Text('piyuo', style: TextStyle(fontSize: 18, color: Colors.grey.shade900)),
+                Text('.com', style: TextStyle(fontSize: 18, color: Colors.grey.shade600)),
+                const SizedBox(width: 24),
+                Text(
+                  'Counter',
+                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.grey.shade900),
+                ),
+                const SizedBox(width: 24),
+                Text(
+                  'Download',
+                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.grey.shade900),
+                ),
+                Spacer(),
+                Text(
+                  'Language',
+                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.grey.shade900),
+                ),
+              ],
+            );
+          }
+
           return LayoutBuilder(
             builder: (BuildContext context, BoxConstraints constraints) {
               return Scaffold(
+                appBar: AppBar(
+                  toolbarHeight: 68,
+                  title: restraintWidth(GlassContainer(child: buildAppBar())),
+                  backgroundColor: Colors.transparent, // 背景設為透明
+                  elevation: 0, // 移除陰影
+                ),
+                extendBody: true,
+                extendBodyBehindAppBar: true, // 允許內容延伸至 AppBar 背後
                 body: Stack(
                   children: [
                     Positioned.fill(
@@ -123,7 +156,8 @@ class IndexScreen extends StatelessWidget {
                     SingleChildScrollView(
                       child: Column(
                         children: [
-                          buildCover(),
+                          const SizedBox(height: 60),
+                          buildToolbar(),
                           const Divider(height: 1, thickness: 1),
                           buildContent(),
                           Container(height: 600),
@@ -135,8 +169,10 @@ class IndexScreen extends StatelessWidget {
 
                 bottomNavigationBar: Container(
                   height: 60,
-                  color: colorScheme.primary,
-                  child: Center(child: Text('piyuo.com', style: TextStyle(color: colorScheme.onPrimary))),
+                  color: Colors.transparent,
+                  child: Center(
+                    child: Text('piyuo.com', style: TextStyle(color: colorScheme.onPrimary, fontSize: 24)), // 底部導航欄
+                  ),
                 ),
               );
             },
