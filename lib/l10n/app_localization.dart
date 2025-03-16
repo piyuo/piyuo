@@ -93,6 +93,18 @@ abstract class AppLocalization {
     Locale('en')
   ];
 
+  /// No description provided for @index_download.
+  ///
+  /// In en, this message translates to:
+  /// **'Download'**
+  String get index_download;
+
+  /// No description provided for @index_language.
+  ///
+  /// In en, this message translates to:
+  /// **'Language'**
+  String get index_language;
+
   /// No description provided for @app_name.
   ///
   /// In en, this message translates to:
@@ -102,7 +114,7 @@ abstract class AppLocalization {
   /// No description provided for @app_desc.
   ///
   /// In en, this message translates to:
-  /// **'Count pedestrians instantly. Smart camera counting, no manual input.'**
+  /// **'Want to know how many people pass by? This app uses your phone\'s camera to intelligently identify and automatically count pedestrians. No manual input required. Say goodbye to tedious counting and easily monitor traffic flow.'**
   String get app_desc;
 
   /// No description provided for @back.

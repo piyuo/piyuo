@@ -1,5 +1,7 @@
 {
+    "index_download":"Download",
+    "index_language":"Language",
     "app_name":"Counter",
-    "app_desc":"Count pedestrians instantly. Smart camera counting, no manual input.",
+    "app_desc":"Want to know how many people pass by? This app uses your phone's camera to intelligently identify and automatically count pedestrians. No manual input required. Say goodbye to tedious counting and easily monitor traffic flow.",
     "back":"Back"
 }

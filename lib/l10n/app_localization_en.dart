@@ -9,10 +9,16 @@ class AppLocalizationEn extends AppLocalization {
   AppLocalizationEn([String locale = 'en']) : super(locale);
 
   @override
+  String get index_download => 'Download';
+
+  @override
+  String get index_language => 'Language';
+
+  @override
   String get app_name => 'Counter';
 
   @override
-  String get app_desc => 'Count pedestrians instantly. Smart camera counting, no manual input.';
+  String get app_desc => 'Want to know how many people pass by? This app uses your phone\'s camera to intelligently identify and automatically count pedestrians. No manual input required. Say goodbye to tedious counting and easily monitor traffic flow.';
 
   @override
   String get back => 'Back';

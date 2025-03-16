@@ -3,10 +3,13 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 
 class GlassContainer extends StatelessWidget {
-  const GlassContainer({required this.child, super.key});
+  const GlassContainer({required this.child, this.padding = const EdgeInsets.fromLTRB(20, 10, 20, 10), super.key});
 
   /// the child widget to be displayed in the glass container
   final Widget child;
+
+  /// the padding of the glass container
+  final EdgeInsetsGeometry padding;
 
   @override
   Widget build(BuildContext context) {
@@ -15,7 +18,7 @@ class GlassContainer extends StatelessWidget {
       child: BackdropFilter(
         filter: ImageFilter.blur(sigmaX: 15, sigmaY: 15),
         child: Container(
-          padding: const EdgeInsets.fromLTRB(20, 10, 20, 10),
+          padding: padding,
           decoration: BoxDecoration(
             color: Colors.white.withValues(alpha: 0.2), // 半透明背景
             borderRadius: BorderRadius.circular(20), // 圓角

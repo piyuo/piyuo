@@ -5,7 +5,7 @@ import 'package:provider/provider.dart';
 import 'glass_container.dart';
 import 'index_page_provider.dart';
 
-const kMaxContentWidth = 1024.0;
+const kMaxContentWidth = 1280.0;
 
 final kHorizontalPadding = true ? 10.0 : 28.0;
 
@@ -42,7 +42,11 @@ class IndexScreen extends StatelessWidget {
                     children: [
                       SizedBox(width: 160, child: Image.asset('assets/images/icon.webp')),
                       Text(context.l.app_name, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 96)),
-                      Text(context.l.app_desc, style: TextStyle(fontSize: 32), textAlign: TextAlign.center),
+                      Text(
+                        context.l.app_desc,
+                        style: TextStyle(fontSize: 26, color: Colors.grey.shade900),
+                        textAlign: TextAlign.center,
+                      ),
                     ],
                   ),
                 ),
@@ -52,52 +56,32 @@ class IndexScreen extends StatelessWidget {
             );
           }
 
-          buildContent() {
-            return const Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
+          buildScreenshot() {
+            return Column(
               children: [
-                Padding(
-                  padding: EdgeInsets.only(top: 0),
-                  child: Text('Your own website', style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold)),
-                ),
-                Text('https://piyuo/yourname', style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
-                Text('and QR code', style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
-                SizedBox(height: 20),
-                Padding(
-                  padding: EdgeInsets.only(top: 20),
-                  child: Text('Receive payment online', style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold)),
-                ),
+                Text(context.l.app_name, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 96)),
                 Text(
-                  'Accept Credit card / Apple Pay / Google Pay',
-                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  context.l.app_desc,
+                  style: TextStyle(fontSize: 26, color: Colors.grey.shade900),
+                  textAlign: TextAlign.center,
                 ),
-                Text('Directly to your bank account', style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
-                Padding(
-                  padding: EdgeInsets.only(top: 20),
-                  child: Text(
-                    'We already built template for each business',
-                    style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
-                  ),
-                ),
-                Text('Start using right away', style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
-                Padding(
-                  padding: EdgeInsets.only(top: 20),
-                  child: Text('Everything is free', style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold)),
-                ),
-                Text(
-                  'No monthly fee / No apply fee / No Credit card required',
-                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-                ),
-                Padding(
-                  padding: EdgeInsets.only(top: 20),
-                  child: Text('3%  + 30¢', style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold)),
-                ),
-                Text(
-                  'per successful card charge and that’s it',
-                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-                ),
-                SizedBox(height: 40),
+                const SizedBox(width: 20),
+                SizedBox(width: 1024, child: Image.asset('assets/images/screenshot.webp')),
               ],
+            );
+          }
+
+          buildHighlight({required String title, required String desc, required String image}) {
+            return Align(
+              alignment: Alignment.bottomCenter,
+              child: Column(
+                children: [
+                  Text(title, style: TextStyle(fontSize: 26, fontWeight: FontWeight.bold)),
+                  Text(desc, style: TextStyle(fontSize: 20)),
+                  SizedBox(height: 20),
+                  SizedBox(width: 490, child: Image.asset('assets/images/$image')),
+                ],
+              ),
             );
           }
 
@@ -113,12 +97,12 @@ class IndexScreen extends StatelessWidget {
                 ),
                 const SizedBox(width: 24),
                 Text(
-                  'Download',
+                  context.l.index_download,
                   style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.grey.shade900),
                 ),
                 Spacer(),
                 Text(
-                  'Language',
+                  context.l.index_language,
                   style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.grey.shade900),
                 ),
               ],
@@ -143,10 +127,63 @@ class IndexScreen extends StatelessWidget {
                     SingleChildScrollView(
                       child: Column(
                         children: [
-                          const SizedBox(height: 80),
+                          const SizedBox(height: 85),
                           restraintWidth(GlassContainer(child: buildTitle())),
-                          const Divider(height: 1, thickness: 1),
-                          buildContent(),
+                          const SizedBox(height: 30),
+                          restraintWidth(GlassContainer(child: buildScreenshot())),
+                          const SizedBox(height: 30),
+                          restraintWidth(
+                            Row(
+                              children: [
+                                Expanded(
+                                  child: GlassContainer(
+                                    padding: const EdgeInsets.fromLTRB(20, 10, 20, 0),
+                                    child: buildHighlight(
+                                      title: '24小時追蹤',
+                                      desc: '可以檢視任何時段的人流數量',
+                                      image: 'highlight-1.webp',
+                                    ),
+                                  ),
+                                ),
+                                SizedBox(width: 30),
+                                Expanded(
+                                  child: GlassContainer(
+                                    child: buildHighlight(
+                                      title: '同時追蹤多種物件',
+                                      desc: '可以同時計算行人，汽車，腳踏車等數量',
+                                      image: 'highlight-2.webp',
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                          const SizedBox(height: 30),
+                          restraintWidth(
+                            Row(
+                              children: [
+                                Expanded(
+                                  child: GlassContainer(
+                                    child: buildHighlight(
+                                      title: '24小時追蹤',
+                                      desc: '可以檢視任何時段的人流數量',
+                                      image: 'highlight-1.webp',
+                                    ),
+                                  ),
+                                ),
+                                SizedBox(width: 30),
+                                Expanded(
+                                  child: GlassContainer(
+                                    child: buildHighlight(
+                                      title: '24小時追蹤',
+                                      desc: '可以檢視任何時段的人流數量',
+                                      image: 'highlight-1.webp',
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
                           Container(height: 600),
                         ],
                       ),
