@@ -59,22 +59,23 @@ class IndexScreen extends StatelessWidget {
           buildVideo() {
             return Column(
               children: [
-                Text(context.l.video_title, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 26)),
+                Text(context.l.index_video_title, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 26)),
                 Text(
-                  context.l.video_desc,
+                  context.l.index_video_desc,
                   style: TextStyle(fontSize: 26, color: Colors.grey.shade900),
                   textAlign: TextAlign.center,
                 ),
                 const SizedBox(height: 20),
                 SizedBox(
-                  width: 1024,
+                  width: 960,
+                  height: 540,
                   child:
                       indexPageProvider._videoController.value.isInitialized
                           ? AspectRatio(
                             aspectRatio: indexPageProvider._videoController.value.aspectRatio,
                             child: VideoPlayer(indexPageProvider._videoController),
                           )
-                          : const CircularProgressIndicator(),
+                          : SizedBox.shrink(),
                 ),
               ],
             );
@@ -148,8 +149,8 @@ class IndexScreen extends StatelessWidget {
                                   child: GlassContainer(
                                     padding: const EdgeInsets.fromLTRB(20, 10, 20, 0),
                                     child: buildHighlight(
-                                      title: '24小時追蹤',
-                                      desc: '可以檢視任何時段的人流數量',
+                                      title: context.l.index_1,
+                                      desc: context.l.index_1_desc,
                                       image: 'highlight-1.webp',
                                     ),
                                   ),
@@ -158,8 +159,8 @@ class IndexScreen extends StatelessWidget {
                                 Expanded(
                                   child: GlassContainer(
                                     child: buildHighlight(
-                                      title: '同時追蹤多種物件',
-                                      desc: '可以同時計算行人，汽車，腳踏車等數量',
+                                      title: context.l.index_2,
+                                      desc: context.l.index_2_desc,
                                       image: 'highlight-2.webp',
                                     ),
                                   ),
@@ -174,9 +175,9 @@ class IndexScreen extends StatelessWidget {
                                 Expanded(
                                   child: GlassContainer(
                                     child: buildHighlight(
-                                      title: '24小時追蹤',
-                                      desc: '可以檢視任何時段的人流數量',
-                                      image: 'highlight-1.webp',
+                                      title: context.l.index_3,
+                                      desc: context.l.index_3_desc,
+                                      image: 'highlight-3.webp',
                                     ),
                                   ),
                                 ),
@@ -184,9 +185,9 @@ class IndexScreen extends StatelessWidget {
                                 Expanded(
                                   child: GlassContainer(
                                     child: buildHighlight(
-                                      title: '24小時追蹤',
-                                      desc: '可以檢視任何時段的人流數量',
-                                      image: 'highlight-1.webp',
+                                      title: context.l.index_4,
+                                      desc: context.l.index_4_desc,
+                                      image: 'highlight-4.webp',
                                     ),
                                   ),
                                 ),

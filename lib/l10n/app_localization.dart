@@ -105,6 +105,66 @@ abstract class AppLocalization {
   /// **'Language'**
   String get index_language;
 
+  /// No description provided for @index_video_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Your phone can now use AI to recognize pedestrians.'**
+  String get index_video_title;
+
+  /// No description provided for @index_video_desc.
+  ///
+  /// In en, this message translates to:
+  /// **'No internet required. No need to manually count people with a traditional clicker. Just set up your phone to automatically track passing foot traffic.'**
+  String get index_video_desc;
+
+  /// No description provided for @index_1.
+  ///
+  /// In en, this message translates to:
+  /// **'24/7 Tracking'**
+  String get index_1;
+
+  /// No description provided for @index_1_desc.
+  ///
+  /// In en, this message translates to:
+  /// **'View foot traffic counts for any time period.'**
+  String get index_1_desc;
+
+  /// No description provided for @index_2.
+  ///
+  /// In en, this message translates to:
+  /// **'Multiple Object Tracking'**
+  String get index_2;
+
+  /// No description provided for @index_2_desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Simultaneously count pedestrians, cars, bicycles, and more'**
+  String get index_2_desc;
+
+  /// No description provided for @index_3.
+  ///
+  /// In en, this message translates to:
+  /// **'Custom Detection Zones'**
+  String get index_3;
+
+  /// No description provided for @index_3_desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Define custom detection zones to count traffic in specific areas.'**
+  String get index_3_desc;
+
+  /// No description provided for @index_4.
+  ///
+  /// In en, this message translates to:
+  /// **'Flexible Counting Modes'**
+  String get index_4;
+
+  /// No description provided for @index_4_desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose to count newly appearing objects within the detection zone, or those that remain stationary.'**
+  String get index_4_desc;
+
   /// No description provided for @app_name.
   ///
   /// In en, this message translates to:
@@ -116,12 +176,6 @@ abstract class AppLocalization {
   /// In en, this message translates to:
   /// **'Want to know how many people pass by? This app uses your phone\'s camera to intelligently identify and automatically count pedestrians. No manual input required. Say goodbye to tedious counting and easily monitor traffic flow.'**
   String get app_desc;
-
-  /// No description provided for @video_title.
-  ///
-  /// In en, this message translates to:
-  /// **'Your phone can now use AI to recognize pedestrians.'**
-  String get video_title;
 
   /// No description provided for @video_desc.
   ///

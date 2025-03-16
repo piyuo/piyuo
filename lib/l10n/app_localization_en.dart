@@ -15,13 +15,40 @@ class AppLocalizationEn extends AppLocalization {
   String get index_language => 'Language';
 
   @override
+  String get index_video_title => 'Your phone can now use AI to recognize pedestrians.';
+
+  @override
+  String get index_video_desc => 'No internet required. No need to manually count people with a traditional clicker. Just set up your phone to automatically track passing foot traffic.';
+
+  @override
+  String get index_1 => '24/7 Tracking';
+
+  @override
+  String get index_1_desc => 'View foot traffic counts for any time period.';
+
+  @override
+  String get index_2 => 'Multiple Object Tracking';
+
+  @override
+  String get index_2_desc => 'Simultaneously count pedestrians, cars, bicycles, and more';
+
+  @override
+  String get index_3 => 'Custom Detection Zones';
+
+  @override
+  String get index_3_desc => 'Define custom detection zones to count traffic in specific areas.';
+
+  @override
+  String get index_4 => 'Flexible Counting Modes';
+
+  @override
+  String get index_4_desc => 'Choose to count newly appearing objects within the detection zone, or those that remain stationary.';
+
+  @override
   String get app_name => 'Counter';
 
   @override
   String get app_desc => 'Want to know how many people pass by? This app uses your phone\'s camera to intelligently identify and automatically count pedestrians. No manual input required. Say goodbye to tedious counting and easily monitor traffic flow.';
-
-  @override
-  String get video_title => 'Your phone can now use AI to recognize pedestrians.';
 
   @override
   String get video_desc => 'No internet required. No need to manually count people with a traditional clicker. Just set up your phone to automatically track passing foot traffic.';
