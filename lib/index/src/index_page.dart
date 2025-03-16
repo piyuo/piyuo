@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:piyuo/l10n/l10n.dart';
 import 'package:provider/provider.dart';
+import 'package:video_player/video_player.dart';
 
 import 'glass_container.dart';
-import 'index_page_provider.dart';
 
 const kMaxContentWidth = 1280.0;
 
@@ -24,7 +24,7 @@ class IndexScreen extends StatelessWidget {
     return MultiProvider(
       providers: [ChangeNotifierProvider<IndexPageProvider>(create: (context) => IndexPageProvider())],
       child: Consumer<IndexPageProvider>(
-        builder: (context, indexScreenProvider, _) {
+        builder: (context, indexPageProvider, _) {
           Widget restraintWidth(Widget child) {
             return Center(
               child: ConstrainedBox(
@@ -56,17 +56,26 @@ class IndexScreen extends StatelessWidget {
             );
           }
 
-          buildScreenshot() {
+          buildVideo() {
             return Column(
               children: [
-                Text(context.l.app_name, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 96)),
+                Text(context.l.video_title, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 26)),
                 Text(
-                  context.l.app_desc,
+                  context.l.video_desc,
                   style: TextStyle(fontSize: 26, color: Colors.grey.shade900),
                   textAlign: TextAlign.center,
                 ),
-                const SizedBox(width: 20),
-                SizedBox(width: 1024, child: Image.asset('assets/images/screenshot.webp')),
+                const SizedBox(height: 20),
+                SizedBox(
+                  width: 1024,
+                  child:
+                      indexPageProvider._videoController.value.isInitialized
+                          ? AspectRatio(
+                            aspectRatio: indexPageProvider._videoController.value.aspectRatio,
+                            child: VideoPlayer(indexPageProvider._videoController),
+                          )
+                          : const CircularProgressIndicator(),
+                ),
               ],
             );
           }
@@ -128,9 +137,9 @@ class IndexScreen extends StatelessWidget {
                       child: Column(
                         children: [
                           const SizedBox(height: 85),
-                          restraintWidth(GlassContainer(child: buildTitle())),
+                          restraintWidth(GlassContainer(padding: const EdgeInsets.all(40), child: buildTitle())),
                           const SizedBox(height: 30),
-                          restraintWidth(GlassContainer(child: buildScreenshot())),
+                          restraintWidth(GlassContainer(padding: const EdgeInsets.all(40), child: buildVideo())),
                           const SizedBox(height: 30),
                           restraintWidth(
                             Row(
@@ -204,5 +213,24 @@ class IndexScreen extends StatelessWidget {
         },
       ),
     );
+  }
+}
+
+class IndexPageProvider extends ChangeNotifier {
+  final VideoPlayerController _videoController = VideoPlayerController.asset('assets/videos/screenshot.webm');
+
+  IndexPageProvider() {
+    _videoController.initialize().then((_) async {
+      notifyListeners();
+      await _videoController.setVolume(0);
+      await _videoController.play();
+      await _videoController.setLooping(true);
+      notifyListeners();
+    });
+  }
+
+  /// of get BranchModel from context
+  static IndexPageProvider of(BuildContext context) {
+    return Provider.of<IndexPageProvider>(context, listen: false);
   }
 }

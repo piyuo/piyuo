@@ -117,6 +117,18 @@ abstract class AppLocalization {
   /// **'Want to know how many people pass by? This app uses your phone\'s camera to intelligently identify and automatically count pedestrians. No manual input required. Say goodbye to tedious counting and easily monitor traffic flow.'**
   String get app_desc;
 
+  /// No description provided for @video_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Your phone can now use AI to recognize pedestrians.'**
+  String get video_title;
+
+  /// No description provided for @video_desc.
+  ///
+  /// In en, this message translates to:
+  /// **'No internet required. No need to manually count people with a traditional clicker. Just set up your phone to automatically track passing foot traffic.'**
+  String get video_desc;
+
   /// No description provided for @back.
   ///
   /// In en, this message translates to:
