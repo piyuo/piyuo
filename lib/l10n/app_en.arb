@@ -1,3 +1,5 @@
 {
+    "app_name":"Counter",
+    "app_desc":"Count pedestrians instantly. Smart camera counting, no manual input.",
     "back":"Back"
 }

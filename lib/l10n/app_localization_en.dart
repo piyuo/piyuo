@@ -9,5 +9,11 @@ class AppLocalizationEn extends AppLocalization {
   AppLocalizationEn([String locale = 'en']) : super(locale);
 
   @override
+  String get app_name => 'Counter';
+
+  @override
+  String get app_desc => 'Count pedestrians instantly. Smart camera counting, no manual input.';
+
+  @override
   String get back => 'Back';
 }

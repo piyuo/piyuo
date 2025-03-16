@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:piyuo/l10n/l10n.dart';
 import 'package:provider/provider.dart';
 
 import 'glass_container.dart';
@@ -19,7 +20,6 @@ class IndexScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    debugPrint('default font family: ${DefaultTextStyle.of(context).style.fontFamily}');
     final colorScheme = Theme.of(context).colorScheme;
     return MultiProvider(
       providers: [ChangeNotifierProvider<IndexPageProvider>(create: (context) => IndexPageProvider())],
@@ -34,30 +34,21 @@ class IndexScreen extends StatelessWidget {
             );
           }
 
-          buildToolbar() {
-            return Container(
-              padding: const EdgeInsets.fromLTRB(0, 20, 0, 60),
-              child: restraintWidth(
-                Row(
-                  children: [
-                    Expanded(
-                      child: Text(
-                        'Create your online business with payment instantly',
-                        style: TextStyle(fontWeight: FontWeight.bold),
-                      ),
-                    ),
-                    const SizedBox(width: 20),
-                    ElevatedButton(
-                      style: ElevatedButton.styleFrom(
-                        backgroundColor: colorScheme.secondary,
-                        foregroundColor: colorScheme.onSecondary,
-                      ),
-                      onPressed: () {},
-                      child: Text('hello'),
-                    ),
-                  ],
+          buildTitle() {
+            return Row(
+              children: [
+                Expanded(
+                  child: Column(
+                    children: [
+                      SizedBox(width: 160, child: Image.asset('assets/images/icon.webp')),
+                      Text(context.l.app_name, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 96)),
+                      Text(context.l.app_desc, style: TextStyle(fontSize: 32), textAlign: TextAlign.center),
+                    ],
+                  ),
                 ),
-              ),
+                const SizedBox(width: 20),
+                SizedBox(width: 303, child: Image.asset('assets/images/app.webp')),
+              ],
             );
           }
 
@@ -140,24 +131,20 @@ class IndexScreen extends StatelessWidget {
                 appBar: AppBar(
                   toolbarHeight: 68,
                   title: restraintWidth(GlassContainer(child: buildAppBar())),
-                  backgroundColor: Colors.transparent, // 背景設為透明
-                  elevation: 0, // 移除陰影
+                  backgroundColor: Colors.transparent,
+                  elevation: 0,
+                  scrolledUnderElevation: 4,
                 ),
                 extendBody: true,
-                extendBodyBehindAppBar: true, // 允許內容延伸至 AppBar 背後
+                extendBodyBehindAppBar: true,
                 body: Stack(
                   children: [
-                    Positioned.fill(
-                      child: Image.asset(
-                        'assets/images/background.webp',
-                        fit: BoxFit.cover, // 覆蓋整個螢幕
-                      ),
-                    ),
+                    Positioned.fill(child: Image.asset('assets/images/background.webp', fit: BoxFit.cover)),
                     SingleChildScrollView(
                       child: Column(
                         children: [
-                          const SizedBox(height: 60),
-                          buildToolbar(),
+                          const SizedBox(height: 80),
+                          restraintWidth(GlassContainer(child: buildTitle())),
                           const Divider(height: 1, thickness: 1),
                           buildContent(),
                           Container(height: 600),

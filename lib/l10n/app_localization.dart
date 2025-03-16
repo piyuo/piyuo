@@ -93,6 +93,18 @@ abstract class AppLocalization {
     Locale('en')
   ];
 
+  /// No description provided for @app_name.
+  ///
+  /// In en, this message translates to:
+  /// **'Counter'**
+  String get app_name;
+
+  /// No description provided for @app_desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Count pedestrians instantly. Smart camera counting, no manual input.'**
+  String get app_desc;
+
   /// No description provided for @back.
   ///
   /// In en, this message translates to:
