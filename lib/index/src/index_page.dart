@@ -6,6 +6,7 @@ import 'package:video_player/video_player.dart';
 
 import '../../language.dart';
 import 'glass_container.dart';
+import 'index_page_provider.dart';
 
 const kMaxContentWidth = 1280.0;
 
@@ -94,10 +95,10 @@ class IndexScreen extends StatelessWidget {
                   width: 960,
                   height: 540,
                   child:
-                      indexPageProvider._videoController.value.isInitialized
+                      indexPageProvider.videoController.value.isInitialized
                           ? AspectRatio(
-                            aspectRatio: indexPageProvider._videoController.value.aspectRatio,
-                            child: VideoPlayer(indexPageProvider._videoController),
+                            aspectRatio: indexPageProvider.videoController.value.aspectRatio,
+                            child: VideoPlayer(indexPageProvider.videoController),
                           )
                           : SizedBox.shrink(),
                 ),
@@ -324,29 +325,5 @@ class IndexScreen extends StatelessWidget {
         },
       ),
     );
-  }
-}
-
-class IndexPageProvider extends ChangeNotifier {
-  final VideoPlayerController _videoController = VideoPlayerController.asset('assets/videos/screenshot.webm');
-
-  IndexPageProvider() {
-    _videoController.initialize().then((_) async {
-      notifyListeners();
-      await _videoController.setVolume(0);
-      await _videoController.play();
-      await _videoController.setLooping(true);
-    });
-  }
-
-  /// of get BranchModel from context
-  static IndexPageProvider of(BuildContext context) {
-    return Provider.of<IndexPageProvider>(context, listen: false);
-  }
-
-  /// set locale to the selected language
-  Future<void> setLocale(Locale locale) async {
-    Intl.defaultLocale = locale.toString();
-    notifyListeners();
   }
 }
