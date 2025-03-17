@@ -16,7 +16,6 @@
     "index_desktop2_title":"Live Stream Support",
     "index_desktop2_desc":"In addition to mobile device cameras, we support recorded video files, webcam inputs, and internet live streams such as RTSP. This allows you to connect to existing devices and immediately begin measuring traffic flow.",
     "index_4_desc":"Choose to count newly appearing objects within the detection zone, or those that remain stationary.",
-    "index_download":"Download",
     "index_download_soon":"Coming soon.",
     "index_download_available":"Available in Spring 2025.",
     "app_name":"Counter",

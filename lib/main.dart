@@ -6,6 +6,8 @@ import 'package:libcli/l10n/lib_localization.dart' as libcli_localization;
 import 'package:piyuo/index/index.dart' as index;
 import 'package:piyuo/l10n/app_localization.dart';
 
+import 'language.dart';
+
 main() => cli.run(() => const PiyuoWeb());
 
 class PiyuoWeb extends StatelessWidget {
@@ -15,14 +17,6 @@ class PiyuoWeb extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     /// parse the locale string to a [Locale] object
-    Locale parseLocale(String localeString) {
-      final parts = localeString.split('_');
-      if (parts.length == 2) {
-        return Locale(parts[0], parts[1]);
-      } else {
-        return Locale(localeString);
-      }
-    }
 
     return MaterialApp(
       title: 'piyuo.com',

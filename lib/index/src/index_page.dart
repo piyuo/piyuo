@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 import 'package:piyuo/l10n/l10n.dart';
 import 'package:provider/provider.dart';
 import 'package:video_player/video_player.dart';
 
+import '../../language.dart';
 import 'glass_container.dart';
 
 const kMaxContentWidth = 1280.0;
@@ -21,6 +23,8 @@ class IndexScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final colorScheme = Theme.of(context).colorScheme;
+    final languages = Language.fromSupportedLocales(context);
+
     return MultiProvider(
       providers: [ChangeNotifierProvider<IndexPageProvider>(create: (context) => IndexPageProvider())],
       child: Consumer<IndexPageProvider>(
@@ -31,6 +35,26 @@ class IndexScreen extends StatelessWidget {
                 constraints: const BoxConstraints(maxWidth: kMaxContentWidth),
                 child: Padding(padding: EdgeInsets.symmetric(horizontal: kHorizontalPadding), child: child),
               ),
+            );
+          }
+
+          Widget buildLanguage() {
+            return DropdownButton<Locale>(
+              //isExpanded: true,
+              //alignment: AlignmentDirectional.centerEnd,
+              borderRadius: BorderRadius.circular(15),
+              dropdownColor: Colors.white,
+              underline: const SizedBox(),
+              value: parseLocale(Intl.defaultLocale ?? 'en'),
+              icon: const Icon(Icons.expand_more, color: Colors.black87),
+              onChanged: (Locale? newValue) => indexPageProvider.setLocale(newValue!),
+              items:
+                  languages.map<DropdownMenuItem<Locale>>((language) {
+                    return DropdownMenuItem<Locale>(
+                      value: language.locale,
+                      child: Text(language.name, style: TextStyle(color: Colors.black, fontSize: 20)),
+                    );
+                  }).toList(),
             );
           }
 
@@ -123,7 +147,7 @@ class IndexScreen extends StatelessWidget {
           buildDownload() {
             return Column(
               children: [
-                Text('Download', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 32)),
+                Text(context.l.index_download, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 32)),
                 Text(
                   context.l.index_download_available,
                   style: TextStyle(fontSize: 26, color: Colors.grey.shade900),
@@ -178,10 +202,7 @@ class IndexScreen extends StatelessWidget {
                   style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.grey.shade900),
                 ),
                 Spacer(),
-                Text(
-                  context.l.index_language,
-                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.grey.shade900),
-                ),
+                buildLanguage(),
               ],
             );
           }
@@ -315,12 +336,17 @@ class IndexPageProvider extends ChangeNotifier {
       await _videoController.setVolume(0);
       await _videoController.play();
       await _videoController.setLooping(true);
-      notifyListeners();
     });
   }
 
   /// of get BranchModel from context
   static IndexPageProvider of(BuildContext context) {
     return Provider.of<IndexPageProvider>(context, listen: false);
+  }
+
+  /// set locale to the selected language
+  Future<void> setLocale(Locale locale) async {
+    Intl.defaultLocale = locale.toString();
+    notifyListeners();
   }
 }
