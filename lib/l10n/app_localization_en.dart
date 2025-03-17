@@ -45,6 +45,24 @@ class AppLocalizationEn extends AppLocalization {
   String get index_4_desc => 'Choose to count newly appearing objects within the detection zone, or those that remain stationary.';
 
   @override
+  String get index_desktop_title => 'Desktop Version Availability';
+
+  @override
+  String get index_desktop_desc => 'We also offer a desktop version. We provide versions for iOS/Android/Mac/Windows, allowing you to utilize both mobile devices and desktops with webcams. The desktop version further supports multiple video sources, enabling simultaneous counting from multiple streams.';
+
+  @override
+  String get index_desktop2_title => 'Live Stream Support';
+
+  @override
+  String get index_desktop2_desc => 'In addition to mobile device cameras, we support recorded video files, webcam inputs, and internet live streams such as RTSP. This allows you to connect to existing devices and immediately begin measuring traffic flow.';
+
+  @override
+  String get index_download_soon => 'Coming soon.';
+
+  @override
+  String get index_download_available => 'Available in Spring 2025.';
+
+  @override
   String get app_name => 'Counter';
 
   @override

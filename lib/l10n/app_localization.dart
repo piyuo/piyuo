@@ -165,6 +165,42 @@ abstract class AppLocalization {
   /// **'Choose to count newly appearing objects within the detection zone, or those that remain stationary.'**
   String get index_4_desc;
 
+  /// No description provided for @index_desktop_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Desktop Version Availability'**
+  String get index_desktop_title;
+
+  /// No description provided for @index_desktop_desc.
+  ///
+  /// In en, this message translates to:
+  /// **'We also offer a desktop version. We provide versions for iOS/Android/Mac/Windows, allowing you to utilize both mobile devices and desktops with webcams. The desktop version further supports multiple video sources, enabling simultaneous counting from multiple streams.'**
+  String get index_desktop_desc;
+
+  /// No description provided for @index_desktop2_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Live Stream Support'**
+  String get index_desktop2_title;
+
+  /// No description provided for @index_desktop2_desc.
+  ///
+  /// In en, this message translates to:
+  /// **'In addition to mobile device cameras, we support recorded video files, webcam inputs, and internet live streams such as RTSP. This allows you to connect to existing devices and immediately begin measuring traffic flow.'**
+  String get index_desktop2_desc;
+
+  /// No description provided for @index_download_soon.
+  ///
+  /// In en, this message translates to:
+  /// **'Coming soon.'**
+  String get index_download_soon;
+
+  /// No description provided for @index_download_available.
+  ///
+  /// In en, this message translates to:
+  /// **'Available in Spring 2025.'**
+  String get index_download_available;
+
   /// No description provided for @app_name.
   ///
   /// In en, this message translates to:

@@ -7,7 +7,7 @@ import 'glass_container.dart';
 
 const kMaxContentWidth = 1280.0;
 
-final kHorizontalPadding = true ? 10.0 : 28.0;
+const kHorizontalPadding = 10.0;
 
 /// _load providers when loading screen show
 Future<void> _load(BuildContext context) async {}
@@ -92,6 +92,73 @@ class IndexScreen extends StatelessWidget {
                   SizedBox(width: 490, child: Image.asset('assets/images/$image')),
                 ],
               ),
+            );
+          }
+
+          buildDesktop({required String title, required String desc, required String image}) {
+            return Column(
+              children: [
+                Text(title, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 26)),
+                Text(desc, style: TextStyle(fontSize: 26, color: Colors.grey.shade900), textAlign: TextAlign.center),
+                const SizedBox(height: 20),
+                SizedBox(width: 960, child: Image.asset('assets/images/$image')),
+              ],
+            );
+          }
+
+          buildButton({required String image}) {
+            return SizedBox(
+              width: 350,
+              child: Column(
+                children: [
+                  SizedBox(width: 960, child: Image.asset('assets/images/$image')),
+                  const SizedBox(height: 20),
+                  Text(context.l.index_download_soon, style: TextStyle(fontSize: 20, color: Colors.grey.shade900)),
+                  SizedBox(height: 200),
+                ],
+              ),
+            );
+          }
+
+          buildDownload() {
+            return Column(
+              children: [
+                Text('Download', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 32)),
+                Text(
+                  context.l.index_download_available,
+                  style: TextStyle(fontSize: 26, color: Colors.grey.shade900),
+                  textAlign: TextAlign.center,
+                ),
+                const SizedBox(height: 20),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    buildButton(image: 'apple.webp'),
+                    const SizedBox(width: 20),
+                    buildButton(image: 'google.webp'),
+                    const SizedBox(width: 20),
+                    buildButton(image: 'windows.webp'),
+                  ],
+                ),
+              ],
+            );
+          }
+
+          buildEmailUs() {
+            return Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                ElevatedButton(
+                  onPressed: () {},
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.grey.shade900,
+                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(25)),
+                  ),
+                  child: Text('Email us', style: TextStyle(fontSize: 72, color: Colors.white)),
+                ),
+                const SizedBox(width: 20),
+                Text('service@piyuo.com', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 32)),
+              ],
             );
           }
 
@@ -194,19 +261,41 @@ class IndexScreen extends StatelessWidget {
                               ],
                             ),
                           ),
-                          Container(height: 600),
+                          const SizedBox(height: 30),
+                          restraintWidth(
+                            GlassContainer(
+                              padding: const EdgeInsets.all(40),
+                              child: buildDesktop(
+                                title: context.l.index_desktop_title,
+                                desc: context.l.index_desktop_desc,
+                                image: 'desktop-1.webp',
+                              ),
+                            ),
+                          ),
+                          const SizedBox(height: 30),
+                          restraintWidth(
+                            GlassContainer(
+                              padding: const EdgeInsets.all(40),
+                              child: buildDesktop(
+                                title: context.l.index_desktop2_title,
+                                desc: context.l.index_desktop2_desc,
+                                image: 'desktop-2.webp',
+                              ),
+                            ),
+                          ),
+                          const SizedBox(height: 30),
+                          restraintWidth(GlassContainer(padding: const EdgeInsets.all(40), child: buildDownload())),
+                          const SizedBox(height: 30),
+                          restraintWidth(GlassContainer(padding: const EdgeInsets.all(40), child: buildEmailUs())),
+                          const SizedBox(height: 60),
+                          Center(
+                            child: Text('piyuo.com', style: TextStyle(color: colorScheme.onPrimary, fontSize: 24)),
+                          ),
+                          const SizedBox(height: 30),
                         ],
                       ),
                     ),
                   ],
-                ),
-
-                bottomNavigationBar: Container(
-                  height: 60,
-                  color: Colors.transparent,
-                  child: Center(
-                    child: Text('piyuo.com', style: TextStyle(color: colorScheme.onPrimary, fontSize: 24)), // 底部導航欄
-                  ),
                 ),
               );
             },
