@@ -29,7 +29,17 @@ class PiyuoWeb extends StatelessWidget {
         GlobalCupertinoLocalizations.delegate,
         GlobalWidgetsLocalizations.delegate,
       ],
-      supportedLocales: const [Locale('en', 'US'), Locale('zh', 'TW')],
+      supportedLocales: AppLocalization.supportedLocales,
+      theme: ThemeData(
+        primaryColor: Colors.blue,
+        textTheme: TextTheme(
+          titleLarge: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+          titleMedium: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold, color: Colors.grey.shade900),
+          displayLarge: TextStyle(fontSize: 96.0, fontWeight: FontWeight.bold, height: 1.5),
+          bodyMedium: TextStyle(fontSize: 24, color: Colors.grey.shade900),
+          headlineMedium: TextStyle(fontSize: 32, fontWeight: FontWeight.bold, height: 2),
+        ),
+      ),
     );
   }
 }

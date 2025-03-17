@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
+import 'package:libcli/utils/utils.dart' as utils;
 import 'package:piyuo/l10n/l10n.dart';
 import 'package:provider/provider.dart';
 import 'package:video_player/video_player.dart';
@@ -25,6 +26,7 @@ class IndexScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final colorScheme = Theme.of(context).colorScheme;
     final languages = Language.fromSupportedLocales(context);
+    final textTheme = Theme.of(context).textTheme;
 
     return MultiProvider(
       providers: [ChangeNotifierProvider<IndexPageProvider>(create: (context) => IndexPageProvider())],
@@ -53,7 +55,7 @@ class IndexScreen extends StatelessWidget {
                   languages.map<DropdownMenuItem<Locale>>((language) {
                     return DropdownMenuItem<Locale>(
                       value: language.locale,
-                      child: Text(language.name, style: TextStyle(color: Colors.black, fontSize: 20)),
+                      child: Text(language.name, style: textTheme.titleMedium),
                     );
                   }).toList(),
             );
@@ -66,12 +68,8 @@ class IndexScreen extends StatelessWidget {
                   child: Column(
                     children: [
                       SizedBox(width: 160, child: Image.asset('assets/images/icon.webp')),
-                      Text(context.l.app_name, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 96)),
-                      Text(
-                        context.l.app_desc,
-                        style: TextStyle(fontSize: 26, color: Colors.grey.shade900),
-                        textAlign: TextAlign.center,
-                      ),
+                      Text(context.l.app_name, style: textTheme.displayLarge),
+                      Text(context.l.app_desc, style: textTheme.bodyMedium, textAlign: TextAlign.center),
                     ],
                   ),
                 ),
@@ -84,12 +82,8 @@ class IndexScreen extends StatelessWidget {
           buildVideo() {
             return Column(
               children: [
-                Text(context.l.index_video_title, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 26)),
-                Text(
-                  context.l.index_video_desc,
-                  style: TextStyle(fontSize: 26, color: Colors.grey.shade900),
-                  textAlign: TextAlign.center,
-                ),
+                Text(context.l.index_video_title, style: textTheme.headlineMedium),
+                Text(context.l.index_video_desc, style: textTheme.bodyMedium, textAlign: TextAlign.center),
                 const SizedBox(height: 20),
                 SizedBox(
                   width: 960,
@@ -107,12 +101,13 @@ class IndexScreen extends StatelessWidget {
           }
 
           buildHighlight({required String title, required String desc, required String image}) {
-            return Align(
+            return Container(
+              height: 720,
               alignment: Alignment.bottomCenter,
               child: Column(
                 children: [
-                  Text(title, style: TextStyle(fontSize: 26, fontWeight: FontWeight.bold)),
-                  Text(desc, style: TextStyle(fontSize: 20)),
+                  Text(title, style: textTheme.headlineMedium),
+                  Expanded(child: Text(desc, style: textTheme.bodyMedium)),
                   SizedBox(height: 20),
                   SizedBox(width: 490, child: Image.asset('assets/images/$image')),
                 ],
@@ -123,8 +118,8 @@ class IndexScreen extends StatelessWidget {
           buildDesktop({required String title, required String desc, required String image}) {
             return Column(
               children: [
-                Text(title, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 26)),
-                Text(desc, style: TextStyle(fontSize: 26, color: Colors.grey.shade900), textAlign: TextAlign.center),
+                Text(title, style: textTheme.headlineMedium),
+                Text(desc, style: textTheme.bodyMedium, textAlign: TextAlign.center),
                 const SizedBox(height: 20),
                 SizedBox(width: 960, child: Image.asset('assets/images/$image')),
               ],
@@ -138,8 +133,8 @@ class IndexScreen extends StatelessWidget {
                 children: [
                   SizedBox(width: 960, child: Image.asset('assets/images/$image')),
                   const SizedBox(height: 20),
-                  Text(context.l.index_download_soon, style: TextStyle(fontSize: 20, color: Colors.grey.shade900)),
-                  SizedBox(height: 200),
+                  Text(context.l.index_download_soon, style: textTheme.bodyMedium, textAlign: TextAlign.center),
+                  SizedBox(height: 100),
                 ],
               ),
             );
@@ -148,12 +143,8 @@ class IndexScreen extends StatelessWidget {
           buildDownload() {
             return Column(
               children: [
-                Text(context.l.index_download, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 32)),
-                Text(
-                  context.l.index_download_available,
-                  style: TextStyle(fontSize: 26, color: Colors.grey.shade900),
-                  textAlign: TextAlign.center,
-                ),
+                Text(context.l.index_download, style: textTheme.headlineMedium),
+                Text(context.l.index_download_available, style: textTheme.bodyMedium, textAlign: TextAlign.center),
                 const SizedBox(height: 20),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -174,7 +165,9 @@ class IndexScreen extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    utils.openMailTo('service@piyuo.com', '', '');
+                  },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.grey.shade900,
                     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(25)),
@@ -190,18 +183,12 @@ class IndexScreen extends StatelessWidget {
           buildAppBar() {
             return Row(
               children: [
-                Text('piyuo', style: TextStyle(fontSize: 18, color: Colors.grey.shade900)),
+                Text('piyuo', style: textTheme.titleLarge),
                 Text('.com', style: TextStyle(fontSize: 18, color: Colors.grey.shade600)),
                 const SizedBox(width: 24),
-                Text(
-                  'Counter',
-                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.grey.shade900),
-                ),
+                Text('Counter', style: textTheme.titleMedium),
                 const SizedBox(width: 24),
-                Text(
-                  context.l.index_download,
-                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.grey.shade900),
-                ),
+                Text(context.l.index_download, style: textTheme.titleMedium),
                 Spacer(),
                 buildLanguage(),
               ],

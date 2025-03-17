@@ -73,7 +73,4 @@ class AppLocalizationEn extends AppLocalization {
 
   @override
   String get video_desc => 'No internet required. No need to manually count people with a traditional clicker. Just set up your phone to automatically track passing foot traffic.';
-
-  @override
-  String get back => 'Back';
 }

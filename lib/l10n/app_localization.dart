@@ -224,12 +224,6 @@ abstract class AppLocalization {
   /// In en, this message translates to:
   /// **'No internet required. No need to manually count people with a traditional clicker. Just set up your phone to automatically track passing foot traffic.'**
   String get video_desc;
-
-  /// No description provided for @back.
-  ///
-  /// In en, this message translates to:
-  /// **'Back'**
-  String get back;
 }
 
 class _AppLocalizationDelegate extends LocalizationsDelegate<AppLocalization> {
