@@ -99,6 +99,18 @@ abstract class AppLocalization {
   /// **'Download'**
   String get index_download;
 
+  /// No description provided for @index_download_soon.
+  ///
+  /// In en, this message translates to:
+  /// **'Coming soon.'**
+  String get index_download_soon;
+
+  /// No description provided for @index_download_available.
+  ///
+  /// In en, this message translates to:
+  /// **'Available in Spring 2025.'**
+  String get index_download_available;
+
   /// No description provided for @index_language.
   ///
   /// In en, this message translates to:
@@ -189,17 +201,11 @@ abstract class AppLocalization {
   /// **'In addition to mobile device cameras, we support recorded video files, webcam inputs, and internet live streams such as RTSP. This allows you to connect to existing devices and immediately begin measuring traffic flow.'**
   String get index_desktop2_desc;
 
-  /// No description provided for @index_download_soon.
+  /// No description provided for @index_email_us.
   ///
   /// In en, this message translates to:
-  /// **'Coming soon.'**
-  String get index_download_soon;
-
-  /// No description provided for @index_download_available.
-  ///
-  /// In en, this message translates to:
-  /// **'Available in Spring 2025.'**
-  String get index_download_available;
+  /// **'Email us'**
+  String get index_email_us;
 
   /// No description provided for @app_name.
   ///

@@ -178,7 +178,7 @@ class IndexScreen extends StatelessWidget {
                     backgroundColor: Colors.grey.shade900,
                     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(25)),
                   ),
-                  child: Text('Email us', style: TextStyle(fontSize: 72, color: Colors.white)),
+                  child: Text(context.l.index_email_us, style: TextStyle(fontSize: 72, color: Colors.white)),
                 ),
                 const SizedBox(width: 20),
                 Text('service@piyuo.com', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 32)),

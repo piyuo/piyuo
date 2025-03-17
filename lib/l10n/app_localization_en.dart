@@ -12,6 +12,12 @@ class AppLocalizationEn extends AppLocalization {
   String get index_download => 'Download';
 
   @override
+  String get index_download_soon => 'Coming soon.';
+
+  @override
+  String get index_download_available => 'Available in Spring 2025.';
+
+  @override
   String get index_language => 'Language';
 
   @override
@@ -57,10 +63,7 @@ class AppLocalizationEn extends AppLocalization {
   String get index_desktop2_desc => 'In addition to mobile device cameras, we support recorded video files, webcam inputs, and internet live streams such as RTSP. This allows you to connect to existing devices and immediately begin measuring traffic flow.';
 
   @override
-  String get index_download_soon => 'Coming soon.';
-
-  @override
-  String get index_download_available => 'Available in Spring 2025.';
+  String get index_email_us => 'Email us';
 
   @override
   String get app_name => 'Counter';
