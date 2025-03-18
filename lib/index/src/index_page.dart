@@ -11,7 +11,7 @@ import 'index_page_provider.dart';
 
 const kMaxContentWidth = 1280.0;
 
-const kHorizontalPadding = 10.0;
+const kHorizontalPadding = 20.0;
 
 /// _load providers when loading screen show
 Future<void> _load(BuildContext context) async {}
@@ -36,7 +36,8 @@ class IndexScreen extends StatelessWidget {
             return Center(
               child: ConstrainedBox(
                 constraints: const BoxConstraints(maxWidth: kMaxContentWidth),
-                child: Padding(padding: EdgeInsets.symmetric(horizontal: kHorizontalPadding), child: child),
+                //child: Padding(padding: EdgeInsets.symmetric(horizontal: kHorizontalPadding), child: child),
+                child: child,
               ),
             );
           }
@@ -63,7 +64,7 @@ class IndexScreen extends StatelessWidget {
             );
           }
 
-          buildTitle() {
+          buildCover() {
             return Row(
               children: [
                 Expanded(
@@ -219,103 +220,108 @@ class IndexScreen extends StatelessWidget {
                     Positioned.fill(child: Image.asset('assets/images/background.webp', fit: BoxFit.cover)),
                     SingleChildScrollView(
                       controller: indexPageProvider.scrollController,
-                      child: Column(
-                        children: [
-                          const SizedBox(height: 85),
-                          restraintWidth(GlassContainer(padding: const EdgeInsets.all(40), child: buildTitle())),
-                          const SizedBox(height: 30),
-                          restraintWidth(GlassContainer(padding: const EdgeInsets.all(40), child: buildVideo())),
-                          const SizedBox(height: 30),
-                          restraintWidth(
-                            Row(
-                              children: [
-                                Expanded(
-                                  child: GlassContainer(
-                                    padding: const EdgeInsets.fromLTRB(20, 10, 20, 0),
-                                    child: buildHighlight(
-                                      title: context.l.index_1,
-                                      desc: context.l.index_1_desc,
-                                      image: 'highlight-1.webp',
+                      child: Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: kHorizontalPadding),
+                        child: restraintWidth(
+                          Column(
+                            children: [
+                              const SizedBox(height: 85),
+                              GlassContainer(padding: const EdgeInsets.all(20), child: buildCover()),
+                              const SizedBox(height: 30),
+                              GlassContainer(padding: const EdgeInsets.all(40), child: buildVideo()),
+                              const SizedBox(height: 30),
+
+                              Row(
+                                children: [
+                                  Expanded(
+                                    child: GlassContainer(
+                                      padding: const EdgeInsets.fromLTRB(20, 10, 20, 0),
+                                      child: buildHighlight(
+                                        title: context.l.index_1,
+                                        desc: context.l.index_1_desc,
+                                        image: 'highlight-1.webp',
+                                      ),
                                     ),
                                   ),
-                                ),
-                                SizedBox(width: 30),
-                                Expanded(
-                                  child: GlassContainer(
-                                    child: buildHighlight(
-                                      title: context.l.index_2,
-                                      desc: context.l.index_2_desc,
-                                      image: 'highlight-2.webp',
+                                  SizedBox(width: 30),
+                                  Expanded(
+                                    child: GlassContainer(
+                                      child: buildHighlight(
+                                        title: context.l.index_2,
+                                        desc: context.l.index_2_desc,
+                                        image: 'highlight-2.webp',
+                                      ),
                                     ),
                                   ),
-                                ),
-                              ],
-                            ),
-                          ),
-                          const SizedBox(height: 30),
-                          restraintWidth(
-                            Row(
-                              children: [
-                                Expanded(
-                                  child: GlassContainer(
-                                    child: buildHighlight(
-                                      title: context.l.index_3,
-                                      desc: context.l.index_3_desc,
-                                      image: 'highlight-3.webp',
-                                    ),
-                                  ),
-                                ),
-                                SizedBox(width: 30),
-                                Expanded(
-                                  child: GlassContainer(
-                                    child: buildHighlight(
-                                      title: context.l.index_4,
-                                      desc: context.l.index_4_desc,
-                                      image: 'highlight-4.webp',
-                                    ),
-                                  ),
-                                ),
-                              ],
-                            ),
-                          ),
-                          const SizedBox(height: 30),
-                          restraintWidth(
-                            GlassContainer(
-                              padding: const EdgeInsets.all(40),
-                              child: buildDesktop(
-                                title: context.l.index_desktop_title,
-                                desc: context.l.index_desktop_desc,
-                                image: 'desktop-1.webp',
+                                ],
                               ),
-                            ),
-                          ),
-                          const SizedBox(height: 30),
-                          restraintWidth(
-                            GlassContainer(
-                              padding: const EdgeInsets.all(40),
-                              child: buildDesktop(
-                                title: context.l.index_desktop2_title,
-                                desc: context.l.index_desktop2_desc,
-                                image: 'desktop-2.webp',
+
+                              const SizedBox(height: 30),
+
+                              Row(
+                                children: [
+                                  Expanded(
+                                    child: GlassContainer(
+                                      child: buildHighlight(
+                                        title: context.l.index_3,
+                                        desc: context.l.index_3_desc,
+                                        image: 'highlight-3.webp',
+                                      ),
+                                    ),
+                                  ),
+                                  SizedBox(width: 30),
+                                  Expanded(
+                                    child: GlassContainer(
+                                      child: buildHighlight(
+                                        title: context.l.index_4,
+                                        desc: context.l.index_4_desc,
+                                        image: 'highlight-4.webp',
+                                      ),
+                                    ),
+                                  ),
+                                ],
                               ),
-                            ),
+
+                              const SizedBox(height: 30),
+
+                              GlassContainer(
+                                padding: const EdgeInsets.all(40),
+                                child: buildDesktop(
+                                  title: context.l.index_desktop_title,
+                                  desc: context.l.index_desktop_desc,
+                                  image: 'desktop-1.webp',
+                                ),
+                              ),
+
+                              const SizedBox(height: 30),
+
+                              GlassContainer(
+                                padding: const EdgeInsets.all(40),
+                                child: buildDesktop(
+                                  title: context.l.index_desktop2_title,
+                                  desc: context.l.index_desktop2_desc,
+                                  image: 'desktop-2.webp',
+                                ),
+                              ),
+
+                              const SizedBox(height: 30),
+
+                              GlassContainer(
+                                key: indexPageProvider.bookmarkDownloadKey,
+                                padding: const EdgeInsets.all(40),
+                                child: buildDownload(),
+                              ),
+
+                              const SizedBox(height: 30),
+                              GlassContainer(padding: const EdgeInsets.all(40), child: buildEmailUs()),
+                              const SizedBox(height: 60),
+                              Center(
+                                child: Text('piyuo.com', style: TextStyle(color: colorScheme.onPrimary, fontSize: 24)),
+                              ),
+                              const SizedBox(height: 30),
+                            ],
                           ),
-                          const SizedBox(height: 30),
-                          restraintWidth(
-                            GlassContainer(
-                              key: indexPageProvider.bookmarkDownloadKey,
-                              padding: const EdgeInsets.all(40),
-                              child: buildDownload(),
-                            ),
-                          ),
-                          const SizedBox(height: 30),
-                          restraintWidth(GlassContainer(padding: const EdgeInsets.all(40), child: buildEmailUs())),
-                          const SizedBox(height: 60),
-                          Center(
-                            child: Text('piyuo.com', style: TextStyle(color: colorScheme.onPrimary, fontSize: 24)),
-                          ),
-                          const SizedBox(height: 30),
-                        ],
+                        ),
                       ),
                     ),
                   ],
