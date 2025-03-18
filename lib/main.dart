@@ -19,6 +19,7 @@ class PiyuoWeb extends StatelessWidget {
     /// parse the locale string to a [Locale] object
 
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'piyuo.com',
       home: const index.IndexScreen(),
       locale: Intl.defaultLocale == null ? Locale('en') : parseLocale(Intl.defaultLocale!),
