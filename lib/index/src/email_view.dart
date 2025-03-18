@@ -19,12 +19,12 @@ class EmailView extends StatelessWidget {
           backgroundColor: Colors.grey.shade900,
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(25)),
         ),
-        child: Text(context.l.index_email_us, style: TextStyle(fontSize: 72, color: Colors.white)),
+        child: Text(context.l.index_email_us, style: TextStyle(fontSize: 24, color: Colors.white)),
       );
     }
 
     buildEmailAddress() {
-      return Text('service@piyuo.com', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 32));
+      return Text('service@piyuo.com', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20));
     }
 
     return isMobile

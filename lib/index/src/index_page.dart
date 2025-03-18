@@ -14,16 +14,16 @@ import 'index_page_provider.dart';
 import 'video_view.dart';
 
 /// the max width of the content
-const kMaxContentWidth = 1280.0;
+const _kMaxContentWidth = 1280.0;
 
 /// the horizontal padding of the content and app bar
-const kHorizontalPadding = 20.0;
+const _kHorizontalPadding = 20.0;
 
 /// the margin between content
-const kContentMargin = 30.0;
+const _kContentMargin = 30.0;
 
 /// the max width of the mobile device
-const kMobileMaxWidth = 750.0;
+const _kMobileMaxWidth = 750.0;
 
 /// _load providers when loading screen show
 Future<void> _load(BuildContext context) async {}
@@ -47,7 +47,7 @@ class IndexScreen extends StatelessWidget {
           Widget restraintWidth(Widget child) {
             return Center(
               child: ConstrainedBox(
-                constraints: const BoxConstraints(maxWidth: kMaxContentWidth),
+                constraints: const BoxConstraints(maxWidth: _kMaxContentWidth),
                 //child: Padding(padding: EdgeInsets.symmetric(horizontal: kHorizontalPadding), child: child),
                 child: child,
               ),
@@ -98,11 +98,13 @@ class IndexScreen extends StatelessWidget {
 
           return LayoutBuilder(
             builder: (BuildContext context, BoxConstraints constraints) {
-              final isMobile = constraints.maxWidth < kMobileMaxWidth;
+              final isMobile = constraints.maxWidth < _kMobileMaxWidth;
               return Scaffold(
                 appBar: AppBar(
                   toolbarHeight: 68,
-                  title: restraintWidth(GlassContainer(child: buildAppBar())),
+                  title: restraintWidth(
+                    GlassContainer(padding: const EdgeInsets.fromLTRB(20, 10, 20, 10), child: buildAppBar()),
+                  ),
                   backgroundColor: Colors.transparent,
                   elevation: 0,
                   scrolledUnderElevation: 4,
@@ -115,26 +117,24 @@ class IndexScreen extends StatelessWidget {
                     SingleChildScrollView(
                       controller: indexPageProvider.scrollController,
                       child: Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: kHorizontalPadding),
+                        padding: const EdgeInsets.symmetric(horizontal: _kHorizontalPadding),
                         child: restraintWidth(
                           Column(
                             children: [
                               const SizedBox(height: 85),
-                              GlassContainer(padding: const EdgeInsets.all(20), child: CoverView(isMobile: isMobile)),
-                              const SizedBox(height: kContentMargin),
+                              GlassContainer(child: CoverView(isMobile: isMobile)),
+                              const SizedBox(height: _kContentMargin),
                               GlassContainer(
-                                padding: const EdgeInsets.all(40),
                                 child: VideoView(
                                   isMobile: isMobile,
                                   videoController: indexPageProvider.videoController,
                                 ),
                               ),
-                              const SizedBox(height: kContentMargin),
+                              const SizedBox(height: _kContentMargin),
                               FeatureView(contentMargin: kBottomNavigationBarHeight, isMobile: isMobile),
-                              const SizedBox(height: kContentMargin),
+                              const SizedBox(height: _kContentMargin),
 
                               GlassContainer(
-                                padding: const EdgeInsets.all(40),
                                 child: DesktopView(
                                   isMobile: isMobile,
                                   title: context.l.index_desktop_title,
@@ -143,10 +143,9 @@ class IndexScreen extends StatelessWidget {
                                 ),
                               ),
 
-                              const SizedBox(height: kContentMargin),
+                              const SizedBox(height: _kContentMargin),
 
                               GlassContainer(
-                                padding: const EdgeInsets.all(40),
                                 child: DesktopView(
                                   isMobile: isMobile,
                                   title: context.l.index_desktop2_title,
@@ -155,7 +154,7 @@ class IndexScreen extends StatelessWidget {
                                 ),
                               ),
 
-                              const SizedBox(height: kContentMargin),
+                              const SizedBox(height: _kContentMargin),
 
                               GlassContainer(
                                 key: indexPageProvider.bookmarkDownloadKey,
@@ -163,13 +162,13 @@ class IndexScreen extends StatelessWidget {
                                 child: DownloadView(isMobile: isMobile),
                               ),
 
-                              const SizedBox(height: kContentMargin),
-                              GlassContainer(padding: const EdgeInsets.all(40), child: EmailView(isMobile: isMobile)),
+                              const SizedBox(height: _kContentMargin),
+                              GlassContainer(child: EmailView(isMobile: isMobile)),
                               const SizedBox(height: 60),
                               Center(
                                 child: Text('piyuo.com', style: TextStyle(color: colorScheme.onPrimary, fontSize: 24)),
                               ),
-                              const SizedBox(height: kContentMargin),
+                              const SizedBox(height: _kContentMargin),
                             ],
                           ),
                         ),

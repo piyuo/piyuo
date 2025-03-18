@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 class GlassContainer extends StatelessWidget {
   const GlassContainer({
     required this.child,
-    this.padding = const EdgeInsets.fromLTRB(20, 10, 20, 10),
+    this.padding = const EdgeInsets.all(40),
     this.margin = EdgeInsets.zero,
     super.key,
   });
