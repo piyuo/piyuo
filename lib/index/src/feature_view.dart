@@ -9,6 +9,7 @@ class FeatureView extends StatelessWidget {
   /// whether the device is mobile or not
   final bool isMobile;
 
+  /// the margin between the content
   final double contentMargin;
 
   @override

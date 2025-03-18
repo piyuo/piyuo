@@ -6,6 +6,7 @@ import 'package:provider/provider.dart';
 
 import '../../language.dart';
 import 'cover_view.dart';
+import 'desktop_view.dart';
 import 'feature_view.dart';
 import 'glass_container.dart';
 import 'index_page_provider.dart';
@@ -71,17 +72,6 @@ class IndexScreen extends StatelessWidget {
                       );
                     }).toList(),
               ),
-            );
-          }
-
-          buildDesktop({required String title, required String desc, required String image}) {
-            return Column(
-              children: [
-                Text(title, style: textTheme.headlineMedium),
-                Text(desc, style: textTheme.bodyMedium, textAlign: TextAlign.center),
-                const SizedBox(height: 20),
-                SizedBox(width: 960, child: Image.asset('assets/images/$image')),
-              ],
             );
           }
 
@@ -198,10 +188,11 @@ class IndexScreen extends StatelessWidget {
 
                               GlassContainer(
                                 padding: const EdgeInsets.all(40),
-                                child: buildDesktop(
+                                child: DesktopView(
+                                  isMobile: isMobile,
                                   title: context.l.index_desktop_title,
                                   desc: context.l.index_desktop_desc,
-                                  image: 'desktop-1.webp',
+                                  imagePath: 'desktop-1.webp',
                                 ),
                               ),
 
@@ -209,10 +200,11 @@ class IndexScreen extends StatelessWidget {
 
                               GlassContainer(
                                 padding: const EdgeInsets.all(40),
-                                child: buildDesktop(
+                                child: DesktopView(
+                                  isMobile: isMobile,
                                   title: context.l.index_desktop2_title,
                                   desc: context.l.index_desktop2_desc,
-                                  image: 'desktop-2.webp',
+                                  imagePath: 'desktop-2.webp',
                                 ),
                               ),
 
