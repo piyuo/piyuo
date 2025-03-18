@@ -19,19 +19,17 @@ class EmailView extends StatelessWidget {
           backgroundColor: Colors.grey.shade900,
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(25)),
         ),
-        child: Text(context.l.index_email_us, style: TextStyle(fontSize: 24, color: Colors.white)),
+        child: Text(context.l.index_email_us, style: TextStyle(fontSize: 20, color: Colors.white)),
       );
     }
 
     buildEmailAddress() {
-      return Text('service@piyuo.com', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20));
+      return Text('service@piyuo.com', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18));
     }
 
-    return isMobile
-        ? Column(children: [buildButton(), const SizedBox(height: 20), buildEmailAddress()])
-        : Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [buildButton(), const SizedBox(width: 20), buildEmailAddress()],
-        );
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [buildButton(), const SizedBox(width: 20), buildEmailAddress()],
+    );
   }
 }

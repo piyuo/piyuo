@@ -3,6 +3,9 @@ import 'package:piyuo/l10n/l10n.dart';
 
 import 'glass_container.dart';
 
+/// the padding of the picture container
+const _kPicContainerPadding = const EdgeInsets.fromLTRB(40, 40, 40, 0);
+
 class FeatureView extends StatelessWidget {
   const FeatureView({required this.contentMargin, required this.isMobile, super.key});
 
@@ -17,7 +20,7 @@ class FeatureView extends StatelessWidget {
     final textTheme = Theme.of(context).textTheme;
     buildPic({required String title, required String desc, required String image}) {
       return Container(
-        height: 720,
+        height: 620,
         alignment: Alignment.bottomCenter,
         child: Column(
           children: [
@@ -34,19 +37,22 @@ class FeatureView extends StatelessWidget {
         ? Column(
           children: [
             GlassContainer(
-              padding: const EdgeInsets.fromLTRB(20, 10, 20, 0),
+              padding: _kPicContainerPadding,
               child: buildPic(title: context.l.index_1, desc: context.l.index_1_desc, image: 'highlight-1.webp'),
             ),
             SizedBox(height: contentMargin),
             GlassContainer(
+              padding: _kPicContainerPadding,
               child: buildPic(title: context.l.index_2, desc: context.l.index_2_desc, image: 'highlight-2.webp'),
             ),
             SizedBox(height: contentMargin),
             GlassContainer(
+              padding: _kPicContainerPadding,
               child: buildPic(title: context.l.index_3, desc: context.l.index_3_desc, image: 'highlight-3.webp'),
             ),
             SizedBox(height: contentMargin),
             GlassContainer(
+              padding: _kPicContainerPadding,
               child: buildPic(title: context.l.index_4, desc: context.l.index_4_desc, image: 'highlight-4.webp'),
             ),
           ],
@@ -57,13 +63,14 @@ class FeatureView extends StatelessWidget {
               children: [
                 Expanded(
                   child: GlassContainer(
-                    padding: const EdgeInsets.fromLTRB(20, 10, 20, 0),
+                    padding: _kPicContainerPadding,
                     child: buildPic(title: context.l.index_1, desc: context.l.index_1_desc, image: 'highlight-1.webp'),
                   ),
                 ),
                 SizedBox(width: contentMargin),
                 Expanded(
                   child: GlassContainer(
+                    padding: _kPicContainerPadding,
                     child: buildPic(title: context.l.index_2, desc: context.l.index_2_desc, image: 'highlight-2.webp'),
                   ),
                 ),
@@ -76,12 +83,14 @@ class FeatureView extends StatelessWidget {
               children: [
                 Expanded(
                   child: GlassContainer(
+                    padding: _kPicContainerPadding,
                     child: buildPic(title: context.l.index_3, desc: context.l.index_3_desc, image: 'highlight-3.webp'),
                   ),
                 ),
                 SizedBox(width: contentMargin),
                 Expanded(
                   child: GlassContainer(
+                    padding: _kPicContainerPadding,
                     child: buildPic(title: context.l.index_4, desc: context.l.index_4_desc, image: 'highlight-4.webp'),
                   ),
                 ),

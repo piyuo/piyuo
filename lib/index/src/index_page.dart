@@ -163,8 +163,9 @@ class IndexScreen extends StatelessWidget {
                               ),
 
                               const SizedBox(height: _kContentMargin),
-                              GlassContainer(child: EmailView(isMobile: isMobile)),
                               const SizedBox(height: 60),
+                              EmailView(isMobile: isMobile),
+                              const SizedBox(height: 20),
                               Center(
                                 child: Text('piyuo.com', style: TextStyle(color: colorScheme.onPrimary, fontSize: 24)),
                               ),

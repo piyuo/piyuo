@@ -14,7 +14,8 @@ class DownloadView extends StatelessWidget {
     buildButton({required String image}) {
       return Column(
         children: [
-          Image.asset('assets/images/$image'),
+          if (isMobile) SizedBox(width: 200, child: Image.asset('assets/images/$image')),
+          if (!isMobile) Image.asset('assets/images/$image'),
           const SizedBox(height: 10),
           Text(
             context.l.index_download_soon,
