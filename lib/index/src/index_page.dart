@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:libcli/utils/utils.dart' as utils;
 import 'package:piyuo/l10n/l10n.dart';
 import 'package:provider/provider.dart';
 
 import '../../language.dart';
 import 'cover_view.dart';
 import 'desktop_view.dart';
+import 'download_view.dart';
+import 'email_view.dart';
 import 'feature_view.dart';
 import 'glass_container.dart';
 import 'index_page_provider.dart';
@@ -72,60 +73,6 @@ class IndexScreen extends StatelessWidget {
                       );
                     }).toList(),
               ),
-            );
-          }
-
-          buildButton({required String image}) {
-            return SizedBox(
-              width: 350,
-              child: Column(
-                children: [
-                  SizedBox(width: 960, child: Image.asset('assets/images/$image')),
-                  const SizedBox(height: 20),
-                  Text(context.l.index_download_soon, style: textTheme.bodyMedium, textAlign: TextAlign.center),
-                  SizedBox(height: 100),
-                ],
-              ),
-            );
-          }
-
-          buildDownload() {
-            return Column(
-              children: [
-                Text(context.l.index_download, style: textTheme.headlineMedium),
-                Text(context.l.index_download_available, style: textTheme.bodyMedium, textAlign: TextAlign.center),
-                const SizedBox(height: 20),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    buildButton(image: 'apple.webp'),
-                    const SizedBox(width: 20),
-                    buildButton(image: 'google.webp'),
-                    const SizedBox(width: 20),
-                    buildButton(image: 'windows.webp'),
-                  ],
-                ),
-              ],
-            );
-          }
-
-          buildEmailUs() {
-            return Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                ElevatedButton(
-                  onPressed: () {
-                    utils.openMailTo('service@piyuo.com', '', '');
-                  },
-                  style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.grey.shade900,
-                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(25)),
-                  ),
-                  child: Text(context.l.index_email_us, style: TextStyle(fontSize: 72, color: Colors.white)),
-                ),
-                const SizedBox(width: 20),
-                Text('service@piyuo.com', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 32)),
-              ],
             );
           }
 
@@ -213,11 +160,11 @@ class IndexScreen extends StatelessWidget {
                               GlassContainer(
                                 key: indexPageProvider.bookmarkDownloadKey,
                                 padding: const EdgeInsets.all(40),
-                                child: buildDownload(),
+                                child: DownloadView(isMobile: isMobile),
                               ),
 
                               const SizedBox(height: kContentMargin),
-                              GlassContainer(padding: const EdgeInsets.all(40), child: buildEmailUs()),
+                              GlassContainer(padding: const EdgeInsets.all(40), child: EmailView(isMobile: isMobile)),
                               const SizedBox(height: 60),
                               Center(
                                 child: Text('piyuo.com', style: TextStyle(color: colorScheme.onPrimary, fontSize: 24)),
