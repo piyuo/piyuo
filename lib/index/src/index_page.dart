@@ -3,15 +3,24 @@ import 'package:intl/intl.dart';
 import 'package:libcli/utils/utils.dart' as utils;
 import 'package:piyuo/l10n/l10n.dart';
 import 'package:provider/provider.dart';
-import 'package:video_player/video_player.dart';
 
 import '../../language.dart';
+import 'cover_view.dart';
 import 'glass_container.dart';
 import 'index_page_provider.dart';
+import 'video_view.dart';
 
+/// the max width of the content
 const kMaxContentWidth = 1280.0;
 
+/// the horizontal padding of the content and app bar
 const kHorizontalPadding = 20.0;
+
+/// the margin between content
+const kContentMargin = 30.0;
+
+/// the max width of the mobile device
+const kMobileMaxWidth = 750.0;
 
 /// _load providers when loading screen show
 Future<void> _load(BuildContext context) async {}
@@ -61,45 +70,6 @@ class IndexScreen extends StatelessWidget {
                       );
                     }).toList(),
               ),
-            );
-          }
-
-          buildCover() {
-            return Row(
-              children: [
-                Expanded(
-                  child: Column(
-                    children: [
-                      SizedBox(width: 160, child: Image.asset('assets/images/icon.webp')),
-                      Text(context.l.app_name, style: textTheme.displayLarge),
-                      Text(context.l.app_desc, style: textTheme.bodyMedium, textAlign: TextAlign.center),
-                    ],
-                  ),
-                ),
-                const SizedBox(width: 20),
-                SizedBox(width: 303, child: Image.asset('assets/images/app.webp')),
-              ],
-            );
-          }
-
-          buildVideo() {
-            return Column(
-              children: [
-                Text(context.l.index_video_title, style: textTheme.headlineMedium),
-                Text(context.l.index_video_desc, style: textTheme.bodyMedium, textAlign: TextAlign.center),
-                const SizedBox(height: 20),
-                SizedBox(
-                  width: 960,
-                  height: 540,
-                  child:
-                      indexPageProvider.videoController.value.isInitialized
-                          ? AspectRatio(
-                            aspectRatio: indexPageProvider.videoController.value.aspectRatio,
-                            child: VideoPlayer(indexPageProvider.videoController),
-                          )
-                          : SizedBox.shrink(),
-                ),
-              ],
             );
           }
 
@@ -205,6 +175,7 @@ class IndexScreen extends StatelessWidget {
 
           return LayoutBuilder(
             builder: (BuildContext context, BoxConstraints constraints) {
+              final isMobile = constraints.maxWidth < kMobileMaxWidth;
               return Scaffold(
                 appBar: AppBar(
                   toolbarHeight: 68,
@@ -226,11 +197,16 @@ class IndexScreen extends StatelessWidget {
                           Column(
                             children: [
                               const SizedBox(height: 85),
-                              GlassContainer(padding: const EdgeInsets.all(20), child: buildCover()),
-                              const SizedBox(height: 30),
-                              GlassContainer(padding: const EdgeInsets.all(40), child: buildVideo()),
-                              const SizedBox(height: 30),
-
+                              GlassContainer(padding: const EdgeInsets.all(20), child: CoverView(isMobile: isMobile)),
+                              const SizedBox(height: kContentMargin),
+                              GlassContainer(
+                                padding: const EdgeInsets.all(40),
+                                child: VideoView(
+                                  isMobile: isMobile,
+                                  videoController: indexPageProvider.videoController,
+                                ),
+                              ),
+                              const SizedBox(height: kContentMargin),
                               Row(
                                 children: [
                                   Expanded(
@@ -243,7 +219,7 @@ class IndexScreen extends StatelessWidget {
                                       ),
                                     ),
                                   ),
-                                  SizedBox(width: 30),
+                                  SizedBox(width: kContentMargin),
                                   Expanded(
                                     child: GlassContainer(
                                       child: buildHighlight(
@@ -269,7 +245,7 @@ class IndexScreen extends StatelessWidget {
                                       ),
                                     ),
                                   ),
-                                  SizedBox(width: 30),
+                                  SizedBox(width: kContentMargin),
                                   Expanded(
                                     child: GlassContainer(
                                       child: buildHighlight(
@@ -282,7 +258,7 @@ class IndexScreen extends StatelessWidget {
                                 ],
                               ),
 
-                              const SizedBox(height: 30),
+                              const SizedBox(height: kContentMargin),
 
                               GlassContainer(
                                 padding: const EdgeInsets.all(40),
@@ -293,7 +269,7 @@ class IndexScreen extends StatelessWidget {
                                 ),
                               ),
 
-                              const SizedBox(height: 30),
+                              const SizedBox(height: kContentMargin),
 
                               GlassContainer(
                                 padding: const EdgeInsets.all(40),
@@ -304,7 +280,7 @@ class IndexScreen extends StatelessWidget {
                                 ),
                               ),
 
-                              const SizedBox(height: 30),
+                              const SizedBox(height: kContentMargin),
 
                               GlassContainer(
                                 key: indexPageProvider.bookmarkDownloadKey,
@@ -312,13 +288,13 @@ class IndexScreen extends StatelessWidget {
                                 child: buildDownload(),
                               ),
 
-                              const SizedBox(height: 30),
+                              const SizedBox(height: kContentMargin),
                               GlassContainer(padding: const EdgeInsets.all(40), child: buildEmailUs()),
                               const SizedBox(height: 60),
                               Center(
                                 child: Text('piyuo.com', style: TextStyle(color: colorScheme.onPrimary, fontSize: 24)),
                               ),
-                              const SizedBox(height: 30),
+                              const SizedBox(height: kContentMargin),
                             ],
                           ),
                         ),
