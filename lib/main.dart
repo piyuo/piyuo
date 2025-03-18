@@ -31,10 +31,11 @@ class PiyuoWeb extends StatelessWidget {
       ],
       supportedLocales: AppLocalization.supportedLocales,
       theme: ThemeData(
-        primaryColor: Colors.blue,
+        useMaterial3: true,
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.black, brightness: Brightness.light),
         textTheme: TextTheme(
-          titleLarge: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
-          titleMedium: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold, color: Colors.grey.shade900),
+          titleLarge: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold, color: Colors.grey.shade900),
+          titleMedium: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold, color: Colors.grey.shade900),
           displayLarge: TextStyle(fontSize: 96.0, fontWeight: FontWeight.bold, height: 1.5),
           bodyMedium: TextStyle(fontSize: 24, color: Colors.grey.shade900),
           headlineMedium: TextStyle(fontSize: 32, fontWeight: FontWeight.bold, height: 2),

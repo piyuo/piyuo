@@ -4,7 +4,14 @@ import 'package:provider/provider.dart';
 import 'package:video_player/video_player.dart';
 
 class IndexPageProvider extends ChangeNotifier {
+  /// video controller for the screenshot video
   final VideoPlayerController videoController = VideoPlayerController.asset('assets/videos/screenshot.webm');
+
+  /// scroll controller for the page bookmark
+  final ScrollController scrollController = ScrollController();
+
+  /// key for the bookmark download
+  final GlobalKey bookmarkDownloadKey = GlobalKey();
 
   IndexPageProvider() {
     videoController.initialize().then((_) async {
@@ -24,5 +31,18 @@ class IndexPageProvider extends ChangeNotifier {
   Future<void> setLocale(Locale locale) async {
     Intl.defaultLocale = locale.toString();
     notifyListeners();
+  }
+
+  /// scroll to the bookmark
+  void scrollToKey(GlobalKey key) {
+    final context = key.currentContext;
+    if (context != null) {
+      Scrollable.ensureVisible(context, duration: const Duration(milliseconds: 500), curve: Curves.easeInOut);
+    }
+  }
+
+  /// scroll to the top of the page
+  void scrollToTop() {
+    scrollController.position.animateTo(0, duration: const Duration(milliseconds: 500), curve: Curves.easeInOut);
   }
 }

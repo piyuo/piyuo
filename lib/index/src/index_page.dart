@@ -42,22 +42,24 @@ class IndexScreen extends StatelessWidget {
           }
 
           Widget buildLanguage() {
-            return DropdownButton<Locale>(
-              //isExpanded: true,
-              //alignment: AlignmentDirectional.centerEnd,
-              borderRadius: BorderRadius.circular(15),
-              dropdownColor: Colors.white,
-              underline: const SizedBox(),
-              value: parseLocale(Intl.defaultLocale ?? 'en'),
-              icon: const Icon(Icons.expand_more, color: Colors.black87),
-              onChanged: (Locale? newValue) => indexPageProvider.setLocale(newValue!),
-              items:
-                  languages.map<DropdownMenuItem<Locale>>((language) {
-                    return DropdownMenuItem<Locale>(
-                      value: language.locale,
-                      child: Text(language.name, style: textTheme.titleMedium),
-                    );
-                  }).toList(),
+            return SizedBox(
+              height: 26,
+              child: DropdownButton<Locale>(
+                alignment: AlignmentDirectional.centerEnd,
+                borderRadius: BorderRadius.circular(15),
+                dropdownColor: Colors.white,
+                underline: const SizedBox(),
+                value: parseLocale(Intl.defaultLocale ?? 'en'),
+                icon: const Icon(Icons.expand_more, color: Colors.black87),
+                onChanged: (Locale? newValue) => indexPageProvider.setLocale(newValue!),
+                items:
+                    languages.map<DropdownMenuItem<Locale>>((language) {
+                      return DropdownMenuItem<Locale>(
+                        value: language.locale,
+                        child: Text(language.name, style: textTheme.titleMedium),
+                      );
+                    }).toList(),
+              ),
             );
           }
 
@@ -183,12 +185,17 @@ class IndexScreen extends StatelessWidget {
           buildAppBar() {
             return Row(
               children: [
-                Text('piyuo', style: textTheme.titleLarge),
-                Text('.com', style: TextStyle(fontSize: 18, color: Colors.grey.shade600)),
+                TextButton(
+                  onPressed: () => indexPageProvider.scrollToTop(),
+                  child: Text('piyuo.com', style: textTheme.titleLarge),
+                ),
+
                 const SizedBox(width: 24),
-                Text('Counter', style: textTheme.titleMedium),
-                const SizedBox(width: 24),
-                Text(context.l.index_download, style: textTheme.titleMedium),
+                TextButton(
+                  onPressed: () => indexPageProvider.scrollToKey(indexPageProvider.bookmarkDownloadKey),
+                  child: Text(context.l.index_download, style: textTheme.titleMedium),
+                ),
+
                 Spacer(),
                 buildLanguage(),
               ],
@@ -211,6 +218,7 @@ class IndexScreen extends StatelessWidget {
                   children: [
                     Positioned.fill(child: Image.asset('assets/images/background.webp', fit: BoxFit.cover)),
                     SingleChildScrollView(
+                      controller: indexPageProvider.scrollController,
                       child: Column(
                         children: [
                           const SizedBox(height: 85),
@@ -293,7 +301,13 @@ class IndexScreen extends StatelessWidget {
                             ),
                           ),
                           const SizedBox(height: 30),
-                          restraintWidth(GlassContainer(padding: const EdgeInsets.all(40), child: buildDownload())),
+                          restraintWidth(
+                            GlassContainer(
+                              key: indexPageProvider.bookmarkDownloadKey,
+                              padding: const EdgeInsets.all(40),
+                              child: buildDownload(),
+                            ),
+                          ),
                           const SizedBox(height: 30),
                           restraintWidth(GlassContainer(padding: const EdgeInsets.all(40), child: buildEmailUs())),
                           const SizedBox(height: 60),
