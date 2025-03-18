@@ -28,8 +28,12 @@ class DownloadView extends StatelessWidget {
 
     return Column(
       children: [
-        Text(context.l.index_download, style: textTheme.headlineMedium),
-        Text(context.l.index_download_available, style: textTheme.bodyMedium, textAlign: TextAlign.center),
+        Text(context.l.index_download, style: isMobile ? textTheme.headlineSmall : textTheme.headlineMedium),
+        Text(
+          context.l.index_download_available,
+          style: isMobile ? textTheme.bodySmall : textTheme.bodyMedium,
+          textAlign: TextAlign.center,
+        ),
         const SizedBox(height: 20),
 
         isMobile

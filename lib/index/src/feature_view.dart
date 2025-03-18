@@ -24,8 +24,8 @@ class FeatureView extends StatelessWidget {
         alignment: Alignment.bottomCenter,
         child: Column(
           children: [
-            Text(title, style: textTheme.headlineMedium),
-            Expanded(child: Text(desc, style: textTheme.bodyMedium)),
+            Text(title, style: isMobile ? textTheme.headlineSmall : textTheme.headlineMedium),
+            Expanded(child: Text(desc, style: isMobile ? textTheme.bodySmall : textTheme.bodyMedium)),
             SizedBox(height: 20),
             SizedBox(child: Image.asset('assets/images/$image')),
           ],

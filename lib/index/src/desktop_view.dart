@@ -26,8 +26,8 @@ class DesktopView extends StatelessWidget {
     final textTheme = Theme.of(context).textTheme;
     return Column(
       children: [
-        Text(title, style: textTheme.headlineMedium),
-        Text(desc, style: textTheme.bodyMedium, textAlign: TextAlign.center),
+        Text(title, style: isMobile ? textTheme.headlineSmall : textTheme.headlineMedium),
+        Text(desc, style: isMobile ? textTheme.bodySmall : textTheme.bodyMedium, textAlign: TextAlign.center),
         const SizedBox(height: 20),
         SizedBox(width: 960, child: Image.asset('assets/images/$imagePath')),
       ],
