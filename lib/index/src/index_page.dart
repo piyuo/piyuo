@@ -99,11 +99,15 @@ class IndexScreen extends StatelessWidget {
           return LayoutBuilder(
             builder: (BuildContext context, BoxConstraints constraints) {
               final isMobile = constraints.maxWidth < _kMobileMaxWidth;
+              final contentPadding = isMobile ? 20.0 : 40.0;
+              final contentEdgeInsets = EdgeInsets.all(contentPadding);
+              final safePadding = MediaQuery.of(context).padding;
+
               return Scaffold(
                 appBar: AppBar(
                   toolbarHeight: 68,
                   title: restraintWidth(
-                    GlassContainer(padding: const EdgeInsets.fromLTRB(20, 10, 20, 10), child: buildAppBar()),
+                    GlassContainer(padding: EdgeInsets.all(isMobile ? 0 : 10), child: buildAppBar()),
                   ),
                   backgroundColor: Colors.transparent,
                   elevation: 0,
@@ -121,20 +125,22 @@ class IndexScreen extends StatelessWidget {
                         child: restraintWidth(
                           Column(
                             children: [
-                              const SizedBox(height: 85),
-                              GlassContainer(child: CoverView(isMobile: isMobile)),
+                              SizedBox(height: 85 + safePadding.top),
+                              GlassContainer(padding: contentEdgeInsets, child: CoverView(isMobile: isMobile)),
                               const SizedBox(height: _kContentMargin),
                               GlassContainer(
+                                padding: contentEdgeInsets,
                                 child: VideoView(
                                   isMobile: isMobile,
                                   videoController: indexPageProvider.videoController,
                                 ),
                               ),
                               const SizedBox(height: _kContentMargin),
-                              FeatureView(contentMargin: kBottomNavigationBarHeight, isMobile: isMobile),
+                              FeatureView(contentMargin: _kContentMargin, isMobile: isMobile),
                               const SizedBox(height: _kContentMargin),
 
                               GlassContainer(
+                                padding: contentEdgeInsets,
                                 child: DesktopView(
                                   isMobile: isMobile,
                                   title: context.l.index_desktop_title,
@@ -146,6 +152,7 @@ class IndexScreen extends StatelessWidget {
                               const SizedBox(height: _kContentMargin),
 
                               GlassContainer(
+                                padding: contentEdgeInsets,
                                 child: DesktopView(
                                   isMobile: isMobile,
                                   title: context.l.index_desktop2_title,
@@ -157,13 +164,13 @@ class IndexScreen extends StatelessWidget {
                               const SizedBox(height: _kContentMargin),
 
                               GlassContainer(
+                                padding: contentEdgeInsets,
                                 key: indexPageProvider.bookmarkDownloadKey,
-                                padding: const EdgeInsets.all(40),
                                 child: DownloadView(isMobile: isMobile),
                               ),
 
                               const SizedBox(height: _kContentMargin),
-                              const SizedBox(height: 60),
+                              const SizedBox(height: 20),
                               EmailView(isMobile: isMobile),
                               const SizedBox(height: 20),
                               Center(

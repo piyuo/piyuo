@@ -17,7 +17,11 @@ class VideoView extends StatelessWidget {
 
     return Column(
       children: [
-        Text(context.l.index_video_title, style: isMobile ? textTheme.headlineSmall : textTheme.headlineMedium),
+        Text(
+          context.l.index_video_title,
+          style: isMobile ? textTheme.headlineSmall : textTheme.headlineMedium,
+          textAlign: TextAlign.center,
+        ),
         const SizedBox(height: 10),
         Text(
           context.l.index_video_desc,

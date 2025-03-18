@@ -39,9 +39,9 @@ class PiyuoWeb extends StatelessWidget {
           displayLarge: TextStyle(fontSize: 72.0, fontWeight: FontWeight.bold),
           displaySmall: TextStyle(fontSize: 48.0, fontWeight: FontWeight.bold),
           bodyMedium: TextStyle(fontSize: 20, color: Colors.grey.shade900),
-          bodySmall: TextStyle(fontSize: 20, color: Colors.grey.shade900),
+          bodySmall: TextStyle(fontSize: 18, color: Colors.grey.shade900),
           headlineMedium: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
-          headlineSmall: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
+          headlineSmall: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
         ),
       ),
     );
