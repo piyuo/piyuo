@@ -6,6 +6,7 @@ import 'package:provider/provider.dart';
 
 import '../../language.dart';
 import 'cover_view.dart';
+import 'feature_view.dart';
 import 'glass_container.dart';
 import 'index_page_provider.dart';
 import 'video_view.dart';
@@ -69,21 +70,6 @@ class IndexScreen extends StatelessWidget {
                         child: Text(language.name, style: textTheme.titleMedium),
                       );
                     }).toList(),
-              ),
-            );
-          }
-
-          buildHighlight({required String title, required String desc, required String image}) {
-            return Container(
-              height: 720,
-              alignment: Alignment.bottomCenter,
-              child: Column(
-                children: [
-                  Text(title, style: textTheme.headlineMedium),
-                  Expanded(child: Text(desc, style: textTheme.bodyMedium)),
-                  SizedBox(height: 20),
-                  SizedBox(width: 490, child: Image.asset('assets/images/$image')),
-                ],
               ),
             );
           }
@@ -207,57 +193,7 @@ class IndexScreen extends StatelessWidget {
                                 ),
                               ),
                               const SizedBox(height: kContentMargin),
-                              Row(
-                                children: [
-                                  Expanded(
-                                    child: GlassContainer(
-                                      padding: const EdgeInsets.fromLTRB(20, 10, 20, 0),
-                                      child: buildHighlight(
-                                        title: context.l.index_1,
-                                        desc: context.l.index_1_desc,
-                                        image: 'highlight-1.webp',
-                                      ),
-                                    ),
-                                  ),
-                                  SizedBox(width: kContentMargin),
-                                  Expanded(
-                                    child: GlassContainer(
-                                      child: buildHighlight(
-                                        title: context.l.index_2,
-                                        desc: context.l.index_2_desc,
-                                        image: 'highlight-2.webp',
-                                      ),
-                                    ),
-                                  ),
-                                ],
-                              ),
-
-                              const SizedBox(height: 30),
-
-                              Row(
-                                children: [
-                                  Expanded(
-                                    child: GlassContainer(
-                                      child: buildHighlight(
-                                        title: context.l.index_3,
-                                        desc: context.l.index_3_desc,
-                                        image: 'highlight-3.webp',
-                                      ),
-                                    ),
-                                  ),
-                                  SizedBox(width: kContentMargin),
-                                  Expanded(
-                                    child: GlassContainer(
-                                      child: buildHighlight(
-                                        title: context.l.index_4,
-                                        desc: context.l.index_4_desc,
-                                        image: 'highlight-4.webp',
-                                      ),
-                                    ),
-                                  ),
-                                ],
-                              ),
-
+                              FeatureView(contentMargin: kBottomNavigationBarHeight, isMobile: isMobile),
                               const SizedBox(height: kContentMargin),
 
                               GlassContainer(
