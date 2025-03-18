@@ -15,9 +15,10 @@ class CoverView extends StatelessWidget {
         ? Column(
           children: [
             SizedBox(width: 160, child: Image.asset('assets/images/icon.webp')),
-            Text(context.l.app_name, style: textTheme.displayLarge),
             const SizedBox(height: 20),
-            SizedBox(width: 303, child: Image.asset('assets/images/app.webp')),
+            Text(context.l.app_name, style: textTheme.displaySmall),
+            const SizedBox(height: 20),
+            Image.asset('assets/images/app.webp', width: double.infinity, fit: BoxFit.cover),
             const SizedBox(height: 20),
             Text(context.l.app_desc, style: textTheme.bodySmall, textAlign: TextAlign.center),
           ],
@@ -36,7 +37,7 @@ class CoverView extends StatelessWidget {
               ),
             ),
             const SizedBox(width: 20),
-            SizedBox(width: 303, child: Image.asset('assets/images/app.webp')),
+            SizedBox(width: 400, child: Image.asset('assets/images/app.webp')),
           ],
         );
   }
