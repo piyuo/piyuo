@@ -1,1 +1,1 @@
-flutter build web
+flutter build web --output piyuo.com/
