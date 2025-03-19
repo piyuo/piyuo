@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:piyuo/l10n/l10n.dart';
 import 'package:provider/provider.dart';
+import 'package:video_player/video_player.dart';
 
 import '../../language.dart';
 import 'cover_view.dart';
@@ -115,74 +116,84 @@ class IndexScreen extends StatelessWidget {
                 ),
                 extendBody: true,
                 extendBodyBehindAppBar: true,
-                body: Stack(
-                  children: [
-                    Positioned.fill(child: Image.asset('assets/images/background.webp', fit: BoxFit.cover)),
-                    SingleChildScrollView(
-                      controller: indexPageProvider.scrollController,
-                      child: Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: _kHorizontalPadding),
-                        child: restraintWidth(
-                          Column(
-                            children: [
-                              SizedBox(height: 85 + safePadding.top),
-                              GlassContainer(padding: contentEdgeInsets, child: CoverView(isMobile: isMobile)),
-                              const SizedBox(height: _kContentMargin),
-                              GlassContainer(
-                                padding: contentEdgeInsets,
-                                child: VideoView(
-                                  isMobile: isMobile,
-                                  videoController: indexPageProvider.videoController,
-                                ),
+                body: Container(
+                  decoration: BoxDecoration(
+                    image: DecorationImage(image: AssetImage('assets/images/background.webp'), fit: BoxFit.cover),
+                  ),
+                  child: SingleChildScrollView(
+                    controller: indexPageProvider.scrollController,
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: _kHorizontalPadding),
+                      child: restraintWidth(
+                        Column(
+                          children: [
+                            SizedBox(height: 85 + safePadding.top),
+                            //SizedBox(height: 350, child: VideoPlayer(indexPageProvider.videoController)),
+                            GlassContainer(padding: contentEdgeInsets, child: CoverView(isMobile: isMobile)),
+                            const SizedBox(height: _kContentMargin),
+                            GlassContainer(
+                              padding: contentEdgeInsets,
+                              child: VideoView(isMobile: isMobile, videoController: indexPageProvider.videoController),
+                            ),
+                            const SizedBox(height: 20),
+                            SizedBox(
+                              width: 960,
+                              //          height: 540,
+                              child:
+                                  indexPageProvider.videoController.value.isInitialized
+                                      ? AspectRatio(
+                                        aspectRatio: indexPageProvider.videoController.value.aspectRatio,
+                                        child: VideoPlayer(indexPageProvider.videoController),
+                                      )
+                                      : SizedBox.shrink(),
+                            ),
+                            const SizedBox(height: _kContentMargin),
+                            FeatureView(contentMargin: _kContentMargin, isMobile: isMobile),
+                            const SizedBox(height: _kContentMargin),
+
+                            GlassContainer(
+                              padding: contentEdgeInsets,
+                              child: DesktopView(
+                                isMobile: isMobile,
+                                title: context.l.index_desktop_title,
+                                desc: context.l.index_desktop_desc,
+                                imagePath: 'desktop-1.webp',
                               ),
-                              const SizedBox(height: _kContentMargin),
-                              FeatureView(contentMargin: _kContentMargin, isMobile: isMobile),
-                              const SizedBox(height: _kContentMargin),
+                            ),
 
-                              GlassContainer(
-                                padding: contentEdgeInsets,
-                                child: DesktopView(
-                                  isMobile: isMobile,
-                                  title: context.l.index_desktop_title,
-                                  desc: context.l.index_desktop_desc,
-                                  imagePath: 'desktop-1.webp',
-                                ),
+                            const SizedBox(height: _kContentMargin),
+
+                            GlassContainer(
+                              padding: contentEdgeInsets,
+                              child: DesktopView(
+                                isMobile: isMobile,
+                                title: context.l.index_desktop2_title,
+                                desc: context.l.index_desktop2_desc,
+                                imagePath: 'desktop-2.webp',
                               ),
+                            ),
 
-                              const SizedBox(height: _kContentMargin),
+                            const SizedBox(height: _kContentMargin),
 
-                              GlassContainer(
-                                padding: contentEdgeInsets,
-                                child: DesktopView(
-                                  isMobile: isMobile,
-                                  title: context.l.index_desktop2_title,
-                                  desc: context.l.index_desktop2_desc,
-                                  imagePath: 'desktop-2.webp',
-                                ),
-                              ),
+                            GlassContainer(
+                              padding: contentEdgeInsets,
+                              key: indexPageProvider.bookmarkDownloadKey,
+                              child: DownloadView(isMobile: isMobile),
+                            ),
 
-                              const SizedBox(height: _kContentMargin),
-
-                              GlassContainer(
-                                padding: contentEdgeInsets,
-                                key: indexPageProvider.bookmarkDownloadKey,
-                                child: DownloadView(isMobile: isMobile),
-                              ),
-
-                              const SizedBox(height: _kContentMargin),
-                              const SizedBox(height: 20),
-                              EmailView(isMobile: isMobile),
-                              const SizedBox(height: 20),
-                              Center(
-                                child: Text('piyuo.com', style: TextStyle(color: colorScheme.onPrimary, fontSize: 24)),
-                              ),
-                              const SizedBox(height: _kContentMargin),
-                            ],
-                          ),
+                            const SizedBox(height: _kContentMargin),
+                            const SizedBox(height: 20),
+                            EmailView(isMobile: isMobile),
+                            const SizedBox(height: 20),
+                            Center(
+                              child: Text('piyuo.com', style: TextStyle(color: colorScheme.onPrimary, fontSize: 24)),
+                            ),
+                            const SizedBox(height: _kContentMargin),
+                          ],
                         ),
                       ),
                     ),
-                  ],
+                  ),
                 ),
               );
             },

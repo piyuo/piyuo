@@ -28,15 +28,6 @@ class VideoView extends StatelessWidget {
           style: isMobile ? textTheme.bodySmall : textTheme.bodyMedium,
           textAlign: TextAlign.center,
         ),
-        const SizedBox(height: 20),
-        SizedBox(
-          width: 960,
-          //          height: 540,
-          child:
-              videoController.value.isInitialized
-                  ? AspectRatio(aspectRatio: videoController.value.aspectRatio, child: VideoPlayer(videoController))
-                  : SizedBox.shrink(),
-        ),
       ],
     );
   }

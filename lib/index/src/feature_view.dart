@@ -20,7 +20,7 @@ class FeatureView extends StatelessWidget {
     final textTheme = Theme.of(context).textTheme;
     buildPic({required String title, required String desc, required String image}) {
       return Container(
-        height: 620,
+        height: 665,
         alignment: Alignment.bottomCenter,
         child: Column(
           children: [

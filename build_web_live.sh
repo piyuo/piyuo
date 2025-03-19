@@ -1,1 +1,1 @@
-flutter build web --release --output live/
+flutter build web --release --web-renderer=html --output live/
