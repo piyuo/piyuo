@@ -74,6 +74,7 @@
             "**/.tmp.drivedownload": true,
             "**/node_modules": true,
             "**/_samples": true
-        }
+        },
+        "livePreview.serverRoot": "live"
     }
 }
