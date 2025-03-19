@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/intl.dart';
 import 'package:libcli/cli/cli.dart' as cli;
-import 'package:libcli/l10n/lib_localization.dart' as libcli_localization;
+import 'package:libcli/l10n/localization.dart' as libcli_localization;
 import 'package:piyuo/index/index.dart' as index;
-import 'package:piyuo/l10n/app_localization.dart';
+import 'package:piyuo/l10n/localization.dart';
 
 import 'language.dart';
 
@@ -24,13 +24,13 @@ class PiyuoWeb extends StatelessWidget {
       home: const index.IndexScreen(),
       locale: Intl.defaultLocale == null ? Locale('en') : parseLocale(Intl.defaultLocale!),
       localizationsDelegates: [
-        AppLocalization.delegate,
-        libcli_localization.LibLocalization.delegate,
+        Localization.delegate,
+        libcli_localization.Localization.delegate,
         GlobalMaterialLocalizations.delegate,
         GlobalCupertinoLocalizations.delegate,
         GlobalWidgetsLocalizations.delegate,
       ],
-      supportedLocales: AppLocalization.supportedLocales,
+      supportedLocales: Localization.supportedLocales,
       theme: ThemeData(
         useMaterial3: true,
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.black, brightness: Brightness.light),

@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:locale_names/locale_names.dart';
-import 'package:piyuo/l10n/app_localization.dart';
+import 'package:piyuo/l10n/localization.dart';
 
 /// parse the locale string to a [Locale] object
 Locale parseLocale(String localeString) {
@@ -19,7 +19,7 @@ class Language {
   Language(this.locale, this.name);
 
   static List<Language> fromSupportedLocales(BuildContext context) {
-    return AppLocalization.supportedLocales.map((locale) {
+    return Localization.supportedLocales.map((locale) {
       String name = locale.nativeDisplayLanguage;
       if (locale.nativeDisplayCountry.isNotEmpty) {
         name += ' (${locale.nativeDisplayCountry})';

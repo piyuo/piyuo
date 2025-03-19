@@ -1,27 +1,26 @@
 import 'dart:async';
 
-import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/intl.dart' as intl;
 
-import 'app_localization_en.dart';
+import 'localization_en.dart' deferred as localization_en;
 
 // ignore_for_file: type=lint
 
-/// Callers can lookup localized strings with an instance of AppLocalization
-/// returned by `AppLocalization.of(context)`.
+/// Callers can lookup localized strings with an instance of Localization
+/// returned by `Localization.of(context)`.
 ///
-/// Applications need to include `AppLocalization.delegate()` in their app's
+/// Applications need to include `Localization.delegate()` in their app's
 /// `localizationDelegates` list, and the locales they support in the app's
 /// `supportedLocales` list. For example:
 ///
 /// ```dart
-/// import 'l10n/app_localization.dart';
+/// import 'l10n/localization.dart';
 ///
 /// return MaterialApp(
-///   localizationsDelegates: AppLocalization.localizationsDelegates,
-///   supportedLocales: AppLocalization.supportedLocales,
+///   localizationsDelegates: Localization.localizationsDelegates,
+///   supportedLocales: Localization.supportedLocales,
 ///   home: MyApplicationHome(),
 /// );
 /// ```
@@ -58,18 +57,18 @@ import 'app_localization_en.dart';
 /// Select and expand the newly-created Localizations item then, for each
 /// locale your application supports, add a new item and select the locale
 /// you wish to add from the pop-up menu in the Value field. This list should
-/// be consistent with the languages listed in the AppLocalization.supportedLocales
+/// be consistent with the languages listed in the Localization.supportedLocales
 /// property.
-abstract class AppLocalization {
-  AppLocalization(String locale) : localeName = intl.Intl.canonicalizedLocale(locale.toString());
+abstract class Localization {
+  Localization(String locale) : localeName = intl.Intl.canonicalizedLocale(locale.toString());
 
   final String localeName;
 
-  static AppLocalization of(BuildContext context) {
-    return Localizations.of<AppLocalization>(context, AppLocalization)!;
+  static Localization of(BuildContext context) {
+    return Localizations.of<Localization>(context, Localization)!;
   }
 
-  static const LocalizationsDelegate<AppLocalization> delegate = _AppLocalizationDelegate();
+  static const LocalizationsDelegate<Localization> delegate = _LocalizationDelegate();
 
   /// A list of this localizations delegate along with the default localizations
   /// delegates.
@@ -226,31 +225,31 @@ abstract class AppLocalization {
   String get video_desc;
 }
 
-class _AppLocalizationDelegate extends LocalizationsDelegate<AppLocalization> {
-  const _AppLocalizationDelegate();
+class _LocalizationDelegate extends LocalizationsDelegate<Localization> {
+  const _LocalizationDelegate();
 
   @override
-  Future<AppLocalization> load(Locale locale) {
-    return SynchronousFuture<AppLocalization>(lookupAppLocalization(locale));
+  Future<Localization> load(Locale locale) {
+    return lookupLocalization(locale);
   }
 
   @override
   bool isSupported(Locale locale) => <String>['en'].contains(locale.languageCode);
 
   @override
-  bool shouldReload(_AppLocalizationDelegate old) => false;
+  bool shouldReload(_LocalizationDelegate old) => false;
 }
 
-AppLocalization lookupAppLocalization(Locale locale) {
+Future<Localization> lookupLocalization(Locale locale) {
 
 
   // Lookup logic when only language code is specified.
   switch (locale.languageCode) {
-    case 'en': return AppLocalizationEn();
+    case 'en': return localization_en.loadLibrary().then((dynamic _) => localization_en.LocalizationEn());
   }
 
   throw FlutterError(
-    'AppLocalization.delegate failed to load unsupported locale "$locale". This is likely '
+    'Localization.delegate failed to load unsupported locale "$locale". This is likely '
     'an issue with the localizations generation tool. Please file an issue '
     'on GitHub with a reproducible sample app and the gen-l10n configuration '
     'that was used.'
