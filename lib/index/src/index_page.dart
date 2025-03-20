@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:intl/intl.dart';
+import 'package:libcli/cli/cli.dart' as cli;
 import 'package:piyuo/l10n/l10n.dart';
+import 'package:piyuo/l10n/localization.dart';
 import 'package:provider/provider.dart';
 import 'package:video_player/video_player.dart';
 
-import '../../language.dart';
 import 'cover_view.dart';
 import 'desktop_view.dart';
 import 'download_view.dart';
@@ -38,8 +38,9 @@ class IndexScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final colorScheme = Theme.of(context).colorScheme;
-    final languages = Language.fromSupportedLocales(context);
+    final languages = cli.Language.fromSupportedLocales(Localization.supportedLocales);
     final textTheme = Theme.of(context).textTheme;
+    final languageProvider = cli.LanguageProvider.of(context);
 
     return MultiProvider(
       providers: [ChangeNotifierProvider<IndexPageProvider>(create: (context) => IndexPageProvider())],
@@ -63,14 +64,26 @@ class IndexScreen extends StatelessWidget {
                 borderRadius: BorderRadius.circular(15),
                 dropdownColor: Colors.white,
                 underline: const SizedBox(),
-                value: parseLocale(Intl.defaultLocale ?? 'en'),
+                value: cli.defaultLocale,
                 icon: const Icon(Icons.expand_more, color: Colors.black87),
-                onChanged: (Locale? newValue) => indexPageProvider.setLocale(newValue!),
+                menuWidth: 380,
+                selectedItemBuilder: (BuildContext context) {
+                  return languages.map<Widget>((language) {
+                    return Row(
+                      children: [
+                        Icon(Icons.language, size: 22),
+                        const SizedBox(width: 8),
+                        Text(context.l.index_language, style: textTheme.titleMedium),
+                      ],
+                    );
+                  }).toList();
+                },
+                onChanged: (Locale? newValue) => languageProvider.setLocale(newValue!),
                 items:
                     languages.map<DropdownMenuItem<Locale>>((language) {
                       return DropdownMenuItem<Locale>(
                         value: language.locale,
-                        child: Text(language.name, style: textTheme.titleMedium),
+                        child: Text(language.displayName, style: textTheme.titleMedium),
                       );
                     }).toList(),
               ),

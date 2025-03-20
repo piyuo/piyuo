@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:intl/intl.dart';
 import 'package:libcli/cli/cli.dart' as cli;
 import 'package:libcli/l10n/localization.dart' as libcli_localization;
 import 'package:piyuo/index/index.dart' as index;
 import 'package:piyuo/l10n/localization.dart';
-
-import 'language.dart';
+import 'package:provider/provider.dart';
 
 main() => cli.run(() => const PiyuoWeb());
 
@@ -18,55 +16,40 @@ class PiyuoWeb extends StatelessWidget {
   Widget build(BuildContext context) {
     /// parse the locale string to a [Locale] object
 
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'piyuo.com',
-      home: const index.IndexScreen(),
-      locale: Intl.defaultLocale == null ? Locale('en') : parseLocale(Intl.defaultLocale!),
-      localizationsDelegates: [
-        Localization.delegate,
-        libcli_localization.Localization.delegate,
-        GlobalMaterialLocalizations.delegate,
-        GlobalCupertinoLocalizations.delegate,
-        GlobalWidgetsLocalizations.delegate,
-      ],
-      supportedLocales: Localization.supportedLocales,
-      localeResolutionCallback: (locale, supportedLocales) {
-        if (locale == null) {
-          return const Locale('en'); // default to 'en'
-        }
-
-        // languageCode + countryCode
-        for (var supportedLocale in supportedLocales) {
-          if (supportedLocale.languageCode == locale.languageCode &&
-              supportedLocale.countryCode == locale.countryCode) {
-            return supportedLocale;
-          }
-        }
-
-        // only languageCode
-        for (var supportedLocale in supportedLocales) {
-          if (supportedLocale.languageCode == locale.languageCode) {
-            return supportedLocale;
-          }
-        }
-
-        // default 'en'
-        return const Locale('en');
-      },
-      theme: ThemeData(
-        useMaterial3: true,
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.black, brightness: Brightness.light),
-        textTheme: TextTheme(
-          titleLarge: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold, color: Colors.grey.shade900),
-          titleMedium: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold, color: Colors.grey.shade900),
-          displayLarge: TextStyle(fontSize: 72.0, fontWeight: FontWeight.bold),
-          displaySmall: TextStyle(fontSize: 48.0, fontWeight: FontWeight.bold),
-          bodyMedium: TextStyle(fontSize: 20, color: Colors.grey.shade900),
-          bodySmall: TextStyle(fontSize: 18, color: Colors.grey.shade900),
-          headlineMedium: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
-          headlineSmall: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-        ),
+    return MultiProvider(
+      providers: [ChangeNotifierProvider(create: (_) => cli.LanguageProvider()..loadLocale())],
+      child: Consumer<cli.LanguageProvider>(
+        builder: (context, languageProvider, _) {
+          return MaterialApp(
+            debugShowCheckedModeBanner: false,
+            title: 'piyuo.com',
+            home: const index.IndexScreen(),
+            locale: cli.defaultLocale,
+            localeResolutionCallback: cli.localeResolutionCallback,
+            localizationsDelegates: [
+              Localization.delegate,
+              libcli_localization.Localization.delegate,
+              GlobalMaterialLocalizations.delegate,
+              GlobalCupertinoLocalizations.delegate,
+              GlobalWidgetsLocalizations.delegate,
+            ],
+            supportedLocales: Localization.supportedLocales,
+            theme: ThemeData(
+              useMaterial3: true,
+              colorScheme: ColorScheme.fromSeed(seedColor: Colors.black, brightness: Brightness.light),
+              textTheme: TextTheme(
+                titleLarge: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold, color: Colors.grey.shade900),
+                titleMedium: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold, color: Colors.grey.shade900),
+                displayLarge: TextStyle(fontSize: 72.0, fontWeight: FontWeight.bold),
+                displaySmall: TextStyle(fontSize: 48.0, fontWeight: FontWeight.bold),
+                bodyMedium: TextStyle(fontSize: 20, color: Colors.grey.shade900),
+                bodySmall: TextStyle(fontSize: 18, color: Colors.grey.shade900),
+                headlineMedium: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
+                headlineSmall: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+              ),
+            ),
+          );
+        },
       ),
     );
   }
