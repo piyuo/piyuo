@@ -1,0 +1,76 @@
+// ignore: unused_import
+import 'package:intl/intl.dart' as intl;
+import 'localization.dart';
+
+// ignore_for_file: type=lint
+
+/// The translations for Norwegian Bokmål (`nb`).
+class LocalizationNb extends Localization {
+  LocalizationNb([String locale = 'nb']) : super(locale);
+
+  @override
+  String get index_download => 'Last ned';
+
+  @override
+  String get index_download_soon => 'Kommer snart.';
+
+  @override
+  String get index_download_available => 'Tilgjengelig våren 2025.';
+
+  @override
+  String get index_language => 'Språk';
+
+  @override
+  String get index_video_title => 'Telefonen din kan nå bruke AI til å gjenkjenne fotgjengere.';
+
+  @override
+  String get index_video_desc => 'Ingen internett nødvendig. Ingen behov for å telle personer manuelt med en tradisjonell klikker. Bare sett opp telefonen din til å automatisk spore forbipasserende fotgjengertrafikk.';
+
+  @override
+  String get index_1 => '24/7 Sporing';
+
+  @override
+  String get index_1_desc => 'Se antall fotgjengere for hvilken som helst tidsperiode.';
+
+  @override
+  String get index_2 => 'Sporing av flere objekter';
+
+  @override
+  String get index_2_desc => 'Tell fotgjengere, biler, sykler og mer samtidig';
+
+  @override
+  String get index_3 => 'Tilpassede deteksjonssoner';
+
+  @override
+  String get index_3_desc => 'Definer egne deteksjonssoner for å telle trafikk i bestemte områder.';
+
+  @override
+  String get index_4 => 'Fleksible tellingsmoduser';
+
+  @override
+  String get index_4_desc => 'Velg å telle nylig dukket opp objekter innenfor deteksjonssonen, eller de som forblir stasjonære.';
+
+  @override
+  String get index_desktop_title => 'Tilgjengelighet av skrivebordversjon';
+
+  @override
+  String get index_desktop_desc => 'Vi tilbyr også en skrivebordversjon. Vi har versjoner for iOS/Android/Mac/Windows, som lar deg bruke både mobile enheter og stasjonære datamaskiner med webkameraer. Skrivebordversjonen støtter i tillegg flere videokilder, noe som muliggjør samtidig telling fra flere strømmer.';
+
+  @override
+  String get index_desktop2_title => 'Støtte for direktestrømming';
+
+  @override
+  String get index_desktop2_desc => 'I tillegg til kameraer på mobile enheter, støtter vi innspilte videofiler, webkamerainnganger og internett-direktestrømmer som RTSP. Dette lar deg koble til eksisterende enheter og umiddelbart begynne å måle trafikkflyt.';
+
+  @override
+  String get index_email_us => 'Send e-post til oss';
+
+  @override
+  String get app_name => 'Counter';
+
+  @override
+  String get app_desc => 'Vil du vite hvor mange mennesker som passerer forbi? Denne appen bruker telefonens kamera for å intelligent identifisere og automatisk telle fotgjengere. Ingen manuell inntasting nødvendig. Si farvel til kjedelig telling og overvåk trafikkflyten enkelt.';
+
+  @override
+  String get video_desc => 'Ingen internett nødvendig. Ingen behov for å telle personer manuelt med en tradisjonell klikker. Bare sett opp telefonen din til å automatisk spore forbipasserende fotgjengertrafikk.';
+}

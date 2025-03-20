@@ -1,0 +1,76 @@
+// ignore: unused_import
+import 'package:intl/intl.dart' as intl;
+import 'localization.dart';
+
+// ignore_for_file: type=lint
+
+/// The translations for Malayalam (`ml`).
+class LocalizationMl extends Localization {
+  LocalizationMl([String locale = 'ml']) : super(locale);
+
+  @override
+  String get index_download => 'ഡൗൺലോഡ്';
+
+  @override
+  String get index_download_soon => 'ഉടൻ വരുന്നു.';
+
+  @override
+  String get index_download_available => '2025 വസന്തകാലത്ത് ലഭ്യമാകും.';
+
+  @override
+  String get index_language => 'ഭാഷ';
+
+  @override
+  String get index_video_title => 'നിങ്ങളുടെ ഫോണിന് ഇപ്പോൾ കാൽനടക്കാരെ തിരിച്ചറിയാൻ AI ഉപയോഗിക്കാം.';
+
+  @override
+  String get index_video_desc => 'ഇന്റർനെറ്റ് ആവശ്യമില്ല. പരമ്പരാഗത ക്ലിക്കർ ഉപയോഗിച്ച് ആളുകളെ മാനുവലായി എണ്ണേണ്ടതില്ല. കടന്നുപോകുന്ന കാൽനടക്കാരെ സ്വയമേവ നിരീക്ഷിക്കാൻ നിങ്ങളുടെ ഫോൺ സജ്ജീകരിക്കുക.';
+
+  @override
+  String get index_1 => '24/7 നിരീക്ഷണം';
+
+  @override
+  String get index_1_desc => 'ഏത് സമയത്തെയും കാൽനടക്കാരുടെ എണ്ണം കാണുക.';
+
+  @override
+  String get index_2 => 'ഒന്നിലധികം വസ്തുക്കളുടെ നിരീക്ഷണം';
+
+  @override
+  String get index_2_desc => 'കാൽനടക്കാർ, കാറുകൾ, സൈക്കിളുകൾ തുടങ്ങിയവ ഒരേസമയം എണ്ണാം';
+
+  @override
+  String get index_3 => 'ഇഷ്ടാനുസൃത നിരീക്ഷണ മേഖലകൾ';
+
+  @override
+  String get index_3_desc => 'നിർദ്ദിഷ്ട പ്രദേശങ്ങളിലെ ട്രാഫിക് എണ്ണുന്നതിന് ഇഷ്ടാനുസൃത നിരീക്ഷണ മേഖലകൾ നിർവ്വചിക്കുക.';
+
+  @override
+  String get index_4 => 'വഴക്കമുള്ള എണ്ണൽ രീതികൾ';
+
+  @override
+  String get index_4_desc => 'നിരീക്ഷണ മേഖലയിൽ പുതുതായി പ്രത്യക്ഷപ്പെടുന്ന വസ്തുക്കളോ അല്ലെങ്കിൽ സ്ഥിരമായി നിൽക്കുന്നവയോ എണ്ണാൻ തിരഞ്ഞെടുക്കുക.';
+
+  @override
+  String get index_desktop_title => 'ഡെസ്ക്ടോപ്പ് വേർഷൻ ലഭ്യത';
+
+  @override
+  String get index_desktop_desc => 'ഞങ്ങൾ ഒരു ഡെസ്ക്ടോപ്പ് പതിപ്പും വാഗ്ദാനം ചെയ്യുന്നു. iOS/Android/Mac/Windows പതിപ്പുകൾ ഞങ്ങൾ നൽകുന്നു, ഇത് മൊബൈൽ ഉപകരണങ്ങളും വെബ്‌കാമുകളുള്ള ഡെസ്ക്ടോപ്പുകളും ഉപയോഗിക്കാൻ അനുവദിക്കുന്നു. ഡെസ്ക്ടോപ്പ് പതിപ്പ് ഒന്നിലധികം വീഡിയോ സ്രോതസ്സുകളെ പിന്തുണയ്ക്കുന്നു, ഒന്നിലധികം സ്ട്രീമുകളിൽ നിന്ന് ഒരേസമയം എണ്ണാൻ അനുവദിക്കുന്നു.';
+
+  @override
+  String get index_desktop2_title => 'ലൈവ് സ്ട്രീം പിന്തുണ';
+
+  @override
+  String get index_desktop2_desc => 'മൊബൈൽ ഉപകരണ ക്യാമറകൾക്ക് പുറമേ, റെക്കോർഡ് ചെയ്ത വീഡിയോ ഫയലുകൾ, വെബ്‌കാം ഇൻപുട്ടുകൾ, RTSP പോലുള്ള ഇന്റർനെറ്റ് ലൈവ് സ്ട്രീമുകൾ എന്നിവയെ ഞങ്ങൾ പിന്തുണയ്ക്കുന്നു. ഇത് നിങ്ങളെ നിലവിലുള്ള ഉപകരണങ്ങളുമായി ബന്ധിപ്പിക്കാനും ഉടൻ തന്നെ ട്രാഫിക് ഒഴുക്ക് അളക്കാൻ തുടങ്ങാനും അനുവദിക്കുന്നു.';
+
+  @override
+  String get index_email_us => 'ഞങ്ങൾക്ക് ഇമെയിൽ ചെയ്യുക';
+
+  @override
+  String get app_name => 'കൗണ്ടർ';
+
+  @override
+  String get app_desc => 'എത്ര പേർ കടന്നുപോകുന്നുവെന്ന് അറിയാൻ ആഗ്രഹിക്കുന്നുണ്ടോ? ഈ ആപ്പ് നിങ്ങളുടെ ഫോണിന്റെ ക്യാമറ ഉപയോഗിച്ച് കാൽനടക്കാരെ ബുദ്ധിപരമായി തിരിച്ചറിയുകയും സ്വയമേവ എണ്ണുകയും ചെയ്യുന്നു. മാനുവൽ ഇൻപുട്ട് ആവശ്യമില്ല. വിരസമായ എണ്ണലിന് വിടപറഞ്ഞ്, ട്രാഫിക് ഒഴുക്ക് എളുപ്പത്തിൽ നിരീക്ഷിക്കുക.';
+
+  @override
+  String get video_desc => 'ഇന്റർനെറ്റ് ആവശ്യമില്ല. പരമ്പരാഗത ക്ലിക്കർ ഉപയോഗിച്ച് ആളുകളെ മാനുവലായി എണ്ണേണ്ടതില്ല. കടന്നുപോകുന്ന കാൽനടക്കാരെ സ്വയമേവ നിരീക്ഷിക്കാൻ നിങ്ങളുടെ ഫോൺ സജ്ജീകരിക്കുക.';
+}

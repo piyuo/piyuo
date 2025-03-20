@@ -31,6 +31,29 @@ class PiyuoWeb extends StatelessWidget {
         GlobalWidgetsLocalizations.delegate,
       ],
       supportedLocales: Localization.supportedLocales,
+      localeResolutionCallback: (locale, supportedLocales) {
+        if (locale == null) {
+          return const Locale('en'); // default to 'en'
+        }
+
+        // languageCode + countryCode
+        for (var supportedLocale in supportedLocales) {
+          if (supportedLocale.languageCode == locale.languageCode &&
+              supportedLocale.countryCode == locale.countryCode) {
+            return supportedLocale;
+          }
+        }
+
+        // only languageCode
+        for (var supportedLocale in supportedLocales) {
+          if (supportedLocale.languageCode == locale.languageCode) {
+            return supportedLocale;
+          }
+        }
+
+        // default 'en'
+        return const Locale('en');
+      },
       theme: ThemeData(
         useMaterial3: true,
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.black, brightness: Brightness.light),
