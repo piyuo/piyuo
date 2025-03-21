@@ -13,23 +13,31 @@ class ScreenshotPlayer extends StatelessWidget {
       create: (context) => ScreenshotProvider(),
       child: Consumer<ScreenshotProvider>(
         builder: (context, screenshotProvider, _) {
-          return Container(
-            width: 960,
-            height: 540,
-            decoration: BoxDecoration(
-              image: DecorationImage(image: AssetImage('assets/images/screenshot.webp'), fit: BoxFit.cover),
-            ),
-            child:
-                screenshotProvider.videoController.value.isInitialized
-                    ? FittedBox(
-                      fit: BoxFit.cover, // 確保影片填滿
-                      child: SizedBox(
-                        width: screenshotProvider.videoController.value.size.width,
-                        height: screenshotProvider.videoController.value.size.height,
-                        child: VideoPlayer(screenshotProvider.videoController),
-                      ),
-                    )
-                    : null,
+          return LayoutBuilder(
+            builder: (context, constraints) {
+              // scale the video player and background to fit the screen
+              final scale = constraints.maxWidth / 960;
+              final scaledWidth = 960 * scale;
+              final scaledHeight = 540 * scale;
+              return Container(
+                width: scaledWidth,
+                height: scaledHeight,
+                decoration: BoxDecoration(
+                  image: DecorationImage(image: AssetImage('assets/images/screenshot.webp'), fit: BoxFit.cover),
+                ),
+                child:
+                    screenshotProvider.videoController.value.isInitialized
+                        ? FittedBox(
+                          fit: BoxFit.cover,
+                          child: SizedBox(
+                            width: scaledWidth,
+                            height: scaledHeight,
+                            child: VideoPlayer(screenshotProvider.videoController),
+                          ),
+                        )
+                        : null,
+              );
+            },
           );
         },
       ),
