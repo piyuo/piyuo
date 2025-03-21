@@ -2,13 +2,13 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_56",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aJF(){B.G("he")
-return new A.ow()},
-ow:function ow(){}}
+aJG(){B.G("he")
+return new A.oy()},
+oy:function oy(){}}
 B=c[0]
 C=c[132]
 A=a.updateHolder(c[93],A)
-A.ow.prototype={
+A.oy.prototype={
 gae(){return"\u05d4\u05d5\u05e8\u05d3\u05d4"},
 gaq(){return"\u05d1\u05e7\u05e8\u05d5\u05d1."},
 gap(){return"\u05d6\u05de\u05d9\u05df \u05d1\u05d0\u05d1\u05d9\u05d1 2025."},
@@ -31,7 +31,7 @@ gar(){return'\u05e9\u05dc\u05d7 \u05dc\u05e0\u05d5 \u05d3\u05d5\u05d0"\u05dc'},
 ga5(){return"\u05de\u05d5\u05e0\u05d4"},
 ga4(){return"\u05e8\u05d5\u05e6\u05d4 \u05dc\u05d3\u05e2\u05ea \u05db\u05de\u05d4 \u05d0\u05e0\u05e9\u05d9\u05dd \u05e2\u05d5\u05d1\u05e8\u05d9\u05dd? \u05d0\u05e4\u05dc\u05d9\u05e7\u05e6\u05d9\u05d4 \u05d6\u05d5 \u05de\u05e9\u05ea\u05de\u05e9\u05ea \u05d1\u05de\u05e6\u05dc\u05de\u05ea \u05d4\u05d8\u05dc\u05e4\u05d5\u05df \u05e9\u05dc\u05da \u05dc\u05d6\u05d9\u05d4\u05d5\u05d9 \u05d7\u05db\u05dd \u05d5\u05e1\u05e4\u05d9\u05e8\u05d4 \u05d0\u05d5\u05d8\u05d5\u05de\u05d8\u05d9\u05ea \u05e9\u05dc \u05d4\u05d5\u05dc\u05db\u05d9 \u05e8\u05d2\u05dc. \u05dc\u05dc\u05d0 \u05e6\u05d5\u05e8\u05da \u05d1\u05e7\u05dc\u05d8 \u05d9\u05d3\u05e0\u05d9. \u05d0\u05de\u05d5\u05e8 \u05e9\u05dc\u05d5\u05dd \u05dc\u05e1\u05e4\u05d9\u05e8\u05d4 \u05de\u05d9\u05d9\u05d2\u05e2\u05ea \u05d5\u05e2\u05e7\u05d5\u05d1 \u05d1\u05e7\u05dc\u05d5\u05ea \u05d0\u05d7\u05e8 \u05d6\u05e8\u05d9\u05de\u05ea \u05d4\u05ea\u05e0\u05d5\u05e2\u05d4."}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.ow,C.r)})()
-B.a5(b.typeUniverse,JSON.parse('{"ow":{"r":[]}}'))};
+y(A.oy,C.r)})()
+B.a6(b.typeUniverse,JSON.parse('{"oy":{"r":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_56",e:"endPart",h:b})})($__dart_deferred_initializers__,"U7+CNKVQIuirO0k1EqP9U3r3Y8w=");
+a.eventLog.push({p:"main.dart.js_56",e:"endPart",h:b})})($__dart_deferred_initializers__,"oYdXLagGj6/6RcNjKtKWO26kQ7A=");

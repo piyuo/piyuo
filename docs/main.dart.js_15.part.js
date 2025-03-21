@@ -2,113 +2,61 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_15",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,A={
-aJr(d){B.G(d)
-return new A.lf()},
-aJt(){B.G("fr_BE")
-return new A.ok()},
-aJv(){B.G("fr_CA")
-return new A.om()},
-aJx(){B.G("fr_CH")
-return new A.oo()},
-lf:function lf(){},
-ok:function ok(){},
-om:function om(){},
-oo:function oo(){}},C
+aKb(d){B.G(d)
+return new A.li()},
+aKd(){B.G("ms_SG")
+return new A.p3()},
+li:function li(){},
+p3:function p3(){}},C
 B=c[0]
-A=a.updateHolder(c[72],A)
+A=a.updateHolder(c[73],A)
 C=c[132]
-A.lf.prototype={
-gae(){return"T\xe9l\xe9charger"},
-gaq(){return"Bient\xf4t disponible."},
-gap(){return"Disponible au printemps 2025."},
-gau(){return"Langue"},
-gaw(){return"Votre t\xe9l\xe9phone peut d\xe9sormais utiliser l'IA pour reconna\xeetre les pi\xe9tons."},
-gav(){return"Aucune connexion Internet requise. Plus besoin de compter manuellement les personnes avec un compteur traditionnel. Configurez simplement votre t\xe9l\xe9phone pour suivre automatiquement le flux pi\xe9tonnier."},
-ga6(){return"Suivi 24h/24, 7j/7"},
-ga7(){return y.a},
-ga8(){return"Suivi multi-objets"},
-ga9(){return y.e},
-gaa(){return"Zones de d\xe9tection personnalis\xe9es"},
-gab(){return y.h},
-gac(){return"Modes de comptage flexibles"},
-gad(){return"Choisissez de compter les nouveaux objets apparaissant dans la zone de d\xe9tection, ou ceux qui restent immobiles."},
-gao(){return"Disponibilit\xe9 de la version bureau"},
-gan(){return"Nous proposons \xe9galement une version bureau. Nous fournissons des versions pour iOS/Android/Mac/Windows, vous permettant d'utiliser \xe0 la fois des appareils mobiles et des ordinateurs avec webcams. La version bureau prend \xe9galement en charge plusieurs sources vid\xe9o, permettant un comptage simultan\xe9 \xe0 partir de plusieurs flux."},
-gam(){return"Prise en charge des flux en direct"},
-gal(){return"En plus des cam\xe9ras des appareils mobiles, nous prenons en charge les fichiers vid\xe9o enregistr\xe9s, les entr\xe9es webcam et les flux en direct sur Internet comme RTSP. Cela vous permet de vous connecter \xe0 des appareils existants et de commencer imm\xe9diatement \xe0 mesurer le flux de trafic."},
-gar(){return"Contactez-nous par e-mail"},
-ga5(){return"Compteur"},
-ga4(){return"Vous voulez savoir combien de personnes passent ? Cette application utilise la cam\xe9ra de votre t\xe9l\xe9phone pour identifier intelligemment et compter automatiquement les pi\xe9tons. Aucune saisie manuelle requise. Dites adieu au comptage fastidieux et surveillez facilement le flux de trafic."}}
-A.ok.prototype={
-gae(){return"T\xe9l\xe9charger"},
-gaq(){return"Bient\xf4t disponible."},
-gap(){return"Disponible au printemps 2025."},
-gau(){return"Langue"},
-gaw(){return"Votre GSM peut d\xe9sormais utiliser l'IA pour reconna\xeetre les pi\xe9tons."},
-gav(){return"Pas de connexion Internet n\xe9cessaire. Plus besoin de compter manuellement les personnes avec un compteur traditionnel. Param\xe9trez simplement votre GSM pour suivre automatiquement le passage des pi\xe9tons."},
-ga6(){return"Suivi 24h/24, 7j/7"},
-ga7(){return y.a},
-ga8(){return"Suivi multi-objets"},
-ga9(){return y.e},
-gaa(){return"Zones de d\xe9tection personnalis\xe9es"},
-gab(){return"D\xe9finissez des zones de d\xe9tection personnalis\xe9es pour compter le passage dans des zones sp\xe9cifiques."},
-gac(){return"Modes de comptage flexibles"},
-gad(){return y.i},
-gao(){return"Disponibilit\xe9 de la version ordinateur"},
-gan(){return"Nous proposons \xe9galement une version pour ordinateur. Nous fournissons des versions pour iOS/Android/Mac/Windows, vous permettant d'utiliser \xe0 la fois des appareils mobiles et des ordinateurs avec webcams. La version ordinateur supporte \xe9galement plusieurs sources vid\xe9o, permettant un comptage simultan\xe9 \xe0 partir de plusieurs flux."},
-gam(){return"Support de flux en direct"},
-gal(){return"En plus des cam\xe9ras des appareils mobiles, nous supportons les fichiers vid\xe9o enregistr\xe9s, les entr\xe9es webcam et les flux en direct sur Internet comme RTSP. Cela vous permet de vous connecter \xe0 des appareils existants et de commencer imm\xe9diatement \xe0 mesurer le flux de passage."},
-gar(){return"Contactez-nous par e-mail"},
-ga5(){return"Compteur"},
-ga4(){return"Vous voulez savoir combien de personnes passent ? Cette application utilise la cam\xe9ra de votre GSM pour identifier intelligemment et compter automatiquement les pi\xe9tons. Aucune saisie manuelle requise. Dites adieu au comptage fastidieux et surveillez facilement le flux de passage."}}
-A.om.prototype={
-gae(){return"T\xe9l\xe9charger"},
-gaq(){return"Bient\xf4t disponible."},
-gap(){return"Disponible au printemps 2025."},
-gau(){return"Langue"},
-gaw(){return"Votre cellulaire peut maintenant utiliser l'IA pour reconna\xeetre les pi\xe9tons."},
-gav(){return"Aucune connexion Internet requise. Plus besoin de compter manuellement les personnes avec un compteur traditionnel. Configurez simplement votre cellulaire pour suivre automatiquement l'achalandage pi\xe9tonnier."},
-ga6(){return"Suivi 24/7"},
-ga7(){return"Consultez les comptages d'achalandage pour n'importe quelle p\xe9riode."},
-ga8(){return"Suivi multi-objets"},
-ga9(){return"Comptez simultan\xe9ment les pi\xe9tons, les autos, les v\xe9los et plus encore"},
-gaa(){return"Zones de d\xe9tection personnalis\xe9es"},
-gab(){return"D\xe9finissez des zones de d\xe9tection personnalis\xe9es pour compter l'achalandage dans des zones sp\xe9cifiques."},
-gac(){return"Modes de comptage flexibles"},
-gad(){return"Choisissez de compter les nouveaux objets qui apparaissent dans la zone de d\xe9tection, ou ceux qui demeurent stationnaires."},
-gao(){return"Disponibilit\xe9 de la version pour ordinateur"},
-gan(){return"Nous offrons \xe9galement une version pour ordinateur. Nous fournissons des versions pour iOS/Android/Mac/Windows, vous permettant d'utiliser \xe0 la fois des appareils mobiles et des ordinateurs avec webcams. La version pour ordinateur supporte aussi plusieurs sources vid\xe9o, permettant un comptage simultan\xe9 \xe0 partir de plusieurs flux."},
-gam(){return"Support des flux en direct"},
-gal(){return"En plus des cam\xe9ras des appareils mobiles, nous supportons les fichiers vid\xe9o enregistr\xe9s, les entr\xe9es webcam et les flux en direct sur Internet comme RTSP. Cela vous permet de vous connecter \xe0 des appareils existants et de commencer imm\xe9diatement \xe0 mesurer l'achalandage."},
-gar(){return"\xc9crivez-nous"},
-ga5(){return"Compteur"},
-ga4(){return"Vous voulez savoir combien de personnes passent? Cette application utilise la cam\xe9ra de votre cellulaire pour identifier intelligemment et compter automatiquement les pi\xe9tons. Aucune saisie manuelle requise. Dites adieu au comptage fastidieux et surveillez facilement l'achalandage."}}
-A.oo.prototype={
-gae(){return"T\xe9l\xe9charger"},
-gaq(){return"Bient\xf4t disponible."},
-gap(){return"Disponible au printemps 2025."},
-gau(){return"Langue"},
-gaw(){return"Votre natel peut d\xe9sormais utiliser l'IA pour reconna\xeetre les pi\xe9tons."},
-gav(){return"Pas de connexion Internet n\xe9cessaire. Plus besoin de compter manuellement les personnes avec un compteur traditionnel. Configurez simplement votre natel pour suivre automatiquement le passage des pi\xe9tons."},
-ga6(){return"Suivi 24h/24, 7j/7"},
-ga7(){return y.a},
-ga8(){return"Suivi multi-objets"},
-ga9(){return y.e},
-gaa(){return"Zones de d\xe9tection personnalis\xe9es"},
-gab(){return y.h},
-gac(){return"Modes de comptage flexibles"},
-gad(){return y.i},
-gao(){return"Disponibilit\xe9 de la version ordinateur"},
-gan(){return"Nous proposons \xe9galement une version pour ordinateur. Nous fournissons des versions pour iOS/Android/Mac/Windows, vous permettant d'utiliser \xe0 la fois des appareils mobiles et des ordinateurs avec webcams. La version ordinateur prend \xe9galement en charge plusieurs sources vid\xe9o, permettant un comptage simultan\xe9 \xe0 partir de plusieurs flux."},
-gam(){return"Prise en charge des flux en direct"},
-gal(){return"En plus des cam\xe9ras des appareils mobiles, nous prenons en charge les fichiers vid\xe9o enregistr\xe9s, les entr\xe9es webcam et les flux en direct sur Internet comme RTSP. Cela vous permet de vous connecter \xe0 des appareils existants et de commencer imm\xe9diatement \xe0 mesurer le flux de passage."},
-gar(){return"Contactez-nous par e-mail"},
-ga5(){return"Compteur"},
-ga4(){return"Vous voulez savoir combien de personnes passent ? Cette application utilise la cam\xe9ra de votre natel pour identifier intelligemment et compter automatiquement les pi\xe9tons. Aucune saisie manuelle requise. Dites adieu au comptage fastidieux et surveillez facilement le flux de passage."}}
-var z=a.updateTypes([]);(function inheritance(){var x=a.inherit,w=a.inheritMany
-x(A.lf,C.r)
-w(A.lf,[A.ok,A.om,A.oo])})()
-B.a5(b.typeUniverse,JSON.parse('{"lf":{"r":[]},"ok":{"r":[]},"om":{"r":[]},"oo":{"r":[]}}'))
-var y={i:"Choisissez de compter les nouveaux objets apparaissant dans la zone de d\xe9tection, ou ceux qui restent stationnaires.",e:"Comptez simultan\xe9ment les pi\xe9tons, voitures, v\xe9los et plus encore",a:"Consultez les comptages de passage pour n'importe quelle p\xe9riode.",h:"D\xe9finissez des zones de d\xe9tection personnalis\xe9es pour compter le trafic dans des zones sp\xe9cifiques."}};
+A.li.prototype={
+gae(){return"Muat turun"},
+gaq(){return"Akan datang."},
+gap(){return"Tersedia pada Musim Bunga 2025."},
+gav(){return"Telefon anda kini boleh menggunakan AI untuk mengenal pasti pejalan kaki."},
+gau(){return"Tidak memerlukan internet. Tidak perlu mengira orang secara manual dengan pengira tradisional. Hanya tetapkan telefon anda untuk menjejak lalu lintas pejalan kaki secara automatik."},
+ga6(){return"Penjejakan 24/7"},
+ga7(){return"Lihat jumlah lalu lintas pejalan kaki untuk mana-mana tempoh masa."},
+ga8(){return"Penjejakan Berbilang Objek"},
+ga9(){return y.h},
+gaa(){return"Zon Pengesanan Tersuai"},
+gab(){return y.i},
+gac(){return"Mod Pengiraan Fleksibel"},
+gad(){return y.f},
+gao(){return"Ketersediaan Versi Desktop"},
+gan(){return"Kami juga menawarkan versi desktop. Kami menyediakan versi untuk iOS/Android/Mac/Windows, membolehkan anda menggunakan kedua-dua peranti mudah alih dan desktop dengan kamera web. Versi desktop juga menyokong berbilang sumber video, membolehkan pengiraan serentak dari berbilang aliran."},
+gam(){return"Sokongan Strim Langsung"},
+gal(){return y.n},
+gar(){return"E-mel kami"},
+ga5(){return"Counter"},
+ga4(){return"Ingin tahu berapa ramai orang yang lalu lalang? Aplikasi ini menggunakan kamera telefon anda untuk mengenal pasti secara pintar dan mengira pejalan kaki secara automatik. Tiada input manual diperlukan. Ucapkan selamat tinggal kepada pengiraan yang membosankan dan pantau aliran trafik dengan mudah."}}
+A.p3.prototype={
+gae(){return"Muat turun"},
+gaq(){return"Akan datang tidak lama lagi."},
+gap(){return"Boleh didapati pada Musim Bunga 2025."},
+gav(){return"Telefon bimbit anda kini boleh menggunakan AI untuk mengenal pasti pejalan kaki."},
+gau(){return"Tidak perlu internet. Tidak perlu mengira orang secara manual dengan alat pengira tradisional. Hanya sediakan telefon bimbit anda untuk mengesan lalu lintas pejalan kaki secara automatik."},
+ga6(){return"Pengesanan 24/7"},
+ga7(){return"Lihat jumlah lalu lintas pejalan kaki untuk sebarang tempoh masa."},
+ga8(){return"Pengesanan Pelbagai Objek"},
+ga9(){return y.h},
+gaa(){return"Zon Pengesanan Tersuai"},
+gab(){return y.i},
+gac(){return"Mod Pengiraan Fleksibel"},
+gad(){return y.f},
+gao(){return"Ketersediaan Versi Desktop"},
+gan(){return"Kami juga menawarkan versi desktop. Kami menyediakan versi untuk iOS/Android/Mac/Windows, membolehkan anda menggunakan kedua-dua peranti mudah alih dan desktop dengan kamera web. Versi desktop juga menyokong pelbagai sumber video, membolehkan pengiraan serentak dari pelbagai strim."},
+gam(){return"Sokongan Strim Langsung"},
+gal(){return y.n},
+gar(){return"E-mel kami"},
+ga5(){return"Counter"},
+ga4(){return"Nak tahu berapa ramai orang yang lalu lalang? Aplikasi ini menggunakan kamera telefon bimbit anda untuk mengenal pasti secara pintar dan mengira pejalan kaki secara automatik. Tiada input manual diperlukan. Ucapkan selamat tinggal kepada pengiraan yang membosankan dan pantau aliran trafik dengan mudah."}}
+var z=a.updateTypes([]);(function inheritance(){var x=a.inherit
+x(A.li,C.r)
+x(A.p3,A.li)})()
+B.a6(b.typeUniverse,JSON.parse('{"li":{"r":[]},"p3":{"r":[]}}'))
+var y={h:"Mengira pejalan kaki, kereta, basikal, dan lain-lain secara serentak",f:"Pilih untuk mengira objek yang baru muncul dalam zon pengesanan, atau yang kekal pegun.",n:"Selain kamera peranti mudah alih, kami menyokong fail video yang dirakam, input kamera web, dan strim langsung internet seperti RTSP. Ini membolehkan anda menyambung ke peranti sedia ada dan segera mula mengukur aliran trafik.",i:"Tentukan zon pengesanan tersuai untuk mengira lalu lintas di kawasan tertentu."}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_15",e:"endPart",h:b})})($__dart_deferred_initializers__,"lTqgyN7THeDXb7J/FgbiIVB75lM=");
+a.eventLog.push({p:"main.dart.js_15",e:"endPart",h:b})})($__dart_deferred_initializers__,"FsdH6PGwrcSF/zPoNHEwTVm3jGM=");

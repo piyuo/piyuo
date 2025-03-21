@@ -2,36 +2,35 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_43",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aIU(){B.G("da")
-return new A.nT()},
-nT:function nT(){}}
+aJm(){B.G("et")
+return new A.og()},
+og:function og(){}}
 B=c[0]
 C=c[132]
-A=a.updateHolder(c[85],A)
-A.nT.prototype={
-gae(){return"Download"},
-gaq(){return"Kommer snart."},
-gap(){return"Tilg\xe6ngelig i for\xe5ret 2025."},
-gau(){return"Sprog"},
-gaw(){return"Din telefon kan nu bruge AI til at genkende fodg\xe6ngere."},
-gav(){return"Kr\xe6ver ikke internet. Ingen grund til manuelt at t\xe6lle personer med en traditionel klikker. S\xe6t blot din telefon op til automatisk at registrere forbipasserende fodg\xe6ngere."},
-ga6(){return"D\xf8gnoverv\xe5gning"},
-ga7(){return"Se fodg\xe6ngert\xe6llinger for enhver tidsperiode."},
-ga8(){return"Sporing af flere objekter"},
-ga9(){return"T\xe6l samtidigt fodg\xe6ngere, biler, cykler og mere"},
-gaa(){return"Brugerdefinerede detektionszoner"},
-gab(){return"Definer brugerdefinerede detektionszoner til at t\xe6lle trafik i specifikke omr\xe5der."},
-gac(){return"Fleksible t\xe6llemetoder"},
-gad(){return"V\xe6lg at t\xe6lle nyopdukkende objekter inden for detektionszonen eller dem, der forbliver station\xe6re."},
-gao(){return"Tilg\xe6ngelighed af desktopversion"},
-gan(){return"Vi tilbyder ogs\xe5 en desktopversion. Vi leverer versioner til iOS/Android/Mac/Windows, s\xe5 du kan benytte b\xe5de mobile enheder og computere med webkameraer. Desktopversionen underst\xf8tter desuden flere videokilder, hvilket muligg\xf8r samtidig t\xe6lling fra flere streams."},
-gam(){return"Underst\xf8ttelse af livestreams"},
-gal(){return"Ud over kameraer p\xe5 mobile enheder underst\xf8tter vi optagede videofiler, webkamera-input og internet-livestreams som RTSP. Dette giver dig mulighed for at forbinde til eksisterende enheder og straks begynde at m\xe5le trafikflow."},
-gar(){return"Send os en mail"},
-ga5(){return"T\xe6ller"},
-ga4(){return"Vil du vide, hvor mange mennesker der passerer forbi? Denne app bruger din telefons kamera til intelligent at identificere og automatisk t\xe6lle fodg\xe6ngere. Intet manuelt input p\xe5kr\xe6vet. Sig farvel til kedelig opt\xe6lling og overv\xe5g nemt trafikstr\xf8mmen."}}
+A=a.updateHolder(c[87],A)
+A.og.prototype={
+gae(){return"Laadi alla"},
+gaq(){return"Tulemas peagi."},
+gap(){return"Saadaval 2025. aasta kevadel."},
+gav(){return"Teie telefon suudab n\xfc\xfcd tehisintellekti abil jalak\xe4ijaid tuvastada."},
+gau(){return"Internetti pole vaja. Pole vaja inimesi traditsioonilise klikkeriga k\xe4sitsi lugeda. Lihtsalt seadistage oma telefon automaatselt m\xf6\xf6duvat jalak\xe4ijate liikumist j\xe4lgima."},
+ga6(){return"\xd6\xf6p\xe4evaringne j\xe4lgimine"},
+ga7(){return"Vaadake jalak\xe4ijate arvu mistahes ajavahemiku kohta."},
+ga8(){return"Mitme objekti j\xe4lgimine"},
+ga9(){return"Loendage samaaegselt jalak\xe4ijaid, autosid, jalgrattaid ja muud"},
+gaa(){return"Kohandatud tuvastustsoonid"},
+gab(){return"M\xe4\xe4rake kohandatud tuvastustsoonid kindlate alade liikluse loendamiseks."},
+gac(){return"Paindlikud loendusre\u017eiimid"},
+gad(){return"Valige, kas loendada tuvastustsoonis ilmuvaid uusi objekte v\xf5i neid, mis j\xe4\xe4vad paigale."},
+gao(){return"T\xf6\xf6lauaversiooni saadavus"},
+gan(){return"Pakume ka t\xf6\xf6lauaversiooni. Meil on versioonid iOS/Android/Mac/Windows platvormidele, v\xf5imaldades kasutada nii mobiilseadmeid kui ka veebikaameratega lauaarvuteid. T\xf6\xf6lauaversioon toetab lisaks mitut videoallikat, v\xf5imaldades samaaegselt loendada mitmest voogedastusest."},
+gam(){return"Otse\xfclekande tugi"},
+gal(){return"Lisaks mobiilseadmete kaameratele toetame salvestatud videofaile, veebikaamera sisendeid ja interneti otse\xfclekandeid nagu RTSP. See v\xf5imaldab teil \xfchenduda olemasolevate seadmetega ja alustada kohe liiklusvoo m\xf5\xf5tmist."},
+gar(){return"Kirjuta meile"},
+ga5(){return"Loendur"},
+ga4(){return"Soovite teada, kui palju inimesi m\xf6\xf6dub? See rakendus kasutab teie telefoni kaamerat, et intelligentselt tuvastada ja automaatselt loendada jalak\xe4ijaid. K\xe4sitsi sisestamine pole vajalik. J\xe4tke t\xfc\xfctu lugemine seljataha ja j\xe4lgige liiklusvoogu h\xf5lpsalt."}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.nT,C.r)})()
-B.a5(b.typeUniverse,JSON.parse('{"nT":{"r":[]}}'))};
+y(A.og,C.r)})()
+B.a6(b.typeUniverse,JSON.parse('{"og":{"r":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_43",e:"endPart",h:b})})($__dart_deferred_initializers__,"yx9TAqnJK5lNevJFEoOVSfWNF1Y=");
+a.eventLog.push({p:"main.dart.js_43",e:"endPart",h:b})})($__dart_deferred_initializers__,"s5Ek/nNLPu159/wHrK7ZrR2RAhQ=");

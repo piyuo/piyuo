@@ -2,19 +2,19 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_146",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aJA(){B.G("gu")
-return new A.or()},
-or:function or(){}}
+aJL(){B.G("hu")
+return new A.oD()},
+oD:function oD(){}}
 B=c[0]
 C=c[131]
-A=a.updateHolder(c[27],A)
-A.or.prototype={
-gah(){return"\u0a85\u0ab0\u0ac7, \u0a95\u0a82\u0a88\u0a95 \u0a96\u0acb\u0a9f\u0ac1\u0a82 \u0aa5\u0aaf\u0ac1\u0a82"},
-gag(){return"\u0a85\u0aa8\u0aaa\u0ac7\u0a95\u0acd\u0ab7\u0abf\u0aa4 \u0aad\u0ac2\u0ab2 \u0a86\u0ab5\u0ac0. \u0ab6\u0ac1\u0a82 \u0aa4\u0aae\u0ac7 \u0a88\u0aae\u0ac7\u0ab2 \u0ab0\u0abf\u0aaa\u0acb\u0ab0\u0acd\u0a9f \u0aae\u0acb\u0a95\u0ab2\u0ab5\u0abe \u0aae\u0abe\u0a82\u0a97\u0acb \u0a9b\u0acb?"},
-gai(){return"\u0a85\u0aae\u0aa8\u0ac7 \u0a88\u0aae\u0ac7\u0ab2 \u0a95\u0ab0\u0acb"},
-gaf(d){return"\u0ab0\u0aa6 \u0a95\u0ab0\u0acb"}}
+A=a.updateHolder(c[32],A)
+A.oD.prototype={
+gah(){return"Hopp\xe1, valami hiba t\xf6rt\xe9nt"},
+gag(){return"V\xe1ratlan hiba t\xf6rt\xe9nt. Szeretne e-mail jelent\xe9st k\xfcldeni?"},
+gai(){return"E-mail k\xfcld\xe9se nek\xfcnk"},
+gaf(d){return"M\xe9gse"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.or,C.q)})()
-B.a5(b.typeUniverse,JSON.parse('{"or":{"q":[]}}'))};
+y(A.oD,C.q)})()
+B.a6(b.typeUniverse,JSON.parse('{"oD":{"q":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_146",e:"endPart",h:b})})($__dart_deferred_initializers__,"PzCH8FK3kqsDRnGFOEex0KhG+CQ=");
+a.eventLog.push({p:"main.dart.js_146",e:"endPart",h:b})})($__dart_deferred_initializers__,"6pWA3Q7WymJUew7kaJvxwxRUrQY=");

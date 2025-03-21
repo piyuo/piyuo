@@ -2,19 +2,19 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_151",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aJK(){B.G("hu")
-return new A.oB()},
-oB:function oB(){}}
+aJV(){B.G("ko")
+return new A.oN()},
+oN:function oN(){}}
 B=c[0]
 C=c[131]
-A=a.updateHolder(c[32],A)
-A.oB.prototype={
-gah(){return"Hopp\xe1, valami hiba t\xf6rt\xe9nt"},
-gag(){return"V\xe1ratlan hiba t\xf6rt\xe9nt. Szeretne e-mail jelent\xe9st k\xfcldeni?"},
-gai(){return"E-mail k\xfcld\xe9se nek\xfcnk"},
-gaf(d){return"M\xe9gse"}}
+A=a.updateHolder(c[37],A)
+A.oN.prototype={
+gah(){return"\uc557, \ubb38\uc81c\uac00 \ubc1c\uc0dd\ud588\uc2b5\ub2c8\ub2e4"},
+gag(){return"\uc608\uae30\uce58 \uc54a\uc740 \uc624\ub958\uac00 \ubc1c\uc0dd\ud588\uc2b5\ub2c8\ub2e4. \uc774\uba54\uc77c \ubcf4\uace0\uc11c\ub97c \uc81c\ucd9c\ud558\uc2dc\uaca0\uc2b5\ub2c8\uae4c?"},
+gai(){return"\uc774\uba54\uc77c \ubcf4\ub0b4\uae30"},
+gaf(d){return"\ucde8\uc18c"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.oB,C.q)})()
-B.a5(b.typeUniverse,JSON.parse('{"oB":{"q":[]}}'))};
+y(A.oN,C.q)})()
+B.a6(b.typeUniverse,JSON.parse('{"oN":{"q":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_151",e:"endPart",h:b})})($__dart_deferred_initializers__,"44kyNWNZWwfJ8gtwBRs8LDSwOxc=");
+a.eventLog.push({p:"main.dart.js_151",e:"endPart",h:b})})($__dart_deferred_initializers__,"fv2AzpxWaUuZrWTBv80rwhgOBFI=");

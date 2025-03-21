@@ -73,7 +73,7 @@ class IndexScreen extends StatelessWidget {
                       children: [
                         Icon(Icons.language, size: 22),
                         const SizedBox(width: 8),
-                        Text(context.l.index_language, style: textTheme.titleMedium),
+                        Text('Language', style: textTheme.titleMedium),
                       ],
                     );
                   }).toList();
