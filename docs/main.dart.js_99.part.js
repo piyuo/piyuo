@@ -2,13 +2,13 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_99",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aKO(){B.G("sr")
-return new A.px()},
-px:function px(){}}
+aKP(){B.G("sr")
+return new A.pz()},
+pz:function pz(){}}
 B=c[0]
 C=c[132]
 A=a.updateHolder(c[120],A)
-A.px.prototype={
+A.pz.prototype={
 gae(){return"Preuzmi"},
 gaq(){return"Uskoro dostupno."},
 gap(){return"Dostupno na prole\u0107e 2025."},
@@ -31,7 +31,7 @@ gar(){return"Po\u0161aljite nam e-po\u0161tu"},
 ga5(){return"Broja\u010d"},
 ga4(){return"\u017delite da znate koliko ljudi prolazi pored vas? Ova aplikacija koristi kameru va\u0161eg telefona da inteligentno identifikuje i automatski broji pe\u0161ake. Nije potreban ru\u010dni unos. Oprostite se od dosadnog brojanja i lako pratite protok saobra\u0107aja."}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.px,C.r)})()
-B.a5(b.typeUniverse,JSON.parse('{"px":{"r":[]}}'))};
+y(A.pz,C.r)})()
+B.a6(b.typeUniverse,JSON.parse('{"pz":{"r":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_99",e:"endPart",h:b})})($__dart_deferred_initializers__,"F/csuovcd4q5ARWqjLdUp9fX8+4=");
+a.eventLog.push({p:"main.dart.js_99",e:"endPart",h:b})})($__dart_deferred_initializers__,"OeW1WnaHEQl8FTGRR4b+x6Ooaqw=");

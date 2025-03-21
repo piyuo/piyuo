@@ -1,37 +1,29 @@
 ((a,b,c)=>{a[b]=a[b]||{}
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_115",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var B,A={
-aL9(){B.G("uz")
-return new A.pR()},
-pR:function pR(){}},C
+$__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
+aIM(d){B.G(d)
+return new A.l7()},
+aIO(){B.G("bn_IN")
+return new A.nO()},
+l7:function l7(){},
+nO:function nO(){}}
 B=c[0]
-A=a.updateHolder(c[129],A)
-C=c[132]
-A.pR.prototype={
-gae(){return"Yuklab olish"},
-gaq(){return"Tez orada."},
-gap(){return"2025-yil bahorida mavjud bo'ladi."},
-gau(){return"Til"},
-gaw(){return"Telefoningiz endi AI yordamida piyodalarni taniy oladi."},
-gav(){return"Internet kerak emas. An'anaviy kliker bilan odamlarni qo'lda sanashning hojati yo'q. Shunchaki telefoningizni o'tib ketayotgan piyodalar oqimini avtomatik kuzatib borish uchun sozlang."},
-ga6(){return"24/7 kuzatuv"},
-ga7(){return"Istalgan vaqt davomida piyodalar oqimi sonini ko'rish."},
-ga8(){return"Ko'p ob'ektlarni kuzatish"},
-ga9(){return"Piyodalar, mashinalar, velosipedlar va boshqalarni bir vaqtning o'zida sanash"},
-gaa(){return"Maxsus aniqlash zonalari"},
-gab(){return"Ma'lum joylarda harakatni sanash uchun maxsus aniqlash zonalarini belgilang."},
-gac(){return"Moslashuvchan sanash rejimi"},
-gad(){return"Aniqlash zonasida yangi paydo bo'lgan ob'ektlarni yoki harakatsiz qolganlarini sanashni tanlang."},
-gao(){return"Ish stoli versiyasi mavjudligi"},
-gan(){return"Biz ish stoli versiyasini ham taklif qilamiz. Biz iOS/Android/Mac/Windows versiyalarini taqdim etamiz, bu sizga ham mobil qurilmalar, ham veb-kamerali ish stolilaridan foydalanish imkonini beradi. Ish stoli versiyasi ko'p video manbalarini qo'llab-quvvatlaydi, bu bir vaqtning o'zida bir nechta oqimlardan sanashga imkon beradi."},
-gam(){return"Jonli uzatishni qo'llab-quvvatlash"},
-gal(){return"Mobil qurilma kameralaridan tashqari, biz yozib olingan video fayllar, veb-kamera kiritishlari va RTSP kabi internet jonli uzatishlarini qo'llab-quvvatlaymiz. Bu sizga mavjud qurilmalarga ulanish va darhol harakat oqimini o'lchashni boshlash imkonini beradi."},
-gar(){return"Bizga xat yozing"},
-ga5(){return"Sanoq"},
-ga4(){return"Qancha odam o'tib ketishini bilmoqchimisiz? Bu ilova telefoningiz kamerasidan foydalanib, aqlli ravishda piyodalarni aniqlaydi va avtomatik ravishda sanaydi. Qo'lda kiritish shart emas. Zerikarli sanashga xayrlashing va osonlik bilan harakat oqimini kuzating."}}
+C=c[131]
+A=a.updateHolder(c[4],A)
+A.l7.prototype={
+gah(){return"\u0989\u09ab, \u0995\u09bf\u099b\u09c1 \u098f\u0995\u099f\u09be \u09ad\u09c1\u09b2 \u09b9\u09af\u09bc\u09c7\u099b\u09c7"},
+gag(){return"\u098f\u0995\u099f\u09bf \u0985\u09aa\u09cd\u09b0\u09a4\u09cd\u09af\u09be\u09b6\u09bf\u09a4 \u09a4\u09cd\u09b0\u09c1\u099f\u09bf \u0998\u099f\u09c7\u099b\u09c7\u0964 \u0986\u09aa\u09a8\u09bf \u0995\u09bf \u098f\u0995\u099f\u09bf \u0987\u09ae\u09c7\u09b2 \u09b0\u09bf\u09aa\u09cb\u09b0\u09cd\u099f \u099c\u09ae\u09be \u09a6\u09bf\u09a4\u09c7 \u099a\u09be\u09a8?"},
+gai(){return"\u0986\u09ae\u09be\u09a6\u09c7\u09b0 \u0987\u09ae\u09c7\u09b2 \u0995\u09b0\u09c1\u09a8"},
+gaf(d){return"\u09ac\u09be\u09a4\u09bf\u09b2"}}
+A.nO.prototype={
+gah(){return"\u0993\u09b9\u09cb, \u0995\u09bf\u099b\u09c1 \u098f\u0995\u099f\u09be \u09ad\u09c1\u09b2 \u09b9\u09af\u09bc\u09c7\u099b\u09c7"},
+gag(){return"\u098f\u0995\u099f\u09bf \u0985\u09aa\u09cd\u09b0\u09a4\u09cd\u09af\u09be\u09b6\u09bf\u09a4 \u09a4\u09cd\u09b0\u09c1\u099f\u09bf \u0998\u099f\u09c7\u099b\u09c7\u0964 \u0986\u09aa\u09a8\u09bf \u0995\u09bf \u098f\u0995\u099f\u09bf \u0987\u09ae\u09c7\u09b2 \u09b0\u09bf\u09aa\u09cb\u09b0\u09cd\u099f \u09aa\u09be\u09a0\u09be\u09a4\u09c7 \u099a\u09be\u09a8?"},
+gai(){return"\u0986\u09ae\u09be\u09a6\u09c7\u09b0 \u0987\u09ae\u09c7\u09b2 \u0995\u09b0\u09c1\u09a8"},
+gaf(d){return"\u09ac\u09be\u09a4\u09bf\u09b2"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.pR,C.r)})()
-B.a5(b.typeUniverse,JSON.parse('{"pR":{"r":[]}}'))};
+y(A.l7,C.q)
+y(A.nO,A.l7)})()
+B.a6(b.typeUniverse,JSON.parse('{"l7":{"q":[]},"nO":{"q":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_115",e:"endPart",h:b})})($__dart_deferred_initializers__,"o8NyfTafMkvmxLR0aLo3TaswdHI=");
+a.eventLog.push({p:"main.dart.js_115",e:"endPart",h:b})})($__dart_deferred_initializers__,"MQrpvR+eZHlhquCBjTAMyHisdGM=");

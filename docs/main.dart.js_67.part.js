@@ -2,36 +2,35 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_67",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aJP(){B.G("it")
-return new A.oG()},
-oG:function oG(){}}
+aJY(){B.G("ku")
+return new A.oQ()},
+oQ:function oQ(){}}
 B=c[0]
 C=c[132]
-A=a.updateHolder(c[98],A)
-A.oG.prototype={
-gae(){return"Scarica"},
-gaq(){return"Disponibile a breve."},
-gap(){return"Disponibile in primavera 2025."},
-gau(){return"Lingua"},
-gaw(){return"Il tuo telefono pu\xf2 ora utilizzare l'IA per riconoscere i pedoni."},
-gav(){return"Non richiede internet. Non \xe8 necessario contare manualmente le persone con un contatore tradizionale. Basta configurare il telefono per monitorare automaticamente il flusso pedonale."},
-ga6(){return"Monitoraggio 24/7"},
-ga7(){return"Visualizza i conteggi del traffico pedonale per qualsiasi periodo di tempo."},
-ga8(){return"Tracciamento di Oggetti Multipli"},
-ga9(){return"Conta simultaneamente pedoni, auto, biciclette e altro"},
-gaa(){return"Zone di Rilevamento Personalizzate"},
-gab(){return"Definisci zone di rilevamento personalizzate per contare il traffico in aree specifiche."},
-gac(){return"Modalit\xe0 di Conteggio Flessibili"},
-gad(){return"Scegli se contare i nuovi oggetti che appaiono nella zona di rilevamento o quelli che rimangono fermi."},
-gao(){return"Disponibilit\xe0 Versione Desktop"},
-gan(){return"Offriamo anche una versione desktop. Forniamo versioni per iOS/Android/Mac/Windows, permettendoti di utilizzare sia dispositivi mobili che desktop con webcam. La versione desktop supporta inoltre pi\xf9 fonti video, consentendo il conteggio simultaneo da pi\xf9 flussi."},
-gam(){return"Supporto per Flussi in Diretta"},
-gal(){return"Oltre alle fotocamere dei dispositivi mobili, supportiamo file video registrati, input da webcam e flussi in diretta da internet come RTSP. Questo ti permette di connetterti a dispositivi esistenti e iniziare immediatamente a misurare il flusso di traffico."},
-gar(){return"Contattaci via email"},
-ga5(){return"Contatore"},
-ga4(){return"Vuoi sapere quante persone passano? Questa app utilizza la fotocamera del tuo telefono per identificare in modo intelligente e contare automaticamente i pedoni. Nessun input manuale richiesto. D\xec addio al conteggio tedioso e monitora facilmente il flusso del traffico."}}
+A=a.updateHolder(c[102],A)
+A.oQ.prototype={
+gae(){return"Daxistin"},
+gaq(){return"Z\xfb t\xea."},
+gap(){return"Di Bihara 2025an de berdest e."},
+gav(){return"Telefona te niha dikare bi AI peyan nas bike."},
+gau(){return"\xcenternet\xea hewce nake. Ne hewce ye ku bi dest\xee bi kl\xeekerek kevne\u015fop\xee mirovan bijm\xear\xee. Ten\xea telefona xwe saz bike ku otomat\xeek\xee hatin\xfb\xe7\xfbna peyan bi\u015fop\xeene."},
+ga6(){return"\u015eopandina 24/7"},
+ga7(){return"Ji bo her dem\xea hejmara hatin\xfb\xe7\xfbna peyan bib\xeene."},
+ga8(){return"\u015eopandina \xc7end Ti\u015ft\xee"},
+ga9(){return"Bi hev re peyan, otomob\xeel, bis\xeeklet \xfb hwd. bijm\xeare"},
+gaa(){return"Qad\xean D\xeetin\xea y\xean Taybet"},
+gab(){return"Ji bo jimartin di qad\xean taybet de, qad\xean d\xeetin\xea y\xean taybet diyar bike."},
+gac(){return"Mod\xean Jimartin \xean Guherbar"},
+gad(){return"Hilbij\xeare ku ti\u015ft\xean n\xfb xuya dibin di nav qada d\xeetin\xea de bijm\xear\xee, an j\xee y\xean ku cih\xea xwe naguherin."},
+gao(){return"Berdestb\xfbna Versiyona Sermas\xea"},
+gan(){return"Em versiyonek sermas\xea j\xee p\xea\u015fk\xea\u015f dikin. Em versiyon\xean iOS/Android/Mac/Windows p\xea\u015fk\xea\u015f dikin, ku dih\xeale h\xfbn hem am\xfbr\xean mob\xeel \xfb hem j\xee sermas\xean bi kamerayan bikar b\xeenin. Versiyona sermas\xea herwiha pi\u015ftgiriya \xe7end \xe7avkaniy\xean v\xeedyoy\xea dike, ku dih\xeale h\xfbn ji \xe7end herik\xean cuda bi hev re bijm\xearin."},
+gam(){return"Pi\u015ftgiriya Herikandin\xea ya Zind\xee"},
+gal(){return"Li gel kamerayan am\xfbr\xean mob\xeel, em pi\u015ftgiriy\xea didin dosyey\xean v\xeedyoy\xea y\xean tomarkir\xee, t\xeaketin\xean webcam\xea, \xfb herik\xean zind\xee y\xean \xeenternet\xea wek RTSP. Ev dih\xeale ku h\xfbn bi am\xfbr\xean hey\xee ve gir\xeabidin \xfb rasterast dest bi p\xeevana herikandin\xea bikin."},
+gar(){return"Ji me re e-mail bi\u015f\xeenin"},
+ga5(){return"Jimarker"},
+ga4(){return"Dixwaz\xee bizanib\xee \xe7end kes derbas dibin? Ev sepan kamera telefona te bi kar t\xeene da ku bi j\xeer\xee peyan nas bike \xfb otomat\xeek bijm\xeare. T\xeaketina dest\xee ne hewce ye. Bi xatir\xea te ji jimartin a westyay\xee re \xfb bi h\xeasan\xee tevgera hatin\xfb\xe7\xfbn\xea \xe7avd\xear\xee bike."}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.oG,C.r)})()
-B.a5(b.typeUniverse,JSON.parse('{"oG":{"r":[]}}'))};
+y(A.oQ,C.r)})()
+B.a6(b.typeUniverse,JSON.parse('{"oQ":{"r":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_67",e:"endPart",h:b})})($__dart_deferred_initializers__,"yj5FCQ9OtTItcmv4rgNtsnHEsaw=");
+a.eventLog.push({p:"main.dart.js_67",e:"endPart",h:b})})($__dart_deferred_initializers__,"EurWYn3KeZxwjtN1fWHMq+ASK0I=");

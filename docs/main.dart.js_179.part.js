@@ -2,19 +2,19 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_179",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aKR(){B.G("sw")
-return new A.pA()},
-pA:function pA(){}}
+aL1(){B.G("tr")
+return new A.pM()},
+pM:function pM(){}}
 B=c[0]
 C=c[131]
-A=a.updateHolder(c[58],A)
-A.pA.prototype={
-gah(){return"Samahani, kuna hitilafu imetokea"},
-gag(){return"Hitilafu isiyotarajiwa imetokea. Je, ungependa kutuma ripoti kwa barua pepe?"},
-gai(){return"Tutumie barua pepe"},
-gaf(d){return"Ghairi"}}
+A=a.updateHolder(c[63],A)
+A.pM.prototype={
+gah(){return"Hata, bir \u015feyler yanl\u0131\u015f gitti"},
+gag(){return"Beklenmeyen bir hata olu\u015ftu. E-posta raporu g\xf6ndermek ister misiniz?"},
+gai(){return"Bize e-posta g\xf6nderin"},
+gaf(d){return"\u0130ptal"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.pA,C.q)})()
-B.a5(b.typeUniverse,JSON.parse('{"pA":{"q":[]}}'))};
+y(A.pM,C.q)})()
+B.a6(b.typeUniverse,JSON.parse('{"pM":{"q":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_179",e:"endPart",h:b})})($__dart_deferred_initializers__,"iRVAwZfnsiFweJqm9J0xR7VIC1w=");
+a.eventLog.push({p:"main.dart.js_179",e:"endPart",h:b})})($__dart_deferred_initializers__,"mt1O3RHiTyv6zCBREizINsDHVUQ=");

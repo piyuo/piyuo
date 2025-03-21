@@ -2,36 +2,35 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_84",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aKg(){B.G("nb")
-return new A.p5()},
-p5:function p5(){}}
+aKp(){B.G("nn")
+return new A.pd()},
+pd:function pd(){}}
 B=c[0]
 C=c[132]
-A=a.updateHolder(c[110],A)
-A.p5.prototype={
+A=a.updateHolder(c[112],A)
+A.pd.prototype={
 gae(){return"Last ned"},
-gaq(){return"Kommer snart."},
-gap(){return"Tilgjengelig v\xe5ren 2025."},
-gau(){return"Spr\xe5k"},
-gaw(){return"Telefonen din kan n\xe5 bruke AI til \xe5 gjenkjenne fotgjengere."},
-gav(){return"Ingen internett n\xf8dvendig. Ingen behov for \xe5 telle personer manuelt med en tradisjonell klikker. Bare sett opp telefonen din til \xe5 automatisk spore forbipasserende fotgjengertrafikk."},
+gaq(){return"Kjem snart."},
+gap(){return"Tilgjengeleg v\xe5ren 2025."},
+gav(){return"Telefonen din kan no bruke KI til \xe5 kjenne att fotgjengarar."},
+gau(){return"Inga internett-tilkopling n\xf8dvendig. Inga manuell teljing av folk med ein tradisjonell teljar. Berre set opp telefonen din til automatisk \xe5 spore forbipasserande fottrafikk."},
 ga6(){return"24/7 Sporing"},
-ga7(){return"Se antall fotgjengere for hvilken som helst tidsperiode."},
-ga8(){return"Sporing av flere objekter"},
-ga9(){return"Tell fotgjengere, biler, sykler og mer samtidig"},
-gaa(){return"Tilpassede deteksjonssoner"},
-gab(){return"Definer egne deteksjonssoner for \xe5 telle trafikk i bestemte omr\xe5der."},
-gac(){return"Fleksible tellingsmoduser"},
-gad(){return"Velg \xe5 telle nylig dukket opp objekter innenfor deteksjonssonen, eller de som forblir stasjon\xe6re."},
-gao(){return"Tilgjengelighet av skrivebordversjon"},
-gan(){return"Vi tilbyr ogs\xe5 en skrivebordversjon. Vi har versjoner for iOS/Android/Mac/Windows, som lar deg bruke b\xe5de mobile enheter og stasjon\xe6re datamaskiner med webkameraer. Skrivebordversjonen st\xf8tter i tillegg flere videokilder, noe som muliggj\xf8r samtidig telling fra flere str\xf8mmer."},
-gam(){return"St\xf8tte for direktestr\xf8mming"},
-gal(){return"I tillegg til kameraer p\xe5 mobile enheter, st\xf8tter vi innspilte videofiler, webkamerainnganger og internett-direktestr\xf8mmer som RTSP. Dette lar deg koble til eksisterende enheter og umiddelbart begynne \xe5 m\xe5le trafikkflyt."},
+ga7(){return"Sj\xe5 fottrafikkteljingar for alle tidsperiodar."},
+ga8(){return"Sporing av Fleire Objekt"},
+ga9(){return"Tel fotgjengarar, bilar, syklar og meir samtidig"},
+gaa(){return"Tilpassa Deteksjonssoner"},
+gab(){return"Definer tilpassa deteksjonssoner for \xe5 telje trafikk i spesifikke omr\xe5de."},
+gac(){return"Fleksible Teljemodusar"},
+gad(){return"Vel \xe5 telje nyleg dukka opp objekt innanfor deteksjonssona, eller dei som forblir stasjon\xe6re."},
+gao(){return"Tilgjengelegheit for Skrivebordsversjon"},
+gan(){return"Vi tilbyr ogs\xe5 ein skrivebordsversjon. Vi leverer versjonar for iOS/Android/Mac/Windows, som gjer at du kan nytte b\xe5de mobile einingar og stasjon\xe6re datamaskiner med webkamera. Skrivebordsversjonen st\xf8ttar vidare fleire videokjelder, som gjer det mogleg \xe5 telje samtidig fr\xe5 fleire straumar."},
+gam(){return"St\xf8tte for Direktesendt Straum"},
+gal(){return"I tillegg til kamera p\xe5 mobile einingar st\xf8ttar vi innspelte videofiler, webkamerainngang og direktesendte straumar p\xe5 internett som RTSP. Dette gjer at du kan kople til eksisterande einingar og umiddelbart byrje \xe5 m\xe5le trafikkflyt."},
 gar(){return"Send e-post til oss"},
-ga5(){return"Counter"},
-ga4(){return"Vil du vite hvor mange mennesker som passerer forbi? Denne appen bruker telefonens kamera for \xe5 intelligent identifisere og automatisk telle fotgjengere. Ingen manuell inntasting n\xf8dvendig. Si farvel til kjedelig telling og overv\xe5k trafikkflyten enkelt."}}
+ga5(){return"Teljar"},
+ga4(){return"Vil du vite kor mange folk som passerer? Denne appen brukar kameraet p\xe5 telefonen din til intelligent \xe5 identifisere og automatisk telje fotgjengarar. Inga manuell inntasting n\xf8dvendig. Sei farvel til keisam teljing og overvak enkelt trafikkflyten."}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.p5,C.r)})()
-B.a5(b.typeUniverse,JSON.parse('{"p5":{"r":[]}}'))};
+y(A.pd,C.r)})()
+B.a6(b.typeUniverse,JSON.parse('{"pd":{"r":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_84",e:"endPart",h:b})})($__dart_deferred_initializers__,"TE/aXU3k78OkxNYotFXbbRfuqj0=");
+a.eventLog.push({p:"main.dart.js_84",e:"endPart",h:b})})($__dart_deferred_initializers__,"kqZpImnMJdrqGvKCfYFkadpYyPE=");

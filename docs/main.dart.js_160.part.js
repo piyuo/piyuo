@@ -2,19 +2,19 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_160",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aK1(){B.G("lv")
-return new A.oT()},
-oT:function oT(){}}
+aKg(){B.G("nb")
+return new A.p6()},
+p6:function p6(){}}
 B=c[0]
 C=c[131]
-A=a.updateHolder(c[41],A)
-A.oT.prototype={
-gah(){return"Ak vai, kaut kas nog\u0101ja greizi"},
-gag(){return"Notika neparedz\u0113ta k\u013c\u016bda. Vai v\u0113laties nos\u016bt\u012bt zi\u0146ojumu pa e-pastu?"},
-gai(){return"Rakstiet mums e-pastu"},
-gaf(d){return"Atcelt"}}
+A=a.updateHolder(c[46],A)
+A.p6.prototype={
+gah(){return"Ups, noe gikk galt"},
+gag(){return"Det oppstod en uventet feil. Vil du sende en e-postrapport?"},
+gai(){return"Send oss e-post"},
+gaf(d){return"Avbryt"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.oT,C.q)})()
-B.a5(b.typeUniverse,JSON.parse('{"oT":{"q":[]}}'))};
+y(A.p6,C.q)})()
+B.a6(b.typeUniverse,JSON.parse('{"p6":{"q":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_160",e:"endPart",h:b})})($__dart_deferred_initializers__,"CYSYkFv5hBtf5MgukAxvz0yAk7Q=");
+a.eventLog.push({p:"main.dart.js_160",e:"endPart",h:b})})($__dart_deferred_initializers__,"RdjsfLBUBo2FYnjRnDFCBGvQmmc=");

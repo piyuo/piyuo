@@ -2,36 +2,35 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_64",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aJL(){B.G("hu")
-return new A.oC()},
-oC:function oC(){}}
+aJS(){B.G("ja")
+return new A.oK()},
+oK:function oK(){}}
 B=c[0]
 C=c[132]
-A=a.updateHolder(c[96],A)
-A.oC.prototype={
-gae(){return"Let\xf6lt\xe9s"},
-gaq(){return"Hamarosan \xe9rkezik."},
-gap(){return"2025 tavasz\xe1n el\xe9rhet\u0151."},
-gau(){return"Nyelv"},
-gaw(){return"Telefonja most m\xe1r AI seg\xedts\xe9g\xe9vel ismeri fel a gyalogosokat."},
-gav(){return"Nem ig\xe9nyel internetet. Nincs sz\xfcks\xe9g hagyom\xe1nyos sz\xe1ml\xe1l\xf3 haszn\xe1lat\xe1ra az emberek k\xe9zi sz\xe1mol\xe1s\xe1hoz. Egyszer\u0171en \xe1ll\xedtsa be telefonj\xe1t, hogy automatikusan k\xf6vethesse az \xe1thalad\xf3 gyalogosforgalmat."},
-ga6(){return"24/7 k\xf6vet\xe9s"},
-ga7(){return"Tekintse meg a gyalogosforgalom sz\xe1m\xe1t b\xe1rmely id\u0151szakra."},
-ga8(){return"T\xf6bb objektum k\xf6vet\xe9se"},
-ga9(){return"Egyidej\u0171leg sz\xe1molja a gyalogosokat, aut\xf3kat, ker\xe9kp\xe1rokat \xe9s egyebeket"},
-gaa(){return"Egy\xe9ni \xe9rz\xe9kel\xe9si z\xf3n\xe1k"},
-gab(){return"Hat\xe1rozzon meg egy\xe9ni \xe9rz\xe9kel\xe9si z\xf3n\xe1kat a forgalom sz\xe1ml\xe1l\xe1s\xe1hoz meghat\xe1rozott ter\xfcleteken."},
-gac(){return"Rugalmas sz\xe1ml\xe1l\xe1si m\xf3dok"},
-gad(){return"V\xe1lassza az \xfajonnan megjelen\u0151 objektumok sz\xe1ml\xe1l\xe1s\xe1t az \xe9rz\xe9kel\xe9si z\xf3n\xe1n bel\xfcl, vagy azokat, amelyek egy helyben maradnak."},
-gao(){return"Asztali verzi\xf3 el\xe9rhet\u0151s\xe9ge"},
-gan(){return"Asztali verzi\xf3t is k\xedn\xe1lunk. iOS/Android/Mac/Windows verzi\xf3kat biztos\xedtunk, lehet\u0151v\xe9 t\xe9ve mind a mobileszk\xf6z\xf6k, mind a webkamer\xe1kkal ell\xe1tott asztali sz\xe1m\xedt\xf3g\xe9pek haszn\xe1lat\xe1t. Az asztali verzi\xf3 tov\xe1bb\xe1 t\xf6bb videoforr\xe1st is t\xe1mogat, lehet\u0151v\xe9 t\xe9ve az egyidej\u0171 sz\xe1ml\xe1l\xe1st t\xf6bb adatfolyamb\xf3l."},
-gam(){return"\xc9l\u0151 k\xf6zvet\xedt\xe9s t\xe1mogat\xe1s"},
-gal(){return"A mobileszk\xf6z\xf6k kamer\xe1in k\xedv\xfcl t\xe1mogatjuk a r\xf6gz\xedtett videof\xe1jlokat, webkamera bemeneteket \xe9s internetes \xe9l\u0151 k\xf6zvet\xedt\xe9seket, p\xe9ld\xe1ul RTSP-t. Ez lehet\u0151v\xe9 teszi a megl\xe9v\u0151 eszk\xf6z\xf6kh\xf6z val\xf3 csatlakoz\xe1st \xe9s a forgalom \xe1raml\xe1s\xe1nak azonnali m\xe9r\xe9s\xe9t."},
-gar(){return"\xcdrjon nek\xfcnk e-mailt"},
-ga5(){return"Sz\xe1ml\xe1l\xf3"},
-ga4(){return"Szeretn\xe9 tudni, h\xe1ny ember halad el? Ez az alkalmaz\xe1s telefonja kamer\xe1j\xe1t haszn\xe1lja a gyalogosok intelligens azonos\xedt\xe1s\xe1ra \xe9s automatikus sz\xe1ml\xe1l\xe1s\xe1ra. Nincs sz\xfcks\xe9g k\xe9zi bevitelre. B\xfacs\xfazzon el a f\xe1raszt\xf3 sz\xe1mol\xe1st\xf3l, \xe9s k\xf6nnyen figyelje a forgalom \xe1raml\xe1s\xe1t."}}
+A=a.updateHolder(c[99],A)
+A.oK.prototype={
+gae(){return"\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9"},
+gaq(){return"\u8fd1\u65e5\u516c\u958b\u4e88\u5b9a\u3002"},
+gap(){return"2025\u5e74\u6625\u306b\u5229\u7528\u53ef\u80fd\u3002"},
+gav(){return"\u3042\u306a\u305f\u306e\u30b9\u30de\u30fc\u30c8\u30d5\u30a9\u30f3\u3067AI\u3092\u4f7f\u3063\u3066\u6b69\u884c\u8005\u3092\u8a8d\u8b58\u3067\u304d\u308b\u3088\u3046\u306b\u306a\u308a\u307e\u3057\u305f\u3002"},
+gau(){return"\u30a4\u30f3\u30bf\u30fc\u30cd\u30c3\u30c8\u63a5\u7d9a\u4e0d\u8981\u3002\u5f93\u6765\u306e\u30ab\u30a6\u30f3\u30bf\u30fc\u3067\u624b\u52d5\u3067\u4eba\u6570\u3092\u6570\u3048\u308b\u5fc5\u8981\u306a\u3057\u3002\u30b9\u30de\u30fc\u30c8\u30d5\u30a9\u30f3\u3092\u8a2d\u5b9a\u3059\u308b\u3060\u3051\u3067\u3001\u901a\u884c\u3059\u308b\u4eba\u306e\u6d41\u308c\u3092\u81ea\u52d5\u7684\u306b\u8ffd\u8de1\u3067\u304d\u307e\u3059\u3002"},
+ga6(){return"24\u6642\u9593365\u65e5\u30e2\u30cb\u30bf\u30ea\u30f3\u30b0"},
+ga7(){return"\u4efb\u610f\u306e\u6642\u9593\u5e2f\u306e\u901a\u884c\u91cf\u3092\u30ab\u30a6\u30f3\u30c8\u8868\u793a\u3002"},
+ga8(){return"\u8907\u6570\u7269\u4f53\u8ffd\u8de1"},
+ga9(){return"\u6b69\u884c\u8005\u3001\u8eca\u3001\u81ea\u8ee2\u8eca\u306a\u3069\u3092\u540c\u6642\u306b\u30ab\u30a6\u30f3\u30c8"},
+gaa(){return"\u30ab\u30b9\u30bf\u30e0\u691c\u51fa\u30be\u30fc\u30f3"},
+gab(){return"\u7279\u5b9a\u306e\u30a8\u30ea\u30a2\u306e\u901a\u884c\u91cf\u3092\u30ab\u30a6\u30f3\u30c8\u3059\u308b\u305f\u3081\u306e\u30ab\u30b9\u30bf\u30e0\u691c\u51fa\u30be\u30fc\u30f3\u3092\u5b9a\u7fa9\u3002"},
+gac(){return"\u67d4\u8edf\u306a\u30ab\u30a6\u30f3\u30c6\u30a3\u30f3\u30b0\u30e2\u30fc\u30c9"},
+gad(){return"\u691c\u51fa\u30be\u30fc\u30f3\u5185\u306b\u65b0\u3057\u304f\u73fe\u308c\u308b\u7269\u4f53\u3092\u30ab\u30a6\u30f3\u30c8\u3059\u308b\u304b\u3001\u9759\u6b62\u3057\u3066\u3044\u308b\u7269\u4f53\u3092\u30ab\u30a6\u30f3\u30c8\u3059\u308b\u304b\u3092\u9078\u629e\u53ef\u80fd\u3002"},
+gao(){return"\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u7248\u306e\u5229\u7528\u53ef\u80fd\u6027"},
+gan(){return"\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u7248\u3082\u63d0\u4f9b\u3057\u3066\u3044\u307e\u3059\u3002iOS/Android/Mac/Windows\u306b\u5bfe\u5fdc\u3057\u3066\u304a\u308a\u3001\u30e2\u30d0\u30a4\u30eb\u30c7\u30d0\u30a4\u30b9\u3068\u30a6\u30a7\u30d6\u30ab\u30e1\u30e9\u4ed8\u304d\u306e\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u306e\u4e21\u65b9\u3092\u5229\u7528\u3067\u304d\u307e\u3059\u3002\u30c7\u30b9\u30af\u30c8\u30c3\u30d7\u7248\u306f\u3055\u3089\u306b\u8907\u6570\u306e\u30d3\u30c7\u30aa\u30bd\u30fc\u30b9\u3092\u30b5\u30dd\u30fc\u30c8\u3057\u3001\u8907\u6570\u306e\u30b9\u30c8\u30ea\u30fc\u30e0\u304b\u3089\u540c\u6642\u306b\u30ab\u30a6\u30f3\u30c8\u3059\u308b\u3053\u3068\u304c\u53ef\u80fd\u3067\u3059\u3002"},
+gam(){return"\u30e9\u30a4\u30d6\u30b9\u30c8\u30ea\u30fc\u30e0\u30b5\u30dd\u30fc\u30c8"},
+gal(){return"\u30e2\u30d0\u30a4\u30eb\u30c7\u30d0\u30a4\u30b9\u306e\u30ab\u30e1\u30e9\u306b\u52a0\u3048\u3066\u3001\u9332\u753b\u3055\u308c\u305f\u30d3\u30c7\u30aa\u30d5\u30a1\u30a4\u30eb\u3001\u30a6\u30a7\u30d6\u30ab\u30e0\u5165\u529b\u3001RTSP\u306a\u3069\u306e\u30a4\u30f3\u30bf\u30fc\u30cd\u30c3\u30c8\u30e9\u30a4\u30d6\u30b9\u30c8\u30ea\u30fc\u30e0\u3082\u30b5\u30dd\u30fc\u30c8\u3057\u3066\u3044\u307e\u3059\u3002\u3053\u308c\u306b\u3088\u308a\u3001\u65e2\u5b58\u306e\u30c7\u30d0\u30a4\u30b9\u306b\u63a5\u7d9a\u3057\u3066\u3001\u3059\u3050\u306b\u4ea4\u901a\u6d41\u306e\u6e2c\u5b9a\u3092\u958b\u59cb\u3067\u304d\u307e\u3059\u3002"},
+gar(){return"\u30e1\u30fc\u30eb\u3067\u306e\u304a\u554f\u3044\u5408\u308f\u305b"},
+ga5(){return"\u30ab\u30a6\u30f3\u30bf\u30fc"},
+ga4(){return"\u3069\u308c\u3060\u3051\u306e\u4eba\u304c\u901a\u904e\u3059\u308b\u304b\u77e5\u308a\u305f\u3044\u3067\u3059\u304b\uff1f\u3053\u306e\u30a2\u30d7\u30ea\u306f\u30b9\u30de\u30fc\u30c8\u30d5\u30a9\u30f3\u306e\u30ab\u30e1\u30e9\u3092\u4f7f\u7528\u3057\u3066\u3001\u6b69\u884c\u8005\u3092\u30a4\u30f3\u30c6\u30ea\u30b8\u30a7\u30f3\u30c8\u306b\u8b58\u5225\u3057\u3001\u81ea\u52d5\u7684\u306b\u30ab\u30a6\u30f3\u30c8\u3057\u307e\u3059\u3002\u624b\u52d5\u5165\u529b\u306f\u4e0d\u8981\u3067\u3059\u3002\u9762\u5012\u306a\u30ab\u30a6\u30f3\u30c8\u4f5c\u696d\u306b\u3055\u3088\u306a\u3089\u3057\u3066\u3001\u4ea4\u901a\u306e\u6d41\u308c\u3092\u7c21\u5358\u306b\u30e2\u30cb\u30bf\u30ea\u30f3\u30b0\u3057\u307e\u3057\u3087\u3046\u3002"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.oC,C.r)})()
-B.a5(b.typeUniverse,JSON.parse('{"oC":{"r":[]}}'))};
+y(A.oK,C.r)})()
+B.a6(b.typeUniverse,JSON.parse('{"oK":{"r":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_64",e:"endPart",h:b})})($__dart_deferred_initializers__,"ZgfiBlUI7Gco+eesmrn29rIjj+c=");
+a.eventLog.push({p:"main.dart.js_64",e:"endPart",h:b})})($__dart_deferred_initializers__,"z56vt+oQ/O0ismfPgDnkPmZRl/g=");
