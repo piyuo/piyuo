@@ -13,16 +13,19 @@ class ScreenshotPlayer extends StatelessWidget {
         builder: (context, screenshotProvider, _) {
           return Container(
             width: 960,
-            // add decoration image
+            height: 540,
             decoration: BoxDecoration(
               image: DecorationImage(image: AssetImage('assets/images/screenshot.webp'), fit: BoxFit.cover),
             ),
-            //          height: 540,
             child:
-                screenshotProvider.videoController.value.isPlaying
-                    ? AspectRatio(
-                      aspectRatio: screenshotProvider.videoController.value.aspectRatio,
-                      child: VideoPlayer(screenshotProvider.videoController),
+                screenshotProvider.videoController.value.isInitialized
+                    ? FittedBox(
+                      fit: BoxFit.cover, // 確保影片填滿
+                      child: SizedBox(
+                        width: screenshotProvider.videoController.value.size.width,
+                        height: screenshotProvider.videoController.value.size.height,
+                        child: VideoPlayer(screenshotProvider.videoController),
+                      ),
                     )
                     : null,
           );
@@ -34,7 +37,7 @@ class ScreenshotPlayer extends StatelessWidget {
 
 class ScreenshotProvider extends ChangeNotifier {
   /// video controller for the screenshot video
-  final VideoPlayerController videoController = VideoPlayerController.asset('assets/videos/screenshot.webm');
+  final VideoPlayerController videoController = VideoPlayerController.asset('assets/videos/screenshot.mp4');
 
   ScreenshotProvider() {
     videoController.initialize().then((_) async {
