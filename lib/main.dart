@@ -35,6 +35,7 @@ class PiyuoWeb extends StatelessWidget {
             ],
             supportedLocales: Localization.supportedLocales,
             theme: ThemeData(
+              textSelectionTheme: TextSelectionThemeData(selectionColor: Colors.yellow),
               useMaterial3: true,
               colorScheme: ColorScheme.fromSeed(seedColor: Colors.black, brightness: Brightness.light),
               textTheme: TextTheme(

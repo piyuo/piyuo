@@ -13,13 +13,13 @@ class ScreenshotView extends StatelessWidget {
 
     return Column(
       children: [
-        Text(
+        SelectableText(
           context.l.index_video_title,
           style: isMobile ? textTheme.headlineSmall : textTheme.headlineMedium,
           textAlign: TextAlign.center,
         ),
         const SizedBox(height: 10),
-        Text(
+        SelectableText(
           context.l.index_video_desc,
           style: isMobile ? textTheme.bodySmall : textTheme.bodyMedium,
           textAlign: TextAlign.center,
