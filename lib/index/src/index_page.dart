@@ -3,7 +3,6 @@ import 'package:libcli/cli/cli.dart' as cli;
 import 'package:piyuo/l10n/l10n.dart';
 import 'package:piyuo/l10n/localization.dart';
 import 'package:provider/provider.dart';
-import 'package:video_player/video_player.dart';
 
 import 'cover_view.dart';
 import 'desktop_view.dart';
@@ -12,7 +11,8 @@ import 'email_view.dart';
 import 'feature_view.dart';
 import 'glass_container.dart';
 import 'index_page_provider.dart';
-import 'video_view.dart';
+import 'screenshot_player.dart';
+import 'screenshot_view.dart';
 
 /// the max width of the content
 const _kMaxContentWidth = 1280.0;
@@ -144,29 +144,9 @@ class IndexScreen extends StatelessWidget {
                             //SizedBox(height: 350, child: VideoPlayer(indexPageProvider.videoController)),
                             GlassContainer(padding: contentEdgeInsets, child: CoverView(isMobile: isMobile)),
                             const SizedBox(height: _kContentMargin),
-                            GlassContainer(
-                              padding: contentEdgeInsets,
-                              child: VideoView(isMobile: isMobile, videoController: indexPageProvider.videoController),
-                            ),
+                            GlassContainer(padding: contentEdgeInsets, child: ScreenshotView(isMobile: isMobile)),
                             const SizedBox(height: 20),
-                            Container(
-                              width: 960,
-                              // add decoration image
-                              decoration: BoxDecoration(
-                                image: DecorationImage(
-                                  image: AssetImage('assets/images/screenshot.webp'),
-                                  fit: BoxFit.cover,
-                                ),
-                              ),
-                              //          height: 540,
-                              child:
-                                  indexPageProvider.videoController.value.isPlaying
-                                      ? AspectRatio(
-                                        aspectRatio: indexPageProvider.videoController.value.aspectRatio,
-                                        child: VideoPlayer(indexPageProvider.videoController),
-                                      )
-                                      : null,
-                            ),
+                            ScreenshotPlayer(),
                             const SizedBox(height: _kContentMargin),
                             FeatureView(contentMargin: _kContentMargin, isMobile: isMobile),
                             const SizedBox(height: _kContentMargin),
