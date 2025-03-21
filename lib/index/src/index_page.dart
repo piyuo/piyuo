@@ -149,16 +149,23 @@ class IndexScreen extends StatelessWidget {
                               child: VideoView(isMobile: isMobile, videoController: indexPageProvider.videoController),
                             ),
                             const SizedBox(height: 20),
-                            SizedBox(
+                            Container(
                               width: 960,
+                              // add decoration image
+                              decoration: BoxDecoration(
+                                image: DecorationImage(
+                                  image: AssetImage('assets/images/screenshot.webp'),
+                                  fit: BoxFit.cover,
+                                ),
+                              ),
                               //          height: 540,
                               child:
-                                  indexPageProvider.videoController.value.isInitialized
+                                  indexPageProvider.videoController.value.isPlaying
                                       ? AspectRatio(
                                         aspectRatio: indexPageProvider.videoController.value.aspectRatio,
                                         child: VideoPlayer(indexPageProvider.videoController),
                                       )
-                                      : SizedBox.shrink(),
+                                      : null,
                             ),
                             const SizedBox(height: _kContentMargin),
                             FeatureView(contentMargin: _kContentMargin, isMobile: isMobile),
