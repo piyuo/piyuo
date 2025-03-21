@@ -186,7 +186,10 @@ class IndexScreen extends StatelessWidget {
                             EmailView(isMobile: isMobile),
                             const SizedBox(height: 20),
                             Center(
-                              child: Text('piyuo.com', style: TextStyle(color: colorScheme.onPrimary, fontSize: 24)),
+                              child: SelectableText(
+                                'piyuo.com',
+                                style: TextStyle(color: colorScheme.onPrimary, fontSize: 24),
+                              ),
                             ),
                             const SizedBox(height: _kContentMargin),
                           ],

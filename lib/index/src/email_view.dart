@@ -24,7 +24,7 @@ class EmailView extends StatelessWidget {
     }
 
     buildEmailAddress() {
-      return Text('service@piyuo.com', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18));
+      return SelectableText('service@piyuo.com', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18));
     }
 
     return Row(

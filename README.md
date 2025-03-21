@@ -1,16 +1,22 @@
-# piyuo
+# piyuo.com Website Source Code
 
-A new Flutter project.
+This repository contains the source code for the piyuo.com website, which is a static page website built with Flutter.
 
-## Getting Started
+We aim to host this website directly on GitHub Pages for easy deployment and accessibility.
 
-This project is a starting point for a Flutter application.
+## About
 
-A few resources to get you started if this is your first Flutter project:
+This website is currently maintained by the team at piyuo.com. We welcome any suggestions or feedback to improve the site.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Technology
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* Flutter
+* GitHub Pages
+
+## Contributing
+
+If you have any suggestions or would like to contribute to this project, please feel free to open an issue or submit a pull request.
+
+## Contact
+
+For any inquiries, please contact the piyuo.com team.

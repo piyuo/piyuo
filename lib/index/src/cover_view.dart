@@ -16,11 +16,11 @@ class CoverView extends StatelessWidget {
           children: [
             SizedBox(width: 160, child: Image.asset('assets/images/icon.webp')),
             const SizedBox(height: 20),
-            Text(context.l.app_name, style: textTheme.displaySmall),
+            SelectableText(context.l.app_name, style: textTheme.displaySmall),
             const SizedBox(height: 20),
             Image.asset('assets/images/app.webp', width: double.infinity, fit: BoxFit.cover),
             const SizedBox(height: 20),
-            Text(context.l.app_desc, style: textTheme.bodySmall, textAlign: TextAlign.center),
+            SelectableText(context.l.app_desc, style: textTheme.bodySmall, textAlign: TextAlign.center),
           ],
         )
         : Row(
@@ -30,9 +30,9 @@ class CoverView extends StatelessWidget {
                 children: [
                   SizedBox(width: 160, child: Image.asset('assets/images/icon.webp')),
                   const SizedBox(height: 20),
-                  Text(context.l.app_name, style: textTheme.displayLarge),
+                  SelectableText(context.l.app_name, style: textTheme.displayLarge),
                   const SizedBox(height: 20),
-                  Text(context.l.app_desc, style: textTheme.bodyMedium, textAlign: TextAlign.center),
+                  SelectableText(context.l.app_desc, style: textTheme.bodyMedium, textAlign: TextAlign.center),
                 ],
               ),
             ),

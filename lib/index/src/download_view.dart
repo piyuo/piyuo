@@ -17,7 +17,7 @@ class DownloadView extends StatelessWidget {
           if (isMobile) SizedBox(width: 200, child: Image.asset('assets/images/$image')),
           if (!isMobile) Image.asset('assets/images/$image'),
           const SizedBox(height: 10),
-          Text(
+          SelectableText(
             context.l.index_download_soon,
             style: isMobile ? textTheme.bodySmall : textTheme.bodyMedium,
             textAlign: TextAlign.center,
@@ -28,8 +28,8 @@ class DownloadView extends StatelessWidget {
 
     return Column(
       children: [
-        Text(context.l.index_download, style: isMobile ? textTheme.headlineSmall : textTheme.headlineMedium),
-        Text(
+        SelectableText(context.l.index_download, style: isMobile ? textTheme.headlineSmall : textTheme.headlineMedium),
+        SelectableText(
           context.l.index_download_available,
           style: isMobile ? textTheme.bodySmall : textTheme.bodyMedium,
           textAlign: TextAlign.center,

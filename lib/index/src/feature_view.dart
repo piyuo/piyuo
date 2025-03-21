@@ -22,8 +22,8 @@ class FeatureView extends StatelessWidget {
       return IntrinsicHeight(
         child: Column(
           children: [
-            Text(title, style: isMobile ? textTheme.headlineSmall : textTheme.headlineMedium),
-            Expanded(child: Text(desc, style: isMobile ? textTheme.bodySmall : textTheme.bodyMedium)),
+            SelectableText(title, style: isMobile ? textTheme.headlineSmall : textTheme.headlineMedium),
+            Expanded(child: SelectableText(desc, style: isMobile ? textTheme.bodySmall : textTheme.bodyMedium)),
             SizedBox(height: 20),
             SizedBox(child: Image.asset('assets/images/$image')),
           ],

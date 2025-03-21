@@ -2,28 +2,28 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_124",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aKk(d){B.G(d)
-return new A.lj()},
-aKm(){B.G("nl_BE")
-return new A.pa()},
-lj:function lj(){},
-pa:function pa(){}}
+aSa(d){B.P(d)
+return new A.ml()},
+aSc(){B.P("nl_BE")
+return new A.qI()},
+ml:function ml(){},
+qI:function qI(){}}
 B=c[0]
 C=c[131]
 A=a.updateHolder(c[10],A)
-A.lj.prototype={
-gah(){return"Oeps, er is iets misgegaan"},
-gag(){return"Er is een onverwachte fout opgetreden. Wil je een e-mailrapport sturen?"},
-gai(){return"Mail ons"},
-gaf(d){return"Annuleren"}}
-A.pa.prototype={
-gah(){return"Oeps, er is iets misgelopen"},
-gag(){return"Er is een onverwachte fout opgetreden. Wilt u een e-mailrapport versturen?"},
-gai(){return"Mail ons"},
-gaf(d){return"Annuleren"}}
+A.ml.prototype={
+gaH(){return"Oeps, er is iets misgegaan"},
+gaG(){return"Er is een onverwachte fout opgetreden. Wil je een e-mailrapport sturen?"},
+gaI(){return"Mail ons"},
+gaF(d){return"Annuleren"}}
+A.qI.prototype={
+gaH(){return"Oeps, er is iets misgelopen"},
+gaG(){return"Er is een onverwachte fout opgetreden. Wilt u een e-mailrapport versturen?"},
+gaI(){return"Mail ons"},
+gaF(d){return"Annuleren"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.lj,C.q)
-y(A.pa,A.lj)})()
-B.a6(b.typeUniverse,JSON.parse('{"lj":{"q":[]},"pa":{"q":[]}}'))};
+y(A.ml,C.u)
+y(A.qI,A.ml)})()
+B.a6(b.typeUniverse,JSON.parse('{"ml":{"u":[]},"qI":{"u":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_124",e:"endPart",h:b})})($__dart_deferred_initializers__,"tI6cMry1WnRXS8eZhQWBc6+ozEw=");
+a.eventLog.push({p:"main.dart.js_124",e:"endPart",h:b})})($__dart_deferred_initializers__,"aKd4adv8bEILZ9v6zHVyOo9wyUc=");
