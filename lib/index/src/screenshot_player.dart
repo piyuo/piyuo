@@ -1,6 +1,8 @@
+import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:video_player/video_player.dart';
+import 'package:web/web.dart' as web;
 
 class ScreenshotPlayer extends StatelessWidget {
   const ScreenshotPlayer({super.key});
@@ -37,15 +39,31 @@ class ScreenshotPlayer extends StatelessWidget {
 
 class ScreenshotProvider extends ChangeNotifier {
   /// video controller for the screenshot video
-  final VideoPlayerController videoController = VideoPlayerController.asset('assets/videos/screenshot.mp4');
+  late final VideoPlayerController videoController;
 
   ScreenshotProvider() {
+    videoController = VideoPlayerController.asset(_getVideoAssetPath());
+
     videoController.initialize().then((_) async {
       notifyListeners();
       await videoController.setVolume(0);
       await videoController.play();
       await videoController.setLooping(true);
     });
+  }
+
+  String _getVideoAssetPath() {
+    if (kIsWeb) {
+      try {
+        final userAgent = web.window.navigator.userAgent.toLowerCase();
+        if (userAgent.contains('chrome') && !userAgent.contains('edge') && !userAgent.contains('opr')) {
+          return 'assets/videos/screenshot.webm';
+        }
+      } catch (e) {
+        // Fallback to mp4 if there's any error in detection
+      }
+    }
+    return 'assets/videos/screenshot.mp4';
   }
 
   /// dispose the video controller
