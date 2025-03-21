@@ -3,12 +3,12 @@ a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_90",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
 aKq(){B.G("pl")
-return new A.pc()},
-pc:function pc(){}}
+return new A.pd()},
+pd:function pd(){}}
 B=c[0]
 C=c[132]
 A=a.updateHolder(c[113],A)
-A.pc.prototype={
+A.pd.prototype={
 gae(){return"Pobierz"},
 gaq(){return"Wkr\xf3tce dost\u0119pne."},
 gap(){return"Dost\u0119pne wiosn\u0105 2025."},
@@ -31,7 +31,7 @@ gar(){return"Napisz do nas"},
 ga5(){return"Licznik"},
 ga4(){return"Chcesz wiedzie\u0107, ile os\xf3b przechodzi obok? Ta aplikacja wykorzystuje kamer\u0119 Twojego telefonu do inteligentnego identyfikowania i automatycznego liczenia pieszych. Nie wymaga r\u0119cznego wprowadzania danych. Po\u017cegnaj si\u0119 z \u017cmudnym liczeniem i \u0142atwo monitoruj przep\u0142yw ruchu."}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.pc,C.r)})()
-B.a5(b.typeUniverse,JSON.parse('{"pc":{"r":[]}}'))};
+y(A.pd,C.r)})()
+B.a5(b.typeUniverse,JSON.parse('{"pd":{"r":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_90",e:"endPart",h:b})})($__dart_deferred_initializers__,"PrVfjTpQ2b78MJU4/Bc1PixCFuc=");
+a.eventLog.push({p:"main.dart.js_90",e:"endPart",h:b})})($__dart_deferred_initializers__,"k2sfFPZqQdUTMRM2lfdhhyogMZo=");

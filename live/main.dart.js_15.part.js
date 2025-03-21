@@ -3,21 +3,21 @@ a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_15",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,A={
 aJr(d){B.G(d)
-return new A.le()},
+return new A.lf()},
 aJt(){B.G("fr_BE")
-return new A.oj()},
+return new A.ok()},
 aJv(){B.G("fr_CA")
-return new A.ol()},
+return new A.om()},
 aJx(){B.G("fr_CH")
-return new A.on()},
-le:function le(){},
-oj:function oj(){},
-ol:function ol(){},
-on:function on(){}},C
+return new A.oo()},
+lf:function lf(){},
+ok:function ok(){},
+om:function om(){},
+oo:function oo(){}},C
 B=c[0]
 A=a.updateHolder(c[72],A)
 C=c[132]
-A.le.prototype={
+A.lf.prototype={
 gae(){return"T\xe9l\xe9charger"},
 gaq(){return"Bient\xf4t disponible."},
 gap(){return"Disponible au printemps 2025."},
@@ -39,7 +39,7 @@ gal(){return"En plus des cam\xe9ras des appareils mobiles, nous prenons en charg
 gar(){return"Contactez-nous par e-mail"},
 ga5(){return"Compteur"},
 ga4(){return"Vous voulez savoir combien de personnes passent ? Cette application utilise la cam\xe9ra de votre t\xe9l\xe9phone pour identifier intelligemment et compter automatiquement les pi\xe9tons. Aucune saisie manuelle requise. Dites adieu au comptage fastidieux et surveillez facilement le flux de trafic."}}
-A.oj.prototype={
+A.ok.prototype={
 gae(){return"T\xe9l\xe9charger"},
 gaq(){return"Bient\xf4t disponible."},
 gap(){return"Disponible au printemps 2025."},
@@ -61,7 +61,7 @@ gal(){return"En plus des cam\xe9ras des appareils mobiles, nous supportons les f
 gar(){return"Contactez-nous par e-mail"},
 ga5(){return"Compteur"},
 ga4(){return"Vous voulez savoir combien de personnes passent ? Cette application utilise la cam\xe9ra de votre GSM pour identifier intelligemment et compter automatiquement les pi\xe9tons. Aucune saisie manuelle requise. Dites adieu au comptage fastidieux et surveillez facilement le flux de passage."}}
-A.ol.prototype={
+A.om.prototype={
 gae(){return"T\xe9l\xe9charger"},
 gaq(){return"Bient\xf4t disponible."},
 gap(){return"Disponible au printemps 2025."},
@@ -83,7 +83,7 @@ gal(){return"En plus des cam\xe9ras des appareils mobiles, nous supportons les f
 gar(){return"\xc9crivez-nous"},
 ga5(){return"Compteur"},
 ga4(){return"Vous voulez savoir combien de personnes passent? Cette application utilise la cam\xe9ra de votre cellulaire pour identifier intelligemment et compter automatiquement les pi\xe9tons. Aucune saisie manuelle requise. Dites adieu au comptage fastidieux et surveillez facilement l'achalandage."}}
-A.on.prototype={
+A.oo.prototype={
 gae(){return"T\xe9l\xe9charger"},
 gaq(){return"Bient\xf4t disponible."},
 gap(){return"Disponible au printemps 2025."},
@@ -106,9 +106,9 @@ gar(){return"Contactez-nous par e-mail"},
 ga5(){return"Compteur"},
 ga4(){return"Vous voulez savoir combien de personnes passent ? Cette application utilise la cam\xe9ra de votre natel pour identifier intelligemment et compter automatiquement les pi\xe9tons. Aucune saisie manuelle requise. Dites adieu au comptage fastidieux et surveillez facilement le flux de passage."}}
 var z=a.updateTypes([]);(function inheritance(){var x=a.inherit,w=a.inheritMany
-x(A.le,C.r)
-w(A.le,[A.oj,A.ol,A.on])})()
-B.a5(b.typeUniverse,JSON.parse('{"le":{"r":[]},"oj":{"r":[]},"ol":{"r":[]},"on":{"r":[]}}'))
+x(A.lf,C.r)
+w(A.lf,[A.ok,A.om,A.oo])})()
+B.a5(b.typeUniverse,JSON.parse('{"lf":{"r":[]},"ok":{"r":[]},"om":{"r":[]},"oo":{"r":[]}}'))
 var y={i:"Choisissez de compter les nouveaux objets apparaissant dans la zone de d\xe9tection, ou ceux qui restent stationnaires.",e:"Comptez simultan\xe9ment les pi\xe9tons, voitures, v\xe9los et plus encore",a:"Consultez les comptages de passage pour n'importe quelle p\xe9riode.",h:"D\xe9finissez des zones de d\xe9tection personnalis\xe9es pour compter le trafic dans des zones sp\xe9cifiques."}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_15",e:"endPart",h:b})})($__dart_deferred_initializers__,"+Nd8NyoreWBvdgDgpVuZD2iQnrI=");
+a.eventLog.push({p:"main.dart.js_15",e:"endPart",h:b})})($__dart_deferred_initializers__,"lTqgyN7THeDXb7J/FgbiIVB75lM=");

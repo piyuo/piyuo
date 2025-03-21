@@ -3,12 +3,12 @@ a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_115",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,A={
 aL9(){B.G("uz")
-return new A.pQ()},
-pQ:function pQ(){}},C
+return new A.pR()},
+pR:function pR(){}},C
 B=c[0]
 A=a.updateHolder(c[129],A)
 C=c[132]
-A.pQ.prototype={
+A.pR.prototype={
 gae(){return"Yuklab olish"},
 gaq(){return"Tez orada."},
 gap(){return"2025-yil bahorida mavjud bo'ladi."},
@@ -31,7 +31,7 @@ gar(){return"Bizga xat yozing"},
 ga5(){return"Sanoq"},
 ga4(){return"Qancha odam o'tib ketishini bilmoqchimisiz? Bu ilova telefoningiz kamerasidan foydalanib, aqlli ravishda piyodalarni aniqlaydi va avtomatik ravishda sanaydi. Qo'lda kiritish shart emas. Zerikarli sanashga xayrlashing va osonlik bilan harakat oqimini kuzating."}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.pQ,C.r)})()
-B.a5(b.typeUniverse,JSON.parse('{"pQ":{"r":[]}}'))};
+y(A.pR,C.r)})()
+B.a5(b.typeUniverse,JSON.parse('{"pR":{"r":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_115",e:"endPart",h:b})})($__dart_deferred_initializers__,"EA9cqXttcW8p4Gq9oT1N4hO7FBo=");
+a.eventLog.push({p:"main.dart.js_115",e:"endPart",h:b})})($__dart_deferred_initializers__,"o8NyfTafMkvmxLR0aLo3TaswdHI=");

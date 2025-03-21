@@ -3,12 +3,12 @@ a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_92",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
 aKs(){B.G("ps")
-return new A.pe()},
-pe:function pe(){}}
+return new A.pf()},
+pf:function pf(){}}
 B=c[0]
 C=c[132]
 A=a.updateHolder(c[114],A)
-A.pe.prototype={
+A.pf.prototype={
 gae(){return"\u0689\u0627\u0648\u0646\u0644\u0648\u0689"},
 gaq(){return"\u0698\u0631 \u0631\u0627\u0681\u064a."},
 gap(){return"\u062f \u06f2\u06f0\u06f2\u06f5 \u06a9\u0627\u0644 \u067e\u0647 \u067e\u0633\u0631\u0644\u064a \u06a9\u06d0 \u0634\u062a\u0648\u0646 \u0644\u0631\u064a."},
@@ -31,7 +31,7 @@ gar(){return"\u0645\u0648\u0696 \u062a\u0647 \u0628\u0631\u06cc\u069a\u0646\u062
 ga5(){return"\u0634\u0645\u06cc\u0631\u0648\u0646\u06a9\u06cc"},
 ga4(){return"\u063a\u0648\u0627\u0693\u0626 \u067e\u0648\u0647 \u0634\u0626 \u0686\u06d0 \u0685\u0648\u0645\u0631\u0647 \u062e\u0644\u06a9 \u062a\u06cc\u0631\u06cc\u0696\u064a\u061f \u062f\u0627 \u0627\u067e\u0644\u06cc\u06a9\u06cc\u0634\u0646 \u0633\u062a\u0627\u0633\u0648 \u062f \u0645\u0648\u0628\u0627\u06cc\u0644 \u06a9\u06cc\u0645\u0631\u0647 \u06a9\u0627\u0631\u0648\u064a \u062a\u0631\u0685\u0648 \u067e\u0647 \u0647\u0648\u069a\u06cc\u0627\u0631\u06cd \u0633\u0631\u0647 \u067e\u0644\u064a \u062a\u06ab \u06a9\u0648\u0648\u0646\u06a9\u064a \u0648\u067e\u06cc\u0698\u0646\u064a \u0627\u0648 \u067e\u0647 \u0627\u062a\u0648\u0645\u0627\u062a\u06cc\u06a9 \u0689\u0648\u0644 \u06cc\u06d0 \u0648\u0634\u0645\u06cc\u0631\u064a. \u0644\u0627\u0633\u064a \u0648\u0631\u0648\u062f\u064a \u062a\u0647 \u0627\u0693\u062a\u06cc\u0627 \u0646\u0634\u062a\u0647. \u062f \u0633\u062a\u0693\u064a \u06a9\u0648\u0648\u0646\u06a9\u064a \u0634\u0645\u06cc\u0631\u0644\u0648 \u0633\u0631\u0647 \u062e\u062f\u0627\u06cc \u067e\u0627\u0645\u0627\u0646\u064a \u0648\u06a9\u0693\u0626 \u0627\u0648 \u067e\u0647 \u0627\u0633\u0627\u0646\u06cd \u0633\u0631\u0647 \u062f \u062a\u0631\u0627\u0641\u06cc\u06a9 \u062c\u0631\u06cc\u0627\u0646 \u0685\u0627\u0631\u0646\u0647 \u0648\u06a9\u0693\u0626."}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.pe,C.r)})()
-B.a5(b.typeUniverse,JSON.parse('{"pe":{"r":[]}}'))};
+y(A.pf,C.r)})()
+B.a5(b.typeUniverse,JSON.parse('{"pf":{"r":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_92",e:"endPart",h:b})})($__dart_deferred_initializers__,"cSiEPLeuJrGJlPLdpbuIBuuEuj4=");
+a.eventLog.push({p:"main.dart.js_92",e:"endPart",h:b})})($__dart_deferred_initializers__,"Sq5rrCHK1Js9vWyLROXkhL/7mjE=");

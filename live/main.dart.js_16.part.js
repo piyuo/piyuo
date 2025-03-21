@@ -3,15 +3,15 @@ a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_16",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,A={
 aKa(d){B.G(d)
-return new A.lg()},
+return new A.lh()},
 aKc(){B.G("ms_SG")
-return new A.p0()},
-lg:function lg(){},
-p0:function p0(){}},C
+return new A.p1()},
+lh:function lh(){},
+p1:function p1(){}},C
 B=c[0]
 A=a.updateHolder(c[73],A)
 C=c[132]
-A.lg.prototype={
+A.lh.prototype={
 gae(){return"Muat turun"},
 gaq(){return"Akan datang."},
 gap(){return"Tersedia pada Musim Bunga 2025."},
@@ -33,7 +33,7 @@ gal(){return y.n},
 gar(){return"E-mel kami"},
 ga5(){return"Counter"},
 ga4(){return"Ingin tahu berapa ramai orang yang lalu lalang? Aplikasi ini menggunakan kamera telefon anda untuk mengenal pasti secara pintar dan mengira pejalan kaki secara automatik. Tiada input manual diperlukan. Ucapkan selamat tinggal kepada pengiraan yang membosankan dan pantau aliran trafik dengan mudah."}}
-A.p0.prototype={
+A.p1.prototype={
 gae(){return"Muat turun"},
 gaq(){return"Akan datang tidak lama lagi."},
 gap(){return"Boleh didapati pada Musim Bunga 2025."},
@@ -56,9 +56,9 @@ gar(){return"E-mel kami"},
 ga5(){return"Counter"},
 ga4(){return"Nak tahu berapa ramai orang yang lalu lalang? Aplikasi ini menggunakan kamera telefon bimbit anda untuk mengenal pasti secara pintar dan mengira pejalan kaki secara automatik. Tiada input manual diperlukan. Ucapkan selamat tinggal kepada pengiraan yang membosankan dan pantau aliran trafik dengan mudah."}}
 var z=a.updateTypes([]);(function inheritance(){var x=a.inherit
-x(A.lg,C.r)
-x(A.p0,A.lg)})()
-B.a5(b.typeUniverse,JSON.parse('{"lg":{"r":[]},"p0":{"r":[]}}'))
+x(A.lh,C.r)
+x(A.p1,A.lh)})()
+B.a5(b.typeUniverse,JSON.parse('{"lh":{"r":[]},"p1":{"r":[]}}'))
 var y={h:"Mengira pejalan kaki, kereta, basikal, dan lain-lain secara serentak",f:"Pilih untuk mengira objek yang baru muncul dalam zon pengesanan, atau yang kekal pegun.",n:"Selain kamera peranti mudah alih, kami menyokong fail video yang dirakam, input kamera web, dan strim langsung internet seperti RTSP. Ini membolehkan anda menyambung ke peranti sedia ada dan segera mula mengukur aliran trafik.",i:"Tentukan zon pengesanan tersuai untuk mengira lalu lintas di kawasan tertentu."}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_16",e:"endPart",h:b})})($__dart_deferred_initializers__,"KRrFTNISOCuBzSi5UMgn9pD1fk4=");
+a.eventLog.push({p:"main.dart.js_16",e:"endPart",h:b})})($__dart_deferred_initializers__,"Oi/HRevi3jPQ4o4NR24Z7qrEkTs=");

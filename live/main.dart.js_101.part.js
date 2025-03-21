@@ -3,12 +3,12 @@ a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_101",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,A={
 aKQ(){B.G("sv")
-return new A.py()},
-py:function py(){}},C
+return new A.pz()},
+pz:function pz(){}},C
 B=c[0]
 A=a.updateHolder(c[121],A)
 C=c[132]
-A.py.prototype={
+A.pz.prototype={
 gae(){return"Ladda ner"},
 gaq(){return"Kommer snart."},
 gap(){return"Tillg\xe4nglig v\xe5ren 2025."},
@@ -31,7 +31,7 @@ gar(){return"Maila oss"},
 ga5(){return"R\xe4knare"},
 ga4(){return"Vill du veta hur m\xe5nga m\xe4nniskor som passerar f\xf6rbi? Denna app anv\xe4nder din telefons kamera f\xf6r att intelligent identifiera och automatiskt r\xe4kna fotg\xe4ngare. Ingen manuell inmatning kr\xe4vs. S\xe4g farv\xe4l till tr\xe5kig r\xe4kning och \xf6vervaka enkelt trafikfl\xf6det."}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.py,C.r)})()
-B.a5(b.typeUniverse,JSON.parse('{"py":{"r":[]}}'))};
+y(A.pz,C.r)})()
+B.a5(b.typeUniverse,JSON.parse('{"pz":{"r":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_101",e:"endPart",h:b})})($__dart_deferred_initializers__,"TrKjR/0Yot6fGOiVGXa7GamI6Eo=");
+a.eventLog.push({p:"main.dart.js_101",e:"endPart",h:b})})($__dart_deferred_initializers__,"bW0dcw0QokDDd4ocaF15f4ztXd0=");

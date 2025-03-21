@@ -3,15 +3,15 @@ a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_18",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,A={
 aKk(d){B.G(d)
-return new A.li()},
+return new A.lj()},
 aKm(){B.G("nl_BE")
-return new A.p8()},
-li:function li(){},
-p8:function p8(){}},C
+return new A.p9()},
+lj:function lj(){},
+p9:function p9(){}},C
 B=c[0]
 A=a.updateHolder(c[74],A)
 C=c[132]
-A.li.prototype={
+A.lj.prototype={
 gae(){return"Downloaden"},
 gaq(){return"Binnenkort beschikbaar."},
 gap(){return"Beschikbaar in voorjaar 2025."},
@@ -33,7 +33,7 @@ gal(){return"Naast camera's van mobiele apparaten ondersteunen we opgenomen vide
 gar(){return"Mail ons"},
 ga5(){return"Teller"},
 ga4(){return"Wil je weten hoeveel mensen er langskomen? Deze app gebruikt de camera van je telefoon om op intelligente wijze voetgangers te identificeren en automatisch te tellen. Geen handmatige invoer vereist. Zeg vaarwel tegen vervelend telwerk en monitor eenvoudig verkeersstromen."}}
-A.p8.prototype={
+A.p9.prototype={
 gae(){return"Downloaden"},
 gaq(){return"Binnenkort beschikbaar."},
 gap(){return"Beschikbaar in de lente van 2025."},
@@ -56,9 +56,9 @@ gar(){return"Mail ons"},
 ga5(){return"Teller"},
 ga4(){return"Wil je weten hoeveel mensen er langskomen? Deze app gebruikt de camera van je gsm om op intelligente wijze voetgangers te identificeren en automatisch te tellen. Geen handmatige invoer vereist. Zeg vaarwel tegen vervelend telwerk en monitor eenvoudig verkeersstromen."}}
 var z=a.updateTypes([]);(function inheritance(){var x=a.inherit
-x(A.li,C.r)
-x(A.p8,A.li)})()
-B.a5(b.typeUniverse,JSON.parse('{"li":{"r":[]},"p8":{"r":[]}}'))
+x(A.lj,C.r)
+x(A.p9,A.lj)})()
+B.a5(b.typeUniverse,JSON.parse('{"lj":{"r":[]},"p9":{"r":[]}}'))
 var y={n:"Bekijk voetgangersaantallen voor elke tijdsperiode.",g:"Definieer aangepaste detectiezones om verkeer in specifieke gebieden te tellen.",h:"Kies ervoor om nieuw verschijnende objecten binnen de detectiezone te tellen, of objecten die stil blijven staan.",e:"Tel gelijktijdig voetgangers, auto's, fietsen en meer"}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_18",e:"endPart",h:b})})($__dart_deferred_initializers__,"AryRr0b4VnXm/xqPr5AX7tQVX3g=");
+a.eventLog.push({p:"main.dart.js_18",e:"endPart",h:b})})($__dart_deferred_initializers__,"6HH/tQqYZqmmUwM29YyBdRbx0RQ=");

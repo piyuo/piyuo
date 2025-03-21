@@ -3,12 +3,12 @@ a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_80",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
 aK8(){B.G("mr")
-return new A.oZ()},
-oZ:function oZ(){}}
+return new A.p_()},
+p_:function p_(){}}
 B=c[0]
 C=c[132]
 A=a.updateHolder(c[108],A)
-A.oZ.prototype={
+A.p_.prototype={
 gae(){return"\u0921\u093e\u0909\u0928\u0932\u094b\u0921"},
 gaq(){return"\u0932\u0935\u0915\u0930\u091a \u092f\u0947\u0924 \u0906\u0939\u0947."},
 gap(){return"\u0968\u0966\u0968\u096b \u091a\u094d\u092f\u093e \u0935\u0938\u0902\u0924 \u090b\u0924\u0942\u092e\u0927\u094d\u092f\u0947 \u0909\u092a\u0932\u092c\u094d\u0927."},
@@ -31,7 +31,7 @@ gar(){return"\u0906\u092e\u094d\u0939\u093e\u0932\u093e \u0908\u092e\u0947\u0932
 ga5(){return"\u0915\u093e\u0909\u0902\u091f\u0930"},
 ga4(){return"\u0915\u093f\u0924\u0940 \u0932\u094b\u0915 \u091c\u093e\u0924\u093e\u0924 \u0939\u0947 \u091c\u093e\u0923\u0942\u0928 \u0918\u094d\u092f\u093e\u092f\u091a\u0947 \u0906\u0939\u0947? \u0939\u0947 \u0905\u0945\u092a \u0924\u0941\u092e\u091a\u094d\u092f\u093e \u092b\u094b\u0928\u091a\u093e \u0915\u0945\u092e\u0947\u0930\u093e \u0935\u093e\u092a\u0930\u0942\u0928 \u092c\u0941\u0926\u094d\u0927\u093f\u092e\u0924\u094d\u0924\u0947\u0928\u0947 \u092a\u093e\u0926\u091a\u093e\u0930\u0940 \u0913\u0933\u0916\u0924\u0947 \u0906\u0923\u093f \u0938\u094d\u0935\u092f\u0902\u091a\u0932\u093f\u0924\u092a\u0923\u0947 \u092e\u094b\u091c\u0924\u0947. \u092e\u0945\u0928\u094d\u092f\u0941\u0905\u0932 \u0907\u0928\u092a\u0941\u091f\u091a\u0940 \u0906\u0935\u0936\u094d\u092f\u0915\u0924\u093e \u0928\u093e\u0939\u0940. \u0915\u0902\u091f\u093e\u0933\u0935\u093e\u0923\u0940 \u092e\u094b\u091c\u0923\u0940\u0932\u093e \u0938\u094b\u0921\u0942\u0928 \u0926\u094d\u092f\u093e \u0906\u0923\u093f \u0935\u0930\u094d\u0926\u0933\u0940\u091a\u093e \u092a\u094d\u0930\u0935\u093e\u0939 \u0938\u0939\u091c\u092a\u0923\u0947 \u0928\u093f\u092f\u0902\u0924\u094d\u0930\u093f\u0924 \u0915\u0930\u093e."}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.oZ,C.r)})()
-B.a5(b.typeUniverse,JSON.parse('{"oZ":{"r":[]}}'))};
+y(A.p_,C.r)})()
+B.a5(b.typeUniverse,JSON.parse('{"p_":{"r":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_80",e:"endPart",h:b})})($__dart_deferred_initializers__,"qLN0aUnc3ihaFAOr3u6MpenKqhM=");
+a.eventLog.push({p:"main.dart.js_80",e:"endPart",h:b})})($__dart_deferred_initializers__,"/rKMW0JDINLk+cSW861XfWYhEN0=");

@@ -3,12 +3,12 @@ a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_73",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
 aJZ(){B.G("ln")
-return new A.oP()},
-oP:function oP(){}}
+return new A.oQ()},
+oQ:function oQ(){}}
 B=c[0]
 C=c[132]
 A=a.updateHolder(c[103],A)
-A.oP.prototype={
+A.oQ.prototype={
 gae(){return"Kozwa"},
 gaq(){return"Ekoya kala."},
 gap(){return"Ekozala na Elanga ya 2025."},
@@ -31,7 +31,7 @@ gar(){return"Tindela biso email"},
 ga5(){return"Mot\xe1ngi"},
 ga4(){return"Olingi koyeba bato boni bazali koleka? Application oyo esalelaka kamera ya telephone na yo mpo na koyeba bato na mayele mpe kot\xe1nga bango automatiquement. Esengeli te kotinda na mab\u0254\u0301k\u0254. Tika kot\xe1nga oyo ezali kobimisa motema mpe landela motamboli ya bato na p\u025bt\u025b\u025b."}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.oP,C.r)})()
-B.a5(b.typeUniverse,JSON.parse('{"oP":{"r":[]}}'))};
+y(A.oQ,C.r)})()
+B.a5(b.typeUniverse,JSON.parse('{"oQ":{"r":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_73",e:"endPart",h:b})})($__dart_deferred_initializers__,"8t4OnnQ+LI2XT4ZsWVOqV8m5pQs=");
+a.eventLog.push({p:"main.dart.js_73",e:"endPart",h:b})})($__dart_deferred_initializers__,"RJKOvr6pIdjYQrhQDIovkzS/6QY=");

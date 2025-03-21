@@ -3,12 +3,12 @@ a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_38",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
 aIQ(){B.G("ca")
-return new A.nO()},
-nO:function nO(){}}
+return new A.nP()},
+nP:function nP(){}}
 B=c[0]
 C=c[132]
 A=a.updateHolder(c[83],A)
-A.nO.prototype={
+A.nP.prototype={
 gae(){return"Descarregar"},
 gaq(){return"Properament."},
 gap(){return"Disponible a la primavera de 2025."},
@@ -31,7 +31,7 @@ gar(){return"Envia'ns un correu"},
 ga5(){return"Comptador"},
 ga4(){return"Vols saber quanta gent passa pel davant? Aquesta aplicaci\xf3 utilitza la c\xe0mera del teu tel\xe8fon per identificar intel\xb7ligentment i comptar autom\xe0ticament els vianants. No cal introducci\xf3 manual. Digues ad\xe9u al recompte tedi\xf3s i monitora f\xe0cilment el flux de tr\xe0nsit."}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.nO,C.r)})()
-B.a5(b.typeUniverse,JSON.parse('{"nO":{"r":[]}}'))};
+y(A.nP,C.r)})()
+B.a5(b.typeUniverse,JSON.parse('{"nP":{"r":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_38",e:"endPart",h:b})})($__dart_deferred_initializers__,"Eb3pwG5ILVY9jZ3432JYC9JGl7w=");
+a.eventLog.push({p:"main.dart.js_38",e:"endPart",h:b})})($__dart_deferred_initializers__,"vPHvoRnMSQDQHN9dFSpNGp8RnKU=");

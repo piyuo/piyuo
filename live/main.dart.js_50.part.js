@@ -3,12 +3,12 @@ a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_50",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
 aJz(){B.G("gl")
-return new A.op()},
-op:function op(){}}
+return new A.oq()},
+oq:function oq(){}}
 B=c[0]
 C=c[132]
 A=a.updateHolder(c[90],A)
-A.op.prototype={
+A.oq.prototype={
 gae(){return"Descargar"},
 gaq(){return"Proximamente."},
 gap(){return"Dispo\xf1ible na primavera de 2025."},
@@ -31,7 +31,7 @@ gar(){return"Env\xedanos un correo"},
 ga5(){return"Contador"},
 ga4(){return"Queres saber cantas persoas pasan preto? Esta aplicaci\xf3n utiliza a c\xe1mara do teu m\xf3bil para identificar intelixentemente e contar automaticamente os pe\xf3ns. Non require entrada manual. Dille adeus ao tedioso conteo e monitoriza facilmente o fluxo de tr\xe1fico."}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.op,C.r)})()
-B.a5(b.typeUniverse,JSON.parse('{"op":{"r":[]}}'))};
+y(A.oq,C.r)})()
+B.a5(b.typeUniverse,JSON.parse('{"oq":{"r":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_50",e:"endPart",h:b})})($__dart_deferred_initializers__,"ehTnOcbL+SkMFjTpVmYfwMFH/5E=");
+a.eventLog.push({p:"main.dart.js_50",e:"endPart",h:b})})($__dart_deferred_initializers__,"Rum0oRlsPs4nt8B9WcJsUhyEb2Q=");

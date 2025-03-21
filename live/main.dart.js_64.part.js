@@ -3,12 +3,12 @@ a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_64",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
 aJL(){B.G("hu")
-return new A.oB()},
-oB:function oB(){}}
+return new A.oC()},
+oC:function oC(){}}
 B=c[0]
 C=c[132]
 A=a.updateHolder(c[96],A)
-A.oB.prototype={
+A.oC.prototype={
 gae(){return"Let\xf6lt\xe9s"},
 gaq(){return"Hamarosan \xe9rkezik."},
 gap(){return"2025 tavasz\xe1n el\xe9rhet\u0151."},
@@ -31,7 +31,7 @@ gar(){return"\xcdrjon nek\xfcnk e-mailt"},
 ga5(){return"Sz\xe1ml\xe1l\xf3"},
 ga4(){return"Szeretn\xe9 tudni, h\xe1ny ember halad el? Ez az alkalmaz\xe1s telefonja kamer\xe1j\xe1t haszn\xe1lja a gyalogosok intelligens azonos\xedt\xe1s\xe1ra \xe9s automatikus sz\xe1ml\xe1l\xe1s\xe1ra. Nincs sz\xfcks\xe9g k\xe9zi bevitelre. B\xfacs\xfazzon el a f\xe1raszt\xf3 sz\xe1mol\xe1st\xf3l, \xe9s k\xf6nnyen figyelje a forgalom \xe1raml\xe1s\xe1t."}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.oB,C.r)})()
-B.a5(b.typeUniverse,JSON.parse('{"oB":{"r":[]}}'))};
+y(A.oC,C.r)})()
+B.a5(b.typeUniverse,JSON.parse('{"oC":{"r":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_64",e:"endPart",h:b})})($__dart_deferred_initializers__,"C1e2ZFiFfCdmWkJNpquHT4fVtDI=");
+a.eventLog.push({p:"main.dart.js_64",e:"endPart",h:b})})($__dart_deferred_initializers__,"ZgfiBlUI7Gco+eesmrn29rIjj+c=");

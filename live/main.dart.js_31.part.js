@@ -3,12 +3,12 @@ a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_31",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
 aIy(){B.G("am")
-return new A.nA()},
-nA:function nA(){}}
+return new A.nB()},
+nB:function nB(){}}
 B=c[0]
 C=c[132]
 A=a.updateHolder(c[80],A)
-A.nA.prototype={
+A.nB.prototype={
 gae(){return"\u12a0\u12cd\u122d\u12f5"},
 gaq(){return"\u1260\u1245\u122d\u1261 \u12ed\u1218\u1323\u120d\u1362"},
 gap(){return"\u12602025 \u1340\u12f0\u12ed \u12ed\u1308\u129b\u120d\u1362"},
@@ -31,7 +31,7 @@ gar(){return"\u12a2\u121c\u12ed\u120d \u12ed\u120b\u12a9\u120d\u1295"},
 ga5(){return"\u1246\u1323\u122a"},
 ga4(){return"\u1235\u1295\u1275 \u1230\u12ce\u127d \u12a5\u1295\u12f0\u121a\u12eb\u120d\u1349 \u121b\u12c8\u1245 \u12ed\u1348\u120d\u130b\u1209? \u12ed\u1205 \u1218\u1270\u130d\u1260\u122a\u12eb \u12e8\u1235\u120d\u12ad\u12ce\u1295 \u12ab\u121c\u122b \u1260\u1218\u1320\u1240\u121d \u12a5\u130d\u1228\u129e\u127d\u1295 \u1260\u1265\u120d\u1203\u1275 \u12e8\u1218\u1208\u12e8\u1275 \u12a5\u1293 \u1260\u122b\u1235-\u1230\u122d \u1218\u1241\u1320\u122d \u12ed\u127d\u120b\u120d\u1362 \u12e8\u12a5\u1305 \u130d\u1265\u12d3\u1275 \u12a0\u12eb\u1235\u1348\u120d\u130d\u121d\u1362 \u12eb\u12f5\u12ab\u121a \u1246\u1320\u122b\u1295 \u12ed\u1230\u1293\u1260\u1271 \u12a5\u1293 \u1260\u1240\u120b\u1209 \u12e8\u1275\u122b\u134a\u12ad \u134d\u1230\u1275\u1295 \u12ed\u1246\u1323\u1320\u1229\u1362"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.nA,C.r)})()
-B.a5(b.typeUniverse,JSON.parse('{"nA":{"r":[]}}'))};
+y(A.nB,C.r)})()
+B.a5(b.typeUniverse,JSON.parse('{"nB":{"r":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_31",e:"endPart",h:b})})($__dart_deferred_initializers__,"CN2b7wukHUpn2RycLzBB+c6ndh4=");
+a.eventLog.push({p:"main.dart.js_31",e:"endPart",h:b})})($__dart_deferred_initializers__,"Dg9O56v9ncmS+nOimNPKPcRz12A=");

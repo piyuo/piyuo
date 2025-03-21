@@ -3,12 +3,12 @@ a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_33",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
 aII(){B.G("az")
-return new A.nI()},
-nI:function nI(){}}
+return new A.nJ()},
+nJ:function nJ(){}}
 B=c[0]
 C=c[132]
 A=a.updateHolder(c[81],A)
-A.nI.prototype={
+A.nJ.prototype={
 gae(){return"Y\xfckl\u0259"},
 gaq(){return"Tezlikl\u0259 g\u0259l\u0259c\u0259k."},
 gap(){return"2025-ci ilin yaz\u0131nda m\xf6vcud olacaq."},
@@ -31,7 +31,7 @@ gar(){return"Biz\u0259 e-po\xe7t g\xf6nd\u0259rin"},
 ga5(){return"Say\u011fac"},
 ga4(){return"Ne\xe7\u0259 insan\u0131n ke\xe7diyini bilm\u0259k ist\u0259yirsiniz? Bu t\u0259tbiq telefonunuzun kameras\u0131n\u0131 istifad\u0259 ed\u0259r\u0259k piyadalar\u0131 a\u011f\u0131ll\u0131 \u015f\u0259kild\u0259 m\xfc\u0259yy\u0259n edir v\u0259 avtomatik say\u0131r. He\xe7 bir \u0259l il\u0259 daxiletm\u0259 t\u0259l\u0259b olunmur. Yorucu sayma il\u0259 vidala\u015f\u0131n v\u0259 trafik ax\u0131n\u0131n\u0131 asanl\u0131qla izl\u0259yin."}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.nI,C.r)})()
-B.a5(b.typeUniverse,JSON.parse('{"nI":{"r":[]}}'))};
+y(A.nJ,C.r)})()
+B.a5(b.typeUniverse,JSON.parse('{"nJ":{"r":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_33",e:"endPart",h:b})})($__dart_deferred_initializers__,"c/61TjcoRNFue/JjT7llNGTNaUI=");
+a.eventLog.push({p:"main.dart.js_33",e:"endPart",h:b})})($__dart_deferred_initializers__,"Moq+wdK+Hrb2+qmnR5+Hl9YnXa4=");

@@ -3,12 +3,12 @@ a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_70",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
 aJV(){B.G("ko")
-return new A.oL()},
-oL:function oL(){}}
+return new A.oM()},
+oM:function oM(){}}
 B=c[0]
 C=c[132]
 A=a.updateHolder(c[101],A)
-A.oL.prototype={
+A.oM.prototype={
 gae(){return"\ub2e4\uc6b4\ub85c\ub4dc"},
 gaq(){return"\uace7 \ucd9c\uc2dc \uc608\uc815."},
 gap(){return"2025\ub144 \ubd04\uc5d0 \uc774\uc6a9 \uac00\ub2a5\ud569\ub2c8\ub2e4."},
@@ -31,7 +31,7 @@ gar(){return"\uc774\uba54\uc77c \ubb38\uc758"},
 ga5(){return"\uce74\uc6b4\ud130"},
 ga4(){return"\uc5bc\ub9c8\ub098 \ub9ce\uc740 \uc0ac\ub78c\ub4e4\uc774 \uc9c0\ub098\uac00\ub294\uc9c0 \uc54c\uace0 \uc2f6\uc73c\uc2e0\uac00\uc694? \uc774 \uc571\uc740 \ud734\ub300\ud3f0 \uce74\uba54\ub77c\ub97c \uc0ac\uc6a9\ud558\uc5ec \ubcf4\ud589\uc790\ub97c \uc9c0\ub2a5\uc801\uc73c\ub85c \uc2dd\ubcc4\ud558\uace0 \uc790\ub3d9\uc73c\ub85c \uacc4\uc218\ud569\ub2c8\ub2e4. \uc218\ub3d9 \uc785\ub825\uc774 \ud544\uc694\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4. \uc9c0\ub8e8\ud55c \uacc4\uc218 \uc791\uc5c5\uc5d0 \uc791\ubcc4\uc744 \uace0\ud558\uace0 \uc190\uc27d\uac8c \ud1b5\ud589\ub7c9\uc744 \ubaa8\ub2c8\ud130\ub9c1\ud558\uc138\uc694."}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.oL,C.r)})()
-B.a5(b.typeUniverse,JSON.parse('{"oL":{"r":[]}}'))};
+y(A.oM,C.r)})()
+B.a5(b.typeUniverse,JSON.parse('{"oM":{"r":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_70",e:"endPart",h:b})})($__dart_deferred_initializers__,"/kF8528GrCZ10p4gPaa9AMVH7Bc=");
+a.eventLog.push({p:"main.dart.js_70",e:"endPart",h:b})})($__dart_deferred_initializers__,"k9MBe8n9vYsIjUgocICK4gBAvZE=");

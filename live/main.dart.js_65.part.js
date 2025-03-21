@@ -3,12 +3,12 @@ a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_65",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
 aJN(){B.G("id")
-return new A.oD()},
-oD:function oD(){}}
+return new A.oE()},
+oE:function oE(){}}
 B=c[0]
 C=c[132]
 A=a.updateHolder(c[97],A)
-A.oD.prototype={
+A.oE.prototype={
 gae(){return"Unduh"},
 gaq(){return"Segera hadir."},
 gap(){return"Tersedia pada Musim Semi 2025."},
@@ -31,7 +31,7 @@ gar(){return"Email kami"},
 ga5(){return"Penghitung"},
 ga4(){return"Ingin tahu berapa banyak orang yang lewat? Aplikasi ini menggunakan kamera ponsel Anda untuk secara cerdas mengidentifikasi dan menghitung pejalan kaki secara otomatis. Tidak diperlukan input manual. Ucapkan selamat tinggal pada penghitungan yang membosankan dan dengan mudah pantau arus lalu lintas."}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.oD,C.r)})()
-B.a5(b.typeUniverse,JSON.parse('{"oD":{"r":[]}}'))};
+y(A.oE,C.r)})()
+B.a5(b.typeUniverse,JSON.parse('{"oE":{"r":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_65",e:"endPart",h:b})})($__dart_deferred_initializers__,"OKaojtaZ0EhUUnmDjeDTex+mb+I=");
+a.eventLog.push({p:"main.dart.js_65",e:"endPart",h:b})})($__dart_deferred_initializers__,"9GiZ+xuxq/mulZIbCJ38cZrfGI4=");

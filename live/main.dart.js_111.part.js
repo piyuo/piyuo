@@ -3,12 +3,12 @@ a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_111",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,A={
 aL1(){B.G("tr")
-return new A.pK()},
-pK:function pK(){}},C
+return new A.pL()},
+pL:function pL(){}},C
 B=c[0]
 A=a.updateHolder(c[127],A)
 C=c[132]
-A.pK.prototype={
+A.pL.prototype={
 gae(){return"\u0130ndir"},
 gaq(){return"Yak\u0131nda geliyor."},
 gap(){return"2025 \u0130lkbahar\u0131nda kullan\u0131labilir."},
@@ -31,7 +31,7 @@ gar(){return"Bize e-posta g\xf6nderin"},
 ga5(){return"Saya\xe7"},
 ga4(){return"Ka\xe7 ki\u015finin ge\xe7ti\u011fini bilmek ister misiniz? Bu uygulama, yayalar\u0131 ak\u0131ll\u0131ca tan\u0131mlamak ve otomatik olarak saymak i\xe7in telefonunuzun kameras\u0131n\u0131 kullan\u0131r. Manuel giri\u015f gerekmez. S\u0131k\u0131c\u0131 say\u0131mlara veda edin ve trafik ak\u0131\u015f\u0131n\u0131 kolayca izleyin."}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.pK,C.r)})()
-B.a5(b.typeUniverse,JSON.parse('{"pK":{"r":[]}}'))};
+y(A.pL,C.r)})()
+B.a5(b.typeUniverse,JSON.parse('{"pL":{"r":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_111",e:"endPart",h:b})})($__dart_deferred_initializers__,"touYykwZHm3Rf/p7k6lSuYgytjs=");
+a.eventLog.push({p:"main.dart.js_111",e:"endPart",h:b})})($__dart_deferred_initializers__,"KeNqtboX8DGQIrvK6c9hyPIh+W8=");

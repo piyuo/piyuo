@@ -3,12 +3,12 @@ a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_67",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
 aJP(){B.G("it")
-return new A.oF()},
-oF:function oF(){}}
+return new A.oG()},
+oG:function oG(){}}
 B=c[0]
 C=c[132]
 A=a.updateHolder(c[98],A)
-A.oF.prototype={
+A.oG.prototype={
 gae(){return"Scarica"},
 gaq(){return"Disponibile a breve."},
 gap(){return"Disponibile in primavera 2025."},
@@ -31,7 +31,7 @@ gar(){return"Contattaci via email"},
 ga5(){return"Contatore"},
 ga4(){return"Vuoi sapere quante persone passano? Questa app utilizza la fotocamera del tuo telefono per identificare in modo intelligente e contare automaticamente i pedoni. Nessun input manuale richiesto. D\xec addio al conteggio tedioso e monitora facilmente il flusso del traffico."}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.oF,C.r)})()
-B.a5(b.typeUniverse,JSON.parse('{"oF":{"r":[]}}'))};
+y(A.oG,C.r)})()
+B.a5(b.typeUniverse,JSON.parse('{"oG":{"r":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_67",e:"endPart",h:b})})($__dart_deferred_initializers__,"JmnPkz2+f1YqF1acsabk2OhZt9w=");
+a.eventLog.push({p:"main.dart.js_67",e:"endPart",h:b})})($__dart_deferred_initializers__,"yj5FCQ9OtTItcmv4rgNtsnHEsaw=");

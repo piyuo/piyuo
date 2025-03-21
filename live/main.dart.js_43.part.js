@@ -3,12 +3,12 @@ a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_43",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
 aIU(){B.G("da")
-return new A.nS()},
-nS:function nS(){}}
+return new A.nT()},
+nT:function nT(){}}
 B=c[0]
 C=c[132]
 A=a.updateHolder(c[85],A)
-A.nS.prototype={
+A.nT.prototype={
 gae(){return"Download"},
 gaq(){return"Kommer snart."},
 gap(){return"Tilg\xe6ngelig i for\xe5ret 2025."},
@@ -31,7 +31,7 @@ gar(){return"Send os en mail"},
 ga5(){return"T\xe6ller"},
 ga4(){return"Vil du vide, hvor mange mennesker der passerer forbi? Denne app bruger din telefons kamera til intelligent at identificere og automatisk t\xe6lle fodg\xe6ngere. Intet manuelt input p\xe5kr\xe6vet. Sig farvel til kedelig opt\xe6lling og overv\xe5g nemt trafikstr\xf8mmen."}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.nS,C.r)})()
-B.a5(b.typeUniverse,JSON.parse('{"nS":{"r":[]}}'))};
+y(A.nT,C.r)})()
+B.a5(b.typeUniverse,JSON.parse('{"nT":{"r":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_43",e:"endPart",h:b})})($__dart_deferred_initializers__,"REZcDSZq9NqeD3umG7UfHgg0quc=");
+a.eventLog.push({p:"main.dart.js_43",e:"endPart",h:b})})($__dart_deferred_initializers__,"yx9TAqnJK5lNevJFEoOVSfWNF1Y=");

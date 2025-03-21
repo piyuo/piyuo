@@ -3,12 +3,12 @@ a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_93",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
 aKy(){B.G("ro")
-return new A.pi()},
-pi:function pi(){}}
+return new A.pj()},
+pj:function pj(){}}
 B=c[0]
 C=c[132]
 A=a.updateHolder(c[115],A)
-A.pi.prototype={
+A.pj.prototype={
 gae(){return"Desc\u0103rca\u021bi"},
 gaq(){return"\xcen cur\xe2nd."},
 gap(){return"Disponibil \xeen prim\u0103vara anului 2025."},
@@ -31,7 +31,7 @@ gar(){return"Trimite\u021bi-ne un e-mail"},
 ga5(){return"Contor"},
 ga4(){return"Dori\u021bi s\u0103 \u0219ti\u021bi c\xe2te persoane trec? Aceast\u0103 aplica\u021bie folose\u0219te camera telefonului pentru a identifica inteligent \u0219i a num\u0103ra automat pietonii. Nu este necesar\u0103 introducerea manual\u0103. Spune\u021bi adio num\u0103r\u0103rii plictisitoare \u0219i monitoriza\u021bi cu u\u0219urin\u021b\u0103 fluxul de trafic."}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.pi,C.r)})()
-B.a5(b.typeUniverse,JSON.parse('{"pi":{"r":[]}}'))};
+y(A.pj,C.r)})()
+B.a5(b.typeUniverse,JSON.parse('{"pj":{"r":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_93",e:"endPart",h:b})})($__dart_deferred_initializers__,"NiEj/92zZ2ACFgK3WqyzQIbudCk=");
+a.eventLog.push({p:"main.dart.js_93",e:"endPart",h:b})})($__dart_deferred_initializers__,"xhGiPuUrlqI44JDLbLiWhdio53Y=");

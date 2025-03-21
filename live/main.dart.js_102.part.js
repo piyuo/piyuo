@@ -3,12 +3,12 @@ a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_102",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,A={
 aKS(){B.G("sw")
-return new A.pA()},
-pA:function pA(){}},C
+return new A.pB()},
+pB:function pB(){}},C
 B=c[0]
 A=a.updateHolder(c[122],A)
 C=c[132]
-A.pA.prototype={
+A.pB.prototype={
 gae(){return"Pakua"},
 gaq(){return"Inakuja hivi karibuni."},
 gap(){return"Itapatikana katika Majira ya Kuchipua 2025."},
@@ -31,7 +31,7 @@ gar(){return"Tuma barua pepe"},
 ga5(){return"Hesabu"},
 ga4(){return"Unataka kujua watu wangapi wanapita? Programu hii hutumia kamera ya simu yako kutambua kwa uerevu na kuhesabu watu kiotomatiki. Hakuna ulazima wa kuingiza data kwa mkono. Sema kwaheri kwa kuhesabu kwa kuchosha na fuatilia mtiririko wa watu kwa urahisi."}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.pA,C.r)})()
-B.a5(b.typeUniverse,JSON.parse('{"pA":{"r":[]}}'))};
+y(A.pB,C.r)})()
+B.a5(b.typeUniverse,JSON.parse('{"pB":{"r":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_102",e:"endPart",h:b})})($__dart_deferred_initializers__,"Rk1e5Q8mLAn6kEmLz1lWZhqPCqM=");
+a.eventLog.push({p:"main.dart.js_102",e:"endPart",h:b})})($__dart_deferred_initializers__,"FOAqQPwho8NX/fRMjDaAM6alok0=");

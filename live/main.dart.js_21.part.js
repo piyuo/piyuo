@@ -3,15 +3,15 @@ a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_21",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
 aKu(d){B.G(d)
-return new A.lk()},
+return new A.ll()},
 aKw(){B.G("pt_PT")
-return new A.pg()},
-lk:function lk(){},
-pg:function pg(){}}
+return new A.ph()},
+ll:function ll(){},
+ph:function ph(){}}
 B=c[0]
 C=c[132]
 A=a.updateHolder(c[75],A)
-A.lk.prototype={
+A.ll.prototype={
 gae(){return"Baixar"},
 gaq(){return"Em breve."},
 gap(){return"Dispon\xedvel na primavera de 2025."},
@@ -33,7 +33,7 @@ gal(){return"Al\xe9m das c\xe2meras de dispositivos m\xf3veis, suportamos arquiv
 gar(){return"Envie-nos um email"},
 ga5(){return"Contador"},
 ga4(){return"Quer saber quantas pessoas passam por perto? Este aplicativo usa a c\xe2mera do seu celular para identificar inteligentemente e contar automaticamente os pedestres. N\xe3o \xe9 necess\xe1ria entrada manual. Diga adeus \xe0 contagem tediosa e monitore facilmente o fluxo de tr\xe1fego."}}
-A.pg.prototype={
+A.ph.prototype={
 gae(){return"Transferir"},
 gaq(){return"Brevemente dispon\xedvel."},
 gap(){return"Dispon\xedvel na primavera de 2025."},
@@ -56,8 +56,8 @@ gar(){return"Envie-nos um email"},
 ga5(){return"Contador"},
 ga4(){return"Quer saber quantas pessoas passam por perto? Esta aplica\xe7\xe3o usa a c\xe2mara do seu telem\xf3vel para identificar inteligentemente e contar automaticamente os pe\xf5es. N\xe3o \xe9 necess\xe1ria introdu\xe7\xe3o manual. Diga adeus \xe0 contagem tediosa e monitorize facilmente o fluxo de tr\xe1fego."}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.lk,C.r)
-y(A.pg,A.lk)})()
-B.a5(b.typeUniverse,JSON.parse('{"lk":{"r":[]},"pg":{"r":[]}}'))};
+y(A.ll,C.r)
+y(A.ph,A.ll)})()
+B.a5(b.typeUniverse,JSON.parse('{"ll":{"r":[]},"ph":{"r":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_21",e:"endPart",h:b})})($__dart_deferred_initializers__,"fMbF4Xme11mtmgkOz2/uoxIOu7U=");
+a.eventLog.push({p:"main.dart.js_21",e:"endPart",h:b})})($__dart_deferred_initializers__,"I9PKN6+i3dqXp39vTw4vlm391LU=");

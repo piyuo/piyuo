@@ -3,12 +3,12 @@ a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_109",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,A={
 aL_(){B.G("tl")
-return new A.pI()},
-pI:function pI(){}},C
+return new A.pJ()},
+pJ:function pJ(){}},C
 B=c[0]
 A=a.updateHolder(c[126],A)
 C=c[132]
-A.pI.prototype={
+A.pJ.prototype={
 gae(){return"I-download"},
 gaq(){return"Malapit nang dumating."},
 gap(){return"Magagamit sa Spring 2025."},
@@ -31,7 +31,7 @@ gar(){return"Mag-email sa amin"},
 ga5(){return"Counter"},
 ga4(){return"Gusto mo bang malaman kung ilang tao ang dumadaan? Ang app na ito ay gumagamit ng camera ng iyong telepono para matalinong tukuyin at awtomatikong bilangin ang mga naglalakad. Hindi kailangan ng manu-manong pag-input. Magpaalam sa nakakainip na pagbibilang at madaling subaybayan ang daloy ng trapiko."}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.pI,C.r)})()
-B.a5(b.typeUniverse,JSON.parse('{"pI":{"r":[]}}'))};
+y(A.pJ,C.r)})()
+B.a5(b.typeUniverse,JSON.parse('{"pJ":{"r":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_109",e:"endPart",h:b})})($__dart_deferred_initializers__,"aaHJD0E/SB+wcLljk534bwor/go=");
+a.eventLog.push({p:"main.dart.js_109",e:"endPart",h:b})})($__dart_deferred_initializers__,"FiXu7Po3PfOH/3reQD/F879AR8I=");

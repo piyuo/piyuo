@@ -3,12 +3,12 @@ a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_76",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
 aK2(){B.G("lv")
-return new A.oT()},
-oT:function oT(){}}
+return new A.oU()},
+oU:function oU(){}}
 B=c[0]
 C=c[132]
 A=a.updateHolder(c[105],A)
-A.oT.prototype={
+A.oU.prototype={
 gae(){return"Lejupiel\u0101d\u0113t"},
 gaq(){return"Dr\u012bzum\u0101 pieejams."},
 gap(){return"Pieejams 2025. gada pavasar\u012b."},
@@ -31,7 +31,7 @@ gar(){return"Rakstiet mums"},
 ga5(){return"Skait\u012bt\u0101js"},
 ga4(){return"V\u0113laties uzzin\u0101t, cik daudz cilv\u0113ku iet gar\u0101m? \u0160\u012b lietotne izmanto j\u016bsu t\u0101lru\u0146a kameru, lai gudri identific\u0113tu un autom\u0101tiski skait\u012btu g\u0101j\u0113jus. Nav nepiecie\u0161ama manu\u0101la ievade. Atvadieties no nogurdino\u0161as skait\u012b\u0161anas un viegli uzraugiet satiksmes pl\u016bsmu."}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.oT,C.r)})()
-B.a5(b.typeUniverse,JSON.parse('{"oT":{"r":[]}}'))};
+y(A.oU,C.r)})()
+B.a5(b.typeUniverse,JSON.parse('{"oU":{"r":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_76",e:"endPart",h:b})})($__dart_deferred_initializers__,"zj3tFNXw9Btyhn3mLajdxqkAOyc=");
+a.eventLog.push({p:"main.dart.js_76",e:"endPart",h:b})})($__dart_deferred_initializers__,"7aCRZgx8u54x9UXhmTwAZSQ1XoE=");

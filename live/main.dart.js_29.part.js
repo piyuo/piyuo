@@ -3,12 +3,12 @@ a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_29",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
 aIw(){B.G("af")
-return new A.ny()},
-ny:function ny(){}}
+return new A.nz()},
+nz:function nz(){}}
 B=c[0]
 C=c[132]
 A=a.updateHolder(c[79],A)
-A.ny.prototype={
+A.nz.prototype={
 gae(){return"Aflaai"},
 gaq(){return"Binnekort beskikbaar."},
 gap(){return"Beskikbaar in Lente 2025."},
@@ -31,7 +31,7 @@ gar(){return"E-pos ons"},
 ga5(){return"Teller"},
 ga4(){return"Wil jy weet hoeveel mense verbygaan? Hierdie toepassing gebruik jou foon se kamera om intelligent voetgangers te identifiseer en outomaties te tel. Geen handmatige invoer benodig nie. S\xea totsiens aan vervelige telwerk en monitor verkeersvloei met gemak."}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.ny,C.r)})()
-B.a5(b.typeUniverse,JSON.parse('{"ny":{"r":[]}}'))};
+y(A.nz,C.r)})()
+B.a5(b.typeUniverse,JSON.parse('{"nz":{"r":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_29",e:"endPart",h:b})})($__dart_deferred_initializers__,"5vA46lii1KhgQELtqhSfgFDaCpo=");
+a.eventLog.push({p:"main.dart.js_29",e:"endPart",h:b})})($__dart_deferred_initializers__,"rOweCxNvQed1oE1Ogq2YQBYbb7A=");

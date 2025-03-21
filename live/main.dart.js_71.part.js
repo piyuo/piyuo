@@ -3,12 +3,12 @@ a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_71",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
 aJX(){B.G("ku")
-return new A.oN()},
-oN:function oN(){}}
+return new A.oO()},
+oO:function oO(){}}
 B=c[0]
 C=c[132]
 A=a.updateHolder(c[102],A)
-A.oN.prototype={
+A.oO.prototype={
 gae(){return"Daxistin"},
 gaq(){return"Z\xfb t\xea."},
 gap(){return"Di Bihara 2025an de berdest e."},
@@ -31,7 +31,7 @@ gar(){return"Ji me re e-mail bi\u015f\xeenin"},
 ga5(){return"Jimarker"},
 ga4(){return"Dixwaz\xee bizanib\xee \xe7end kes derbas dibin? Ev sepan kamera telefona te bi kar t\xeene da ku bi j\xeer\xee peyan nas bike \xfb otomat\xeek bijm\xeare. T\xeaketina dest\xee ne hewce ye. Bi xatir\xea te ji jimartin a westyay\xee re \xfb bi h\xeasan\xee tevgera hatin\xfb\xe7\xfbn\xea \xe7avd\xear\xee bike."}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.oN,C.r)})()
-B.a5(b.typeUniverse,JSON.parse('{"oN":{"r":[]}}'))};
+y(A.oO,C.r)})()
+B.a5(b.typeUniverse,JSON.parse('{"oO":{"r":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_71",e:"endPart",h:b})})($__dart_deferred_initializers__,"uQl68X3DJRyXe9mCDj8fC/vq6xM=");
+a.eventLog.push({p:"main.dart.js_71",e:"endPart",h:b})})($__dart_deferred_initializers__,"1QZAgAp5L3oAmbOHaLwMEKlo6TE=");

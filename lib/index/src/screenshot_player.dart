@@ -11,24 +11,20 @@ class ScreenshotPlayer extends StatelessWidget {
       create: (context) => ScreenshotProvider(),
       child: Consumer<ScreenshotProvider>(
         builder: (context, screenshotProvider, _) {
-          return ClipRRect(
-            borderRadius: const BorderRadius.all(Radius.circular(15)),
-            child: Container(
-              width: 960,
-              // add decoration image
-              decoration: BoxDecoration(
-                image: DecorationImage(image: AssetImage('assets/images/screenshot.webp'), fit: BoxFit.cover),
-                borderRadius: BorderRadius.circular(15),
-              ),
-              //          height: 540,
-              child:
-                  screenshotProvider.videoController.value.isPlaying
-                      ? AspectRatio(
-                        aspectRatio: screenshotProvider.videoController.value.aspectRatio,
-                        child: VideoPlayer(screenshotProvider.videoController),
-                      )
-                      : null,
+          return Container(
+            width: 960,
+            // add decoration image
+            decoration: BoxDecoration(
+              image: DecorationImage(image: AssetImage('assets/images/screenshot.webp'), fit: BoxFit.cover),
             ),
+            //          height: 540,
+            child:
+                screenshotProvider.videoController.value.isPlaying
+                    ? AspectRatio(
+                      aspectRatio: screenshotProvider.videoController.value.aspectRatio,
+                      child: VideoPlayer(screenshotProvider.videoController),
+                    )
+                    : null,
           );
         },
       ),

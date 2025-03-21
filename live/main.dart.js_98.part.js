@@ -3,12 +3,12 @@ a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_98",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
 aKM(){B.G("sn")
-return new A.pu()},
-pu:function pu(){}}
+return new A.pv()},
+pv:function pv(){}}
 B=c[0]
 C=c[132]
 A=a.updateHolder(c[119],A)
-A.pu.prototype={
+A.pv.prototype={
 gae(){return"Buritsa"},
 gaq(){return"Inouya munguva pfupi."},
 gap(){return"Inowanikwa muSpring 2025."},
@@ -31,7 +31,7 @@ gar(){return"Titumire email"},
 ga5(){return"Counter"},
 ga4(){return"Unoda kuziva vanhu vangani vanopfuura? App iyi inoshandisa kamera yerunhare rwako kuziva nekuverenga vanofamba zvine njere. Hazvidi kuisa nemaoko. Onai kumberi kuverenga kunotambudza uye motarisa nyore-nyore vanhu vanofamba."}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.pu,C.r)})()
-B.a5(b.typeUniverse,JSON.parse('{"pu":{"r":[]}}'))};
+y(A.pv,C.r)})()
+B.a5(b.typeUniverse,JSON.parse('{"pv":{"r":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_98",e:"endPart",h:b})})($__dart_deferred_initializers__,"SpX+6Jy31WMP2QkNC87jrnuV60w=");
+a.eventLog.push({p:"main.dart.js_98",e:"endPart",h:b})})($__dart_deferred_initializers__,"1ierZDtKIcom1jlmo6AmneBxsuU=");

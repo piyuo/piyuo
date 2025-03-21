@@ -3,12 +3,12 @@ a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_49",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
 aJp(){B.G("fi")
-return new A.oh()},
-oh:function oh(){}}
+return new A.oi()},
+oi:function oi(){}}
 B=c[0]
 C=c[132]
 A=a.updateHolder(c[89],A)
-A.oh.prototype={
+A.oi.prototype={
 gae(){return"Lataa"},
 gaq(){return"Tulossa pian."},
 gap(){return"Saatavilla kev\xe4\xe4ll\xe4 2025."},
@@ -31,7 +31,7 @@ gar(){return"L\xe4het\xe4 s\xe4hk\xf6postia"},
 ga5(){return"Laskuri"},
 ga4(){return"Haluatko tiet\xe4\xe4, kuinka monta ihmist\xe4 kulkee ohi? T\xe4m\xe4 sovellus k\xe4ytt\xe4\xe4 puhelimesi kameraa tunnistamaan \xe4lykk\xe4\xe4sti ja laskemaan automaattisesti jalankulkijoita. Ei vaadi manuaalista sy\xf6tt\xf6\xe4. Unohda ty\xf6l\xe4s laskeminen ja seuraa liikennevirtaa helposti."}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.oh,C.r)})()
-B.a5(b.typeUniverse,JSON.parse('{"oh":{"r":[]}}'))};
+y(A.oi,C.r)})()
+B.a5(b.typeUniverse,JSON.parse('{"oi":{"r":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_49",e:"endPart",h:b})})($__dart_deferred_initializers__,"rLGRKjdzvypLm/IgWovM8ir5AoI=");
+a.eventLog.push({p:"main.dart.js_49",e:"endPart",h:b})})($__dart_deferred_initializers__,"OIMCE+8Blg3QLPXq2ZEKU7pXuj4=");

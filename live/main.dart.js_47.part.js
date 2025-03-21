@@ -3,12 +3,12 @@ a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_47",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
 aJn(){B.G("fa")
-return new A.of()},
-of:function of(){}}
+return new A.og()},
+og:function og(){}}
 B=c[0]
 C=c[132]
 A=a.updateHolder(c[88],A)
-A.of.prototype={
+A.og.prototype={
 gae(){return"\u062f\u0627\u0646\u0644\u0648\u062f"},
 gaq(){return"\u0628\u0647 \u0632\u0648\u062f\u06cc."},
 gap(){return"\u062f\u0631 \u0628\u0647\u0627\u0631 \u06f2\u06f0\u06f2\u06f5 \u062f\u0631 \u062f\u0633\u062a\u0631\u0633 \u062e\u0648\u0627\u0647\u062f \u0628\u0648\u062f."},
@@ -31,7 +31,7 @@ gar(){return"\u0628\u0647 \u0645\u0627 \u0627\u06cc\u0645\u06cc\u0644 \u0628\u06
 ga5(){return"\u0634\u0645\u0627\u0631\u0646\u062f\u0647"},
 ga4(){return"\u0645\u06cc\u200c\u062e\u0648\u0627\u0647\u06cc\u062f \u0628\u062f\u0627\u0646\u06cc\u062f \u0686\u0646\u062f \u0646\u0641\u0631 \u0627\u0632 \u06a9\u0646\u0627\u0631 \u0634\u0645\u0627 \u0639\u0628\u0648\u0631 \u0645\u06cc\u200c\u06a9\u0646\u0646\u062f\u061f \u0627\u06cc\u0646 \u0628\u0631\u0646\u0627\u0645\u0647 \u0627\u0632 \u062f\u0648\u0631\u0628\u06cc\u0646 \u062a\u0644\u0641\u0646 \u0634\u0645\u0627 \u0628\u0631\u0627\u06cc \u0634\u0646\u0627\u0633\u0627\u06cc\u06cc \u0647\u0648\u0634\u0645\u0646\u062f \u0648 \u0634\u0645\u0627\u0631\u0634 \u062e\u0648\u062f\u06a9\u0627\u0631 \u0639\u0627\u0628\u0631\u0627\u0646 \u067e\u06cc\u0627\u062f\u0647 \u0627\u0633\u062a\u0641\u0627\u062f\u0647 \u0645\u06cc\u200c\u06a9\u0646\u062f. \u0646\u06cc\u0627\u0632\u06cc \u0628\u0647 \u0648\u0631\u0648\u062f\u06cc \u062f\u0633\u062a\u06cc \u0646\u06cc\u0633\u062a. \u0628\u0627 \u0634\u0645\u0627\u0631\u0634 \u062e\u0633\u062a\u0647\u200c\u06a9\u0646\u0646\u062f\u0647 \u062e\u062f\u0627\u062d\u0627\u0641\u0638\u06cc \u06a9\u0646\u06cc\u062f \u0648 \u0628\u0647 \u0631\u0627\u062d\u062a\u06cc \u062c\u0631\u06cc\u0627\u0646 \u062a\u0631\u0627\u0641\u06cc\u06a9 \u0631\u0627 \u0646\u0638\u0627\u0631\u062a \u06a9\u0646\u06cc\u062f."}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.of,C.r)})()
-B.a5(b.typeUniverse,JSON.parse('{"of":{"r":[]}}'))};
+y(A.og,C.r)})()
+B.a5(b.typeUniverse,JSON.parse('{"og":{"r":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_47",e:"endPart",h:b})})($__dart_deferred_initializers__,"gziXOXLu5VBwKNnNhgr05jUIOvY=");
+a.eventLog.push({p:"main.dart.js_47",e:"endPart",h:b})})($__dart_deferred_initializers__,"jExfOxnxHO5BUh279q9If8hcgOg=");

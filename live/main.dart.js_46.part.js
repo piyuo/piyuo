@@ -3,12 +3,12 @@ a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_46",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
 aJl(){B.G("et")
-return new A.od()},
-od:function od(){}}
+return new A.oe()},
+oe:function oe(){}}
 B=c[0]
 C=c[132]
 A=a.updateHolder(c[87],A)
-A.od.prototype={
+A.oe.prototype={
 gae(){return"Laadi alla"},
 gaq(){return"Tulemas peagi."},
 gap(){return"Saadaval 2025. aasta kevadel."},
@@ -31,7 +31,7 @@ gar(){return"Kirjuta meile"},
 ga5(){return"Loendur"},
 ga4(){return"Soovite teada, kui palju inimesi m\xf6\xf6dub? See rakendus kasutab teie telefoni kaamerat, et intelligentselt tuvastada ja automaatselt loendada jalak\xe4ijaid. K\xe4sitsi sisestamine pole vajalik. J\xe4tke t\xfc\xfctu lugemine seljataha ja j\xe4lgige liiklusvoogu h\xf5lpsalt."}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.od,C.r)})()
-B.a5(b.typeUniverse,JSON.parse('{"od":{"r":[]}}'))};
+y(A.oe,C.r)})()
+B.a5(b.typeUniverse,JSON.parse('{"oe":{"r":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_46",e:"endPart",h:b})})($__dart_deferred_initializers__,"pb+BbtEa+s2z9iNAIeUAIAXWcBY=");
+a.eventLog.push({p:"main.dart.js_46",e:"endPart",h:b})})($__dart_deferred_initializers__,"1sZGRu+ku2dNvzp2uVvJSii1Hxk=");

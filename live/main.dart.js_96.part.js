@@ -3,12 +3,12 @@ a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_96",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
 aKI(){B.G("sk")
-return new A.pq()},
-pq:function pq(){}}
+return new A.pr()},
+pr:function pr(){}}
 B=c[0]
 C=c[132]
 A=a.updateHolder(c[117],A)
-A.pq.prototype={
+A.pr.prototype={
 gae(){return"Stiahnu\u0165"},
 gaq(){return"\u010coskoro k dispoz\xedcii."},
 gap(){return"Dostupn\xe9 na jar 2025."},
@@ -31,7 +31,7 @@ gar(){return"Nap\xed\u0161te n\xe1m"},
 ga5(){return"Po\u010d\xedtadlo"},
 ga4(){return"Chcete vedie\u0165, ko\u013eko \u013eud\xed prejde okolo? T\xe1to aplik\xe1cia vyu\u017e\xedva kameru v\xe1\u0161ho telef\xf3nu na inteligentn\xe9 rozpozn\xe1vanie a automatick\xe9 po\u010d\xedtanie chodcov. Nie je potrebn\xfd \u017eiadny manu\xe1lny vstup. Rozl\xfa\u010dte sa s \xfanavn\xfdm po\u010d\xedtan\xedm a jednoducho monitorujte tok prem\xe1vky."}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.pq,C.r)})()
-B.a5(b.typeUniverse,JSON.parse('{"pq":{"r":[]}}'))};
+y(A.pr,C.r)})()
+B.a5(b.typeUniverse,JSON.parse('{"pr":{"r":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_96",e:"endPart",h:b})})($__dart_deferred_initializers__,"weC71WYTxOjON7gaUSX49DPdfw0=");
+a.eventLog.push({p:"main.dart.js_96",e:"endPart",h:b})})($__dart_deferred_initializers__,"59WITWryUFNvZQupk+JaE7iqqII=");

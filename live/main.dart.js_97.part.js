@@ -3,12 +3,12 @@ a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_97",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
 aKK(){B.G("sl")
-return new A.ps()},
-ps:function ps(){}}
+return new A.pt()},
+pt:function pt(){}}
 B=c[0]
 C=c[132]
 A=a.updateHolder(c[118],A)
-A.ps.prototype={
+A.pt.prototype={
 gae(){return"Prenesi"},
 gaq(){return"Kmalu na voljo."},
 gap(){return"Na voljo spomladi 2025."},
@@ -31,7 +31,7 @@ gar(){return"Pi\u0161ite nam"},
 ga5(){return"\u0160tevec"},
 ga4(){return"\u017delite vedeti, koliko ljudi gre mimo? Ta aplikacija uporablja kamero va\u0161ega telefona za inteligentno prepoznavanje in samodejno \u0161tetje pe\u0161cev. Ro\u010dni vnos ni potreben. Poslovite se od napornega \u0161tetja in enostavno spremljajte pretok prometa."}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.ps,C.r)})()
-B.a5(b.typeUniverse,JSON.parse('{"ps":{"r":[]}}'))};
+y(A.pt,C.r)})()
+B.a5(b.typeUniverse,JSON.parse('{"pt":{"r":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_97",e:"endPart",h:b})})($__dart_deferred_initializers__,"BJ95XVD0C2uGs2avda1Gkpng4Hw=");
+a.eventLog.push({p:"main.dart.js_97",e:"endPart",h:b})})($__dart_deferred_initializers__,"3ww2SkcI+x9xsuYPdMXgk1OLlxc=");

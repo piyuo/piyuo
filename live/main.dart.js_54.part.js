@@ -3,12 +3,12 @@ a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_54",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
 aJD(){B.G("ha")
-return new A.ot()},
-ot:function ot(){}}
+return new A.ou()},
+ou:function ou(){}}
 B=c[0]
 C=c[132]
 A=a.updateHolder(c[92],A)
-A.ot.prototype={
+A.ou.prototype={
 gae(){return"Saukar da"},
 gaq(){return"Zai zo nan ba da jimawa ba."},
 gap(){return"Zai kasance a bayyane a Bazara 2025."},
@@ -31,7 +31,7 @@ gar(){return"Aika mana imel"},
 ga5(){return"Mai \u0198irga"},
 ga4(){return"Kuna son sanin yawan mutanen da suke wucewa? Wannan manhaja tana amfani da kyamarar wayar ku wajen gano da \u0199irga yan hanya. Ba a bu\u0199atar shigar da hannu. Ku bar \u0199irga mai wahala kuma ku lura da yawan masu wucewa cikin sauki."}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.ot,C.r)})()
-B.a5(b.typeUniverse,JSON.parse('{"ot":{"r":[]}}'))};
+y(A.ou,C.r)})()
+B.a5(b.typeUniverse,JSON.parse('{"ou":{"r":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_54",e:"endPart",h:b})})($__dart_deferred_initializers__,"GrSRcX3UQkuCeEuxW1miPSY7Idw=");
+a.eventLog.push({p:"main.dart.js_54",e:"endPart",h:b})})($__dart_deferred_initializers__,"vGHOuM2tyS5k8W9okDubc8NE7dg=");

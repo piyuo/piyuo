@@ -3,12 +3,12 @@ a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_84",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
 aKg(){B.G("nb")
-return new A.p4()},
-p4:function p4(){}}
+return new A.p5()},
+p5:function p5(){}}
 B=c[0]
 C=c[132]
 A=a.updateHolder(c[110],A)
-A.p4.prototype={
+A.p5.prototype={
 gae(){return"Last ned"},
 gaq(){return"Kommer snart."},
 gap(){return"Tilgjengelig v\xe5ren 2025."},
@@ -31,7 +31,7 @@ gar(){return"Send e-post til oss"},
 ga5(){return"Counter"},
 ga4(){return"Vil du vite hvor mange mennesker som passerer forbi? Denne appen bruker telefonens kamera for \xe5 intelligent identifisere og automatisk telle fotgjengere. Ingen manuell inntasting n\xf8dvendig. Si farvel til kjedelig telling og overv\xe5k trafikkflyten enkelt."}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.p4,C.r)})()
-B.a5(b.typeUniverse,JSON.parse('{"p4":{"r":[]}}'))};
+y(A.p5,C.r)})()
+B.a5(b.typeUniverse,JSON.parse('{"p5":{"r":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_84",e:"endPart",h:b})})($__dart_deferred_initializers__,"z+nydvxGwOHMinFsKtYLgel17JY=");
+a.eventLog.push({p:"main.dart.js_84",e:"endPart",h:b})})($__dart_deferred_initializers__,"TE/aXU3k78OkxNYotFXbbRfuqj0=");

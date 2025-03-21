@@ -3,12 +3,12 @@ a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_61",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
 aJJ(){B.G("hr")
-return new A.oz()},
-oz:function oz(){}}
+return new A.oA()},
+oA:function oA(){}}
 B=c[0]
 C=c[132]
 A=a.updateHolder(c[95],A)
-A.oz.prototype={
+A.oA.prototype={
 gae(){return"Preuzmi"},
 gaq(){return"Uskoro dostupno."},
 gap(){return"Dostupno u prolje\u0107e 2025."},
@@ -31,7 +31,7 @@ gar(){return"Po\u0161aljite nam e-mail"},
 ga5(){return"Broja\u010d"},
 ga4(){return"\u017delite znati koliko ljudi prolazi? Ova aplikacija koristi kameru va\u0161eg telefona za inteligentno prepoznavanje i automatsko brojanje pje\u0161aka. Nije potreban ru\u010dni unos. Oprostite se od dosadnog brojanja i jednostavno pratite protok prometa."}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.oz,C.r)})()
-B.a5(b.typeUniverse,JSON.parse('{"oz":{"r":[]}}'))};
+y(A.oA,C.r)})()
+B.a5(b.typeUniverse,JSON.parse('{"oA":{"r":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_61",e:"endPart",h:b})})($__dart_deferred_initializers__,"6F2nPZW8lDch874CQhNjt+IN8Kw=");
+a.eventLog.push({p:"main.dart.js_61",e:"endPart",h:b})})($__dart_deferred_initializers__,"pqcLlLk0D88j/xhtyPQTTZc3xQM=");

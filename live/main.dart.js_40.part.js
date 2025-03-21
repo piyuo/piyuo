@@ -3,12 +3,12 @@ a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_40",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
 aIS(){B.G("cs")
-return new A.nQ()},
-nQ:function nQ(){}}
+return new A.nR()},
+nR:function nR(){}}
 B=c[0]
 C=c[132]
 A=a.updateHolder(c[84],A)
-A.nQ.prototype={
+A.nR.prototype={
 gae(){return"St\xe1hnout"},
 gaq(){return"Ji\u017e brzy."},
 gap(){return"K dispozici na ja\u0159e 2025."},
@@ -31,7 +31,7 @@ gar(){return"Napi\u0161te n\xe1m"},
 ga5(){return"Po\u010d\xedtadlo"},
 ga4(){return"Chcete v\u011bd\u011bt, kolik lid\xed proch\xe1z\xed kolem? Tato aplikace pou\u017e\xedv\xe1 kameru va\u0161eho telefonu k inteligentn\xed identifikaci a automatick\xe9mu po\u010d\xedt\xe1n\xed chodc\u016f. Nen\xed pot\u0159eba \u017e\xe1dn\xfd ru\u010dn\xed vstup. Rozlu\u010dte se s \xfanavn\xfdm po\u010d\xedt\xe1n\xedm a snadno monitorujte dopravn\xed tok."}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.nQ,C.r)})()
-B.a5(b.typeUniverse,JSON.parse('{"nQ":{"r":[]}}'))};
+y(A.nR,C.r)})()
+B.a5(b.typeUniverse,JSON.parse('{"nR":{"r":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_40",e:"endPart",h:b})})($__dart_deferred_initializers__,"X3UIlB3gd9OCN8lpA+S6hMB45js=");
+a.eventLog.push({p:"main.dart.js_40",e:"endPart",h:b})})($__dart_deferred_initializers__,"RUZ2hQTX4i2igv2DNG9sqiSaadI=");
