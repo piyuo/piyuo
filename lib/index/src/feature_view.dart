@@ -4,7 +4,7 @@ import 'package:piyuo/l10n/l10n.dart';
 import 'glass_container.dart';
 
 /// the padding of the picture container
-const _kPicContainerPadding = const EdgeInsets.fromLTRB(40, 40, 40, 0);
+const _kPicContainerPadding = EdgeInsets.fromLTRB(40, 40, 40, 0);
 
 class FeatureView extends StatelessWidget {
   const FeatureView({required this.contentMargin, required this.isMobile, super.key});

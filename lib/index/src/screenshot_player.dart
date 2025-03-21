@@ -48,4 +48,11 @@ class ScreenshotProvider extends ChangeNotifier {
       await videoController.setLooping(true);
     });
   }
+
+  /// dispose the video controller
+  @override
+  void dispose() {
+    videoController.dispose();
+    super.dispose();
+  }
 }
