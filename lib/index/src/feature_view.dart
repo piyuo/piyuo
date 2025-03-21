@@ -19,9 +19,7 @@ class FeatureView extends StatelessWidget {
   Widget build(BuildContext context) {
     final textTheme = Theme.of(context).textTheme;
     buildPic({required String title, required String desc, required String image}) {
-      return Container(
-        height: 665,
-        alignment: Alignment.bottomCenter,
+      return IntrinsicHeight(
         child: Column(
           children: [
             Text(title, style: isMobile ? textTheme.headlineSmall : textTheme.headlineMedium),
@@ -59,42 +57,62 @@ class FeatureView extends StatelessWidget {
         )
         : Column(
           children: [
-            Row(
-              children: [
-                Expanded(
-                  child: GlassContainer(
-                    padding: _kPicContainerPadding,
-                    child: buildPic(title: context.l.index_1, desc: context.l.index_1_desc, image: 'highlight-1.webp'),
+            IntrinsicHeight(
+              child: Row(
+                children: [
+                  Expanded(
+                    child: GlassContainer(
+                      padding: _kPicContainerPadding,
+                      child: buildPic(
+                        title: context.l.index_1,
+                        desc: context.l.index_1_desc,
+                        image: 'highlight-1.webp',
+                      ),
+                    ),
                   ),
-                ),
-                SizedBox(width: contentMargin),
-                Expanded(
-                  child: GlassContainer(
-                    padding: _kPicContainerPadding,
-                    child: buildPic(title: context.l.index_2, desc: context.l.index_2_desc, image: 'highlight-2.webp'),
+                  SizedBox(width: contentMargin),
+                  Expanded(
+                    child: GlassContainer(
+                      padding: _kPicContainerPadding,
+                      child: buildPic(
+                        title: context.l.index_2,
+                        desc: context.l.index_2_desc,
+                        image: 'highlight-2.webp',
+                      ),
+                    ),
                   ),
-                ),
-              ],
+                ],
+              ),
             ),
 
             const SizedBox(height: 30),
 
-            Row(
-              children: [
-                Expanded(
-                  child: GlassContainer(
-                    padding: _kPicContainerPadding,
-                    child: buildPic(title: context.l.index_3, desc: context.l.index_3_desc, image: 'highlight-3.webp'),
+            IntrinsicHeight(
+              child: Row(
+                children: [
+                  Expanded(
+                    child: GlassContainer(
+                      padding: _kPicContainerPadding,
+                      child: buildPic(
+                        title: context.l.index_3,
+                        desc: context.l.index_3_desc,
+                        image: 'highlight-3.webp',
+                      ),
+                    ),
                   ),
-                ),
-                SizedBox(width: contentMargin),
-                Expanded(
-                  child: GlassContainer(
-                    padding: _kPicContainerPadding,
-                    child: buildPic(title: context.l.index_4, desc: context.l.index_4_desc, image: 'highlight-4.webp'),
+                  SizedBox(width: contentMargin),
+                  Expanded(
+                    child: GlassContainer(
+                      padding: _kPicContainerPadding,
+                      child: buildPic(
+                        title: context.l.index_4,
+                        desc: context.l.index_4_desc,
+                        image: 'highlight-4.webp',
+                      ),
+                    ),
                   ),
-                ),
-              ],
+                ],
+              ),
             ),
           ],
         );
