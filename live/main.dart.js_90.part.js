@@ -1,0 +1,37 @@
+((a,b,c)=>{a[b]=a[b]||{}
+a[b][c]=a[b][c]||[]
+a[b][c].push({p:"main.dart.js_90",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
+$__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
+aKq(){B.G("pl")
+return new A.pc()},
+pc:function pc(){}}
+B=c[0]
+C=c[132]
+A=a.updateHolder(c[113],A)
+A.pc.prototype={
+gae(){return"Pobierz"},
+gaq(){return"Wkr\xf3tce dost\u0119pne."},
+gap(){return"Dost\u0119pne wiosn\u0105 2025."},
+gau(){return"J\u0119zyk"},
+gaw(){return"Tw\xf3j telefon mo\u017ce teraz u\u017cywa\u0107 AI do rozpoznawania pieszych."},
+gav(){return"Nie wymaga internetu. Nie ma potrzeby r\u0119cznego liczenia os\xf3b za pomoc\u0105 tradycyjnego licznika. Po prostu skonfiguruj telefon, aby automatycznie \u015bledzi\u0142 przep\u0142yw pieszych."},
+ga6(){return"\u015aledzenie 24/7"},
+ga7(){return"Przegl\u0105daj statystyki ruchu pieszych dla dowolnego okresu."},
+ga8(){return"\u015aledzenie wielu obiekt\xf3w"},
+ga9(){return"Jednocze\u015bnie licz pieszych, samochody, rowery i wi\u0119cej"},
+gaa(){return"Niestandardowe strefy wykrywania"},
+gab(){return"Zdefiniuj w\u0142asne strefy wykrywania, aby liczy\u0107 ruch w okre\u015blonych obszarach."},
+gac(){return"Elastyczne tryby liczenia"},
+gad(){return"Wybierz liczenie nowo pojawiaj\u0105cych si\u0119 obiekt\xf3w w strefie wykrywania lub tych, kt\xf3re pozostaj\u0105 nieruchome."},
+gao(){return"Dost\u0119pno\u015b\u0107 wersji desktopowej"},
+gan(){return"Oferujemy r\xf3wnie\u017c wersj\u0119 na komputer. Zapewniamy wersje dla iOS/Android/Mac/Windows, umo\u017cliwiaj\u0105c korzystanie zar\xf3wno z urz\u0105dze\u0144 mobilnych, jak i komputer\xf3w z kamerami internetowymi. Wersja desktopowa obs\u0142uguje r\xf3wnie\u017c wiele \u017ar\xf3de\u0142 wideo, umo\u017cliwiaj\u0105c jednoczesne liczenie z wielu strumieni."},
+gam(){return"Obs\u0142uga transmisji na \u017cywo"},
+gal(){return"Opr\xf3cz kamer urz\u0105dze\u0144 mobilnych obs\u0142ugujemy nagrane pliki wideo, wej\u015bcia z kamer internetowych i internetowe transmisje na \u017cywo, takie jak RTSP. Pozwala to na pod\u0142\u0105czenie do istniej\u0105cych urz\u0105dze\u0144 i natychmiastowe rozpocz\u0119cie pomiaru przep\u0142ywu ruchu."},
+gar(){return"Napisz do nas"},
+ga5(){return"Licznik"},
+ga4(){return"Chcesz wiedzie\u0107, ile os\xf3b przechodzi obok? Ta aplikacja wykorzystuje kamer\u0119 Twojego telefonu do inteligentnego identyfikowania i automatycznego liczenia pieszych. Nie wymaga r\u0119cznego wprowadzania danych. Po\u017cegnaj si\u0119 z \u017cmudnym liczeniem i \u0142atwo monitoruj przep\u0142yw ruchu."}}
+var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
+y(A.pc,C.r)})()
+B.a5(b.typeUniverse,JSON.parse('{"pc":{"r":[]}}'))};
+((a,b)=>{a[b]=a.current
+a.eventLog.push({p:"main.dart.js_90",e:"endPart",h:b})})($__dart_deferred_initializers__,"PrVfjTpQ2b78MJU4/Bc1PixCFuc=");

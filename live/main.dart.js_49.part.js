@@ -1,0 +1,37 @@
+((a,b,c)=>{a[b]=a[b]||{}
+a[b][c]=a[b][c]||[]
+a[b][c].push({p:"main.dart.js_49",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
+$__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
+aJp(){B.G("fi")
+return new A.oh()},
+oh:function oh(){}}
+B=c[0]
+C=c[132]
+A=a.updateHolder(c[89],A)
+A.oh.prototype={
+gae(){return"Lataa"},
+gaq(){return"Tulossa pian."},
+gap(){return"Saatavilla kev\xe4\xe4ll\xe4 2025."},
+gau(){return"Kieli"},
+gaw(){return"Puhelimesi voi nyt k\xe4ytt\xe4\xe4 teko\xe4ly\xe4 jalankulkijoiden tunnistamiseen."},
+gav(){return"Ei vaadi internetyhteytt\xe4. Ei tarvetta laskea ihmisi\xe4 manuaalisesti perinteisell\xe4 laskurilla. Aseta vain puhelimesi seuraamaan automaattisesti ohikulkevaa jalankulkuliikennett\xe4."},
+ga6(){return"Seuranta 24/7"},
+ga7(){return"Tarkastele jalankulkijam\xe4\xe4ri\xe4 milt\xe4 tahansa ajanjaksolta."},
+ga8(){return"Useiden kohteiden seuranta"},
+ga9(){return"Laske samanaikaisesti jalankulkijoita, autoja, polkupy\xf6ri\xe4 ja muuta"},
+gaa(){return"Mukautetut havaintoalueet"},
+gab(){return"M\xe4\xe4rit\xe4 mukautettuja havaintoalueita laskeaksesi liikennett\xe4 tietyill\xe4 alueilla."},
+gac(){return"Joustavat laskentatilat"},
+gad(){return"Valitse lasketaanko havaintoalueella uusia ilmestyvi\xe4 kohteita vai paikallaan pysyvi\xe4."},
+gao(){return"Ty\xf6p\xf6yt\xe4version saatavuus"},
+gan(){return"Tarjoamme my\xf6s ty\xf6p\xf6yt\xe4version. Saatavilla versiot iOS/Android/Mac/Windows-alustoille, joten voit k\xe4ytt\xe4\xe4 sek\xe4 mobiililaitteita ett\xe4 ty\xf6p\xf6yt\xe4tietokoneita verkkokameroineen. Ty\xf6p\xf6yt\xe4versio tukee lis\xe4ksi useita videol\xe4hteit\xe4, mahdollistaen samanaikaisen laskennan useista virroista."},
+gam(){return"Suoratoiston tuki"},
+gal(){return"Mobiililaitteiden kameroiden lis\xe4ksi tuemme tallennettuja videotiedostoja, verkkokameratuloja ja internetin suoratoistoja kuten RTSP. T\xe4m\xe4 mahdollistaa yhteyden olemassa oleviin laitteisiin ja liikennevirran mittaamisen v\xe4litt\xf6m\xe4sti."},
+gar(){return"L\xe4het\xe4 s\xe4hk\xf6postia"},
+ga5(){return"Laskuri"},
+ga4(){return"Haluatko tiet\xe4\xe4, kuinka monta ihmist\xe4 kulkee ohi? T\xe4m\xe4 sovellus k\xe4ytt\xe4\xe4 puhelimesi kameraa tunnistamaan \xe4lykk\xe4\xe4sti ja laskemaan automaattisesti jalankulkijoita. Ei vaadi manuaalista sy\xf6tt\xf6\xe4. Unohda ty\xf6l\xe4s laskeminen ja seuraa liikennevirtaa helposti."}}
+var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
+y(A.oh,C.r)})()
+B.a5(b.typeUniverse,JSON.parse('{"oh":{"r":[]}}'))};
+((a,b)=>{a[b]=a.current
+a.eventLog.push({p:"main.dart.js_49",e:"endPart",h:b})})($__dart_deferred_initializers__,"rLGRKjdzvypLm/IgWovM8ir5AoI=");

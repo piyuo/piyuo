@@ -2,19 +2,88 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_5",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aCn(){B.m2("zh")
-return new A.n3()},
-n3:function n3(){}}
+aIW(d){B.G(d)
+return new A.l8()},
+aIY(){B.G("de_AT")
+return new A.nU()},
+aJ_(){B.G("de_CH")
+return new A.nW()},
+l8:function l8(){},
+nU:function nU(){},
+nW:function nW(){}}
 B=c[0]
-C=c[6]
-A=a.updateHolder(c[4],A)
-A.n3.prototype={
-gKE(){return"\u7cdf\u7cd5\uff0c\u51fa\u4e86\u9ede\u554f\u984c"},
-gKD(){return"\u767c\u751f\u4e86\u610f\u5916\u932f\u8aa4\u3002\u60a8\u8981\u63d0\u4ea4\u96fb\u5b50\u90f5\u4ef6\u5831\u544a\u55ce\uff1f"},
-gKF(){return"\u5bc4\u4fe1\u7d66\u6211\u5011"},
-gKx(d){return"\u53d6\u6d88"}}
-var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.n3,C.fT)})()
-B.ajk(b.typeUniverse,JSON.parse('{"n3":{"fT":[]}}'))};
+C=c[132]
+A=a.updateHolder(c[69],A)
+A.l8.prototype={
+gae(){return"Herunterladen"},
+gaq(){return"Demn\xe4chst verf\xfcgbar."},
+gap(){return"Verf\xfcgbar im Fr\xfchjahr 2025."},
+gau(){return"Sprache"},
+gaw(){return"Ihr Smartphone kann jetzt KI nutzen, um Fu\xdfg\xe4nger zu erkennen."},
+gav(){return"Keine Internetverbindung erforderlich. Kein manuelles Z\xe4hlen mit herk\xf6mmlichen Klickz\xe4hlern mehr. Richten Sie einfach Ihr Smartphone ein, um den vorbeigehenden Fu\xdfg\xe4ngerverkehr automatisch zu erfassen."},
+ga6(){return"24/7 \xdcberwachung"},
+ga7(){return y.h},
+ga8(){return"Mehrfachobjektverfolgung"},
+ga9(){return y.v},
+gaa(){return"Benutzerdefinierte Erkennungszonen"},
+gab(){return y.t},
+gac(){return"Flexible Z\xe4hlmodi"},
+gad(){return y.n},
+gao(){return"Verf\xfcgbarkeit der Desktop-Version"},
+gan(){return y.w},
+gam(){return"Unterst\xfctzung f\xfcr Live-Streams"},
+gal(){return y.l},
+gar(){return"E-Mail an uns"},
+ga5(){return"Z\xe4hler"},
+ga4(){return"M\xf6chten Sie wissen, wie viele Menschen vorbeigehen? Diese App nutzt die Kamera Ihres Smartphones, um Fu\xdfg\xe4nger intelligent zu identifizieren und automatisch zu z\xe4hlen. Keine manuelle Eingabe erforderlich. Verabschieden Sie sich vom m\xfchsamen Z\xe4hlen und \xfcberwachen Sie den Verkehrsfluss ganz einfach."}}
+A.nU.prototype={
+gae(){return"Herunterladen"},
+gaq(){return"Demn\xe4chst verf\xfcgbar."},
+gap(){return"Verf\xfcgbar im Fr\xfchjahr 2025."},
+gau(){return"Sprache"},
+gaw(){return"Ihr Handy kann jetzt KI nutzen, um Fu\xdfg\xe4nger zu erkennen."},
+gav(){return"Kein Internet erforderlich. Kein manuelles Z\xe4hlen mit herk\xf6mmlichen Z\xe4hlger\xe4ten mehr. Richten Sie einfach Ihr Handy ein, um den vorbeigehenden Personenverkehr automatisch zu erfassen."},
+ga6(){return"24/7 Aufzeichnung"},
+ga7(){return y.h},
+ga8(){return"Mehrfachobjektverfolgung"},
+ga9(){return y.v},
+gaa(){return"Benutzerdefinierte Erkennungszonen"},
+gab(){return"Definieren Sie individuelle Erkennungszonen, um den Verkehr in bestimmten Bereichen zu z\xe4hlen."},
+gac(){return"Flexible Z\xe4hlmodi"},
+gad(){return y.n},
+gao(){return"Verf\xfcgbarkeit der Desktop-Version"},
+gan(){return y.w},
+gam(){return"Unterst\xfctzung f\xfcr Live-Streams"},
+gal(){return"Zus\xe4tzlich zu Handykameras unterst\xfctzen wir aufgezeichnete Videodateien, Webcam-Eing\xe4nge und Internet-Live-Streams wie RTSP. So k\xf6nnen Sie sich mit vorhandenen Ger\xe4ten verbinden und sofort mit der Messung des Verkehrsflusses beginnen."},
+gar(){return"E-Mail an uns"},
+ga5(){return"Z\xe4hler"},
+ga4(){return"M\xf6chten Sie wissen, wie viele Menschen vorbeigehen? Diese App nutzt die Kamera Ihres Handys, um Fu\xdfg\xe4nger intelligent zu identifizieren und automatisch zu z\xe4hlen. Keine manuelle Eingabe erforderlich. Verabschieden Sie sich vom m\xfchsamen Z\xe4hlen und \xfcberwachen Sie den Personenfluss ganz einfach."}}
+A.nW.prototype={
+gae(){return"Herunterladen"},
+gaq(){return"Bald verf\xfcgbar."},
+gap(){return"Verf\xfcgbar im Fr\xfchling 2025."},
+gau(){return"Sprache"},
+gaw(){return"Ihr Mobiltelefon kann jetzt KI nutzen, um Fussg\xe4nger zu erkennen."},
+gav(){return"Kein Internet erforderlich. Kein manuelles Z\xe4hlen mit herk\xf6mmlichen Klickz\xe4hlern mehr. Richten Sie einfach Ihr Mobiltelefon ein, um den vorbeigehenden Fussg\xe4ngerverkehr automatisch zu erfassen."},
+ga6(){return"24/7 \xdcberwachung"},
+ga7(){return"Betrachten Sie Fussg\xe4ngerzahlen f\xfcr jeden beliebigen Zeitraum."},
+ga8(){return"Mehrfachobjektverfolgung"},
+ga9(){return"Z\xe4hlen Sie gleichzeitig Fussg\xe4nger, Autos, Velos und mehr"},
+gaa(){return"Benutzerdefinierte Erkennungszonen"},
+gab(){return y.t},
+gac(){return"Flexible Z\xe4hlmodi"},
+gad(){return y.n},
+gao(){return"Verf\xfcgbarkeit der Desktop-Version"},
+gan(){return y.w},
+gam(){return"Unterst\xfctzung f\xfcr Live-Streams"},
+gal(){return y.l},
+gar(){return"E-Mail an uns"},
+ga5(){return"Z\xe4hler"},
+ga4(){return"M\xf6chten Sie wissen, wie viele Menschen vorbeigehen? Diese App nutzt die Kamera Ihres Mobiltelefons, um Fussg\xe4nger intelligent zu identifizieren und automatisch zu z\xe4hlen. Keine manuelle Eingabe erforderlich. Verabschieden Sie sich vom m\xfchsamen Z\xe4hlen und \xfcberwachen Sie den Verkehrsfluss ganz einfach."}}
+var z=a.updateTypes([]);(function inheritance(){var x=a.inherit,w=a.inheritMany
+x(A.l8,C.r)
+w(A.l8,[A.nU,A.nW])})()
+B.a5(b.typeUniverse,JSON.parse('{"l8":{"r":[]},"nU":{"r":[]},"nW":{"r":[]}}'))
+var y={h:"Betrachten Sie Fu\xdfg\xe4ngerzahlen f\xfcr jeden beliebigen Zeitraum.",t:"Definieren Sie benutzerdefinierte Erkennungszonen, um den Verkehr in bestimmten Bereichen zu z\xe4hlen.",w:"Wir bieten auch eine Desktop-Version an. Wir stellen Versionen f\xfcr iOS/Android/Mac/Windows bereit, sodass Sie sowohl mobile Ger\xe4te als auch Desktop-Computer mit Webcams nutzen k\xf6nnen. Die Desktop-Version unterst\xfctzt zus\xe4tzlich mehrere Videoquellen, was das gleichzeitige Z\xe4hlen aus mehreren Streams erm\xf6glicht.",n:"W\xe4hlen Sie, ob neu erscheinende Objekte innerhalb der Erkennungszone oder station\xe4re Objekte gez\xe4hlt werden sollen.",l:"Zus\xe4tzlich zu Kameras mobiler Ger\xe4te unterst\xfctzen wir aufgezeichnete Videodateien, Webcam-Eing\xe4nge und Internet-Live-Streams wie RTSP. So k\xf6nnen Sie sich mit vorhandenen Ger\xe4ten verbinden und sofort mit der Messung des Verkehrsflusses beginnen.",v:"Z\xe4hlen Sie gleichzeitig Fu\xdfg\xe4nger, Autos, Fahrr\xe4der und mehr"}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_5",e:"endPart",h:b})})($__dart_deferred_initializers__,"F5uxSlTI4RPoAae95711DtNZZ8A=");
+a.eventLog.push({p:"main.dart.js_5",e:"endPart",h:b})})($__dart_deferred_initializers__,"mTVH98PN1opervdKLWKfxZ2+Vq8=");
