@@ -75,6 +75,6 @@
             "**/node_modules": true,
             "**/_samples": true
         },
-        "livePreview.serverRoot": "live"
+        "livePreview.serverRoot": "docs"
     }
 }

@@ -2,37 +2,45 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_121",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aIW(d){B.G(d)
-return new A.l9()},
-aIY(){B.G("de_AT")
-return new A.nW()},
-aJ_(){B.G("de_CH")
-return new A.nY()},
-l9:function l9(){},
-nW:function nW(){},
-nY:function nY(){}}
+aOf(d){B.M(d)
+return new A.lI()},
+aOh(){B.M("es_AR")
+return new A.p6()},
+aOj(){B.M("es_CO")
+return new A.p8()},
+aOm(){B.M("es_MX")
+return new A.pb()},
+lI:function lI(){},
+p6:function p6(){},
+p8:function p8(){},
+pb:function pb(){}}
 B=c[0]
 C=c[131]
-A=a.updateHolder(c[5],A)
-A.l9.prototype={
-gah(){return"Hoppla, etwas ist schiefgelaufen"},
-gag(){return y.a},
-gai(){return"E-Mail an uns"},
-gaf(d){return"Abbrechen"}}
-A.nW.prototype={
-gah(){return"Hoppla, etwas ist schiefgelaufen"},
-gag(){return y.a},
-gai(){return"E-Mail an uns"},
-gaf(d){return"Abbrechen"}}
-A.nY.prototype={
-gah(){return"Hoppla, etwas ist schiefgelaufen"},
-gag(){return y.a},
-gai(){return"E-Mail an uns"},
-gaf(d){return"Abbrechen"}}
+A=a.updateHolder(c[7],A)
+A.lI.prototype={
+gaG(){return"Ups, algo sali\xf3 mal"},
+gaF(){return y.a},
+gaH(){return"Env\xedanos un correo"},
+gaE(){return"Cancelar"}}
+A.p6.prototype={
+gaG(){return"Ups, algo sali\xf3 mal"},
+gaF(){return"Ocurri\xf3 un error inesperado. \xbfQuer\xe9s enviar un informe por correo electr\xf3nico?"},
+gaH(){return"Envianos un correo"},
+gaE(){return"Cancelar"}}
+A.p8.prototype={
+gaG(){return"Ups, algo sali\xf3 mal"},
+gaF(){return y.a},
+gaH(){return"Env\xedanos un correo"},
+gaE(){return"Cancelar"}}
+A.pb.prototype={
+gaG(){return"Ups, algo sali\xf3 mal"},
+gaF(){return"Ocurri\xf3 un error inesperado. \xbfTe gustar\xeda enviar un reporte por correo electr\xf3nico?"},
+gaH(){return"Env\xedanos un correo"},
+gaE(){return"Cancelar"}}
 var z=a.updateTypes([]);(function inheritance(){var x=a.inherit,w=a.inheritMany
-x(A.l9,C.q)
-w(A.l9,[A.nW,A.nY])})()
-B.a6(b.typeUniverse,JSON.parse('{"l9":{"q":[]},"nW":{"q":[]},"nY":{"q":[]}}'))
-var y={a:"Ein unerwarteter Fehler ist aufgetreten. M\xf6chten Sie einen Fehlerbericht per E-Mail senden?"}};
+x(A.lI,C.p)
+w(A.lI,[A.p6,A.p8,A.pb])})()
+B.a2(b.typeUniverse,JSON.parse('{"lI":{"p":[]},"p6":{"p":[]},"p8":{"p":[]},"pb":{"p":[]}}'))
+var y={a:"Ocurri\xf3 un error inesperado. \xbfTe gustar\xeda enviar un informe por correo electr\xf3nico?"}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_121",e:"endPart",h:b})})($__dart_deferred_initializers__,"QvGtEFzSJQw4V9oIbfh6V8RnMOo=");
+a.eventLog.push({p:"main.dart.js_121",e:"endPart",h:b})})($__dart_deferred_initializers__,"KbSe0aMmXqJr6ZG9V9dzf6VFz1Q=");
