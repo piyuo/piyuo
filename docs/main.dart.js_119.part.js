@@ -1,11 +1,38 @@
 ((a,b,c)=>{a[b]=a[b]||{}
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_119",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var B,A={q:function q(){}}
+$__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
+aNY(d){B.M(d)
+return new A.lE()},
+aO_(){B.M("de_AT")
+return new A.oT()},
+aO1(){B.M("de_CH")
+return new A.oV()},
+lE:function lE(){},
+oT:function oT(){},
+oV:function oV(){}}
 B=c[0]
-A=a.updateHolder(c[131],A)
-A.q.prototype={}
-var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.q,B.y)})()};
+C=c[131]
+A=a.updateHolder(c[5],A)
+A.lE.prototype={
+gaG(){return"Hoppla, etwas ist schiefgelaufen"},
+gaF(){return y.a},
+gaH(){return"E-Mail an uns"},
+gaE(){return"Abbrechen"}}
+A.oT.prototype={
+gaG(){return"Hoppla, etwas ist schiefgelaufen"},
+gaF(){return y.a},
+gaH(){return"E-Mail an uns"},
+gaE(){return"Abbrechen"}}
+A.oV.prototype={
+gaG(){return"Hoppla, etwas ist schiefgelaufen"},
+gaF(){return y.a},
+gaH(){return"E-Mail an uns"},
+gaE(){return"Abbrechen"}}
+var z=a.updateTypes([]);(function inheritance(){var x=a.inherit,w=a.inheritMany
+x(A.lE,C.p)
+w(A.lE,[A.oT,A.oV])})()
+B.a2(b.typeUniverse,JSON.parse('{"lE":{"p":[]},"oT":{"p":[]},"oV":{"p":[]}}'))
+var y={a:"Ein unerwarteter Fehler ist aufgetreten. M\xf6chten Sie einen Fehlerbericht per E-Mail senden?"}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_119",e:"endPart",h:b})})($__dart_deferred_initializers__,"I2VjqKnS9nN0GtacvfzbWwq78+w=");
+a.eventLog.push({p:"main.dart.js_119",e:"endPart",h:b})})($__dart_deferred_initializers__,"vyM6zwX2EI2PZvfSLiKNgyuduxI=");

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:libcli/utils/utils.dart' as utils;
+import 'package:libcli/cli/cli.dart' as cli;
 import 'package:piyuo/l10n/l10n.dart';
 
 class EmailView extends StatelessWidget {
@@ -13,7 +13,7 @@ class EmailView extends StatelessWidget {
     buildButton() {
       return ElevatedButton(
         onPressed: () {
-          utils.openMailTo('service@piyuo.com', '', '');
+          cli.openMailTo('service@piyuo.com', '', '');
         },
         style: ElevatedButton.styleFrom(
           backgroundColor: Colors.grey.shade900,
