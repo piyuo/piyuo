@@ -1,1 +1,1 @@
-flutter build web --dump-info --dart2js-optimization=O4 --optimization-level=4 --release --output docs/
+flutter build web --release --output docs/
