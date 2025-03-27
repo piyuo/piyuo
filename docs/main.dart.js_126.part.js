@@ -2,37 +2,30 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_126",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aPE(d){B.M(d)
+aPK(d){B.N(d)
 return new A.lS()},
-aPG(){B.M("ru_KZ")
-return new A.qj()},
-aPI(){B.M("ru_UA")
-return new A.ql()},
+aPM(){B.N("pt_PT")
+return new A.qg()},
 lS:function lS(){},
-qj:function qj(){},
-ql:function ql(){}}
+qg:function qg(){}}
 B=c[0]
 C=c[131]
-A=a.updateHolder(c[12],A)
+A=a.updateHolder(c[11],A)
 A.lS.prototype={
-gaG(){return"\u0423\u043f\u0441, \u0447\u0442\u043e-\u0442\u043e \u043f\u043e\u0448\u043b\u043e \u043d\u0435 \u0442\u0430\u043a"},
-gaF(){return y.d},
-gaH(){return"\u041d\u0430\u043f\u0438\u0448\u0438\u0442\u0435 \u043d\u0430\u043c"},
-gaE(){return"\u041e\u0442\u043c\u0435\u043d\u0430"}}
-A.qj.prototype={
-gaG(){return"\u0423\u043f\u0441, \u0447\u0442\u043e-\u0442\u043e \u043f\u043e\u0448\u043b\u043e \u043d\u0435 \u0442\u0430\u043a"},
-gaF(){return y.d},
-gaH(){return"\u041d\u0430\u043f\u0438\u0448\u0438\u0442\u0435 \u043d\u0430\u043c"},
-gaE(){return"\u041e\u0442\u043c\u0435\u043d\u0430"}}
-A.ql.prototype={
-gaG(){return"\u0423\u043f\u0441, \u0447\u0442\u043e-\u0442\u043e \u043f\u043e\u0448\u043b\u043e \u043d\u0435 \u0442\u0430\u043a"},
-gaF(){return y.d},
-gaH(){return"\u041d\u0430\u043f\u0438\u0448\u0438\u0442\u0435 \u043d\u0430\u043c"},
-gaE(){return"\u041e\u0442\u043c\u0435\u043d\u0430"}}
-var z=a.updateTypes([]);(function inheritance(){var x=a.inherit,w=a.inheritMany
-x(A.lS,C.p)
-w(A.lS,[A.qj,A.ql])})()
-B.a2(b.typeUniverse,JSON.parse('{"lS":{"p":[]},"qj":{"p":[]},"ql":{"p":[]}}'))
-var y={d:"\u041f\u0440\u043e\u0438\u0437\u043e\u0448\u043b\u0430 \u043d\u0435\u043f\u0440\u0435\u0434\u0432\u0438\u0434\u0435\u043d\u043d\u0430\u044f \u043e\u0448\u0438\u0431\u043a\u0430. \u0425\u043e\u0442\u0438\u0442\u0435 \u043e\u0442\u043f\u0440\u0430\u0432\u0438\u0442\u044c \u043e\u0442\u0447\u0435\u0442 \u043f\u043e \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u043e\u0439 \u043f\u043e\u0447\u0442\u0435?"}};
+gaz(){return"Ops, algo deu errado"},
+gaw(){return"Ocorreu um erro inesperado. Gostaria de enviar um relat\xf3rio por e-mail?"},
+gaA(){return"Enviar e-mail"},
+gav(){return"Cancelar"},
+gaq(){return"L\xedngua do sistema"}}
+A.qg.prototype={
+gaz(){return"Ups, algo correu mal"},
+gaw(){return"Ocorreu um erro inesperado. Pretende enviar um relat\xf3rio por e-mail?"},
+gaA(){return"Enviar-nos e-mail"},
+gav(){return"Cancelar"},
+gaq(){return"L\xedngua do sistema"}}
+var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
+y(A.lS,C.p)
+y(A.qg,A.lS)})()
+B.a2(b.typeUniverse,JSON.parse('{"lS":{"p":[]},"qg":{"p":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_126",e:"endPart",h:b})})($__dart_deferred_initializers__,"QLCDUHtqw14X8mx60VFUsHoSBtU=");
+a.eventLog.push({p:"main.dart.js_126",e:"endPart",h:b})})($__dart_deferred_initializers__,"LkHJLJR7BmQ6QV+OYI/50py+uio=");

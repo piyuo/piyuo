@@ -2,19 +2,20 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_160",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aPk(){B.M("nb")
-return new A.q3()},
-q3:function q3(){}}
+aPi(){B.N("lv")
+return new A.pT()},
+pT:function pT(){}}
 B=c[0]
 C=c[131]
-A=a.updateHolder(c[46],A)
-A.q3.prototype={
-gaG(){return"Ups, noe gikk galt"},
-gaF(){return"Det oppstod en uventet feil. Vil du sende en e-postrapport?"},
-gaH(){return"Send oss e-post"},
-gaE(){return"Avbryt"}}
+A=a.updateHolder(c[41],A)
+A.pT.prototype={
+gaz(){return"Ak vai, kaut kas nog\u0101ja greizi"},
+gaw(){return"Notika neparedz\u0113ta k\u013c\u016bda. Vai v\u0113laties nos\u016bt\u012bt zi\u0146ojumu pa e-pastu?"},
+gaA(){return"Rakstiet mums e-pastu"},
+gav(){return"Atcelt"},
+gaq(){return"Sist\u0113mas valoda"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.q3,C.p)})()
-B.a2(b.typeUniverse,JSON.parse('{"q3":{"p":[]}}'))};
+y(A.pT,C.p)})()
+B.a2(b.typeUniverse,JSON.parse('{"pT":{"p":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_160",e:"endPart",h:b})})($__dart_deferred_initializers__,"nruvLgd0gJu94t1f7nmfuIikVLU=");
+a.eventLog.push({p:"main.dart.js_160",e:"endPart",h:b})})($__dart_deferred_initializers__,"lesvr1Cz/Omv/WY9oWkifn5c/hs=");

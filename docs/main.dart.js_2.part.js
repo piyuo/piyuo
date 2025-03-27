@@ -6,6 +6,6 @@ B=c[0]
 A=a.updateHolder(c[132],A)
 A.q.prototype={}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.q,B.A)})()};
+y(A.q,B.B)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_2",e:"endPart",h:b})})($__dart_deferred_initializers__,"o8Q9WJAoTFf2IleCuzfANWYXaiY=");
+a.eventLog.push({p:"main.dart.js_2",e:"endPart",h:b})})($__dart_deferred_initializers__,"4rH4jjn3Qhxwr9kMAtUwOM45voI=");
