@@ -177,7 +177,6 @@ abstract class Localization {
     Locale('es'),
     Locale('es', 'AR'),
     Locale('es', 'CO'),
-    Locale('es', 'MS'),
     Locale('et'),
     Locale('fa'),
     Locale('fi'),
@@ -430,7 +429,6 @@ case 'IN': return localization_en.loadLibrary().then((dynamic _) => localization
   switch (locale.countryCode) {
     case 'AR': return localization_es.loadLibrary().then((dynamic _) => localization_es.LocalizationEsAr());
 case 'CO': return localization_es.loadLibrary().then((dynamic _) => localization_es.LocalizationEsCo());
-case 'MS': return localization_es.loadLibrary().then((dynamic _) => localization_es.LocalizationEsMs());
    }
   break;
    }
