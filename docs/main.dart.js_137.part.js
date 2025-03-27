@@ -2,19 +2,20 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_137",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aOp(){B.M("et")
-return new A.pc()},
-pc:function pc(){}}
+aO8(){B.N("cs")
+return new A.oR()},
+oR:function oR(){}}
 B=c[0]
 C=c[131]
-A=a.updateHolder(c[23],A)
-A.pc.prototype={
-gaG(){return"Ups, midagi l\xe4ks valesti"},
-gaF(){return"Ilmnes ootamatu viga. Kas soovite saata e-posti aruande?"},
-gaH(){return"Saada meile e-kiri"},
-gaE(){return"T\xfchista"}}
+A=a.updateHolder(c[20],A)
+A.oR.prototype={
+gaz(){return"Jejda, n\u011bco se pokazilo"},
+gaw(){return"Do\u0161lo k neo\u010dek\xe1van\xe9 chyb\u011b. Chcete odeslat zpr\xe1vu e-mailem?"},
+gaA(){return"Napi\u0161te n\xe1m"},
+gav(){return"Zru\u0161it"},
+gaq(){return"Syst\xe9mov\xfd jazyk"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.pc,C.p)})()
-B.a2(b.typeUniverse,JSON.parse('{"pc":{"p":[]}}'))};
+y(A.oR,C.p)})()
+B.a2(b.typeUniverse,JSON.parse('{"oR":{"p":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_137",e:"endPart",h:b})})($__dart_deferred_initializers__,"utnuCewdm7yl7b77hT8aP3fHlvU=");
+a.eventLog.push({p:"main.dart.js_137",e:"endPart",h:b})})($__dart_deferred_initializers__,"wTl1TXVYNZ8NCbQLG0spT6dxvJI=");
