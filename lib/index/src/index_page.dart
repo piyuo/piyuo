@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:libcli/cli/cli.dart' as cli;
+import 'package:libcli/l10n/localization.dart' as cli_localization;
 import 'package:piyuo/l10n/l10n.dart';
 import 'package:piyuo/l10n/localization.dart';
 import 'package:provider/provider.dart';
@@ -41,6 +42,7 @@ class IndexScreen extends StatelessWidget {
     final languages = cli.Language.fromSupportedLocales(Localization.supportedLocales);
     final textTheme = Theme.of(context).textTheme;
     final languageProvider = cli.LanguageProvider.of(context);
+    final cliLocalization = cli_localization.Localization.of(context);
 
     return MultiProvider(
       providers: [ChangeNotifierProvider<IndexPageProvider>(create: (context) => IndexPageProvider())],
@@ -64,28 +66,70 @@ class IndexScreen extends StatelessWidget {
                 borderRadius: BorderRadius.circular(15),
                 dropdownColor: Colors.white,
                 underline: const SizedBox(),
-                value: cli.defaultLocale,
+                value: cli.isSystemLocale ? Locale(' ') : cli.defaultLocale,
                 icon: const Icon(Icons.expand_more, color: Colors.black87),
-                menuWidth: 380,
+                menuWidth: 300,
                 selectedItemBuilder: (BuildContext context) {
                   return languages.map<Widget>((language) {
                     return Row(
                       children: [
                         Icon(Icons.language, size: 22),
                         const SizedBox(width: 8),
-                        Text('Language', style: textTheme.titleMedium),
+                        Text('Language', style: TextStyle(fontSize: 15)),
+                        const SizedBox(width: 8),
                       ],
                     );
                   }).toList();
                 },
-                onChanged: (Locale? newValue) => languageProvider.setLocale(newValue!),
-                items:
-                    languages.map<DropdownMenuItem<Locale>>((language) {
-                      return DropdownMenuItem<Locale>(
-                        value: language.locale,
-                        child: Text(language.displayName, style: textTheme.titleMedium),
-                      );
-                    }).toList(),
+                onChanged: (Locale? newValue) => languageProvider.setLocale(newValue),
+                items: [
+                  DropdownMenuItem<Locale>(
+                    value: Locale(' '),
+                    child: Padding(
+                      padding: const EdgeInsets.only(top: 4, left: 4),
+                      child: Row(
+                        children: [
+                          null == cli.defaultLocale ? Icon(Icons.check, size: 22) : const SizedBox(width: 26),
+                          const SizedBox(width: 10),
+                          Expanded(
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(cliLocalization.system_language, style: TextStyle(fontSize: 15)),
+                                Text('System language', style: TextStyle(fontSize: 13, color: Colors.grey.shade600)),
+                              ],
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                  ...languages.map<DropdownMenuItem<Locale>>((language) {
+                    return DropdownMenuItem<Locale>(
+                      value: language.locale,
+                      child: Padding(
+                        padding: const EdgeInsets.only(top: 4, left: 4),
+                        child: Row(
+                          children: [
+                            language.locale == cli.defaultLocale
+                                ? Icon(Icons.check, size: 22)
+                                : const SizedBox(width: 26),
+                            const SizedBox(width: 10),
+                            Expanded(
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Text(language.name, style: TextStyle(fontSize: 15)),
+                                  Text(language.engName, style: TextStyle(fontSize: 13, color: Colors.grey.shade600)),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    );
+                  }),
+                ],
               ),
             );
           }
