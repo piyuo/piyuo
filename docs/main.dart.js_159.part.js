@@ -2,20 +2,20 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_159",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aPg(){B.N("mn")
-return new A.pV()},
-pV:function pV(){}}
+aPs(){B.P("sl")
+return new A.qi()},
+qi:function qi(){}}
 B=c[0]
-C=c[129]
-A=a.updateHolder(c[42],A)
-A.pV.prototype={
-gaz(){return"\u04e8\u04e9, \u044f\u043c\u0430\u0440 \u043d\u044d\u0433\u044d\u043d \u0437\u04af\u0439\u043b \u0431\u0443\u0440\u0443\u0443 \u0431\u043e\u043b\u0441\u043e\u043d"},
-gaw(){return"\u0413\u044d\u043d\u044d\u0442\u0438\u0439\u043d \u0430\u043b\u0434\u0430\u0430 \u0433\u0430\u0440\u043b\u0430\u0430. \u0422\u0430 \u0438\u043c\u044d\u0439\u043b\u044d\u044d\u0440 \u0442\u0430\u0439\u043b\u0430\u043d \u0438\u043b\u0433\u044d\u044d\u0445\u0438\u0439\u0433 \u0445\u04af\u0441\u0447 \u0431\u0430\u0439\u043d\u0430 \u0443\u0443?"},
-gaA(){return"\u0411\u0438\u0434\u044d\u043d\u0434 \u0438\u043c\u044d\u0439\u043b \u0438\u043b\u0433\u044d\u044d\u0445"},
-gav(){return"\u0426\u0443\u0446\u043b\u0430\u0445"},
-gaq(){return"\u0421\u0438\u0441\u0442\u0435\u043c\u0438\u0439\u043d \u0445\u044d\u043b"}}
+C=c[119]
+A=a.updateHolder(c[49],A)
+A.qi.prototype={
+gaF(){return"Ups, nekaj je \u0161lo narobe"},
+gaE(){return"Pri\u0161lo je do nepri\u010dakovane napake. Ali \u017eelite poslati poro\u010dilo po e-po\u0161ti?"},
+gaG(){return"Po\u0161ljite nam e-po\u0161to"},
+gaD(){return"Prekli\u010di"},
+gaA(){return"Sistemski jezik"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.pV,C.p)})()
-B.a3(b.typeUniverse,JSON.parse('{"pV":{"p":[]}}'))};
+y(A.qi,C.u)})()
+B.a4(b.typeUniverse,JSON.parse('{"qi":{"u":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_159",e:"endPart",h:b})})($__dart_deferred_initializers__,"7/6PeIgMXvBK1mG13rzPdWX9oHE=");
+a.eventLog.push({p:"main.dart.js_159",e:"endPart",h:b})})($__dart_deferred_initializers__,"2/72wKZ/8rgADFdlTjeLJEBBz4k=");

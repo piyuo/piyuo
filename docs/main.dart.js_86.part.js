@@ -2,35 +2,35 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_86",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aPJ(){B.N("ro")
-return new A.qh()},
-qh:function qh(){}}
+aPx(){B.P("sv")
+return new A.qn()},
+qn:function qn(){}}
 B=c[0]
-C=c[130]
-A=a.updateHolder(c[113],A)
-A.qh.prototype={
-gaJ(){return"Desc\u0103rca\u021bi"},
-gaS(){return"\xcen cur\xe2nd."},
-gaR(){return"Disponibil \xeen prim\u0103vara anului 2025."},
-gaV(){return"Telefonul dvs. poate acum s\u0103 foloseasc\u0103 IA pentru a recunoa\u0219te pietonii."},
-gaU(){return"Nu necesit\u0103 internet. Nu e nevoie s\u0103 num\u0103ra\u021bi manual persoanele cu un dispozitiv tradi\u021bional. Configura\u021bi-v\u0103 telefonul pentru a monitoriza automat traficul pietonal."},
-gaB(){return"Monitorizare 24/7"},
-gaC(){return"Vizualiza\u021bi num\u0103rul de pietoni pentru orice perioad\u0103."},
-gaD(){return"Urm\u0103rirea mai multor obiecte"},
-gaE(){return"Num\u0103ra\u021bi simultan pietoni, ma\u0219ini, biciclete \u0219i altele"},
-gaF(){return"Zone de detec\u021bie personalizate"},
-gaG(){return"Defini\u021bi zone de detec\u021bie personalizate pentru a num\u0103ra traficul \xeen anumite zone."},
-gaH(){return"Moduri de num\u0103rare flexibile"},
-gaI(){return"Alege\u021bi s\u0103 num\u0103ra\u021bi obiectele nou ap\u0103rute \xeen zona de detec\u021bie sau pe cele care r\u0103m\xe2n sta\u021bionare."},
-gaQ(){return"Disponibilitatea versiunii pentru desktop"},
-gaP(){return"Oferim \u0219i o versiune pentru desktop. Asigur\u0103m versiuni pentru iOS/Android/Mac/Windows, permi\u021b\xe2ndu-v\u0103 s\u0103 utiliza\u021bi at\xe2t dispozitive mobile, c\xe2t \u0219i desktop-uri cu camere web. Versiunea pentru desktop suport\u0103 mai multe surse video, permi\u021b\xe2nd num\u0103rarea simultan\u0103 din multiple fluxuri."},
-gaO(){return"Suport pentru transmisii live"},
-gaN(){return"Pe l\xe2ng\u0103 camerele dispozitivelor mobile, accept\u0103m fi\u0219iere video \xeenregistrate, camere web \u0219i transmisii live de pe internet, cum ar fi RTSP. Acest lucru v\u0103 permite s\u0103 v\u0103 conecta\u021bi la dispozitivele existente \u0219i s\u0103 \xeencepe\u021bi imediat m\u0103surarea fluxului de trafic."},
-gaT(){return"Trimite\u021bi-ne un e-mail"},
-gau(){return"Contor"},
-gar(){return"Dori\u021bi s\u0103 \u0219ti\u021bi c\xe2te persoane trec? Aceast\u0103 aplica\u021bie folose\u0219te camera telefonului pentru a identifica inteligent \u0219i a num\u0103ra automat pietonii. Nu este necesar\u0103 introducerea manual\u0103. Spune\u021bi adio num\u0103r\u0103rii plictisitoare \u0219i monitoriza\u021bi cu u\u0219urin\u021b\u0103 fluxul de trafic."}}
+C=c[120]
+A=a.updateHolder(c[109],A)
+A.qn.prototype={
+gaQ(){return"Ladda ner"},
+gaX(){return"Kommer snart."},
+gaW(){return"Tillg\xe4nglig v\xe5ren 2025."},
+gb_(){return"Din telefon kan nu anv\xe4nda AI f\xf6r att k\xe4nna igen fotg\xe4ngare."},
+gaZ(){return"Ingen internetanslutning kr\xe4vs. Ingen manuell r\xe4kning med traditionell r\xe4knare beh\xf6vs. St\xe4ll bara in din telefon f\xf6r att automatiskt sp\xe5ra f\xf6rbipasserande fotg\xe4ngare."},
+gaI(){return"Sp\xe5rning dygnet runt"},
+gaJ(){return"Se statistik \xf6ver fotg\xe4ngartrafik f\xf6r valfri tidsperiod."},
+gaK(){return"Sp\xe5rning av flera objekttyper"},
+gaL(){return"R\xe4kna fotg\xe4ngare, bilar, cyklar och mer samtidigt"},
+gaM(){return"Anpassade detekteringszoner"},
+gaN(){return"Definiera egna detekteringszoner f\xf6r att r\xe4kna trafik i specifika omr\xe5den."},
+gaO(){return"Flexibla r\xe4kningsl\xe4gen"},
+gaP(){return"V\xe4lj att r\xe4kna nya objekt som dyker upp inom detekteringszonen, eller de som st\xe5r stilla."},
+gaV(){return"Tillg\xe4nglighet f\xf6r skrivbordsversion"},
+gaU(){return"Vi erbjuder \xe4ven en skrivbordsversion. Vi tillhandah\xe5ller versioner f\xf6r iOS/Android/Mac/Windows, s\xe5 att du kan anv\xe4nda b\xe5de mobila enheter och station\xe4ra datorer med webbkameror. Skrivbordsversionen st\xf6der dessutom flera videok\xe4llor, vilket m\xf6jligg\xf6r samtidig r\xe4kning fr\xe5n flera str\xf6mmar."},
+gaT(){return"St\xf6d f\xf6r livestream"},
+gaS(){return"F\xf6rutom mobilkameror st\xf6der vi inspelade videofiler, webbkamerainmatning och internet-livestr\xf6mmar som RTSP. Detta g\xf6r att du kan ansluta till befintliga enheter och omedelbart b\xf6rja m\xe4ta trafikfl\xf6det."},
+gaY(){return"Maila oss"},
+gaC(){return"R\xe4knare"},
+gaB(){return"Vill du veta hur m\xe5nga m\xe4nniskor som passerar f\xf6rbi? Denna app anv\xe4nder din telefons kamera f\xf6r att intelligent identifiera och automatiskt r\xe4kna fotg\xe4ngare. Ingen manuell inmatning kr\xe4vs. S\xe4g farv\xe4l till tr\xe5kig r\xe4kning och \xf6vervaka enkelt trafikfl\xf6det."}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.qh,C.q)})()
-B.a3(b.typeUniverse,JSON.parse('{"qh":{"q":[]}}'))};
+y(A.qn,C.x)})()
+B.a4(b.typeUniverse,JSON.parse('{"qn":{"x":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_86",e:"endPart",h:b})})($__dart_deferred_initializers__,"+rVgSiFJWMeM3kh4oxJJPd0g7zY=");
+a.eventLog.push({p:"main.dart.js_86",e:"endPart",h:b})})($__dart_deferred_initializers__,"z9ouySuaLrlCcn6ORllfgig9BkY=");
