@@ -2,20 +2,20 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_157",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aPc(){B.N("ku")
-return new A.pN()},
-pN:function pN(){}}
+aPc(){B.N("lv")
+return new A.pR()},
+pR:function pR(){}}
 B=c[0]
-C=c[131]
-A=a.updateHolder(c[38],A)
-A.pN.prototype={
-gaz(){return"Ops, ti\u015ftek \xe7ewt \xe7\xfb"},
-gaw(){return"\xc7ewtiyeke nenas derket. Ma h\xfbn dixwazin raporeke e-mail\xea bi\u015f\xeenin?"},
-gaA(){return"Ji me re e-mail bi\u015f\xeenin"},
-gav(){return"Betal bike"},
-gaq(){return"Zmmana ya Mpate"}}
+C=c[129]
+A=a.updateHolder(c[40],A)
+A.pR.prototype={
+gaz(){return"Ak vai, kaut kas nog\u0101ja greizi"},
+gaw(){return"Notika neparedz\u0113ta k\u013c\u016bda. Vai v\u0113laties nos\u016bt\u012bt zi\u0146ojumu pa e-pastu?"},
+gaA(){return"Rakstiet mums e-pastu"},
+gav(){return"Atcelt"},
+gaq(){return"Sist\u0113mas valoda"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.pN,C.p)})()
-B.a2(b.typeUniverse,JSON.parse('{"pN":{"p":[]}}'))};
+y(A.pR,C.p)})()
+B.a3(b.typeUniverse,JSON.parse('{"pR":{"p":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_157",e:"endPart",h:b})})($__dart_deferred_initializers__,"y9/joRoNLrIE4Q710TTVdRDRWM8=");
+a.eventLog.push({p:"main.dart.js_157",e:"endPart",h:b})})($__dart_deferred_initializers__,"TSYrkR9DlYLdgp55VThYAO/kDgY=");

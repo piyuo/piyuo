@@ -2,20 +2,20 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_149",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aOZ(){B.N("hr")
-return new A.pz()},
-pz:function pz(){}}
+aOX(){B.N("id")
+return new A.pB()},
+pB:function pB(){}}
 B=c[0]
-C=c[131]
-A=a.updateHolder(c[31],A)
-A.pz.prototype={
-gaz(){return"Ups, ne\u0161to je po\u0161lo po krivu"},
-gaw(){return"Do\u0161lo je do neo\u010dekivane pogre\u0161ke. \u017delite li poslati izvje\u0161\u0107e e-po\u0161tom?"},
-gaA(){return"Po\u0161aljite nam e-po\u0161tu"},
-gav(){return"Odustani"},
-gaq(){return"Sistemski jezik"}}
+C=c[129]
+A=a.updateHolder(c[32],A)
+A.pB.prototype={
+gaz(){return"Ups, terjadi kesalahan"},
+gaw(){return"Terjadi kesalahan yang tidak terduga. Apakah Anda ingin mengirimkan laporan email?"},
+gaA(){return"Email kami"},
+gav(){return"Batal"},
+gaq(){return"Bahasa Sistem"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.pz,C.p)})()
-B.a2(b.typeUniverse,JSON.parse('{"pz":{"p":[]}}'))};
+y(A.pB,C.p)})()
+B.a3(b.typeUniverse,JSON.parse('{"pB":{"p":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_149",e:"endPart",h:b})})($__dart_deferred_initializers__,"xB0Sku8EhQJIqSSE5hgWdXXb3fY=");
+a.eventLog.push({p:"main.dart.js_149",e:"endPart",h:b})})($__dart_deferred_initializers__,"LbKk+kjz61UsG0V/NBvkAa4ELoI=");

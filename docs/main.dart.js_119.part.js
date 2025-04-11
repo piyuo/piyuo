@@ -2,37 +2,49 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_119",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aNY(d){B.M(d)
-return new A.lE()},
-aO_(){B.M("de_AT")
-return new A.oT()},
-aO1(){B.M("de_CH")
-return new A.oV()},
-lE:function lE(){},
-oT:function oT(){},
-oV:function oV(){}}
+aOD(d){B.N(d)
+return new A.lM()},
+aOF(){B.N("fr_BE")
+return new A.pj()},
+aOH(){B.N("fr_CA")
+return new A.pl()},
+aOJ(){B.N("fr_CH")
+return new A.pn()},
+lM:function lM(){},
+pj:function pj(){},
+pl:function pl(){},
+pn:function pn(){}}
 B=c[0]
-C=c[131]
-A=a.updateHolder(c[5],A)
-A.lE.prototype={
-gaG(){return"Hoppla, etwas ist schiefgelaufen"},
-gaF(){return y.a},
-gaH(){return"E-Mail an uns"},
-gaE(){return"Abbrechen"}}
-A.oT.prototype={
-gaG(){return"Hoppla, etwas ist schiefgelaufen"},
-gaF(){return y.a},
-gaH(){return"E-Mail an uns"},
-gaE(){return"Abbrechen"}}
-A.oV.prototype={
-gaG(){return"Hoppla, etwas ist schiefgelaufen"},
-gaF(){return y.a},
-gaH(){return"E-Mail an uns"},
-gaE(){return"Abbrechen"}}
+C=c[129]
+A=a.updateHolder(c[8],A)
+A.lM.prototype={
+gaz(){return"Oups, quelque chose s'est mal pass\xe9"},
+gaw(){return"Une erreur inattendue s'est produite. Souhaitez-vous envoyer un rapport par email ?"},
+gaA(){return"Nous contacter par email"},
+gav(){return"Annuler"},
+gaq(){return"Langue du syst\xe8me"}}
+A.pj.prototype={
+gaz(){return"Oups, quelque chose s'est mal pass\xe9"},
+gaw(){return y.b},
+gaA(){return"Nous contacter par e-mail"},
+gav(){return"Annuler"},
+gaq(){return"Langue du syst\xe8me"}}
+A.pl.prototype={
+gaz(){return"Oups, quelque chose s'est mal pass\xe9"},
+gaw(){return"Une erreur inattendue est survenue. Souhaitez-vous envoyer un rapport par courriel ?"},
+gaA(){return"Nous contacter par courriel"},
+gav(){return"Annuler"},
+gaq(){return"Langue du syst\xe8me"}}
+A.pn.prototype={
+gaz(){return"Oups, quelque chose s'est mal pass\xe9"},
+gaw(){return y.b},
+gaA(){return"Nous contacter par e-mail"},
+gav(){return"Annuler"},
+gaq(){return"Langue du syst\xe8me"}}
 var z=a.updateTypes([]);(function inheritance(){var x=a.inherit,w=a.inheritMany
-x(A.lE,C.p)
-w(A.lE,[A.oT,A.oV])})()
-B.a2(b.typeUniverse,JSON.parse('{"lE":{"p":[]},"oT":{"p":[]},"oV":{"p":[]}}'))
-var y={a:"Ein unerwarteter Fehler ist aufgetreten. M\xf6chten Sie einen Fehlerbericht per E-Mail senden?"}};
+x(A.lM,C.p)
+w(A.lM,[A.pj,A.pl,A.pn])})()
+B.a3(b.typeUniverse,JSON.parse('{"lM":{"p":[]},"pj":{"p":[]},"pl":{"p":[]},"pn":{"p":[]}}'))
+var y={b:"Une erreur inattendue s'est produite. Souhaitez-vous envoyer un rapport par e-mail ?"}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_119",e:"endPart",h:b})})($__dart_deferred_initializers__,"vyM6zwX2EI2PZvfSLiKNgyuduxI=");
+a.eventLog.push({p:"main.dart.js_119",e:"endPart",h:b})})($__dart_deferred_initializers__,"wcHGlJuYNMucsTF3DBaV+4Ay8Fk=");

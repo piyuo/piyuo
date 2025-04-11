@@ -2,20 +2,20 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_159",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aPg(){B.N("lt")
-return new A.pR()},
-pR:function pR(){}}
+aPg(){B.N("mn")
+return new A.pV()},
+pV:function pV(){}}
 B=c[0]
-C=c[131]
-A=a.updateHolder(c[40],A)
-A.pR.prototype={
-gaz(){return"Oi, ka\u017ekas nutiko"},
-gaw(){return"\u012evyko netik\u0117ta klaida. Ar nor\u0117tum\u0117te pateikti el. pa\u0161to ataskait\u0105?"},
-gaA(){return"Susisiekite el. pa\u0161tu"},
-gav(){return"At\u0161aukti"},
-gaq(){return"Sistemos kalba"}}
+C=c[129]
+A=a.updateHolder(c[42],A)
+A.pV.prototype={
+gaz(){return"\u04e8\u04e9, \u044f\u043c\u0430\u0440 \u043d\u044d\u0433\u044d\u043d \u0437\u04af\u0439\u043b \u0431\u0443\u0440\u0443\u0443 \u0431\u043e\u043b\u0441\u043e\u043d"},
+gaw(){return"\u0413\u044d\u043d\u044d\u0442\u0438\u0439\u043d \u0430\u043b\u0434\u0430\u0430 \u0433\u0430\u0440\u043b\u0430\u0430. \u0422\u0430 \u0438\u043c\u044d\u0439\u043b\u044d\u044d\u0440 \u0442\u0430\u0439\u043b\u0430\u043d \u0438\u043b\u0433\u044d\u044d\u0445\u0438\u0439\u0433 \u0445\u04af\u0441\u0447 \u0431\u0430\u0439\u043d\u0430 \u0443\u0443?"},
+gaA(){return"\u0411\u0438\u0434\u044d\u043d\u0434 \u0438\u043c\u044d\u0439\u043b \u0438\u043b\u0433\u044d\u044d\u0445"},
+gav(){return"\u0426\u0443\u0446\u043b\u0430\u0445"},
+gaq(){return"\u0421\u0438\u0441\u0442\u0435\u043c\u0438\u0439\u043d \u0445\u044d\u043b"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.pR,C.p)})()
-B.a2(b.typeUniverse,JSON.parse('{"pR":{"p":[]}}'))};
+y(A.pV,C.p)})()
+B.a3(b.typeUniverse,JSON.parse('{"pV":{"p":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_159",e:"endPart",h:b})})($__dart_deferred_initializers__,"InumEklcwxvrvhCLipUIDWMxSsI=");
+a.eventLog.push({p:"main.dart.js_159",e:"endPart",h:b})})($__dart_deferred_initializers__,"7/6PeIgMXvBK1mG13rzPdWX9oHE=");
