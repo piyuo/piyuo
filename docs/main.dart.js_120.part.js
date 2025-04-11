@@ -2,45 +2,20 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_120",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aOv(d){B.M(d)
-return new A.lK()},
-aOx(){B.M("fr_BE")
-return new A.pi()},
-aOz(){B.M("fr_CA")
-return new A.pk()},
-aOB(){B.M("fr_CH")
-return new A.pm()},
-lK:function lK(){},
-pi:function pi(){},
-pk:function pk(){},
-pm:function pm(){}}
+aNp(){B.P("af")
+return new A.oz()},
+oz:function oz(){}}
 B=c[0]
-C=c[131]
-A=a.updateHolder(c[8],A)
-A.lK.prototype={
-gaG(){return"Oups, quelque chose s'est mal pass\xe9"},
-gaF(){return"Une erreur inattendue s'est produite. Souhaitez-vous envoyer un rapport par email ?"},
-gaH(){return"Nous contacter par email"},
-gaE(){return"Annuler"}}
-A.pi.prototype={
-gaG(){return"Oups, quelque chose s'est mal pass\xe9"},
-gaF(){return y.b},
-gaH(){return"Nous contacter par e-mail"},
-gaE(){return"Annuler"}}
-A.pk.prototype={
-gaG(){return"Oups, quelque chose s'est mal pass\xe9"},
-gaF(){return"Une erreur inattendue est survenue. Souhaitez-vous envoyer un rapport par courriel ?"},
-gaH(){return"Nous contacter par courriel"},
-gaE(){return"Annuler"}}
-A.pm.prototype={
-gaG(){return"Oups, quelque chose s'est mal pass\xe9"},
-gaF(){return y.b},
-gaH(){return"Nous contacter par e-mail"},
-gaE(){return"Annuler"}}
-var z=a.updateTypes([]);(function inheritance(){var x=a.inherit,w=a.inheritMany
-x(A.lK,C.p)
-w(A.lK,[A.pi,A.pk,A.pm])})()
-B.a2(b.typeUniverse,JSON.parse('{"lK":{"p":[]},"pi":{"p":[]},"pk":{"p":[]},"pm":{"p":[]}}'))
-var y={b:"Une erreur inattendue s'est produite. Souhaitez-vous envoyer un rapport par e-mail ?"}};
+C=c[119]
+A=a.updateHolder(c[15],A)
+A.oz.prototype={
+gaF(){return"Oeps, iets het verkeerd gegaan"},
+gaE(){return"'n Onverwagse fout het voorgekom. Wil jy 'n e-posverslag indien?"},
+gaG(){return"E-pos ons"},
+gaD(){return"Kanselleer"},
+gaA(){return"Stelsel Taal"}}
+var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
+y(A.oz,C.u)})()
+B.a4(b.typeUniverse,JSON.parse('{"oz":{"u":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_120",e:"endPart",h:b})})($__dart_deferred_initializers__,"OOmPVqewd5Bo7vBH0bTOjvaf1UY=");
+a.eventLog.push({p:"main.dart.js_120",e:"endPart",h:b})})($__dart_deferred_initializers__,"qGqsvNIIQM92jSjaTjFo+tl685s=");

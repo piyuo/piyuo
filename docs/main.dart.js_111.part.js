@@ -1,50 +1,50 @@
 ((a,b,c)=>{a[b]=a[b]||{}
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_111",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var B,A={
-aNN(d){B.N(d)
-return new A.lC()},
-aNP(){B.N("ar_AE")
-return new A.oD()},
-aNR(){B.N("ar_DZ")
-return new A.oF()},
-aNT(){B.N("ar_EG")
-return new A.oH()},
-lC:function lC(){},
-oD:function oD(){},
-oF:function oF(){},
-oH:function oH(){}},C
+$__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
+aOj(d){B.P(d)
+return new A.lM()},
+aOl(){B.P("fr_BE")
+return new A.pj()},
+aOn(){B.P("fr_CA")
+return new A.pl()},
+aOp(){B.P("fr_CH")
+return new A.pn()},
+lM:function lM(){},
+pj:function pj(){},
+pl:function pl(){},
+pn:function pn(){}}
 B=c[0]
-A=a.updateHolder(c[3],A)
-C=c[129]
-A.lC.prototype={
-gaz(){return"\u0639\u0641\u0648\u0627\u064b\u060c \u062d\u062f\u062b \u062e\u0637\u0623 \u0645\u0627"},
-gaw(){return y.c},
-gaA(){return"\u0631\u0627\u0633\u0644\u0646\u0627"},
-gav(){return"\u0625\u0644\u063a\u0627\u0621"},
-gaq(){return"\u0644\u063a\u0629 \u0627\u0644\u0646\u0638\u0627\u0645"}}
-A.oD.prototype={
-gaz(){return"\u0639\u0641\u0648\u0627\u064b\u060c \u062d\u062f\u062b \u062e\u0637\u0623 \u0645\u0627"},
-gaw(){return y.c},
-gaA(){return"\u0631\u0627\u0633\u0644\u0646\u0627 \u0639\u0628\u0631 \u0627\u0644\u0628\u0631\u064a\u062f \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a"},
-gav(){return"\u0625\u0644\u063a\u0627\u0621"},
-gaq(){return"\u0644\u063a\u0629 \u0627\u0644\u0646\u0638\u0627\u0645"}}
-A.oF.prototype={
-gaz(){return"\u0639\u0641\u0648\u0627\u064b\u060c \u062d\u062f\u062b \u062e\u0637\u0623 \u0645\u0627"},
-gaw(){return y.c},
-gaA(){return"\u0631\u0627\u0633\u0644\u0646\u0627 \u0639\u0628\u0631 \u0627\u0644\u0628\u0631\u064a\u062f \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a"},
-gav(){return"\u0625\u0644\u063a\u0627\u0621"},
-gaq(){return"\u0644\u063a\u0629 \u0627\u0644\u0646\u0638\u0627\u0645"}}
-A.oH.prototype={
-gaz(){return"\u0639\u0641\u0648\u0627\u064b\u060c \u062d\u062f\u062b \u062e\u0637\u0623 \u0645\u0627"},
-gaw(){return y.c},
-gaA(){return"\u0631\u0627\u0633\u0644\u0646\u0627 \u0628\u0627\u0644\u0628\u0631\u064a\u062f \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a"},
-gav(){return"\u0625\u0644\u063a\u0627\u0621"},
-gaq(){return"\u0644\u063a\u0629 \u0627\u0644\u0646\u0638\u0627\u0645"}}
+C=c[119]
+A=a.updateHolder(c[8],A)
+A.lM.prototype={
+gaF(){return"Oups, quelque chose s'est mal pass\xe9"},
+gaE(){return"Une erreur inattendue s'est produite. Souhaitez-vous envoyer un rapport par email ?"},
+gaG(){return"Nous contacter par email"},
+gaD(){return"Annuler"},
+gaA(){return"Langue du syst\xe8me"}}
+A.pj.prototype={
+gaF(){return"Oups, quelque chose s'est mal pass\xe9"},
+gaE(){return y.b},
+gaG(){return"Nous contacter par e-mail"},
+gaD(){return"Annuler"},
+gaA(){return"Langue du syst\xe8me"}}
+A.pl.prototype={
+gaF(){return"Oups, quelque chose s'est mal pass\xe9"},
+gaE(){return"Une erreur inattendue est survenue. Souhaitez-vous envoyer un rapport par courriel ?"},
+gaG(){return"Nous contacter par courriel"},
+gaD(){return"Annuler"},
+gaA(){return"Langue du syst\xe8me"}}
+A.pn.prototype={
+gaF(){return"Oups, quelque chose s'est mal pass\xe9"},
+gaE(){return y.b},
+gaG(){return"Nous contacter par e-mail"},
+gaD(){return"Annuler"},
+gaA(){return"Langue du syst\xe8me"}}
 var z=a.updateTypes([]);(function inheritance(){var x=a.inherit,w=a.inheritMany
-x(A.lC,C.p)
-w(A.lC,[A.oD,A.oF,A.oH])})()
-B.a3(b.typeUniverse,JSON.parse('{"lC":{"p":[]},"oD":{"p":[]},"oF":{"p":[]},"oH":{"p":[]}}'))
-var y={c:"\u062d\u062f\u062b \u062e\u0637\u0623 \u063a\u064a\u0631 \u0645\u062a\u0648\u0642\u0639. \u0647\u0644 \u062a\u0631\u063a\u0628 \u0641\u064a \u0625\u0631\u0633\u0627\u0644 \u062a\u0642\u0631\u064a\u0631 \u0628\u0627\u0644\u0628\u0631\u064a\u062f \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a\u061f"}};
+x(A.lM,C.u)
+w(A.lM,[A.pj,A.pl,A.pn])})()
+B.a4(b.typeUniverse,JSON.parse('{"lM":{"u":[]},"pj":{"u":[]},"pl":{"u":[]},"pn":{"u":[]}}'))
+var y={b:"Une erreur inattendue s'est produite. Souhaitez-vous envoyer un rapport par e-mail ?"}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_111",e:"endPart",h:b})})($__dart_deferred_initializers__,"UsbVjGjqHgomQFp0LUis/L0CVSk=");
+a.eventLog.push({p:"main.dart.js_111",e:"endPart",h:b})})($__dart_deferred_initializers__,"MSRLeOCUS2MDtTxKWnnjadL7c6I=");

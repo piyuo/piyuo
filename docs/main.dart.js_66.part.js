@@ -2,35 +2,35 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_66",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aPb(){B.N("ko")
-return new A.pM()},
-pM:function pM(){}}
+aOQ(){B.P("lv")
+return new A.pO()},
+pO:function pO(){}}
 B=c[0]
-C=c[132]
-A=a.updateHolder(c[101],A)
-A.pM.prototype={
-gaJ(){return"\ub2e4\uc6b4\ub85c\ub4dc"},
-gaP(){return"\uace7 \ucd9c\uc2dc \uc608\uc815."},
-gaO(){return"2025\ub144 \ubd04\uc5d0 \uc774\uc6a9 \uac00\ub2a5\ud569\ub2c8\ub2e4."},
-gaS(){return"\uc774\uc81c \ud734\ub300\ud3f0\uc758 AI\ub85c \ubcf4\ud589\uc790\ub97c \uc778\uc2dd\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4."},
-gaR(){return"\uc778\ud130\ub137 \uc5f0\uacb0 \ubd88\ud544\uc694. \uc804\ud1b5\uc801\uc778 \uce74\uc6b4\ud130\ub85c \uc0ac\ub78c\uc744 \uc218\ub3d9\uc73c\ub85c \uc138\uc9c0 \uc54a\uc544\ub3c4 \ub429\ub2c8\ub2e4. \ud734\ub300\ud3f0\uc744 \uc124\uc815\ud558\uc5ec \uc9c0\ub098\uac00\ub294 \ubcf4\ud589\uc790 \ud1b5\ud589\ub7c9\uc744 \uc790\ub3d9\uc73c\ub85c \ucd94\uc801\ud558\uc138\uc694."},
-gaB(){return"24\uc2dc\uac04 \ucd94\uc801"},
-gaC(){return"\ubaa8\ub4e0 \uc2dc\uac04\ub300\uc758 \ubcf4\ud589\uc790 \ud1b5\ud589\ub7c9\uc744 \ud655\uc778\ud558\uc138\uc694."},
-gaD(){return"\ub2e4\uc911 \uac1d\uccb4 \ucd94\uc801"},
-gaE(){return"\ubcf4\ud589\uc790, \uc790\ub3d9\ucc28, \uc790\uc804\uac70 \ub4f1\uc744 \ub3d9\uc2dc\uc5d0 \uacc4\uc218\ud569\ub2c8\ub2e4"},
-gaF(){return"\ub9de\ucda4\ud615 \ud0d0\uc9c0 \uc601\uc5ed"},
-gaG(){return"\ud2b9\uc815 \uc601\uc5ed\uc758 \ud1b5\ud589\ub7c9\uc744 \uacc4\uc218\ud558\uae30 \uc704\ud55c \ub9de\ucda4\ud615 \ud0d0\uc9c0 \uc601\uc5ed\uc744 \uc815\uc758\ud558\uc138\uc694."},
-gaH(){return"\uc720\uc5f0\ud55c \uacc4\uc218 \ubaa8\ub4dc"},
-gaI(){return"\ud0d0\uc9c0 \uc601\uc5ed \ub0b4\uc5d0\uc11c \uc0c8\ub86d\uac8c \ub098\ud0c0\ub098\ub294 \uac1d\uccb4 \ub610\ub294 \uc815\uc9c0\ud574 \uc788\ub294 \uac1d\uccb4\ub97c \uacc4\uc218\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4."},
-gaN(){return"\ub370\uc2a4\ud06c\ud1b1 \ubc84\uc804 \uc774\uc6a9 \uac00\ub2a5"},
-gaM(){return"\ub370\uc2a4\ud06c\ud1b1 \ubc84\uc804\ub3c4 \uc81c\uacf5\ud569\ub2c8\ub2e4. iOS/Android/Mac/Windows \ubc84\uc804\uc744 \uc81c\uacf5\ud558\uc5ec \ubaa8\ubc14\uc77c \uae30\uae30\uc640 \uc6f9\ucea0\uc774 \uc788\ub294 \ub370\uc2a4\ud06c\ud1b1\uc744 \ubaa8\ub450 \ud65c\uc6a9\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4. \ub370\uc2a4\ud06c\ud1b1 \ubc84\uc804\uc740 \uc5ec\ub7ec \ube44\ub514\uc624 \uc18c\uc2a4\ub97c \uc9c0\uc6d0\ud558\uc5ec \uc5ec\ub7ec \uc2a4\ud2b8\ub9bc\uc5d0\uc11c \ub3d9\uc2dc\uc5d0 \uacc4\uc218\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4."},
-gaL(){return"\uc2e4\uc2dc\uac04 \uc2a4\ud2b8\ub9bc \uc9c0\uc6d0"},
-gaK(){return"\ubaa8\ubc14\uc77c \uae30\uae30 \uce74\uba54\ub77c \uc678\uc5d0\ub3c4 \ub179\ud654\ub41c \ube44\ub514\uc624 \ud30c\uc77c, \uc6f9\ucea0 \uc785\ub825, RTSP\uc640 \uac19\uc740 \uc778\ud130\ub137 \uc2e4\uc2dc\uac04 \uc2a4\ud2b8\ub9bc\uc744 \uc9c0\uc6d0\ud569\ub2c8\ub2e4. \uc774\ub97c \ud1b5\ud574 \uae30\uc874 \uc7a5\uce58\uc5d0 \uc5f0\uacb0\ud558\uc5ec \uc989\uc2dc \ud1b5\ud589\ub7c9 \uce21\uc815\uc744 \uc2dc\uc791\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4."},
-gaQ(){return"\uc774\uba54\uc77c \ubb38\uc758"},
-gau(){return"\uce74\uc6b4\ud130"},
-gar(){return"\uc5bc\ub9c8\ub098 \ub9ce\uc740 \uc0ac\ub78c\ub4e4\uc774 \uc9c0\ub098\uac00\ub294\uc9c0 \uc54c\uace0 \uc2f6\uc73c\uc2e0\uac00\uc694? \uc774 \uc571\uc740 \ud734\ub300\ud3f0 \uce74\uba54\ub77c\ub97c \uc0ac\uc6a9\ud558\uc5ec \ubcf4\ud589\uc790\ub97c \uc9c0\ub2a5\uc801\uc73c\ub85c \uc2dd\ubcc4\ud558\uace0 \uc790\ub3d9\uc73c\ub85c \uacc4\uc218\ud569\ub2c8\ub2e4. \uc218\ub3d9 \uc785\ub825\uc774 \ud544\uc694\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4. \uc9c0\ub8e8\ud55c \uacc4\uc218 \uc791\uc5c5\uc5d0 \uc791\ubcc4\uc744 \uace0\ud558\uace0 \uc190\uc27d\uac8c \ud1b5\ud589\ub7c9\uc744 \ubaa8\ub2c8\ud130\ub9c1\ud558\uc138\uc694."}}
+C=c[120]
+A=a.updateHolder(c[96],A)
+A.pO.prototype={
+gaQ(){return"Lejupiel\u0101d\u0113t"},
+gaX(){return"Dr\u012bzum\u0101 pieejams."},
+gaW(){return"Pieejams 2025. gada pavasar\u012b."},
+gb_(){return"J\u016bsu t\u0101lrunis tagad var izmantot MI, lai atpaz\u012btu g\u0101j\u0113jus."},
+gaZ(){return"Nav nepiecie\u0161ams internets. Nav nepiecie\u0161ams manu\u0101li skait\u012bt cilv\u0113kus ar tradicion\u0101lo skait\u012bt\u0101ju. Vienk\u0101r\u0161i iestatiet telefonu, lai tas autom\u0101tiski izsekotu g\u0101j\u0113ju pl\u016bsmu."},
+gaI(){return"24/7 izseko\u0161ana"},
+gaJ(){return"Skatiet g\u0101j\u0113ju pl\u016bsmas datus par jebkuru laika periodu."},
+gaK(){return"Vair\u0101ku objektu izseko\u0161ana"},
+gaL(){return"Vienlaic\u012bgi skaitiet g\u0101j\u0113jus, automa\u0161\u012bnas, velosip\u0113dus un citus objektus"},
+gaM(){return"Piel\u0101gotas noteik\u0161anas zonas"},
+gaN(){return"Izveidojiet piel\u0101gotas noteik\u0161anas zonas, lai skait\u012btu satiksmi noteikt\u0101s viet\u0101s."},
+gaO(){return"Elast\u012bgi skait\u012b\u0161anas re\u017e\u012bmi"},
+gaP(){return"Izv\u0113lieties skait\u012bt jaunus objektus, kas par\u0101d\u0101s noteik\u0161anas zon\u0101, vai tos, kas paliek nekust\u012bgi."},
+gaV(){return"Darbvirsmas versijas pieejam\u012bba"},
+gaU(){return"M\u0113s pied\u0101v\u0101jam ar\u012b darbvirsmas versiju. M\u0113s nodro\u0161in\u0101m versijas iOS/Android/Mac/Windows, \u013caujot izmantot gan mobil\u0101s ier\u012bces, gan darbvirsmas datorus ar t\u012bmek\u013ca kamer\u0101m. Darbvirsmas versija turkl\u0101t atbalsta vair\u0101kus video avotus, \u013caujot vienlaikus skait\u012bt no vair\u0101k\u0101m pl\u016bsm\u0101m."},
+gaT(){return"Tie\u0161raides atbalsts"},
+gaS(){return"Papildus mobilo ier\u012b\u010du kamer\u0101m m\u0113s atbalst\u0101m ierakst\u012btus video failus, t\u012bmek\u013ca kameru ievades un interneta tie\u0161raides, piem\u0113ram, RTSP. Tas \u013cauj piesl\u0113gties eso\u0161aj\u0101m ier\u012bc\u0113m un nekav\u0113joties s\u0101kt m\u0113r\u012bt satiksmes pl\u016bsmu."},
+gaY(){return"Rakstiet mums"},
+gaC(){return"Skait\u012bt\u0101js"},
+gaB(){return"V\u0113laties uzzin\u0101t, cik daudz cilv\u0113ku iet gar\u0101m? \u0160\u012b lietotne izmanto j\u016bsu t\u0101lru\u0146a kameru, lai gudri identific\u0113tu un autom\u0101tiski skait\u012btu g\u0101j\u0113jus. Nav nepiecie\u0161ama manu\u0101la ievade. Atvadieties no nogurdino\u0161as skait\u012b\u0161anas un viegli uzraugiet satiksmes pl\u016bsmu."}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.pM,C.q)})()
-B.a2(b.typeUniverse,JSON.parse('{"pM":{"q":[]}}'))};
+y(A.pO,C.x)})()
+B.a4(b.typeUniverse,JSON.parse('{"pO":{"x":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_66",e:"endPart",h:b})})($__dart_deferred_initializers__,"HOYDHuDePOwAh6r8ETfaTUKT1mI=");
+a.eventLog.push({p:"main.dart.js_66",e:"endPart",h:b})})($__dart_deferred_initializers__,"I389Z57u/tAJNLBS6KUtZDDAQPc=");
