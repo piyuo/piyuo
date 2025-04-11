@@ -2,20 +2,20 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_170",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aPy(){B.N("ne")
-return new A.q6()},
-q6:function q6(){}}
+aPC(){B.N("ps")
+return new A.qc()},
+qc:function qc(){}}
 B=c[0]
-C=c[131]
-A=a.updateHolder(c[47],A)
-A.q6.prototype={
-gaz(){return"\u0909\u092b\u094d, \u0915\u0947\u0939\u0940 \u0917\u0932\u0924 \u092d\u092f\u094b"},
-gaw(){return"\u0905\u0928\u092a\u0947\u0915\u094d\u0937\u093f\u0924 \u0924\u094d\u0930\u0941\u091f\u093f \u092d\u092f\u094b\u0964 \u0915\u0947 \u0924\u092a\u093e\u0908\u0902 \u0907\u092e\u0947\u0932 \u0930\u093f\u092a\u094b\u0930\u094d\u091f \u092a\u0920\u093e\u0909\u0928 \u091a\u093e\u0939\u0928\u0941\u0939\u0941\u0928\u094d\u091b?"},
-gaA(){return"\u0939\u093e\u092e\u0940\u0932\u093e\u0908 \u0907\u092e\u0947\u0932 \u0917\u0930\u094d\u0928\u0941\u0939\u094b\u0938\u094d"},
-gav(){return"\u0930\u0926\u094d\u0926 \u0917\u0930\u094d\u0928\u0941\u0939\u094b\u0938\u094d"},
-gaq(){return"\u092a\u094d\u0930\u0923\u093e\u0932\u0940 \u092d\u093e\u0937\u093e"}}
+C=c[129]
+A=a.updateHolder(c[49],A)
+A.qc.prototype={
+gaz(){return"\u0627\u0641\u0633\u0648\u0633\u060c \u06a9\u0648\u0645\u0647 \u0633\u062a\u0648\u0646\u0632\u0647 \u0631\u0627\u0645\u0646\u0681\u062a\u0647 \u0634\u0648\u0647"},
+gaw(){return"\u06cc\u0648\u0647 \u0646\u0627\u0685\u0627\u067e\u064a \u062a\u06d0\u0631\u0648\u062a\u0646\u0647 \u0631\u0627\u0645\u0646\u0681\u062a\u0647 \u0634\u0648\u0647. \u0627\u06cc\u0627 \u063a\u0648\u0627\u0693\u0626 \u062f \u0628\u0631\u06cc\u069a\u0646\u0627\u0644\u06cc\u06a9 \u0631\u0627\u067e\u0648\u0631 \u0648\u0627\u0633\u062a\u0648\u0626\u061f"},
+gaA(){return"\u0645\u0648\u0696 \u062a\u0647 \u0628\u0631\u06cc\u069a\u0646\u0627\u0644\u06cc\u06a9 \u0648\u0627\u0633\u062a\u0648\u0626"},
+gav(){return"\u0644\u063a\u0648\u0647 \u06a9\u0648\u0644"},
+gaq(){return"\u062f \u0633\u06cc\u0633\u062a\u0645 \u0698\u0628\u0647"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.q6,C.p)})()
-B.a2(b.typeUniverse,JSON.parse('{"q6":{"p":[]}}'))};
+y(A.qc,C.p)})()
+B.a3(b.typeUniverse,JSON.parse('{"qc":{"p":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_170",e:"endPart",h:b})})($__dart_deferred_initializers__,"0ejlnySbLlTEpy2yfQ8mbfejGYk=");
+a.eventLog.push({p:"main.dart.js_170",e:"endPart",h:b})})($__dart_deferred_initializers__,"AUv4wOA+fhintCt/O0iGTZEyK0k=");

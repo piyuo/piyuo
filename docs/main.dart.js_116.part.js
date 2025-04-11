@@ -2,40 +2,49 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_116",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aOc(d){B.N(d)
-return new A.lG()},
-aOe(){B.N("de_AT")
-return new A.oV()},
-aOg(){B.N("de_CH")
-return new A.oX()},
-lG:function lG(){},
-oV:function oV(){},
-oX:function oX(){}}
+aOq(d){B.N(d)
+return new A.lK()},
+aOs(){B.N("es_AR")
+return new A.p8()},
+aOu(){B.N("es_CO")
+return new A.pa()},
+aOw(){B.N("es_MX")
+return new A.pc()},
+lK:function lK(){},
+p8:function p8(){},
+pa:function pa(){},
+pc:function pc(){}}
 B=c[0]
-C=c[131]
-A=a.updateHolder(c[5],A)
-A.lG.prototype={
-gaz(){return"Hoppla, etwas ist schiefgelaufen"},
+C=c[129]
+A=a.updateHolder(c[7],A)
+A.lK.prototype={
+gaz(){return"Ups, algo sali\xf3 mal"},
 gaw(){return y.a},
-gaA(){return"E-Mail an uns"},
-gav(){return"Abbrechen"},
-gaq(){return"Systemsprache"}}
-A.oV.prototype={
-gaz(){return"Hoppla, etwas ist schiefgelaufen"},
+gaA(){return"Env\xedanos un correo"},
+gav(){return"Cancelar"},
+gaq(){return"Idioma del sistema"}}
+A.p8.prototype={
+gaz(){return"Ups, algo sali\xf3 mal"},
+gaw(){return"Ocurri\xf3 un error inesperado. \xbfQuer\xe9s enviar un informe por correo electr\xf3nico?"},
+gaA(){return"Envianos un correo"},
+gav(){return"Cancelar"},
+gaq(){return"Idioma del sistema"}}
+A.pa.prototype={
+gaz(){return"Ups, algo sali\xf3 mal"},
 gaw(){return y.a},
-gaA(){return"E-Mail an uns"},
-gav(){return"Abbrechen"},
-gaq(){return"Systemsprache"}}
-A.oX.prototype={
-gaz(){return"Hoppla, etwas ist schiefgelaufen"},
-gaw(){return y.a},
-gaA(){return"E-Mail an uns"},
-gav(){return"Abbrechen"},
-gaq(){return"Systemsprache"}}
+gaA(){return"Env\xedanos un correo"},
+gav(){return"Cancelar"},
+gaq(){return"Idioma del sistema"}}
+A.pc.prototype={
+gaz(){return"Ups, algo sali\xf3 mal"},
+gaw(){return"Ocurri\xf3 un error inesperado. \xbfTe gustar\xeda enviar un reporte por correo electr\xf3nico?"},
+gaA(){return"Env\xedanos un correo"},
+gav(){return"Cancelar"},
+gaq(){return"Idioma del sistema"}}
 var z=a.updateTypes([]);(function inheritance(){var x=a.inherit,w=a.inheritMany
-x(A.lG,C.p)
-w(A.lG,[A.oV,A.oX])})()
-B.a2(b.typeUniverse,JSON.parse('{"lG":{"p":[]},"oV":{"p":[]},"oX":{"p":[]}}'))
-var y={a:"Ein unerwarteter Fehler ist aufgetreten. M\xf6chten Sie einen Fehlerbericht per E-Mail senden?"}};
+x(A.lK,C.p)
+w(A.lK,[A.p8,A.pa,A.pc])})()
+B.a3(b.typeUniverse,JSON.parse('{"lK":{"p":[]},"p8":{"p":[]},"pa":{"p":[]},"pc":{"p":[]}}'))
+var y={a:"Ocurri\xf3 un error inesperado. \xbfTe gustar\xeda enviar un informe por correo electr\xf3nico?"}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_116",e:"endPart",h:b})})($__dart_deferred_initializers__,"9TppVZQ2x9UYaG10/DE5g5JczDc=");
+a.eventLog.push({p:"main.dart.js_116",e:"endPart",h:b})})($__dart_deferred_initializers__,"m+wgGFSq496bnYPYJkTfRKJvgxE=");

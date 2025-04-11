@@ -2,31 +2,20 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_129",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aQl(d){B.N(d)
-return new A.lW()},
-aQn(){B.N("ur_IN")
-return new A.qO()},
-lW:function lW(){},
-qO:function qO(){}}
+aNJ(){B.N("af")
+return new A.oz()},
+oz:function oz(){}}
 B=c[0]
-C=c[131]
-A=a.updateHolder(c[13],A)
-A.lW.prototype={
-gaz(){return"\u0627\u0641\u0633\u0648\u0633\u060c \u06a9\u0686\u06be \u063a\u0644\u0637 \u06c1\u0648 \u06af\u06cc\u0627"},
-gaw(){return y.c},
-gaA(){return"\u06c1\u0645\u06cc\u06ba \u0627\u06cc \u0645\u06cc\u0644 \u06a9\u0631\u06cc\u06ba"},
-gav(){return"\u0645\u0646\u0633\u0648\u062e \u06a9\u0631\u06cc\u06ba"},
-gaq(){return"\u0646\u0638\u0627\u0645 \u06a9\u06cc \u0632\u0628\u0627\u0646"}}
-A.qO.prototype={
-gaz(){return"\u0627\u0641\u0633\u0648\u0633\u060c \u06a9\u0686\u06be \u063a\u0644\u0637 \u06c1\u0648 \u06af\u06cc\u0627"},
-gaw(){return y.c},
-gaA(){return"\u06c1\u0645\u06cc\u06ba \u0627\u06cc \u0645\u06cc\u0644 \u06a9\u0631\u06cc\u06ba"},
-gav(){return"\u0645\u0646\u0633\u0648\u062e \u06a9\u0631\u06cc\u06ba"},
-gaq(){return"\u0646\u0638\u0627\u0645 \u06a9\u06cc \u0632\u0628\u0627\u0646"}}
-var z=a.updateTypes([]);(function inheritance(){var x=a.inherit
-x(A.lW,C.p)
-x(A.qO,A.lW)})()
-B.a2(b.typeUniverse,JSON.parse('{"lW":{"p":[]},"qO":{"p":[]}}'))
-var y={c:"\u0627\u06cc\u06a9 \u063a\u06cc\u0631 \u0645\u062a\u0648\u0642\u0639 \u062e\u0631\u0627\u0628\u06cc \u067e\u06cc\u0634 \u0622\u0626\u06cc\u06d4 \u06a9\u06cc\u0627 \u0622\u067e \u0627\u06cc \u0645\u06cc\u0644 \u0631\u067e\u0648\u0631\u0679 \u062c\u0645\u0639 \u06a9\u0631\u0627\u0646\u0627 \u0686\u0627\u06c1\u062a\u06d2 \u06c1\u06cc\u06ba\u061f"}};
+C=c[129]
+A=a.updateHolder(c[15],A)
+A.oz.prototype={
+gaz(){return"Oeps, iets het verkeerd gegaan"},
+gaw(){return"'n Onverwagse fout het voorgekom. Wil jy 'n e-posverslag indien?"},
+gaA(){return"E-pos ons"},
+gav(){return"Kanselleer"},
+gaq(){return"Stelsel Taal"}}
+var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
+y(A.oz,C.p)})()
+B.a3(b.typeUniverse,JSON.parse('{"oz":{"p":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_129",e:"endPart",h:b})})($__dart_deferred_initializers__,"Qiiwl+ona1grTh7WTzGYMiTMG3M=");
+a.eventLog.push({p:"main.dart.js_129",e:"endPart",h:b})})($__dart_deferred_initializers__,"wHJhYfXsdMCUoJH+wPfVJUFD1Eo=");

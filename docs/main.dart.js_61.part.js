@@ -2,35 +2,35 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_61",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aP3(){B.N("id")
+aP_(){B.N("it")
 return new A.pE()},
 pE:function pE(){}}
 B=c[0]
-C=c[132]
-A=a.updateHolder(c[97],A)
+C=c[130]
+A=a.updateHolder(c[96],A)
 A.pE.prototype={
-gaJ(){return"Unduh"},
-gaP(){return"Segera hadir."},
-gaO(){return"Tersedia pada Musim Semi 2025."},
-gaS(){return"Ponsel Anda kini dapat menggunakan AI untuk mengenali pejalan kaki."},
-gaR(){return"Tidak memerlukan internet. Tidak perlu menghitung orang secara manual dengan penghitung tradisional. Cukup atur ponsel Anda untuk melacak lalu lintas pejalan kaki secara otomatis."},
-gaB(){return"Pelacakan 24/7"},
-gaC(){return"Lihat jumlah lalu lintas pejalan kaki untuk periode waktu apa pun."},
-gaD(){return"Pelacakan Beberapa Objek"},
-gaE(){return"Menghitung pejalan kaki, mobil, sepeda, dan lainnya secara bersamaan"},
-gaF(){return"Zona Deteksi Kustom"},
-gaG(){return"Tentukan zona deteksi kustom untuk menghitung lalu lintas di area tertentu."},
-gaH(){return"Mode Penghitungan Fleksibel"},
-gaI(){return"Pilih untuk menghitung objek yang baru muncul dalam zona deteksi, atau objek yang tetap diam."},
-gaN(){return"Ketersediaan Versi Desktop"},
-gaM(){return"Kami juga menawarkan versi desktop. Kami menyediakan versi untuk iOS/Android/Mac/Windows, memungkinkan Anda menggunakan perangkat seluler dan desktop dengan webcam. Versi desktop juga mendukung beberapa sumber video, memungkinkan penghitungan simultan dari beberapa aliran."},
-gaL(){return"Dukungan Siaran Langsung"},
-gaK(){return"Selain kamera perangkat seluler, kami mendukung file video yang direkam, input webcam, dan siaran langsung internet seperti RTSP. Ini memungkinkan Anda terhubung ke perangkat yang ada dan langsung mulai mengukur arus lalu lintas."},
-gaQ(){return"Email kami"},
-gau(){return"Penghitung"},
-gar(){return"Ingin tahu berapa banyak orang yang lewat? Aplikasi ini menggunakan kamera ponsel Anda untuk secara cerdas mengidentifikasi dan menghitung pejalan kaki secara otomatis. Tidak diperlukan input manual. Ucapkan selamat tinggal pada penghitungan yang membosankan dan dengan mudah pantau arus lalu lintas."}}
+gaJ(){return"Scarica"},
+gaS(){return"Disponibile a breve."},
+gaR(){return"Disponibile in primavera 2025."},
+gaV(){return"Il tuo telefono pu\xf2 ora utilizzare l'IA per riconoscere i pedoni."},
+gaU(){return"Non richiede internet. Non \xe8 necessario contare manualmente le persone con un contatore tradizionale. Basta configurare il telefono per monitorare automaticamente il flusso pedonale."},
+gaB(){return"Monitoraggio 24/7"},
+gaC(){return"Visualizza i conteggi del traffico pedonale per qualsiasi periodo di tempo."},
+gaD(){return"Tracciamento di Oggetti Multipli"},
+gaE(){return"Conta simultaneamente pedoni, auto, biciclette e altro"},
+gaF(){return"Zone di Rilevamento Personalizzate"},
+gaG(){return"Definisci zone di rilevamento personalizzate per contare il traffico in aree specifiche."},
+gaH(){return"Modalit\xe0 di Conteggio Flessibili"},
+gaI(){return"Scegli se contare i nuovi oggetti che appaiono nella zona di rilevamento o quelli che rimangono fermi."},
+gaQ(){return"Disponibilit\xe0 Versione Desktop"},
+gaP(){return"Offriamo anche una versione desktop. Forniamo versioni per iOS/Android/Mac/Windows, permettendoti di utilizzare sia dispositivi mobili che desktop con webcam. La versione desktop supporta inoltre pi\xf9 fonti video, consentendo il conteggio simultaneo da pi\xf9 flussi."},
+gaO(){return"Supporto per Flussi in Diretta"},
+gaN(){return"Oltre alle fotocamere dei dispositivi mobili, supportiamo file video registrati, input da webcam e flussi in diretta da internet come RTSP. Questo ti permette di connetterti a dispositivi esistenti e iniziare immediatamente a misurare il flusso di traffico."},
+gaT(){return"Contattaci via email"},
+gau(){return"Contatore"},
+gar(){return"Vuoi sapere quante persone passano? Questa app utilizza la fotocamera del tuo telefono per identificare in modo intelligente e contare automaticamente i pedoni. Nessun input manuale richiesto. D\xec addio al conteggio tedioso e monitora facilmente il flusso del traffico."}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
 y(A.pE,C.q)})()
-B.a2(b.typeUniverse,JSON.parse('{"pE":{"q":[]}}'))};
+B.a3(b.typeUniverse,JSON.parse('{"pE":{"q":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_61",e:"endPart",h:b})})($__dart_deferred_initializers__,"pbUFy8SQ0lB8V/XqTnb5yDPoM0U=");
+a.eventLog.push({p:"main.dart.js_61",e:"endPart",h:b})})($__dart_deferred_initializers__,"k3WS4McTN7ROistzSCp3/rRyW0o=");

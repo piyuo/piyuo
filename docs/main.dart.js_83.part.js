@@ -2,35 +2,35 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_83",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aPj(){B.M("nb")
-return new A.q4()},
-q4:function q4(){}}
+aPB(){B.N("pl")
+return new A.qb()},
+qb:function qb(){}}
 B=c[0]
-C=c[132]
-A=a.updateHolder(c[110],A)
-A.q4.prototype={
-gaC(){return"Last ned"},
-gaN(){return"Kommer snart."},
-gaM(){return"Tilgjengelig v\xe5ren 2025."},
-gaQ(){return"Telefonen din kan n\xe5 bruke AI til \xe5 gjenkjenne fotgjengere."},
-gaP(){return"Ingen internett n\xf8dvendig. Ingen behov for \xe5 telle personer manuelt med en tradisjonell klikker. Bare sett opp telefonen din til \xe5 automatisk spore forbipasserende fotgjengertrafikk."},
-gaq(){return"24/7 Sporing"},
-gar(){return"Se antall fotgjengere for hvilken som helst tidsperiode."},
-gau(){return"Sporing av flere objekter"},
-gav(){return"Tell fotgjengere, biler, sykler og mer samtidig"},
-gaw(){return"Tilpassede deteksjonssoner"},
-gaz(){return"Definer egne deteksjonssoner for \xe5 telle trafikk i bestemte omr\xe5der."},
-gaA(){return"Fleksible tellingsmoduser"},
-gaB(){return"Velg \xe5 telle nylig dukket opp objekter innenfor deteksjonssonen, eller de som forblir stasjon\xe6re."},
-gaL(){return"Tilgjengelighet av skrivebordversjon"},
-gaK(){return"Vi tilbyr ogs\xe5 en skrivebordversjon. Vi har versjoner for iOS/Android/Mac/Windows, som lar deg bruke b\xe5de mobile enheter og stasjon\xe6re datamaskiner med webkameraer. Skrivebordversjonen st\xf8tter i tillegg flere videokilder, noe som muliggj\xf8r samtidig telling fra flere str\xf8mmer."},
-gaJ(){return"St\xf8tte for direktestr\xf8mming"},
-gaI(){return"I tillegg til kameraer p\xe5 mobile enheter, st\xf8tter vi innspilte videofiler, webkamerainnganger og internett-direktestr\xf8mmer som RTSP. Dette lar deg koble til eksisterende enheter og umiddelbart begynne \xe5 m\xe5le trafikkflyt."},
-gaO(){return"Send e-post til oss"},
-gap(){return"Counter"},
-gao(){return"Vil du vite hvor mange mennesker som passerer forbi? Denne appen bruker telefonens kamera for \xe5 intelligent identifisere og automatisk telle fotgjengere. Ingen manuell inntasting n\xf8dvendig. Si farvel til kjedelig telling og overv\xe5k trafikkflyten enkelt."}}
+C=c[130]
+A=a.updateHolder(c[111],A)
+A.qb.prototype={
+gaJ(){return"Pobierz"},
+gaS(){return"Wkr\xf3tce dost\u0119pne."},
+gaR(){return"Dost\u0119pne wiosn\u0105 2025."},
+gaV(){return"Tw\xf3j telefon mo\u017ce teraz u\u017cywa\u0107 AI do rozpoznawania pieszych."},
+gaU(){return"Nie wymaga internetu. Nie ma potrzeby r\u0119cznego liczenia os\xf3b za pomoc\u0105 tradycyjnego licznika. Po prostu skonfiguruj telefon, aby automatycznie \u015bledzi\u0142 przep\u0142yw pieszych."},
+gaB(){return"\u015aledzenie 24/7"},
+gaC(){return"Przegl\u0105daj statystyki ruchu pieszych dla dowolnego okresu."},
+gaD(){return"\u015aledzenie wielu obiekt\xf3w"},
+gaE(){return"Jednocze\u015bnie licz pieszych, samochody, rowery i wi\u0119cej"},
+gaF(){return"Niestandardowe strefy wykrywania"},
+gaG(){return"Zdefiniuj w\u0142asne strefy wykrywania, aby liczy\u0107 ruch w okre\u015blonych obszarach."},
+gaH(){return"Elastyczne tryby liczenia"},
+gaI(){return"Wybierz liczenie nowo pojawiaj\u0105cych si\u0119 obiekt\xf3w w strefie wykrywania lub tych, kt\xf3re pozostaj\u0105 nieruchome."},
+gaQ(){return"Dost\u0119pno\u015b\u0107 wersji desktopowej"},
+gaP(){return"Oferujemy r\xf3wnie\u017c wersj\u0119 na komputer. Zapewniamy wersje dla iOS/Android/Mac/Windows, umo\u017cliwiaj\u0105c korzystanie zar\xf3wno z urz\u0105dze\u0144 mobilnych, jak i komputer\xf3w z kamerami internetowymi. Wersja desktopowa obs\u0142uguje r\xf3wnie\u017c wiele \u017ar\xf3de\u0142 wideo, umo\u017cliwiaj\u0105c jednoczesne liczenie z wielu strumieni."},
+gaO(){return"Obs\u0142uga transmisji na \u017cywo"},
+gaN(){return"Opr\xf3cz kamer urz\u0105dze\u0144 mobilnych obs\u0142ugujemy nagrane pliki wideo, wej\u015bcia z kamer internetowych i internetowe transmisje na \u017cywo, takie jak RTSP. Pozwala to na pod\u0142\u0105czenie do istniej\u0105cych urz\u0105dze\u0144 i natychmiastowe rozpocz\u0119cie pomiaru przep\u0142ywu ruchu."},
+gaT(){return"Napisz do nas"},
+gau(){return"Licznik"},
+gar(){return"Chcesz wiedzie\u0107, ile os\xf3b przechodzi obok? Ta aplikacja wykorzystuje kamer\u0119 Twojego telefonu do inteligentnego identyfikowania i automatycznego liczenia pieszych. Nie wymaga r\u0119cznego wprowadzania danych. Po\u017cegnaj si\u0119 z \u017cmudnym liczeniem i \u0142atwo monitoruj przep\u0142yw ruchu."}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.q4,C.q)})()
-B.a2(b.typeUniverse,JSON.parse('{"q4":{"q":[]}}'))};
+y(A.qb,C.q)})()
+B.a3(b.typeUniverse,JSON.parse('{"qb":{"q":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_83",e:"endPart",h:b})})($__dart_deferred_initializers__,"5vDNKxK/y6xAycrSTK4NyRheT98=");
+a.eventLog.push({p:"main.dart.js_83",e:"endPart",h:b})})($__dart_deferred_initializers__,"Jjiz7xgfaGAjsXdBdPakHVdEtHk=");
