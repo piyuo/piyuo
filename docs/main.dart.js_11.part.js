@@ -2,11 +2,11 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_11",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,A={
-aO7(d){B.P(d)
+aO8(d){B.P(d)
 return new A.lL()},
-aO9(){B.P("es_AR")
+aOa(){B.P("es_AR")
 return new A.p9()},
-aOb(){B.P("es_CO")
+aOc(){B.P("es_CO")
 return new A.pb()},
 lL:function lL(){},
 p9:function p9(){},
@@ -83,4 +83,4 @@ w(A.lL,[A.p9,A.pb])})()
 B.a4(b.typeUniverse,JSON.parse('{"lL":{"x":[]},"p9":{"x":[]},"pb":{"x":[]}}'))
 var y={j:"Define zonas de detecci\xf3n personalizadas para contar el tr\xe1fico en \xe1reas espec\xedficas.",g:"Elige contar objetos que aparecen nuevamente dentro de la zona de detecci\xf3n, o aquellos que permanecen estacionarios.",a:"Tu celular ahora puede usar IA para reconocer peatones.",i:"Visualiza el conteo de tr\xe1fico peatonal para cualquier per\xedodo de tiempo."}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_11",e:"endPart",h:b})})($__dart_deferred_initializers__,"Jm0OD7EYtZC0XwAXEc2J79E3ALE=");
+a.eventLog.push({p:"main.dart.js_11",e:"endPart",h:b})})($__dart_deferred_initializers__,"LaGyXG5jcNYmQl9HEuGkD9+9CJE=");

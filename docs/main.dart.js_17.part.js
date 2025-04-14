@@ -2,9 +2,9 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_17",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,A={
-aP7(d){B.P(d)
+aP8(d){B.P(d)
 return new A.lR()},
-aP9(){B.P("nl_BE")
+aPa(){B.P("nl_BE")
 return new A.q3()},
 lR:function lR(){},
 q3:function q3(){}},C
@@ -59,4 +59,4 @@ x(A.q3,A.lR)})()
 B.a4(b.typeUniverse,JSON.parse('{"lR":{"x":[]},"q3":{"x":[]}}'))
 var y={n:"Bekijk voetgangersaantallen voor elke tijdsperiode.",g:"Definieer aangepaste detectiezones om verkeer in specifieke gebieden te tellen.",h:"Kies ervoor om nieuw verschijnende objecten binnen de detectiezone te tellen, of objecten die stil blijven staan.",e:"Tel gelijktijdig voetgangers, auto's, fietsen en meer"}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_17",e:"endPart",h:b})})($__dart_deferred_initializers__,"RycsqEfqwTiznki8CfG79qwS+/Q=");
+a.eventLog.push({p:"main.dart.js_17",e:"endPart",h:b})})($__dart_deferred_initializers__,"Su1jZLVQCkLmxQ/8/Vte1OCyfx4=");

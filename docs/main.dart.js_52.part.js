@@ -2,7 +2,7 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_52",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aOy(){B.P("hi")
+aOz(){B.P("hi")
 return new A.pw()},
 pw:function pw(){}}
 B=c[0]
@@ -33,4 +33,4 @@ var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
 y(A.pw,C.x)})()
 B.a4(b.typeUniverse,JSON.parse('{"pw":{"x":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_52",e:"endPart",h:b})})($__dart_deferred_initializers__,"TwZd3oBt75IZA7/xBULtwn0Yoag=");
+a.eventLog.push({p:"main.dart.js_52",e:"endPart",h:b})})($__dart_deferred_initializers__,"n+3GHXgjYToQYYXHxfKB55gN/1Q=");

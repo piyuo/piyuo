@@ -2,11 +2,11 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_5",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aNQ(d){B.P(d)
+aNR(d){B.P(d)
 return new A.lH()},
-aNS(){B.P("de_AT")
+aNT(){B.P("de_AT")
 return new A.oW()},
-aNU(){B.P("de_CH")
+aNV(){B.P("de_CH")
 return new A.oY()},
 lH:function lH(){},
 oW:function oW(){},
@@ -83,4 +83,4 @@ w(A.lH,[A.oW,A.oY])})()
 B.a4(b.typeUniverse,JSON.parse('{"lH":{"x":[]},"oW":{"x":[]},"oY":{"x":[]}}'))
 var y={h:"Betrachten Sie Fu\xdfg\xe4ngerzahlen f\xfcr jeden beliebigen Zeitraum.",t:"Definieren Sie benutzerdefinierte Erkennungszonen, um den Verkehr in bestimmten Bereichen zu z\xe4hlen.",w:"Wir bieten auch eine Desktop-Version an. Wir stellen Versionen f\xfcr iOS/Android/Mac/Windows bereit, sodass Sie sowohl mobile Ger\xe4te als auch Desktop-Computer mit Webcams nutzen k\xf6nnen. Die Desktop-Version unterst\xfctzt zus\xe4tzlich mehrere Videoquellen, was das gleichzeitige Z\xe4hlen aus mehreren Streams erm\xf6glicht.",n:"W\xe4hlen Sie, ob neu erscheinende Objekte innerhalb der Erkennungszone oder station\xe4re Objekte gez\xe4hlt werden sollen.",l:"Zus\xe4tzlich zu Kameras mobiler Ger\xe4te unterst\xfctzen wir aufgezeichnete Videodateien, Webcam-Eing\xe4nge und Internet-Live-Streams wie RTSP. So k\xf6nnen Sie sich mit vorhandenen Ger\xe4ten verbinden und sofort mit der Messung des Verkehrsflusses beginnen.",v:"Z\xe4hlen Sie gleichzeitig Fu\xdfg\xe4nger, Autos, Fahrr\xe4der und mehr"}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_5",e:"endPart",h:b})})($__dart_deferred_initializers__,"9BtlurIG2l4Et6gOE60MYwr8KII=");
+a.eventLog.push({p:"main.dart.js_5",e:"endPart",h:b})})($__dart_deferred_initializers__,"ieCDBtTScWJ4aUbjGaACCS4ZNrc=");

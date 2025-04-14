@@ -2,13 +2,13 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_1",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,A={
-aNu(d){B.P(d)
+aNv(d){B.P(d)
 return new A.lD()},
-aNw(){B.P("ar_AE")
+aNx(){B.P("ar_AE")
 return new A.oE()},
-aNy(){B.P("ar_DZ")
+aNz(){B.P("ar_DZ")
 return new A.oG()},
-aNA(){B.P("ar_EG")
+aNB(){B.P("ar_EG")
 return new A.oI()},
 lD:function lD(){},
 oE:function oE(){},
@@ -107,4 +107,4 @@ w(A.lD,[A.oE,A.oG,A.oI])})()
 B.a4(b.typeUniverse,JSON.parse('{"lD":{"x":[]},"oE":{"x":[]},"oG":{"x":[]},"oI":{"x":[]}}'))
 var y={d:"\u064a\u0645\u0643\u0646 \u0644\u0647\u0627\u062a\u0641\u0643 \u0627\u0644\u0622\u0646 \u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0627\u0644\u0630\u0643\u0627\u0621 \u0627\u0644\u0627\u0635\u0637\u0646\u0627\u0639\u064a \u0644\u0644\u062a\u0639\u0631\u0641 \u0639\u0644\u0649 \u0627\u0644\u0645\u0627\u0631\u0629.",b:"\u064a\u0645\u0643\u0646 \u0644\u0647\u0627\u062a\u0641\u0643 \u0627\u0644\u0622\u0646 \u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0627\u0644\u0630\u0643\u0627\u0621 \u0627\u0644\u0627\u0635\u0637\u0646\u0627\u0639\u064a \u0644\u0644\u062a\u0639\u0631\u0641 \u0639\u0644\u0649 \u0627\u0644\u0645\u0634\u0627\u0629."}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_1",e:"endPart",h:b})})($__dart_deferred_initializers__,"YWV2ZmrVAUL+6XW7EEbiXTxvmvw=");
+a.eventLog.push({p:"main.dart.js_1",e:"endPart",h:b})})($__dart_deferred_initializers__,"9cqW2hJMtrC0ow6K34xyvy5WD4A=");

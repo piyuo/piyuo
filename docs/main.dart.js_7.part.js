@@ -2,15 +2,15 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_7",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aNY(d){B.P(d)
+aNZ(d){B.P(d)
 return new A.lJ()},
-aO_(){B.P("en_AU")
+aO0(){B.P("en_AU")
 return new A.p1()},
-aO1(){B.P("en_CA")
+aO2(){B.P("en_CA")
 return new A.p3()},
-aO3(){B.P("en_GB")
+aO4(){B.P("en_GB")
 return new A.p5()},
-aO5(){B.P("en_IN")
+aO6(){B.P("en_IN")
 return new A.p7()},
 lJ:function lJ(){},
 p1:function p1(){},
@@ -131,4 +131,4 @@ w(A.lJ,[A.p1,A.p3,A.p5,A.p7])})()
 B.a4(b.typeUniverse,JSON.parse('{"lJ":{"x":[]},"p1":{"x":[]},"p3":{"x":[]},"p5":{"x":[]},"p7":{"x":[]}}'))
 var y={Y:"Choose to count newly appearing objects within the detection zone, or those that remain stationary.",d:"Define custom detection zones to count traffic in specific areas.",a:"In addition to mobile device cameras, we support recorded video files, webcam inputs, and internet live streams such as RTSP. This allows you to connect to existing devices and immediately begin measuring traffic flow.",b:"No internet required. No need to manually count people with a traditional clicker. Just set up your mobile to automatically track passing foot traffic.",W:"No internet required. No need to manually count people with a traditional clicker. Just set up your phone to automatically track passing foot traffic.",w:"Simultaneously count pedestrians, cars, bicycles, and more",P:"View foot traffic counts for any time period.",r:"Want to know how many people pass by? This app uses your mobile's camera to intelligently identify and automatically count pedestrians. No manual input required. Say goodbye to tedious counting and easily monitor traffic flow.",E:"Want to know how many people pass by? This app uses your phone's camera to intelligently identify and automatically count pedestrians. No manual input required. Say goodbye to tedious counting and easily monitor traffic flow.",G:"We also offer a desktop version. We provide versions for iOS/Android/Mac/Windows, allowing you to utilise both mobile devices and desktops with webcams. The desktop version further supports multiple video sources, enabling simultaneous counting from multiple streams.",h:"We also offer a desktop version. We provide versions for iOS/Android/Mac/Windows, allowing you to utilize both mobile devices and desktops with webcams. The desktop version further supports multiple video sources, enabling simultaneous counting from multiple streams.",m:"Your mobile can now use AI to recognise pedestrians.",K:"Your phone can now use AI to recognize pedestrians."}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_7",e:"endPart",h:b})})($__dart_deferred_initializers__,"71RO7X5p3jX6mauvxqFPp0xmNdA=");
+a.eventLog.push({p:"main.dart.js_7",e:"endPart",h:b})})($__dart_deferred_initializers__,"SAjDIMT27J6HygRYJBZTPYKe4uQ=");

@@ -2,9 +2,9 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_15",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,A={
-aOY(d){B.P(d)
+aOZ(d){B.P(d)
 return new A.lP()},
-aP_(){B.P("ms_SG")
+aP0(){B.P("ms_SG")
 return new A.pW()},
 lP:function lP(){},
 pW:function pW(){}},C
@@ -59,4 +59,4 @@ x(A.pW,A.lP)})()
 B.a4(b.typeUniverse,JSON.parse('{"lP":{"x":[]},"pW":{"x":[]}}'))
 var y={h:"Mengira pejalan kaki, kereta, basikal, dan lain-lain secara serentak",f:"Pilih untuk mengira objek yang baru muncul dalam zon pengesanan, atau yang kekal pegun.",n:"Selain kamera peranti mudah alih, kami menyokong fail video yang dirakam, input kamera web, dan strim langsung internet seperti RTSP. Ini membolehkan anda menyambung ke peranti sedia ada dan segera mula mengukur aliran trafik.",i:"Tentukan zon pengesanan tersuai untuk mengira lalu lintas di kawasan tertentu."}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_15",e:"endPart",h:b})})($__dart_deferred_initializers__,"NZRkBmjT5IlVVmw1qP7szk0QL8w=");
+a.eventLog.push({p:"main.dart.js_15",e:"endPart",h:b})})($__dart_deferred_initializers__,"vYzka57Wzl1Uht2K5Uq/8XZhclE=");
