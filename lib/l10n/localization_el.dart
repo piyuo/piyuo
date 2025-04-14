@@ -73,4 +73,10 @@ class LocalizationEl extends Localization {
 
   @override
   String get video_desc => 'Δεν απαιτείται σύνδεση στο διαδίκτυο. Δεν χρειάζεται να μετράτε χειροκίνητα τους ανθρώπους με παραδοσιακό μετρητή. Απλά ρυθμίστε το τηλέφωνό σας να παρακολουθεί αυτόματα τη διερχόμενη κυκλοφορία πεζών.';
+
+  @override
+  String get terms => 'Όροι Υπηρεσίας';
+
+  @override
+  String get privacy => 'Απόρρητο';
 }

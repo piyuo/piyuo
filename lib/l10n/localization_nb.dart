@@ -73,4 +73,10 @@ class LocalizationNb extends Localization {
 
   @override
   String get video_desc => 'Ingen internett nødvendig. Ingen behov for å telle personer manuelt med en tradisjonell klikker. Bare sett opp telefonen din til å automatisk spore forbipasserende fotgjengertrafikk.';
+
+  @override
+  String get terms => 'Tjenestevilkår';
+
+  @override
+  String get privacy => 'Personvern';
 }

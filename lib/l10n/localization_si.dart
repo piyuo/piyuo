@@ -73,4 +73,10 @@ class LocalizationSi extends Localization {
 
   @override
   String get video_desc => 'අන්තර්ජාලය අවශ්‍ය නැත. සාම්ප්‍රදායික ක්ලිකරයක් සමඟ මිනිසුන් අතින් ගණන් කිරීමට අවශ්‍ය නැත. පාද ගමනාගමනය ස්වයංක්‍රීයව ලුහුබැඳීමට ඔබේ දුරකථනය සකස් කරන්න.';
+
+  @override
+  String get terms => 'සේවා කොන්දේසි';
+
+  @override
+  String get privacy => 'රහස්යතාව';
 }

@@ -20,5 +20,7 @@
   "index_email_us": "Envíanos un correo electrónico",
   "app_name": "Contador",
   "app_desc": "¿Quieres saber cuántas personas pasan? Esta aplicación utiliza la cámara de tu celular para identificar de forma inteligente y contar automáticamente a los peatones. No se requiere entrada manual. Dile adiós al conteo tedioso y monitorea fácilmente el flujo de tráfico.",
-  "video_desc": "No requiere internet. No es necesario contar manualmente a las personas con un contador tradicional. Solo configura tu celular para rastrear automáticamente el tráfico peatonal."
+  "video_desc": "No requiere internet. No es necesario contar manualmente a las personas con un contador tradicional. Solo configura tu celular para rastrear automáticamente el tráfico peatonal.",
+  "terms": "Términos de servicio",
+  "privacy": "Privacidad"
 }

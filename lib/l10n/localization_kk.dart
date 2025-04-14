@@ -73,4 +73,10 @@ class LocalizationKk extends Localization {
 
   @override
   String get video_desc => 'Интернет қажет емес. Дәстүрлі есептегішпен адамдарды қолмен санаудың қажеті жоқ. Телефоныңызды өткен жаяу жүргіншілерді автоматты түрде қадағалауға орнатыңыз.';
+
+  @override
+  String get terms => 'Қызмет көрсету шарттары';
+
+  @override
+  String get privacy => 'Құпиялылық';
 }

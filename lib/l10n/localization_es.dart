@@ -73,6 +73,12 @@ class LocalizationEs extends Localization {
 
   @override
   String get video_desc => 'No requiere internet. No es necesario contar manualmente a las personas con un contador tradicional. Simplemente configura tu teléfono para rastrear automáticamente el tráfico peatonal.';
+
+  @override
+  String get terms => 'Términos de servicio';
+
+  @override
+  String get privacy => 'Privacidad';
 }
 
 /// The translations for Spanish Castilian, as used in Argentina (`es_AR`).
@@ -144,6 +150,12 @@ class LocalizationEsAr extends LocalizationEs {
 
   @override
   String get video_desc => 'No requiere internet. No necesitás contar manualmente a las personas con un contador tradicional. Simplemente configurá tu celular para rastrear automáticamente el tránsito peatonal.';
+
+  @override
+  String get terms => 'Términos de servicio';
+
+  @override
+  String get privacy => 'Privacidad';
 }
 
 /// The translations for Spanish Castilian, as used in Colombia (`es_CO`).
@@ -215,4 +227,10 @@ class LocalizationEsCo extends LocalizationEs {
 
   @override
   String get video_desc => 'No requiere internet. No es necesario contar manualmente a las personas con un contador tradicional. Solo configura tu celular para rastrear automáticamente el tráfico peatonal.';
+
+  @override
+  String get terms => 'Términos de servicio';
+
+  @override
+  String get privacy => 'Privacidad';
 }

@@ -73,4 +73,10 @@ class LocalizationTl extends Localization {
 
   @override
   String get video_desc => 'Hindi kailangan ng internet. Hindi na kailangang manu-manong bilangin ang mga tao gamit ang tradisyonal na clicker. I-set up lang ang iyong telepono para awtomatikong subaybayan ang dumadaang mga tao.';
+
+  @override
+  String get terms => 'Mga Tuntunin ng Serbisyo';
+
+  @override
+  String get privacy => 'Pagkapribado';
 }

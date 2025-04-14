@@ -73,4 +73,10 @@ class LocalizationMr extends Localization {
 
   @override
   String get video_desc => 'इंटरनेटची आवश्यकता नाही. पारंपारिक क्लिकरने लोकांची मोजणी मॅन्युअली करण्याची गरज नाही. फक्त तुमचा फोन सेट करा आणि पादचारी वर्दळीचे स्वयंचलितपणे ट्रॅकिंग करा.';
+
+  @override
+  String get terms => 'सेवा अटी';
+
+  @override
+  String get privacy => 'गोपनीयता';
 }

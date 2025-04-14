@@ -2,35 +2,37 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_100",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,A={
-aPR(){B.P("uz")
-return new A.qF()},
-qF:function qF(){}},C
+aPI(){B.P("tl")
+return new A.qx()},
+qx:function qx(){}},C
 B=c[0]
-A=a.updateHolder(c[117],A)
+A=a.updateHolder(c[114],A)
 C=c[120]
-A.qF.prototype={
-gaQ(){return"Yuklab olish"},
-gaX(){return"Tez orada."},
-gaW(){return"2025-yil bahorida mavjud bo'ladi."},
-gb_(){return"Telefoningiz endi AI yordamida piyodalarni taniy oladi."},
-gaZ(){return"Internet kerak emas. An'anaviy kliker bilan odamlarni qo'lda sanashning hojati yo'q. Shunchaki telefoningizni o'tib ketayotgan piyodalar oqimini avtomatik kuzatib borish uchun sozlang."},
-gaI(){return"24/7 kuzatuv"},
-gaJ(){return"Istalgan vaqt davomida piyodalar oqimi sonini ko'rish."},
-gaK(){return"Ko'p ob'ektlarni kuzatish"},
-gaL(){return"Piyodalar, mashinalar, velosipedlar va boshqalarni bir vaqtning o'zida sanash"},
-gaM(){return"Maxsus aniqlash zonalari"},
-gaN(){return"Ma'lum joylarda harakatni sanash uchun maxsus aniqlash zonalarini belgilang."},
-gaO(){return"Moslashuvchan sanash rejimi"},
-gaP(){return"Aniqlash zonasida yangi paydo bo'lgan ob'ektlarni yoki harakatsiz qolganlarini sanashni tanlang."},
-gaV(){return"Ish stoli versiyasi mavjudligi"},
-gaU(){return"Biz ish stoli versiyasini ham taklif qilamiz. Biz iOS/Android/Mac/Windows versiyalarini taqdim etamiz, bu sizga ham mobil qurilmalar, ham veb-kamerali ish stolilaridan foydalanish imkonini beradi. Ish stoli versiyasi ko'p video manbalarini qo'llab-quvvatlaydi, bu bir vaqtning o'zida bir nechta oqimlardan sanashga imkon beradi."},
-gaT(){return"Jonli uzatishni qo'llab-quvvatlash"},
-gaS(){return"Mobil qurilma kameralaridan tashqari, biz yozib olingan video fayllar, veb-kamera kiritishlari va RTSP kabi internet jonli uzatishlarini qo'llab-quvvatlaymiz. Bu sizga mavjud qurilmalarga ulanish va darhol harakat oqimini o'lchashni boshlash imkonini beradi."},
-gaY(){return"Bizga xat yozing"},
-gaC(){return"Sanoq"},
-gaB(){return"Qancha odam o'tib ketishini bilmoqchimisiz? Bu ilova telefoningiz kamerasidan foydalanib, aqlli ravishda piyodalarni aniqlaydi va avtomatik ravishda sanaydi. Qo'lda kiritish shart emas. Zerikarli sanashga xayrlashing va osonlik bilan harakat oqimini kuzating."}}
+A.qx.prototype={
+gaQ(){return"I-download"},
+gaX(){return"Malapit nang dumating."},
+gaW(){return"Magagamit sa Spring 2025."},
+gb_(){return"Ang iyong telepono ay maaari nang gumamit ng AI para kilalanin ang mga naglalakad."},
+gaZ(){return"Hindi kailangan ng internet. Hindi na kailangang manu-manong bilangin ang mga tao gamit ang tradisyonal na clicker. I-set up lang ang iyong telepono para awtomatikong subaybayan ang dumadaang mga tao."},
+gaI(){return"24/7 na Pagsubaybay"},
+gaJ(){return"Tingnan ang bilang ng mga naglalakad sa anumang oras."},
+gaK(){return"Sabayang Pagsubaybay ng Maraming Bagay"},
+gaL(){return"Sabay-sabay na bilangin ang mga taong naglalakad, mga sasakyan, bisikleta, at iba pa"},
+gaM(){return"Pasadyang Detection Zones"},
+gaN(){return"Magtakda ng pasadyang detection zones para bilangin ang mga dumadaan sa mga tiyak na lugar."},
+gaO(){return"Nababagong Counting Modes"},
+gaP(){return"Piliin kung bilangin ang mga bagong lumilitaw na bagay sa loob ng detection zone, o iyong mga nananatiling nakatayo."},
+gaV(){return"Pagkakaroon ng Desktop Version"},
+gaU(){return"Nag-aalok din kami ng desktop version. Nagbibigay kami ng mga bersyon para sa iOS/Android/Mac/Windows, na nagbibigay-daan sa paggamit ng parehong mga mobile device at desktop na may webcam. Ang desktop version ay sumusuporta rin sa maraming video sources, na nagbibigay-daan sa sabay-sabay na pagbilang mula sa maraming streams."},
+gaT(){return"Suporta sa Live Stream"},
+gaS(){return"Bukod sa mga camera ng mobile device, sumusuporta kami sa mga naka-record na video file, webcam inputs, at internet live streams tulad ng RTSP. Ito ay nagbibigay-daan sa iyo na kumonekta sa mga umiiral na device at agad na magsimulang sukatin ang daloy ng trapiko."},
+gaY(){return"Mag-email sa amin"},
+gaC(){return"Counter"},
+gaB(){return"Gusto mo bang malaman kung ilang tao ang dumadaan? Ang app na ito ay gumagamit ng camera ng iyong telepono para matalinong tukuyin at awtomatikong bilangin ang mga naglalakad. Hindi kailangan ng manu-manong pag-input. Magpaalam sa nakakainip na pagbibilang at madaling subaybayan ang daloy ng trapiko."},
+gb1(){return"Mga Tuntunin ng Serbisyo"},
+gb0(){return"Pagkapribado"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.qF,C.x)})()
-B.a4(b.typeUniverse,JSON.parse('{"qF":{"x":[]}}'))};
+y(A.qx,C.x)})()
+B.a4(b.typeUniverse,JSON.parse('{"qx":{"x":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_100",e:"endPart",h:b})})($__dart_deferred_initializers__,"sW7bIQleqfMujreVRxSoUq9R/Fo=");
+a.eventLog.push({p:"main.dart.js_100",e:"endPart",h:b})})($__dart_deferred_initializers__,"RUks06i9VuUfg2XSOXnByF9i03U=");

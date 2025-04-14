@@ -73,4 +73,10 @@ class LocalizationHu extends Localization {
 
   @override
   String get video_desc => 'Nem igényel internetet. Nincs szükség hagyományos számláló használatára az emberek kézi számolásához. Egyszerűen állítsa be telefonját, hogy automatikusan követhesse az áthaladó gyalogosforgalmat.';
+
+  @override
+  String get terms => 'Szolgáltatási feltételek';
+
+  @override
+  String get privacy => 'Adatvédelem';
 }

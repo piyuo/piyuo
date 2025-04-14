@@ -73,4 +73,10 @@ class LocalizationSw extends Localization {
 
   @override
   String get video_desc => 'Haihitaji intaneti. Hakuna haja ya kuhesabu watu kwa mkono kwa kutumia kifaa cha kuhesabu cha kawaida. Weka tu simu yako ihesabu watu wanaopita kiotomatiki.';
+
+  @override
+  String get terms => 'Masharti ya Huduma';
+
+  @override
+  String get privacy => 'Faragha';
 }

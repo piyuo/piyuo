@@ -20,5 +20,7 @@
   "index_email_us": "Bizga xat yozing",
   "app_name": "Sanoq",
   "app_desc": "Qancha odam o'tib ketishini bilmoqchimisiz? Bu ilova telefoningiz kamerasidan foydalanib, aqlli ravishda piyodalarni aniqlaydi va avtomatik ravishda sanaydi. Qo'lda kiritish shart emas. Zerikarli sanashga xayrlashing va osonlik bilan harakat oqimini kuzating.",
-  "video_desc": "Internet kerak emas. An'anaviy kliker bilan odamlarni qo'lda sanashning hojati yo'q. Shunchaki telefoningizni o'tib ketayotgan piyodalar oqimini avtomatik kuzatib borish uchun sozlang."
+  "video_desc": "Internet kerak emas. An'anaviy kliker bilan odamlarni qo'lda sanashning hojati yo'q. Shunchaki telefoningizni o'tib ketayotgan piyodalar oqimini avtomatik kuzatib borish uchun sozlang.",
+  "terms": "Xizmat shartlari",
+  "privacy": "Maxfiylik"
 }

@@ -73,4 +73,10 @@ class LocalizationRo extends Localization {
 
   @override
   String get video_desc => 'Nu necesită internet. Nu e nevoie să numărați manual persoanele cu un dispozitiv tradițional. Configurați-vă telefonul pentru a monitoriza automat traficul pietonal.';
+
+  @override
+  String get terms => 'Termeni de utilizare';
+
+  @override
+  String get privacy => 'Confidențialitate';
 }

@@ -2,20 +2,20 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_136",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aOx(){B.P("hi")
-return new A.pv()},
-pv:function pv(){}}
+aOe(){B.P("et")
+return new A.pd()},
+pd:function pd(){}}
 B=c[0]
 C=c[119]
-A=a.updateHolder(c[29],A)
-A.pv.prototype={
-gaF(){return"\u0909\u092b\u093c, \u0915\u0941\u091b \u0917\u0932\u0924 \u0939\u094b \u0917\u092f\u093e"},
-gaE(){return"\u090f\u0915 \u0905\u092a\u094d\u0930\u0924\u094d\u092f\u093e\u0936\u093f\u0924 \u0924\u094d\u0930\u0941\u091f\u093f \u0939\u0941\u0908\u0964 \u0915\u094d\u092f\u093e \u0906\u092a \u0908\u092e\u0947\u0932 \u0930\u093f\u092a\u094b\u0930\u094d\u091f \u092d\u0947\u091c\u0928\u093e \u091a\u093e\u0939\u0924\u0947 \u0939\u0948\u0902?"},
-gaG(){return"\u0939\u092e\u0947\u0902 \u0908\u092e\u0947\u0932 \u0915\u0930\u0947\u0902"},
-gaD(){return"\u0930\u0926\u094d\u0926 \u0915\u0930\u0947\u0902"},
-gaA(){return"\u0938\u093f\u0938\u094d\u091f\u092e \u092d\u093e\u0937\u093e"}}
+A=a.updateHolder(c[23],A)
+A.pd.prototype={
+gaF(){return"Ups, midagi l\xe4ks valesti"},
+gaE(){return"Ilmnes ootamatu viga. Kas soovite saata e-posti aruande?"},
+gaG(){return"Saada meile e-kiri"},
+gaD(){return"T\xfchista"},
+gaA(){return"S\xfcsteemi keel"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.pv,C.u)})()
-B.a4(b.typeUniverse,JSON.parse('{"pv":{"u":[]}}'))};
+y(A.pd,C.u)})()
+B.a4(b.typeUniverse,JSON.parse('{"pd":{"u":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_136",e:"endPart",h:b})})($__dart_deferred_initializers__,"+Cb0yr1Vwb3taqa7dXCiZbLkhwc=");
+a.eventLog.push({p:"main.dart.js_136",e:"endPart",h:b})})($__dart_deferred_initializers__,"RUW8L+LSwQgz2CcBxy3Mbo2ZdpI=");

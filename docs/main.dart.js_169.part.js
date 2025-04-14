@@ -2,20 +2,20 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_169",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aPQ(){B.P("uz")
-return new A.qE()},
-qE:function qE(){}}
+aPB(){B.P("ta")
+return new A.qq()},
+qq:function qq(){}}
 B=c[0]
 C=c[119]
-A=a.updateHolder(c[59],A)
-A.qE.prototype={
-gaF(){return"Voy, xatolik yuz berdi"},
-gaE(){return"Kutilmagan xatolik yuz berdi. Elektron pochta hisobotini yuborishni xohlaysizmi?"},
-gaG(){return"Bizga elektron pochta yuboring"},
-gaD(){return"Bekor qilish"},
-gaA(){return"Tizim tili"}}
+A=a.updateHolder(c[53],A)
+A.qq.prototype={
+gaF(){return"\u0b85\u0b9f\u0b9f\u0bbe, \u0b8f\u0ba4\u0bcb \u0ba4\u0bb5\u0bb1\u0bc1 \u0ba8\u0b9f\u0ba8\u0bcd\u0ba4\u0bc1\u0bb5\u0bbf\u0b9f\u0bcd\u0b9f\u0ba4\u0bc1"},
+gaE(){return"\u0b8e\u0ba4\u0bbf\u0bb0\u0bcd\u0baa\u0bbe\u0bb0\u0bbe\u0ba4 \u0baa\u0bbf\u0bb4\u0bc8 \u0b8f\u0bb1\u0bcd\u0baa\u0b9f\u0bcd\u0b9f\u0ba4\u0bc1. \u0bae\u0bbf\u0ba9\u0bcd\u0ba9\u0b9e\u0bcd\u0b9a\u0bb2\u0bcd \u0b85\u0bb1\u0bbf\u0b95\u0bcd\u0b95\u0bc8\u0baf\u0bc8 \u0b9a\u0bae\u0bb0\u0bcd\u0baa\u0bcd\u0baa\u0bbf\u0b95\u0bcd\u0b95 \u0bb5\u0bbf\u0bb0\u0bc1\u0bae\u0bcd\u0baa\u0bc1\u0b95\u0bbf\u0bb1\u0bc0\u0bb0\u0bcd\u0b95\u0bb3\u0bbe?"},
+gaG(){return"\u0b8e\u0b99\u0bcd\u0b95\u0bb3\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0bae\u0bbf\u0ba9\u0bcd\u0ba9\u0b9e\u0bcd\u0b9a\u0bb2\u0bcd \u0b85\u0ba9\u0bc1\u0baa\u0bcd\u0baa\u0bb5\u0bc1\u0bae\u0bcd"},
+gaD(){return"\u0bb0\u0ba4\u0bcd\u0ba4\u0bc1 \u0b9a\u0bc6\u0baf\u0bcd"},
+gaA(){return"\u0b95\u0ba3\u0bbf\u0ba9\u0bbf \u0bae\u0bca\u0bb4\u0bbf"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.qE,C.u)})()
-B.a4(b.typeUniverse,JSON.parse('{"qE":{"u":[]}}'))};
+y(A.qq,C.u)})()
+B.a4(b.typeUniverse,JSON.parse('{"qq":{"u":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_169",e:"endPart",h:b})})($__dart_deferred_initializers__,"soBZGAWQCvpmbdkWdvNoPp15N78=");
+a.eventLog.push({p:"main.dart.js_169",e:"endPart",h:b})})($__dart_deferred_initializers__,"78L4VCMFBKrP2VH+Nf4vsuVsiOk=");

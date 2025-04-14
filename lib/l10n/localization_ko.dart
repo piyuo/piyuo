@@ -73,4 +73,10 @@ class LocalizationKo extends Localization {
 
   @override
   String get video_desc => '인터넷 연결 불필요. 전통적인 카운터로 사람을 수동으로 세지 않아도 됩니다. 휴대폰을 설정하여 지나가는 보행자 통행량을 자동으로 추적하세요.';
+
+  @override
+  String get terms => '서비스 약관';
+
+  @override
+  String get privacy => '개인정보 보호';
 }

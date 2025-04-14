@@ -73,4 +73,10 @@ class LocalizationVi extends Localization {
 
   @override
   String get video_desc => 'Không cần internet. Không cần đếm người thủ công bằng máy đếm truyền thống. Chỉ cần thiết lập điện thoại để tự động theo dõi lưu lượng người qua lại.';
+
+  @override
+  String get terms => 'Điều khoản dịch vụ';
+
+  @override
+  String get privacy => 'Quyền riêng tư';
 }

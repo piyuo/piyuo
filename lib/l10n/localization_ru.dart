@@ -73,6 +73,12 @@ class LocalizationRu extends Localization {
 
   @override
   String get video_desc => 'Интернет не требуется. Нет необходимости вручную считать людей с помощью традиционного счетчика. Просто настройте телефон для автоматического отслеживания проходящего пешеходного потока.';
+
+  @override
+  String get terms => 'Условия использования';
+
+  @override
+  String get privacy => 'Конфиденциальность';
 }
 
 /// The translations for Russian, as used in Kazakhstan (`ru_KZ`).
@@ -144,6 +150,12 @@ class LocalizationRuKz extends LocalizationRu {
 
   @override
   String get video_desc => 'Интернет не требуется. Нет необходимости вручную считать людей с помощью традиционного счетчика. Просто настройте телефон для автоматического отслеживания проходящего пешеходного потока.';
+
+  @override
+  String get terms => 'Шарттар мен ережелер';
+
+  @override
+  String get privacy => 'Құпиялылық';
 }
 
 /// The translations for Russian, as used in Ukraine (`ru_UA`).
@@ -215,4 +227,10 @@ class LocalizationRuUa extends LocalizationRu {
 
   @override
   String get video_desc => 'Интернет не требуется. Нет необходимости вручную считать людей с помощью традиционного счетчика. Просто настройте телефон для автоматического отслеживания проходящего пешеходного потока.';
+
+  @override
+  String get terms => 'Умови використання';
+
+  @override
+  String get privacy => 'Конфіденційність';
 }

@@ -20,5 +20,7 @@
   "index_email_us": "Pošaljite nam e-mail",
   "app_name": "Brojač",
   "app_desc": "Želite znati koliko ljudi prolazi? Ova aplikacija koristi kameru vašeg telefona za inteligentno prepoznavanje i automatsko brojanje pješaka. Nije potreban ručni unos. Oprostite se od dosadnog brojanja i jednostavno pratite protok prometa.",
-  "video_desc": "Nije potreban internet. Nije potrebno ručno brojati ljude tradicionalnim brojačem. Jednostavno postavite svoj telefon da automatski prati prolaznost pješaka."
+  "video_desc": "Nije potreban internet. Nije potrebno ručno brojati ljude tradicionalnim brojačem. Jednostavno postavite svoj telefon da automatski prati prolaznost pješaka.",
+  "terms": "Uvjeti korištenja",
+  "privacy": "Privatnost"
 }

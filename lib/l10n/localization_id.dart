@@ -73,4 +73,10 @@ class LocalizationId extends Localization {
 
   @override
   String get video_desc => 'Tidak memerlukan internet. Tidak perlu menghitung orang secara manual dengan penghitung tradisional. Cukup atur ponsel Anda untuk melacak lalu lintas pejalan kaki secara otomatis.';
+
+  @override
+  String get terms => 'Ketentuan Layanan';
+
+  @override
+  String get privacy => 'Privasi';
 }

@@ -73,4 +73,10 @@ class LocalizationAf extends Localization {
 
   @override
   String get video_desc => 'Geen internet benodig nie. Geen behoefte om mense handmatig te tel met \'n tradisionele klikker nie. Stel net jou foon op om outomaties verbygaande voetgangersverkeer te monitor.';
+
+  @override
+  String get terms => 'Diensvoorwaardes';
+
+  @override
+  String get privacy => 'Privaatheid';
 }

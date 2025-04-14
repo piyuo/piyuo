@@ -73,4 +73,10 @@ class LocalizationMy extends Localization {
 
   @override
   String get video_desc => 'အင်တာနက်မလိုပါ။ ရိုးရိုးကလစ်ခလုတ်ဖြင့် လူများကို လက်ဖြင့်ရေတွက်ရန် မလိုအပ်ပါ။ သင့်ဖုန်းကို ဖြတ်သန်းသွားလာနေသော ခြေကျင်သွားလာမှုကို အလိုအလျောက်ခြေရာခံရန် သတ်မှတ်ထားရုံသာဖြစ်သည်။';
+
+  @override
+  String get terms => 'ဝန်ဆောင်မှုစည်းကမ်းချက်များ';
+
+  @override
+  String get privacy => 'ကိုယ်ရေးအချက်အလက်';
 }

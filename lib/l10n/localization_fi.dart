@@ -73,4 +73,10 @@ class LocalizationFi extends Localization {
 
   @override
   String get video_desc => 'Ei vaadi internetyhteyttä. Ei tarvetta laskea ihmisiä manuaalisesti perinteisellä laskurilla. Aseta vain puhelimesi seuraamaan automaattisesti ohikulkevaa jalankulkuliikennettä.';
+
+  @override
+  String get terms => 'Käyttöehdot';
+
+  @override
+  String get privacy => 'Tietosuoja';
 }

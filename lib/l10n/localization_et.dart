@@ -73,4 +73,10 @@ class LocalizationEt extends Localization {
 
   @override
   String get video_desc => 'Internetti pole vaja. Pole vaja inimesi traditsioonilise klikkeriga käsitsi lugeda. Lihtsalt seadistage oma telefon automaatselt mööduvat jalakäijate liikumist jälgima.';
+
+  @override
+  String get terms => 'Teenusetingimused';
+
+  @override
+  String get privacy => 'Privaatsus';
 }

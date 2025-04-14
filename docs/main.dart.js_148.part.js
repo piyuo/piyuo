@@ -2,20 +2,20 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_148",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aOT(){B.P("mn")
-return new A.pR()},
-pR:function pR(){}}
+aOI(){B.P("ja")
+return new A.pF()},
+pF:function pF(){}}
 B=c[0]
 C=c[119]
-A=a.updateHolder(c[40],A)
-A.pR.prototype={
-gaF(){return"\u04e8\u04e9, \u044f\u043c\u0430\u0440 \u043d\u044d\u0433\u044d\u043d \u0437\u04af\u0439\u043b \u0431\u0443\u0440\u0443\u0443 \u0431\u043e\u043b\u0441\u043e\u043d"},
-gaE(){return"\u0413\u044d\u043d\u044d\u0442\u0438\u0439\u043d \u0430\u043b\u0434\u0430\u0430 \u0433\u0430\u0440\u043b\u0430\u0430. \u0422\u0430 \u0438\u043c\u044d\u0439\u043b\u044d\u044d\u0440 \u0442\u0430\u0439\u043b\u0430\u043d \u0438\u043b\u0433\u044d\u044d\u0445\u0438\u0439\u0433 \u0445\u04af\u0441\u0447 \u0431\u0430\u0439\u043d\u0430 \u0443\u0443?"},
-gaG(){return"\u0411\u0438\u0434\u044d\u043d\u0434 \u0438\u043c\u044d\u0439\u043b \u0438\u043b\u0433\u044d\u044d\u0445"},
-gaD(){return"\u0426\u0443\u0446\u043b\u0430\u0445"},
-gaA(){return"\u0421\u0438\u0441\u0442\u0435\u043c\u0438\u0439\u043d \u0445\u044d\u043b"}}
+A=a.updateHolder(c[34],A)
+A.pF.prototype={
+gaF(){return"\u304a\u3063\u3068\u3001\u554f\u984c\u304c\u767a\u751f\u3057\u307e\u3057\u305f"},
+gaE(){return"\u4e88\u671f\u305b\u306c\u30a8\u30e9\u30fc\u304c\u767a\u751f\u3057\u307e\u3057\u305f\u3002\u30e1\u30fc\u30eb\u3067\u30ec\u30dd\u30fc\u30c8\u3092\u9001\u4fe1\u3057\u307e\u3059\u304b\uff1f"},
+gaG(){return"\u30e1\u30fc\u30eb\u3067\u9023\u7d61\u3059\u308b"},
+gaD(){return"\u30ad\u30e3\u30f3\u30bb\u30eb"},
+gaA(){return"\u30b7\u30b9\u30c6\u30e0\u8a00\u8a9e"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.pR,C.u)})()
-B.a4(b.typeUniverse,JSON.parse('{"pR":{"u":[]}}'))};
+y(A.pF,C.u)})()
+B.a4(b.typeUniverse,JSON.parse('{"pF":{"u":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_148",e:"endPart",h:b})})($__dart_deferred_initializers__,"W6QTRZBoKzKHYTh9SM4kpTmX9/U=");
+a.eventLog.push({p:"main.dart.js_148",e:"endPart",h:b})})($__dart_deferred_initializers__,"HCmatt0/CNnsgjtmInJ7WU5/HtA=");

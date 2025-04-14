@@ -2,20 +2,20 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_175",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aPW(){B.N("sn")
-return new A.qs()},
-qs:function qs(){}}
+aPR(){B.P("uz")
+return new A.qE()},
+qE:function qE(){}}
 B=c[0]
-C=c[129]
-A=a.updateHolder(c[54],A)
-A.qs.prototype={
-gaz(){return"Haiwa, pane chakakanganisika"},
-gaw(){return"Pane chikanganiso chakaitika. Munoda kutumira ripoti neimeri here?"},
-gaA(){return"Titumireiwo imeri"},
-gav(){return"Kanzura"},
-gaq(){return"Rurimi rwechisimbiso"}}
+C=c[119]
+A=a.updateHolder(c[59],A)
+A.qE.prototype={
+gaF(){return"Voy, xatolik yuz berdi"},
+gaE(){return"Kutilmagan xatolik yuz berdi. Elektron pochta hisobotini yuborishni xohlaysizmi?"},
+gaG(){return"Bizga elektron pochta yuboring"},
+gaD(){return"Bekor qilish"},
+gaA(){return"Tizim tili"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.qs,C.p)})()
-B.a3(b.typeUniverse,JSON.parse('{"qs":{"p":[]}}'))};
+y(A.qE,C.u)})()
+B.a4(b.typeUniverse,JSON.parse('{"qE":{"u":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_175",e:"endPart",h:b})})($__dart_deferred_initializers__,"g1WDGYTC7yBw+fV/LJD+gXUGnN4=");
+a.eventLog.push({p:"main.dart.js_175",e:"endPart",h:b})})($__dart_deferred_initializers__,"bO/RP8ide5mrOAb+vvb+Z80Wgy0=");

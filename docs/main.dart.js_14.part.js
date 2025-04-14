@@ -2,13 +2,13 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_14",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,A={
-aOk(d){B.P(d)
+aOl(d){B.P(d)
 return new A.lN()},
-aOm(){B.P("fr_BE")
+aOn(){B.P("fr_BE")
 return new A.pk()},
-aOo(){B.P("fr_CA")
+aOp(){B.P("fr_CA")
 return new A.pm()},
-aOq(){B.P("fr_CH")
+aOr(){B.P("fr_CH")
 return new A.po()},
 lN:function lN(){},
 pk:function pk(){},
@@ -107,4 +107,4 @@ w(A.lN,[A.pk,A.pm,A.po])})()
 B.a4(b.typeUniverse,JSON.parse('{"lN":{"x":[]},"pk":{"x":[]},"pm":{"x":[]},"po":{"x":[]}}'))
 var y={i:"Choisissez de compter les nouveaux objets apparaissant dans la zone de d\xe9tection, ou ceux qui restent stationnaires.",e:"Comptez simultan\xe9ment les pi\xe9tons, voitures, v\xe9los et plus encore",a:"Consultez les comptages de passage pour n'importe quelle p\xe9riode.",h:"D\xe9finissez des zones de d\xe9tection personnalis\xe9es pour compter le trafic dans des zones sp\xe9cifiques."}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_14",e:"endPart",h:b})})($__dart_deferred_initializers__,"1qtsPZL1A5mDTJ5tn9DToXcsuHw=");
+a.eventLog.push({p:"main.dart.js_14",e:"endPart",h:b})})($__dart_deferred_initializers__,"9nFyt701bhXtU4GRTrfzYKOFQ3A=");

@@ -73,4 +73,10 @@ class LocalizationPl extends Localization {
 
   @override
   String get video_desc => 'Nie wymaga internetu. Nie ma potrzeby ręcznego liczenia osób za pomocą tradycyjnego licznika. Po prostu skonfiguruj telefon, aby automatycznie śledził przepływ pieszych.';
+
+  @override
+  String get terms => 'Warunki korzystania';
+
+  @override
+  String get privacy => 'Prywatność';
 }

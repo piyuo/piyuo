@@ -73,6 +73,12 @@ class LocalizationAr extends Localization {
 
   @override
   String get video_desc => 'لا حاجة للإنترنت. لا داعي لعد الأشخاص يدويًا باستخدام العداد التقليدي. ما عليك سوى إعداد هاتفك لتتبع حركة المشاة تلقائيًا.';
+
+  @override
+  String get terms => 'شروط الخدمة';
+
+  @override
+  String get privacy => 'الخصوصية';
 }
 
 /// The translations for Arabic, as used in the United Arab Emirates (`ar_AE`).
@@ -144,6 +150,12 @@ class LocalizationArAe extends LocalizationAr {
 
   @override
   String get video_desc => 'لا حاجة للإنترنت. لا داعي للعد اليدوي للأشخاص باستخدام العداد التقليدي. ما عليك سوى إعداد هاتفك لتتبع حركة المشاة المارة تلقائياً.';
+
+  @override
+  String get terms => 'شروط الخدمة';
+
+  @override
+  String get privacy => 'الخصوصية';
 }
 
 /// The translations for Arabic, as used in Algeria (`ar_DZ`).
@@ -215,6 +227,12 @@ class LocalizationArDz extends LocalizationAr {
 
   @override
   String get video_desc => 'لا حاجة للإنترنت. لا داعي للعد اليدوي للأشخاص باستخدام العداد التقليدي. فقط قم بإعداد هاتفك ليتتبع حركة المشاة تلقائياً.';
+
+  @override
+  String get terms => 'شروط الخدمة';
+
+  @override
+  String get privacy => 'الخصوصية';
 }
 
 /// The translations for Arabic, as used in Egypt (`ar_EG`).
@@ -286,4 +304,10 @@ class LocalizationArEg extends LocalizationAr {
 
   @override
   String get video_desc => 'لا حاجة للإنترنت. مفيش داعي للعد اليدوي للأشخاص باستخدام العداد التقليدي. كل اللي عليك إعداد موبايلك ليتتبع المارة تلقائياً.';
+
+  @override
+  String get terms => 'شروط الخدمة';
+
+  @override
+  String get privacy => 'الخصوصية';
 }

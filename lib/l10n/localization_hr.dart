@@ -73,4 +73,10 @@ class LocalizationHr extends Localization {
 
   @override
   String get video_desc => 'Nije potreban internet. Nije potrebno ručno brojati ljude tradicionalnim brojačem. Jednostavno postavite svoj telefon da automatski prati prolaznost pješaka.';
+
+  @override
+  String get terms => 'Uvjeti korištenja';
+
+  @override
+  String get privacy => 'Privatnost';
 }

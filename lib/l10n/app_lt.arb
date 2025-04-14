@@ -20,5 +20,7 @@
   "index_email_us": "Rašykite mums",
   "app_name": "Skaičiuoklis",
   "app_desc": "Norite žinoti, kiek žmonių praeina pro šalį? Ši programėlė naudoja jūsų telefono kamerą išmaniam pėsčiųjų atpažinimui ir automatiniam skaičiavimui. Nereikia rankinio įvedimo. Atsisveikinkite su varginančiu skaičiavimu ir lengvai stebėkite eismo srautą.",
-  "video_desc": "Nereikia interneto. Nereikia rankiniu būdu skaičiuoti žmonių tradiciniu skaičiuokliu. Tiesiog nustatykite savo telefoną automatiškai sekti praeinančių pėsčiųjų srautą."
+  "video_desc": "Nereikia interneto. Nereikia rankiniu būdu skaičiuoti žmonių tradiciniu skaičiuokliu. Tiesiog nustatykite savo telefoną automatiškai sekti praeinančių pėsčiųjų srautą.",
+  "terms": "Paslaugų teikimo sąlygos",
+  "privacy": "Privatumas"
 }

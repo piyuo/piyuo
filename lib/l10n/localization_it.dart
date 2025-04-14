@@ -73,4 +73,10 @@ class LocalizationIt extends Localization {
 
   @override
   String get video_desc => 'Non richiede internet. Non è necessario contare manualmente le persone con un contatore tradizionale. Basta configurare il telefono per monitorare automaticamente il flusso pedonale.';
+
+  @override
+  String get terms => 'Termini di servizio';
+
+  @override
+  String get privacy => 'Privacy';
 }

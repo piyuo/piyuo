@@ -73,4 +73,10 @@ class LocalizationTe extends Localization {
 
   @override
   String get video_desc => 'ఇంటర్నెట్ అవసరం లేదు. సాంప్రదాయ క్లిక్కర్‌తో మానవీయంగా లెక్కించవలసిన అవసరం లేదు. వెళ్లిపోయే పాదచారులను స్వయంచాలకంగా ట్రాక్ చేయడానికి మీ ఫోన్‌ని సెటప్ చేయండి.';
+
+  @override
+  String get terms => 'సేవా నిబంధనలు';
+
+  @override
+  String get privacy => 'గోప్యత';
 }

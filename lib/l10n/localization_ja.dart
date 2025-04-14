@@ -73,4 +73,10 @@ class LocalizationJa extends Localization {
 
   @override
   String get video_desc => 'インターネット接続不要。従来のカウンターで手動で人数を数える必要なし。スマートフォンを設定するだけで、通行する人の流れを自動的に追跡できます。';
+
+  @override
+  String get terms => '利用規約';
+
+  @override
+  String get privacy => 'プライバシー';
 }

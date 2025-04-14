@@ -2,20 +2,20 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_142",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aOH(){B.P("ja")
-return new A.pF()},
-pF:function pF(){}}
+aOy(){B.P("hi")
+return new A.pv()},
+pv:function pv(){}}
 B=c[0]
 C=c[119]
-A=a.updateHolder(c[34],A)
-A.pF.prototype={
-gaF(){return"\u304a\u3063\u3068\u3001\u554f\u984c\u304c\u767a\u751f\u3057\u307e\u3057\u305f"},
-gaE(){return"\u4e88\u671f\u305b\u306c\u30a8\u30e9\u30fc\u304c\u767a\u751f\u3057\u307e\u3057\u305f\u3002\u30e1\u30fc\u30eb\u3067\u30ec\u30dd\u30fc\u30c8\u3092\u9001\u4fe1\u3057\u307e\u3059\u304b\uff1f"},
-gaG(){return"\u30e1\u30fc\u30eb\u3067\u9023\u7d61\u3059\u308b"},
-gaD(){return"\u30ad\u30e3\u30f3\u30bb\u30eb"},
-gaA(){return"\u30b7\u30b9\u30c6\u30e0\u8a00\u8a9e"}}
+A=a.updateHolder(c[29],A)
+A.pv.prototype={
+gaF(){return"\u0909\u092b\u093c, \u0915\u0941\u091b \u0917\u0932\u0924 \u0939\u094b \u0917\u092f\u093e"},
+gaE(){return"\u090f\u0915 \u0905\u092a\u094d\u0930\u0924\u094d\u092f\u093e\u0936\u093f\u0924 \u0924\u094d\u0930\u0941\u091f\u093f \u0939\u0941\u0908\u0964 \u0915\u094d\u092f\u093e \u0906\u092a \u0908\u092e\u0947\u0932 \u0930\u093f\u092a\u094b\u0930\u094d\u091f \u092d\u0947\u091c\u0928\u093e \u091a\u093e\u0939\u0924\u0947 \u0939\u0948\u0902?"},
+gaG(){return"\u0939\u092e\u0947\u0902 \u0908\u092e\u0947\u0932 \u0915\u0930\u0947\u0902"},
+gaD(){return"\u0930\u0926\u094d\u0926 \u0915\u0930\u0947\u0902"},
+gaA(){return"\u0938\u093f\u0938\u094d\u091f\u092e \u092d\u093e\u0937\u093e"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.pF,C.u)})()
-B.a4(b.typeUniverse,JSON.parse('{"pF":{"u":[]}}'))};
+y(A.pv,C.u)})()
+B.a4(b.typeUniverse,JSON.parse('{"pv":{"u":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_142",e:"endPart",h:b})})($__dart_deferred_initializers__,"10yGMZDp/NvB7K/B0KEwAWCcAw4=");
+a.eventLog.push({p:"main.dart.js_142",e:"endPart",h:b})})($__dart_deferred_initializers__,"v4w1Tg4uTt7fuOITnw3kPbgJvbA=");

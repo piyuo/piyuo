@@ -73,4 +73,10 @@ class LocalizationUk extends Localization {
 
   @override
   String get video_desc => 'Інтернет не потрібен. Не потрібно вручну рахувати людей за допомогою традиційного лічильника. Просто налаштуйте свій телефон для автоматичного відстеження потоку пішоходів.';
+
+  @override
+  String get terms => 'Умови надання послуг';
+
+  @override
+  String get privacy => 'Конфіденційність';
 }

@@ -73,6 +73,12 @@ class LocalizationEn extends Localization {
 
   @override
   String get video_desc => 'No internet required. No need to manually count people with a traditional clicker. Just set up your phone to automatically track passing foot traffic.';
+
+  @override
+  String get terms => 'Terms of Service';
+
+  @override
+  String get privacy => 'Privacy Policy';
 }
 
 /// The translations for English, as used in Australia (`en_AU`).
@@ -144,6 +150,12 @@ class LocalizationEnAu extends LocalizationEn {
 
   @override
   String get video_desc => 'No internet required. No need to manually count people with a traditional clicker. Just set up your mobile to automatically track passing foot traffic.';
+
+  @override
+  String get terms => 'Terms of Service';
+
+  @override
+  String get privacy => 'Privacy Policy';
 }
 
 /// The translations for English, as used in Canada (`en_CA`).
@@ -215,6 +227,12 @@ class LocalizationEnCa extends LocalizationEn {
 
   @override
   String get video_desc => 'No internet required. No need to manually count people with a traditional clicker. Just set up your phone to automatically track passing foot traffic.';
+
+  @override
+  String get terms => 'Terms of Service';
+
+  @override
+  String get privacy => 'Privacy Policy';
 }
 
 /// The translations for English, as used in the United Kingdom (`en_GB`).
@@ -286,6 +304,12 @@ class LocalizationEnGb extends LocalizationEn {
 
   @override
   String get video_desc => 'No internet required. No need to manually count people with a traditional clicker. Just set up your mobile to automatically track passing foot traffic.';
+
+  @override
+  String get terms => 'Terms of Service';
+
+  @override
+  String get privacy => 'Privacy Policy';
 }
 
 /// The translations for English, as used in India (`en_IN`).
@@ -357,4 +381,10 @@ class LocalizationEnIn extends LocalizationEn {
 
   @override
   String get video_desc => 'No internet required. No need to manually count people with a traditional clicker. Just set up your mobile to automatically track passing foot traffic.';
+
+  @override
+  String get terms => 'Terms of Service';
+
+  @override
+  String get privacy => 'Privacy Policy';
 }

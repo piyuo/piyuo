@@ -20,5 +20,7 @@
   "index_email_us": "Kirjuta meile",
   "app_name": "Loendur",
   "app_desc": "Soovite teada, kui palju inimesi möödub? See rakendus kasutab teie telefoni kaamerat, et intelligentselt tuvastada ja automaatselt loendada jalakäijaid. Käsitsi sisestamine pole vajalik. Jätke tüütu lugemine seljataha ja jälgige liiklusvoogu hõlpsalt.",
-  "video_desc": "Internetti pole vaja. Pole vaja inimesi traditsioonilise klikkeriga käsitsi lugeda. Lihtsalt seadistage oma telefon automaatselt mööduvat jalakäijate liikumist jälgima."
+  "video_desc": "Internetti pole vaja. Pole vaja inimesi traditsioonilise klikkeriga käsitsi lugeda. Lihtsalt seadistage oma telefon automaatselt mööduvat jalakäijate liikumist jälgima.",
+  "terms": "Teenusetingimused",
+  "privacy": "Privaatsus"
 }

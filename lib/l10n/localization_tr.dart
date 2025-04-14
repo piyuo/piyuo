@@ -73,4 +73,10 @@ class LocalizationTr extends Localization {
 
   @override
   String get video_desc => 'İnternet bağlantısı gerektirmez. Geleneksel sayaçla insanları manuel olarak saymanıza gerek yok. Sadece telefonunuzu yaya trafiğini otomatik olarak izleyecek şekilde ayarlayın.';
+
+  @override
+  String get terms => 'Hizmet Şartları';
+
+  @override
+  String get privacy => 'Gizlilik';
 }

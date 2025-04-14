@@ -2,35 +2,37 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_89",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aPT(){B.N("sk")
-return new A.qp()},
-qp:function qp(){}}
+aPu(){B.P("sl")
+return new A.qj()},
+qj:function qj(){}}
 B=c[0]
-C=c[130]
-A=a.updateHolder(c[115],A)
-A.qp.prototype={
-gaJ(){return"Stiahnu\u0165"},
-gaS(){return"\u010coskoro k dispoz\xedcii."},
-gaR(){return"Dostupn\xe9 na jar 2025."},
-gaV(){return"V\xe1\u0161 telef\xf3n teraz m\xf4\u017ee pomocou AI rozpozn\xe1va\u0165 chodcov."},
-gaU(){return"Nevy\u017eaduje internet. Nie je potrebn\xe9 manu\xe1lne po\u010d\xedta\u0165 \u013eud\xed tradi\u010dn\xfdm po\u010d\xedtadlom. Sta\u010d\xed nastavi\u0165 telef\xf3n na automatick\xe9 sledovanie prech\xe1dzaj\xfacich chodcov."},
-gaB(){return"Nepretr\u017eit\xe9 sledovanie 24/7"},
-gaC(){return"Zobrazte po\u010dty chodcov za ak\xe9ko\u013evek \u010dasov\xe9 obdobie."},
-gaD(){return"Sledovanie viacer\xfdch objektov"},
-gaE(){return"S\xfa\u010dasne po\u010d\xedtajte chodcov, aut\xe1, bicykle a \u010fal\u0161ie objekty"},
-gaF(){return"Vlastn\xe9 detek\u010dn\xe9 z\xf3ny"},
-gaG(){return"Definujte vlastn\xe9 detek\u010dn\xe9 z\xf3ny na po\u010d\xedtanie prem\xe1vky v konkr\xe9tnych oblastiach."},
-gaH(){return"Flexibiln\xe9 re\u017eimy po\u010d\xedtania"},
-gaI(){return"Vyberte si po\u010d\xedtanie nov\xfdch objektov v detek\u010dnej z\xf3ne alebo t\xfdch, ktor\xe9 zost\xe1vaj\xfa statick\xe9."},
-gaQ(){return"Dostupnos\u0165 desktopovej verzie"},
-gaP(){return"Pon\xfakame aj desktopov\xfa verziu. Poskytujeme verzie pre iOS/Android/Mac/Windows, \u010do v\xe1m umo\u017e\u0148uje vyu\u017e\xedva\u0165 mobiln\xe9 zariadenia aj po\u010d\xedta\u010de s webkamerami. Desktopov\xe1 verzia navy\u0161e podporuje viacero video zdrojov, \u010do umo\u017e\u0148uje s\xfa\u010dasn\xe9 po\u010d\xedtanie z viacer\xfdch streamov."},
-gaO(){return"Podpora \u017eiv\xfdch streamov"},
-gaN(){return"Okrem kamier mobiln\xfdch zariaden\xed podporujeme aj nahran\xe9 video s\xfabory, vstupy z webkamier a internetov\xe9 \u017eiv\xe9 streamy ako RTSP. To v\xe1m umo\u017e\u0148uje pripoji\u0165 sa k existuj\xfacim zariadeniam a okam\u017eite za\u010da\u0165 mera\u0165 tok prem\xe1vky."},
-gaT(){return"Nap\xed\u0161te n\xe1m"},
-gau(){return"Po\u010d\xedtadlo"},
-gar(){return"Chcete vedie\u0165, ko\u013eko \u013eud\xed prejde okolo? T\xe1to aplik\xe1cia vyu\u017e\xedva kameru v\xe1\u0161ho telef\xf3nu na inteligentn\xe9 rozpozn\xe1vanie a automatick\xe9 po\u010d\xedtanie chodcov. Nie je potrebn\xfd \u017eiadny manu\xe1lny vstup. Rozl\xfa\u010dte sa s \xfanavn\xfdm po\u010d\xedtan\xedm a jednoducho monitorujte tok prem\xe1vky."}}
+C=c[120]
+A=a.updateHolder(c[107],A)
+A.qj.prototype={
+gaQ(){return"Prenesi"},
+gaX(){return"Kmalu na voljo."},
+gaW(){return"Na voljo spomladi 2025."},
+gb_(){return"Va\u0161 telefon lahko zdaj z umetno inteligenco prepoznava pe\u0161ce."},
+gaZ(){return"Internet ni potreben. Ni potrebe po ro\u010dnem \u0161tetju ljudi s tradicionalnim \u0161tevcem. Preprosto nastavite telefon za samodejno sledenje mimoido\u010dih pe\u0161cev."},
+gaI(){return"Sledenje 24/7"},
+gaJ(){return"Oglejte si \u0161tevilo pe\u0161cev za katero koli \u010dasovno obdobje."},
+gaK(){return"Sledenje ve\u010d objektom"},
+gaL(){return"Hkrati \u0161tejte pe\u0161ce, avtomobile, kolesa in ve\u010d"},
+gaM(){return"Prilagojene cone zaznavanja"},
+gaN(){return"Dolo\u010dite prilagojene cone zaznavanja za \u0161tetje prometa na dolo\u010denih obmo\u010djih."},
+gaO(){return"Prilagodljivi na\u010dini \u0161tetja"},
+gaP(){return"Izberite \u0161tetje novo pojavljivih objektov znotraj cone zaznavanja ali tistih, ki ostanejo nepremi\u010dni."},
+gaV(){return"Razpolo\u017eljivost namizne razli\u010dice"},
+gaU(){return"Ponujamo tudi namizno razli\u010dico. Zagotavljamo razli\u010dice za iOS/Android/Mac/Windows, kar vam omogo\u010da uporabo mobilnih naprav in namiznih ra\u010dunalnikov s spletnimi kamerami. Namizna razli\u010dica dodatno podpira ve\u010d video virov, kar omogo\u010da so\u010dasno \u0161tetje iz ve\u010d pretokov."},
+gaT(){return"Podpora za preto\u010dne vsebine v \u017eivo"},
+gaS(){return"Poleg kamer mobilnih naprav podpiramo tudi posnete video datoteke, vnose spletnih kamer in spletne pretoke v \u017eivo, kot je RTSP. To vam omogo\u010da povezavo z obstoje\u010dimi napravami in takoj\u0161en za\u010detek merjenja pretoka prometa."},
+gaY(){return"Pi\u0161ite nam"},
+gaC(){return"\u0160tevec"},
+gaB(){return"\u017delite vedeti, koliko ljudi gre mimo? Ta aplikacija uporablja kamero va\u0161ega telefona za inteligentno prepoznavanje in samodejno \u0161tetje pe\u0161cev. Ro\u010dni vnos ni potreben. Poslovite se od napornega \u0161tetja in enostavno spremljajte pretok prometa."},
+gb1(){return"Pogoji uporabe"},
+gb0(){return"Zasebnost"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.qp,C.q)})()
-B.a3(b.typeUniverse,JSON.parse('{"qp":{"q":[]}}'))};
+y(A.qj,C.x)})()
+B.a4(b.typeUniverse,JSON.parse('{"qj":{"x":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_89",e:"endPart",h:b})})($__dart_deferred_initializers__,"sJQ8dztJLSwhTmGjb5ByBFysSLQ=");
+a.eventLog.push({p:"main.dart.js_89",e:"endPart",h:b})})($__dart_deferred_initializers__,"pr4vhms32/GawRysStV97gfl5mg=");

@@ -2,35 +2,37 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_64",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aOM(){B.P("ko")
-return new A.pK()},
-pK:function pK(){}}
+aOD(){B.P("hu")
+return new A.pA()},
+pA:function pA(){}}
 B=c[0]
 C=c[120]
-A=a.updateHolder(c[94],A)
-A.pK.prototype={
-gaQ(){return"\ub2e4\uc6b4\ub85c\ub4dc"},
-gaX(){return"\uace7 \ucd9c\uc2dc \uc608\uc815."},
-gaW(){return"2025\ub144 \ubd04\uc5d0 \uc774\uc6a9 \uac00\ub2a5\ud569\ub2c8\ub2e4."},
-gb_(){return"\uc774\uc81c \ud734\ub300\ud3f0\uc758 AI\ub85c \ubcf4\ud589\uc790\ub97c \uc778\uc2dd\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4."},
-gaZ(){return"\uc778\ud130\ub137 \uc5f0\uacb0 \ubd88\ud544\uc694. \uc804\ud1b5\uc801\uc778 \uce74\uc6b4\ud130\ub85c \uc0ac\ub78c\uc744 \uc218\ub3d9\uc73c\ub85c \uc138\uc9c0 \uc54a\uc544\ub3c4 \ub429\ub2c8\ub2e4. \ud734\ub300\ud3f0\uc744 \uc124\uc815\ud558\uc5ec \uc9c0\ub098\uac00\ub294 \ubcf4\ud589\uc790 \ud1b5\ud589\ub7c9\uc744 \uc790\ub3d9\uc73c\ub85c \ucd94\uc801\ud558\uc138\uc694."},
-gaI(){return"24\uc2dc\uac04 \ucd94\uc801"},
-gaJ(){return"\ubaa8\ub4e0 \uc2dc\uac04\ub300\uc758 \ubcf4\ud589\uc790 \ud1b5\ud589\ub7c9\uc744 \ud655\uc778\ud558\uc138\uc694."},
-gaK(){return"\ub2e4\uc911 \uac1d\uccb4 \ucd94\uc801"},
-gaL(){return"\ubcf4\ud589\uc790, \uc790\ub3d9\ucc28, \uc790\uc804\uac70 \ub4f1\uc744 \ub3d9\uc2dc\uc5d0 \uacc4\uc218\ud569\ub2c8\ub2e4"},
-gaM(){return"\ub9de\ucda4\ud615 \ud0d0\uc9c0 \uc601\uc5ed"},
-gaN(){return"\ud2b9\uc815 \uc601\uc5ed\uc758 \ud1b5\ud589\ub7c9\uc744 \uacc4\uc218\ud558\uae30 \uc704\ud55c \ub9de\ucda4\ud615 \ud0d0\uc9c0 \uc601\uc5ed\uc744 \uc815\uc758\ud558\uc138\uc694."},
-gaO(){return"\uc720\uc5f0\ud55c \uacc4\uc218 \ubaa8\ub4dc"},
-gaP(){return"\ud0d0\uc9c0 \uc601\uc5ed \ub0b4\uc5d0\uc11c \uc0c8\ub86d\uac8c \ub098\ud0c0\ub098\ub294 \uac1d\uccb4 \ub610\ub294 \uc815\uc9c0\ud574 \uc788\ub294 \uac1d\uccb4\ub97c \uacc4\uc218\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4."},
-gaV(){return"\ub370\uc2a4\ud06c\ud1b1 \ubc84\uc804 \uc774\uc6a9 \uac00\ub2a5"},
-gaU(){return"\ub370\uc2a4\ud06c\ud1b1 \ubc84\uc804\ub3c4 \uc81c\uacf5\ud569\ub2c8\ub2e4. iOS/Android/Mac/Windows \ubc84\uc804\uc744 \uc81c\uacf5\ud558\uc5ec \ubaa8\ubc14\uc77c \uae30\uae30\uc640 \uc6f9\ucea0\uc774 \uc788\ub294 \ub370\uc2a4\ud06c\ud1b1\uc744 \ubaa8\ub450 \ud65c\uc6a9\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4. \ub370\uc2a4\ud06c\ud1b1 \ubc84\uc804\uc740 \uc5ec\ub7ec \ube44\ub514\uc624 \uc18c\uc2a4\ub97c \uc9c0\uc6d0\ud558\uc5ec \uc5ec\ub7ec \uc2a4\ud2b8\ub9bc\uc5d0\uc11c \ub3d9\uc2dc\uc5d0 \uacc4\uc218\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4."},
-gaT(){return"\uc2e4\uc2dc\uac04 \uc2a4\ud2b8\ub9bc \uc9c0\uc6d0"},
-gaS(){return"\ubaa8\ubc14\uc77c \uae30\uae30 \uce74\uba54\ub77c \uc678\uc5d0\ub3c4 \ub179\ud654\ub41c \ube44\ub514\uc624 \ud30c\uc77c, \uc6f9\ucea0 \uc785\ub825, RTSP\uc640 \uac19\uc740 \uc778\ud130\ub137 \uc2e4\uc2dc\uac04 \uc2a4\ud2b8\ub9bc\uc744 \uc9c0\uc6d0\ud569\ub2c8\ub2e4. \uc774\ub97c \ud1b5\ud574 \uae30\uc874 \uc7a5\uce58\uc5d0 \uc5f0\uacb0\ud558\uc5ec \uc989\uc2dc \ud1b5\ud589\ub7c9 \uce21\uc815\uc744 \uc2dc\uc791\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4."},
-gaY(){return"\uc774\uba54\uc77c \ubb38\uc758"},
-gaC(){return"\uce74\uc6b4\ud130"},
-gaB(){return"\uc5bc\ub9c8\ub098 \ub9ce\uc740 \uc0ac\ub78c\ub4e4\uc774 \uc9c0\ub098\uac00\ub294\uc9c0 \uc54c\uace0 \uc2f6\uc73c\uc2e0\uac00\uc694? \uc774 \uc571\uc740 \ud734\ub300\ud3f0 \uce74\uba54\ub77c\ub97c \uc0ac\uc6a9\ud558\uc5ec \ubcf4\ud589\uc790\ub97c \uc9c0\ub2a5\uc801\uc73c\ub85c \uc2dd\ubcc4\ud558\uace0 \uc790\ub3d9\uc73c\ub85c \uacc4\uc218\ud569\ub2c8\ub2e4. \uc218\ub3d9 \uc785\ub825\uc774 \ud544\uc694\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4. \uc9c0\ub8e8\ud55c \uacc4\uc218 \uc791\uc5c5\uc5d0 \uc791\ubcc4\uc744 \uace0\ud558\uace0 \uc190\uc27d\uac8c \ud1b5\ud589\ub7c9\uc744 \ubaa8\ub2c8\ud130\ub9c1\ud558\uc138\uc694."}}
+A=a.updateHolder(c[89],A)
+A.pA.prototype={
+gaQ(){return"Let\xf6lt\xe9s"},
+gaX(){return"Hamarosan \xe9rkezik."},
+gaW(){return"2025 tavasz\xe1n el\xe9rhet\u0151."},
+gb_(){return"Telefonja most m\xe1r AI seg\xedts\xe9g\xe9vel ismeri fel a gyalogosokat."},
+gaZ(){return"Nem ig\xe9nyel internetet. Nincs sz\xfcks\xe9g hagyom\xe1nyos sz\xe1ml\xe1l\xf3 haszn\xe1lat\xe1ra az emberek k\xe9zi sz\xe1mol\xe1s\xe1hoz. Egyszer\u0171en \xe1ll\xedtsa be telefonj\xe1t, hogy automatikusan k\xf6vethesse az \xe1thalad\xf3 gyalogosforgalmat."},
+gaI(){return"24/7 k\xf6vet\xe9s"},
+gaJ(){return"Tekintse meg a gyalogosforgalom sz\xe1m\xe1t b\xe1rmely id\u0151szakra."},
+gaK(){return"T\xf6bb objektum k\xf6vet\xe9se"},
+gaL(){return"Egyidej\u0171leg sz\xe1molja a gyalogosokat, aut\xf3kat, ker\xe9kp\xe1rokat \xe9s egyebeket"},
+gaM(){return"Egy\xe9ni \xe9rz\xe9kel\xe9si z\xf3n\xe1k"},
+gaN(){return"Hat\xe1rozzon meg egy\xe9ni \xe9rz\xe9kel\xe9si z\xf3n\xe1kat a forgalom sz\xe1ml\xe1l\xe1s\xe1hoz meghat\xe1rozott ter\xfcleteken."},
+gaO(){return"Rugalmas sz\xe1ml\xe1l\xe1si m\xf3dok"},
+gaP(){return"V\xe1lassza az \xfajonnan megjelen\u0151 objektumok sz\xe1ml\xe1l\xe1s\xe1t az \xe9rz\xe9kel\xe9si z\xf3n\xe1n bel\xfcl, vagy azokat, amelyek egy helyben maradnak."},
+gaV(){return"Asztali verzi\xf3 el\xe9rhet\u0151s\xe9ge"},
+gaU(){return"Asztali verzi\xf3t is k\xedn\xe1lunk. iOS/Android/Mac/Windows verzi\xf3kat biztos\xedtunk, lehet\u0151v\xe9 t\xe9ve mind a mobileszk\xf6z\xf6k, mind a webkamer\xe1kkal ell\xe1tott asztali sz\xe1m\xedt\xf3g\xe9pek haszn\xe1lat\xe1t. Az asztali verzi\xf3 tov\xe1bb\xe1 t\xf6bb videoforr\xe1st is t\xe1mogat, lehet\u0151v\xe9 t\xe9ve az egyidej\u0171 sz\xe1ml\xe1l\xe1st t\xf6bb adatfolyamb\xf3l."},
+gaT(){return"\xc9l\u0151 k\xf6zvet\xedt\xe9s t\xe1mogat\xe1s"},
+gaS(){return"A mobileszk\xf6z\xf6k kamer\xe1in k\xedv\xfcl t\xe1mogatjuk a r\xf6gz\xedtett videof\xe1jlokat, webkamera bemeneteket \xe9s internetes \xe9l\u0151 k\xf6zvet\xedt\xe9seket, p\xe9ld\xe1ul RTSP-t. Ez lehet\u0151v\xe9 teszi a megl\xe9v\u0151 eszk\xf6z\xf6kh\xf6z val\xf3 csatlakoz\xe1st \xe9s a forgalom \xe1raml\xe1s\xe1nak azonnali m\xe9r\xe9s\xe9t."},
+gaY(){return"\xcdrjon nek\xfcnk e-mailt"},
+gaC(){return"Sz\xe1ml\xe1l\xf3"},
+gaB(){return"Szeretn\xe9 tudni, h\xe1ny ember halad el? Ez az alkalmaz\xe1s telefonja kamer\xe1j\xe1t haszn\xe1lja a gyalogosok intelligens azonos\xedt\xe1s\xe1ra \xe9s automatikus sz\xe1ml\xe1l\xe1s\xe1ra. Nincs sz\xfcks\xe9g k\xe9zi bevitelre. B\xfacs\xfazzon el a f\xe1raszt\xf3 sz\xe1mol\xe1st\xf3l, \xe9s k\xf6nnyen figyelje a forgalom \xe1raml\xe1s\xe1t."},
+gb1(){return"Szolg\xe1ltat\xe1si felt\xe9telek"},
+gb0(){return"Adatv\xe9delem"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.pK,C.x)})()
-B.a4(b.typeUniverse,JSON.parse('{"pK":{"x":[]}}'))};
+y(A.pA,C.x)})()
+B.a4(b.typeUniverse,JSON.parse('{"pA":{"x":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_64",e:"endPart",h:b})})($__dart_deferred_initializers__,"7f7tWyezcXEo9guipbrxkVwC9FY=");
+a.eventLog.push({p:"main.dart.js_64",e:"endPart",h:b})})($__dart_deferred_initializers__,"OPgoSW+2BmyPPukJ4jylcJ7Z0Ac=");

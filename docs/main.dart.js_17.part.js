@@ -2,61 +2,65 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_17",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,A={
-aP7(d){B.P(d)
-return new A.lR()},
-aP9(){B.P("nl_BE")
-return new A.q3()},
-lR:function lR(){},
-q3:function q3(){}},C
+aOZ(d){B.P(d)
+return new A.lP()},
+aP0(){B.P("ms_SG")
+return new A.pW()},
+lP:function lP(){},
+pW:function pW(){}},C
 B=c[0]
-A=a.updateHolder(c[68],A)
+A=a.updateHolder(c[67],A)
 C=c[120]
-A.lR.prototype={
-gaQ(){return"Downloaden"},
-gaX(){return"Binnenkort beschikbaar."},
-gaW(){return"Beschikbaar in voorjaar 2025."},
-gb_(){return"Je telefoon kan nu AI gebruiken om voetgangers te herkennen."},
-gaZ(){return"Geen internet nodig. Geen handmatig tellen van mensen met een traditionele teller. Stel gewoon je telefoon in om automatisch passerende voetgangers te registreren."},
-gaI(){return"24/7 Registratie"},
-gaJ(){return y.n},
-gaK(){return"Meerdere Objecten Volgen"},
-gaL(){return y.e},
-gaM(){return"Aangepaste Detectiezones"},
-gaN(){return y.g},
-gaO(){return"Flexibele Telmodi"},
-gaP(){return y.h},
-gaV(){return"Beschikbaarheid Desktop Versie"},
-gaU(){return"We bieden ook een desktopversie aan. We leveren versies voor iOS/Android/Mac/Windows, waardoor je zowel mobiele apparaten als desktops met webcams kunt gebruiken. De desktopversie ondersteunt daarnaast meerdere videobronnen, waardoor je gelijktijdig kunt tellen vanaf meerdere streams."},
-gaT(){return"Ondersteuning voor Livestreams"},
-gaS(){return"Naast camera's van mobiele apparaten ondersteunen we opgenomen videobestanden, webcaminvoer en internet livestreams zoals RTSP. Hierdoor kun je verbinding maken met bestaande apparaten en direct beginnen met het meten van verkeersstromen."},
-gaY(){return"Mail ons"},
-gaC(){return"Teller"},
-gaB(){return"Wil je weten hoeveel mensen er langskomen? Deze app gebruikt de camera van je telefoon om op intelligente wijze voetgangers te identificeren en automatisch te tellen. Geen handmatige invoer vereist. Zeg vaarwel tegen vervelend telwerk en monitor eenvoudig verkeersstromen."}}
-A.q3.prototype={
-gaQ(){return"Downloaden"},
-gaX(){return"Binnenkort beschikbaar."},
-gaW(){return"Beschikbaar in de lente van 2025."},
-gb_(){return"Je gsm kan nu AI gebruiken om voetgangers te herkennen."},
-gaZ(){return"Geen internet nodig. Geen handmatig tellen van mensen met een traditionele teller. Stel gewoon je gsm in om automatisch passerende voetgangers te registreren."},
-gaI(){return"24/7 Registratie"},
-gaJ(){return y.n},
-gaK(){return"Meerdere Objecten Volgen"},
-gaL(){return y.e},
-gaM(){return"Aangepaste Detectiezones"},
-gaN(){return y.g},
-gaO(){return"Flexibele Telmodi"},
-gaP(){return y.h},
-gaV(){return"Beschikbaarheid Desktop Versie"},
-gaU(){return"We bieden ook een desktopversie aan. We leveren versies voor iOS/Android/Mac/Windows, waardoor je zowel mobiele toestellen als desktops met webcams kunt gebruiken. De desktopversie ondersteunt daarnaast meerdere videobronnen, waardoor je gelijktijdig kunt tellen vanaf meerdere streams."},
-gaT(){return"Ondersteuning voor Livestreams"},
-gaS(){return"Naast camera's van mobiele toestellen ondersteunen we opgenomen videobestanden, webcaminvoer en internet livestreams zoals RTSP. Hierdoor kun je verbinding maken met bestaande toestellen en direct beginnen met het meten van verkeersstromen."},
-gaY(){return"Mail ons"},
-gaC(){return"Teller"},
-gaB(){return"Wil je weten hoeveel mensen er langskomen? Deze app gebruikt de camera van je gsm om op intelligente wijze voetgangers te identificeren en automatisch te tellen. Geen handmatige invoer vereist. Zeg vaarwel tegen vervelend telwerk en monitor eenvoudig verkeersstromen."}}
+A.lP.prototype={
+gaQ(){return"Muat turun"},
+gaX(){return"Akan datang."},
+gaW(){return"Tersedia pada Musim Bunga 2025."},
+gb_(){return"Telefon anda kini boleh menggunakan AI untuk mengenal pasti pejalan kaki."},
+gaZ(){return"Tidak memerlukan internet. Tidak perlu mengira orang secara manual dengan pengira tradisional. Hanya tetapkan telefon anda untuk menjejak lalu lintas pejalan kaki secara automatik."},
+gaI(){return"Penjejakan 24/7"},
+gaJ(){return"Lihat jumlah lalu lintas pejalan kaki untuk mana-mana tempoh masa."},
+gaK(){return"Penjejakan Berbilang Objek"},
+gaL(){return y.h},
+gaM(){return"Zon Pengesanan Tersuai"},
+gaN(){return y.i},
+gaO(){return"Mod Pengiraan Fleksibel"},
+gaP(){return y.f},
+gaV(){return"Ketersediaan Versi Desktop"},
+gaU(){return"Kami juga menawarkan versi desktop. Kami menyediakan versi untuk iOS/Android/Mac/Windows, membolehkan anda menggunakan kedua-dua peranti mudah alih dan desktop dengan kamera web. Versi desktop juga menyokong berbilang sumber video, membolehkan pengiraan serentak dari berbilang aliran."},
+gaT(){return"Sokongan Strim Langsung"},
+gaS(){return y.n},
+gaY(){return"E-mel kami"},
+gaC(){return"Counter"},
+gaB(){return"Ingin tahu berapa ramai orang yang lalu lalang? Aplikasi ini menggunakan kamera telefon anda untuk mengenal pasti secara pintar dan mengira pejalan kaki secara automatik. Tiada input manual diperlukan. Ucapkan selamat tinggal kepada pengiraan yang membosankan dan pantau aliran trafik dengan mudah."},
+gb1(){return"Terma Perkhidmatan"},
+gb0(){return"Privasi"}}
+A.pW.prototype={
+gaQ(){return"Muat turun"},
+gaX(){return"Akan datang tidak lama lagi."},
+gaW(){return"Boleh didapati pada Musim Bunga 2025."},
+gb_(){return"Telefon bimbit anda kini boleh menggunakan AI untuk mengenal pasti pejalan kaki."},
+gaZ(){return"Tidak perlu internet. Tidak perlu mengira orang secara manual dengan alat pengira tradisional. Hanya sediakan telefon bimbit anda untuk mengesan lalu lintas pejalan kaki secara automatik."},
+gaI(){return"Pengesanan 24/7"},
+gaJ(){return"Lihat jumlah lalu lintas pejalan kaki untuk sebarang tempoh masa."},
+gaK(){return"Pengesanan Pelbagai Objek"},
+gaL(){return y.h},
+gaM(){return"Zon Pengesanan Tersuai"},
+gaN(){return y.i},
+gaO(){return"Mod Pengiraan Fleksibel"},
+gaP(){return y.f},
+gaV(){return"Ketersediaan Versi Desktop"},
+gaU(){return"Kami juga menawarkan versi desktop. Kami menyediakan versi untuk iOS/Android/Mac/Windows, membolehkan anda menggunakan kedua-dua peranti mudah alih dan desktop dengan kamera web. Versi desktop juga menyokong pelbagai sumber video, membolehkan pengiraan serentak dari pelbagai strim."},
+gaT(){return"Sokongan Strim Langsung"},
+gaS(){return y.n},
+gaY(){return"E-mel kami"},
+gaC(){return"Counter"},
+gaB(){return"Nak tahu berapa ramai orang yang lalu lalang? Aplikasi ini menggunakan kamera telefon bimbit anda untuk mengenal pasti secara pintar dan mengira pejalan kaki secara automatik. Tiada input manual diperlukan. Ucapkan selamat tinggal kepada pengiraan yang membosankan dan pantau aliran trafik dengan mudah."},
+gb1(){return"Terma Perkhidmatan"},
+gb0(){return"Privasi"}}
 var z=a.updateTypes([]);(function inheritance(){var x=a.inherit
-x(A.lR,C.x)
-x(A.q3,A.lR)})()
-B.a4(b.typeUniverse,JSON.parse('{"lR":{"x":[]},"q3":{"x":[]}}'))
-var y={n:"Bekijk voetgangersaantallen voor elke tijdsperiode.",g:"Definieer aangepaste detectiezones om verkeer in specifieke gebieden te tellen.",h:"Kies ervoor om nieuw verschijnende objecten binnen de detectiezone te tellen, of objecten die stil blijven staan.",e:"Tel gelijktijdig voetgangers, auto's, fietsen en meer"}};
+x(A.lP,C.x)
+x(A.pW,A.lP)})()
+B.a4(b.typeUniverse,JSON.parse('{"lP":{"x":[]},"pW":{"x":[]}}'))
+var y={h:"Mengira pejalan kaki, kereta, basikal, dan lain-lain secara serentak",f:"Pilih untuk mengira objek yang baru muncul dalam zon pengesanan, atau yang kekal pegun.",n:"Selain kamera peranti mudah alih, kami menyokong fail video yang dirakam, input kamera web, dan strim langsung internet seperti RTSP. Ini membolehkan anda menyambung ke peranti sedia ada dan segera mula mengukur aliran trafik.",i:"Tentukan zon pengesanan tersuai untuk mengira lalu lintas di kawasan tertentu."}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_17",e:"endPart",h:b})})($__dart_deferred_initializers__,"RycsqEfqwTiznki8CfG79qwS+/Q=");
+a.eventLog.push({p:"main.dart.js_17",e:"endPart",h:b})})($__dart_deferred_initializers__,"7A8+IRLVDlJWCCkKo89Si+Se95Y=");

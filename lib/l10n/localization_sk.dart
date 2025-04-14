@@ -73,4 +73,10 @@ class LocalizationSk extends Localization {
 
   @override
   String get video_desc => 'Nevyžaduje internet. Nie je potrebné manuálne počítať ľudí tradičným počítadlom. Stačí nastaviť telefón na automatické sledovanie prechádzajúcich chodcov.';
+
+  @override
+  String get terms => 'Podmienky služby';
+
+  @override
+  String get privacy => 'Ochrana súkromia';
 }

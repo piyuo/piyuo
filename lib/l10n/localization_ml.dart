@@ -73,4 +73,10 @@ class LocalizationMl extends Localization {
 
   @override
   String get video_desc => 'ഇന്റർനെറ്റ് ആവശ്യമില്ല. പരമ്പരാഗത ക്ലിക്കർ ഉപയോഗിച്ച് ആളുകളെ മാനുവലായി എണ്ണേണ്ടതില്ല. കടന്നുപോകുന്ന കാൽനടക്കാരെ സ്വയമേവ നിരീക്ഷിക്കാൻ നിങ്ങളുടെ ഫോൺ സജ്ജീകരിക്കുക.';
+
+  @override
+  String get terms => 'സേവന നിബന്ധനകൾ';
+
+  @override
+  String get privacy => 'സ്വകാര്യത';
 }

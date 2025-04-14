@@ -20,5 +20,7 @@
   "index_email_us": "Lähetä sähköpostia",
   "app_name": "Laskuri",
   "app_desc": "Haluatko tietää, kuinka monta ihmistä kulkee ohi? Tämä sovellus käyttää puhelimesi kameraa tunnistamaan älykkäästi ja laskemaan automaattisesti jalankulkijoita. Ei vaadi manuaalista syöttöä. Unohda työläs laskeminen ja seuraa liikennevirtaa helposti.",
-  "video_desc": "Ei vaadi internetyhteyttä. Ei tarvetta laskea ihmisiä manuaalisesti perinteisellä laskurilla. Aseta vain puhelimesi seuraamaan automaattisesti ohikulkevaa jalankulkuliikennettä."
+  "video_desc": "Ei vaadi internetyhteyttä. Ei tarvetta laskea ihmisiä manuaalisesti perinteisellä laskurilla. Aseta vain puhelimesi seuraamaan automaattisesti ohikulkevaa jalankulkuliikennettä.",
+  "terms": "Käyttöehdot",
+  "privacy": "Tietosuoja"
 }

@@ -73,4 +73,10 @@ class LocalizationUz extends Localization {
 
   @override
   String get video_desc => 'Internet kerak emas. An\'anaviy kliker bilan odamlarni qo\'lda sanashning hojati yo\'q. Shunchaki telefoningizni o\'tib ketayotgan piyodalar oqimini avtomatik kuzatib borish uchun sozlang.';
+
+  @override
+  String get terms => 'Xizmat shartlari';
+
+  @override
+  String get privacy => 'Maxfiylik';
 }

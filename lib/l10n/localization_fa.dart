@@ -73,4 +73,10 @@ class LocalizationFa extends Localization {
 
   @override
   String get video_desc => 'نیازی به اینترنت نیست. نیازی به شمارش دستی افراد با شمارنده سنتی نیست. کافیست تلفن خود را تنظیم کنید تا به طور خودکار رفت و آمد عابران را ردیابی کند.';
+
+  @override
+  String get terms => 'شرایط خدمات';
+
+  @override
+  String get privacy => 'حریم خصوصی';
 }

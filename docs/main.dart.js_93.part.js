@@ -2,35 +2,37 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_93",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aQ2(){B.N("sn")
-return new A.qv()},
-qv:function qv(){}}
+aPA(){B.P("sw")
+return new A.qp()},
+qp:function qp(){}}
 B=c[0]
-C=c[132]
-A=a.updateHolder(c[119],A)
-A.qv.prototype={
-gaJ(){return"Buritsa"},
-gaP(){return"Inouya munguva pfupi."},
-gaO(){return"Inowanikwa muSpring 2025."},
-gaS(){return"Runhare rwako rwava kukwanisa kushandisa AI kuti ruzive vanofamba."},
-gaR(){return"Hazvidi internet. Hazvidi kuverenga vanhu uchishandisa clicker yechinyakare. Unongogadzirisa runhare rwako kuti rutevere vanhu vanopfuura."},
-gaB(){return"Kutevera kwe24/7"},
-gaC(){return"Ona kuverengwa kwevanhu vanopfuura nenguva ipi zvayo."},
-gaD(){return"Kutevera Zvinhu Zvakawanda"},
-gaE(){return"Verenga vanofamba, motokari, mabhaisikoro, nezvimwe zvakawanda panguva imwe chete"},
-gaF(){return"Nzvimbo Dzekutarisa Dzakaita Sezvaunoda"},
-gaG(){return"Isa nzvimbo dzekutarisa dzakaita sezvaunoda kuverenga vanhu vanopfuura munzvimbo dzakakosha."},
-gaH(){return"Nzira Dzekuverenga Dzakasiyanasiyana"},
-gaI(){return"Sarudza kuverenga zvinhu zvitsva zvinosvika munzvimbo yekutarisa, kana izvo zvinomira panzvimbo imwe."},
-gaN(){return"Kuwanikwa Kwesoftware Yekumuchina"},
-gaM(){return"Tinopa zvakare mhando yekumuchina. Tinopa mhando dzinoshandiswa pamiOS/Android/Mac/Windows, zvichikubvumira kushandisa mafoni necomputer dzine webcam. Mhando yekumuchina inokwanisa kushandisa zvakare mafoni akawanda, ichikubvumira kuverenga kubva kumafoni akawanda panguva imwe."},
-gaL(){return"Kubatsira maLive Stream"},
-gaK(){return"Tichiwedzera pamakamera emafoni, tinobatsira mafaira emavhidhiyo akarekodwa, webcam, nemabhuriro echinjanwa einternet senge RTSP. Izvi zvinokubvumira kusangana nemafoni aripo uye kotanga kuyera vanhu vanofamba."},
-gaQ(){return"Titumire email"},
-gau(){return"Counter"},
-gar(){return"Unoda kuziva vanhu vangani vanopfuura? App iyi inoshandisa kamera yerunhare rwako kuziva nekuverenga vanofamba zvine njere. Hazvidi kuisa nemaoko. Onai kumberi kuverenga kunotambudza uye motarisa nyore-nyore vanhu vanofamba."}}
+C=c[120]
+A=a.updateHolder(c[110],A)
+A.qp.prototype={
+gaQ(){return"Pakua"},
+gaX(){return"Inakuja hivi karibuni."},
+gaW(){return"Itapatikana katika Majira ya Kuchipua 2025."},
+gb_(){return"Simu yako sasa inaweza kutumia AI kutambua waendao kwa miguu."},
+gaZ(){return"Haihitaji intaneti. Hakuna haja ya kuhesabu watu kwa mkono kwa kutumia kifaa cha kuhesabu cha kawaida. Weka tu simu yako ihesabu watu wanaopita kiotomatiki."},
+gaI(){return"Ufuatiliaji wa saa 24/7"},
+gaJ(){return"Tazama idadi ya watu wanaopita kwa kipindi chochote."},
+gaK(){return"Ufuatiliaji wa Vitu Mbalimbali"},
+gaL(){return"Hesabu waendao kwa miguu, magari, baiskeli na zaidi kwa wakati mmoja"},
+gaM(){return"Maeneo ya Utambuzi Maalum"},
+gaN(){return"Tengeneza maeneo ya utambuzi maalum kuhesabu mzunguko katika sehemu maalum."},
+gaO(){return"Njia za Kuhesabu Zinazobadilika"},
+gaP(){return"Chagua kuhesabu vitu vipya vinavyotokea ndani ya eneo la utambuzi, au vile ambavyo havitembei."},
+gaV(){return"Upatikanaji wa Toleo la Kompyuta"},
+gaU(){return"Tunatoa pia toleo la kompyuta. Tunatoa matoleo ya iOS/Android/Mac/Windows, kukuwezesha kutumia vifaa vya mkononi na kompyuta zenye kamera. Toleo la kompyuta linasaidia pia vyanzo vingi vya video, kuwezesha kuhesabu kutoka njia nyingi kwa wakati mmoja."},
+gaT(){return"Usaidizi wa Matangazo ya Moja kwa Moja"},
+gaS(){return"Mbali na kamera za simu, tunasaidia faili za video zilizorekodiwa, kamera za kompyuta, na matangazo ya moja kwa moja ya intaneti kama RTSP. Hii inakuwezesha kuunganisha na vifaa vilivyopo na kuanza kupima mtiririko wa watu mara moja."},
+gaY(){return"Tuma barua pepe"},
+gaC(){return"Hesabu"},
+gaB(){return"Unataka kujua watu wangapi wanapita? Programu hii hutumia kamera ya simu yako kutambua kwa uerevu na kuhesabu watu kiotomatiki. Hakuna ulazima wa kuingiza data kwa mkono. Sema kwaheri kwa kuhesabu kwa kuchosha na fuatilia mtiririko wa watu kwa urahisi."},
+gb1(){return"Masharti ya Huduma"},
+gb0(){return"Faragha"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.qv,C.q)})()
-B.a2(b.typeUniverse,JSON.parse('{"qv":{"q":[]}}'))};
+y(A.qp,C.x)})()
+B.a4(b.typeUniverse,JSON.parse('{"qp":{"x":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_93",e:"endPart",h:b})})($__dart_deferred_initializers__,"PAauQwrxUqZqrkYeKezXIBVoZaE=");
+a.eventLog.push({p:"main.dart.js_93",e:"endPart",h:b})})($__dart_deferred_initializers__,"v/80x8COfCcbm8fwXCzzkIWzwJ4=");

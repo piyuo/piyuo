@@ -20,5 +20,7 @@
   "index_email_us": "E-pos ons",
   "app_name": "Teller",
   "app_desc": "Wil jy weet hoeveel mense verbygaan? Hierdie toepassing gebruik jou foon se kamera om intelligent voetgangers te identifiseer en outomaties te tel. Geen handmatige invoer benodig nie. Sê totsiens aan vervelige telwerk en monitor verkeersvloei met gemak.",
-  "video_desc": "Geen internet benodig nie. Geen behoefte om mense handmatig te tel met 'n tradisionele klikker nie. Stel net jou foon op om outomaties verbygaande voetgangersverkeer te monitor."
+  "video_desc": "Geen internet benodig nie. Geen behoefte om mense handmatig te tel met 'n tradisionele klikker nie. Stel net jou foon op om outomaties verbygaande voetgangersverkeer te monitor.",
+  "terms": "Diensvoorwaardes",
+  "privacy": "Privaatheid"
 }
