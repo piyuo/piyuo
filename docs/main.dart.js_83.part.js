@@ -2,35 +2,37 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_83",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aPu(){B.P("sl")
-return new A.qj()},
-qj:function qj(){}}
+aPc(){B.P("pl")
+return new A.q5()},
+q5:function q5(){}}
 B=c[0]
 C=c[120]
-A=a.updateHolder(c[107],A)
-A.qj.prototype={
-gaQ(){return"Prenesi"},
-gaX(){return"Kmalu na voljo."},
-gaW(){return"Na voljo spomladi 2025."},
-gb_(){return"Va\u0161 telefon lahko zdaj z umetno inteligenco prepoznava pe\u0161ce."},
-gaZ(){return"Internet ni potreben. Ni potrebe po ro\u010dnem \u0161tetju ljudi s tradicionalnim \u0161tevcem. Preprosto nastavite telefon za samodejno sledenje mimoido\u010dih pe\u0161cev."},
-gaI(){return"Sledenje 24/7"},
-gaJ(){return"Oglejte si \u0161tevilo pe\u0161cev za katero koli \u010dasovno obdobje."},
-gaK(){return"Sledenje ve\u010d objektom"},
-gaL(){return"Hkrati \u0161tejte pe\u0161ce, avtomobile, kolesa in ve\u010d"},
-gaM(){return"Prilagojene cone zaznavanja"},
-gaN(){return"Dolo\u010dite prilagojene cone zaznavanja za \u0161tetje prometa na dolo\u010denih obmo\u010djih."},
-gaO(){return"Prilagodljivi na\u010dini \u0161tetja"},
-gaP(){return"Izberite \u0161tetje novo pojavljivih objektov znotraj cone zaznavanja ali tistih, ki ostanejo nepremi\u010dni."},
-gaV(){return"Razpolo\u017eljivost namizne razli\u010dice"},
-gaU(){return"Ponujamo tudi namizno razli\u010dico. Zagotavljamo razli\u010dice za iOS/Android/Mac/Windows, kar vam omogo\u010da uporabo mobilnih naprav in namiznih ra\u010dunalnikov s spletnimi kamerami. Namizna razli\u010dica dodatno podpira ve\u010d video virov, kar omogo\u010da so\u010dasno \u0161tetje iz ve\u010d pretokov."},
-gaT(){return"Podpora za preto\u010dne vsebine v \u017eivo"},
-gaS(){return"Poleg kamer mobilnih naprav podpiramo tudi posnete video datoteke, vnose spletnih kamer in spletne pretoke v \u017eivo, kot je RTSP. To vam omogo\u010da povezavo z obstoje\u010dimi napravami in takoj\u0161en za\u010detek merjenja pretoka prometa."},
-gaY(){return"Pi\u0161ite nam"},
-gaC(){return"\u0160tevec"},
-gaB(){return"\u017delite vedeti, koliko ljudi gre mimo? Ta aplikacija uporablja kamero va\u0161ega telefona za inteligentno prepoznavanje in samodejno \u0161tetje pe\u0161cev. Ro\u010dni vnos ni potreben. Poslovite se od napornega \u0161tetja in enostavno spremljajte pretok prometa."}}
+A=a.updateHolder(c[103],A)
+A.q5.prototype={
+gaQ(){return"Pobierz"},
+gaX(){return"Wkr\xf3tce dost\u0119pne."},
+gaW(){return"Dost\u0119pne wiosn\u0105 2025."},
+gb_(){return"Tw\xf3j telefon mo\u017ce teraz u\u017cywa\u0107 AI do rozpoznawania pieszych."},
+gaZ(){return"Nie wymaga internetu. Nie ma potrzeby r\u0119cznego liczenia os\xf3b za pomoc\u0105 tradycyjnego licznika. Po prostu skonfiguruj telefon, aby automatycznie \u015bledzi\u0142 przep\u0142yw pieszych."},
+gaI(){return"\u015aledzenie 24/7"},
+gaJ(){return"Przegl\u0105daj statystyki ruchu pieszych dla dowolnego okresu."},
+gaK(){return"\u015aledzenie wielu obiekt\xf3w"},
+gaL(){return"Jednocze\u015bnie licz pieszych, samochody, rowery i wi\u0119cej"},
+gaM(){return"Niestandardowe strefy wykrywania"},
+gaN(){return"Zdefiniuj w\u0142asne strefy wykrywania, aby liczy\u0107 ruch w okre\u015blonych obszarach."},
+gaO(){return"Elastyczne tryby liczenia"},
+gaP(){return"Wybierz liczenie nowo pojawiaj\u0105cych si\u0119 obiekt\xf3w w strefie wykrywania lub tych, kt\xf3re pozostaj\u0105 nieruchome."},
+gaV(){return"Dost\u0119pno\u015b\u0107 wersji desktopowej"},
+gaU(){return"Oferujemy r\xf3wnie\u017c wersj\u0119 na komputer. Zapewniamy wersje dla iOS/Android/Mac/Windows, umo\u017cliwiaj\u0105c korzystanie zar\xf3wno z urz\u0105dze\u0144 mobilnych, jak i komputer\xf3w z kamerami internetowymi. Wersja desktopowa obs\u0142uguje r\xf3wnie\u017c wiele \u017ar\xf3de\u0142 wideo, umo\u017cliwiaj\u0105c jednoczesne liczenie z wielu strumieni."},
+gaT(){return"Obs\u0142uga transmisji na \u017cywo"},
+gaS(){return"Opr\xf3cz kamer urz\u0105dze\u0144 mobilnych obs\u0142ugujemy nagrane pliki wideo, wej\u015bcia z kamer internetowych i internetowe transmisje na \u017cywo, takie jak RTSP. Pozwala to na pod\u0142\u0105czenie do istniej\u0105cych urz\u0105dze\u0144 i natychmiastowe rozpocz\u0119cie pomiaru przep\u0142ywu ruchu."},
+gaY(){return"Napisz do nas"},
+gaC(){return"Licznik"},
+gaB(){return"Chcesz wiedzie\u0107, ile os\xf3b przechodzi obok? Ta aplikacja wykorzystuje kamer\u0119 Twojego telefonu do inteligentnego identyfikowania i automatycznego liczenia pieszych. Nie wymaga r\u0119cznego wprowadzania danych. Po\u017cegnaj si\u0119 z \u017cmudnym liczeniem i \u0142atwo monitoruj przep\u0142yw ruchu."},
+gb1(){return"Warunki korzystania"},
+gb0(){return"Prywatno\u015b\u0107"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.qj,C.x)})()
-B.a4(b.typeUniverse,JSON.parse('{"qj":{"x":[]}}'))};
+y(A.q5,C.x)})()
+B.a4(b.typeUniverse,JSON.parse('{"q5":{"x":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_83",e:"endPart",h:b})})($__dart_deferred_initializers__,"tTg4iIe/wH62XrEv6QPxLjEIzTE=");
+a.eventLog.push({p:"main.dart.js_83",e:"endPart",h:b})})($__dart_deferred_initializers__,"Ko3an15KEHNE4HpDFqKCQzjf928=");

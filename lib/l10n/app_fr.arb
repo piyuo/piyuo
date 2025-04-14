@@ -20,5 +20,7 @@
   "index_email_us": "Contactez-nous par e-mail",
   "app_name": "Compteur",
   "app_desc": "Vous voulez savoir combien de personnes passent ? Cette application utilise la caméra de votre téléphone pour identifier intelligemment et compter automatiquement les piétons. Aucune saisie manuelle requise. Dites adieu au comptage fastidieux et surveillez facilement le flux de trafic.",
-  "video_desc": "Aucune connexion Internet requise. Plus besoin de compter manuellement les personnes avec un compteur traditionnel. Configurez simplement votre téléphone pour suivre automatiquement le flux piétonnier."
+  "video_desc": "Aucune connexion Internet requise. Plus besoin de compter manuellement les personnes avec un compteur traditionnel. Configurez simplement votre téléphone pour suivre automatiquement le flux piétonnier.",
+  "terms": "Conditions d'utilisation",
+  "privacy": "Confidentialité"
 }

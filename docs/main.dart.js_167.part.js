@@ -2,20 +2,20 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_167",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aPJ(){B.P("tr")
-return new A.qy()},
-qy:function qy(){}}
+aPx(){B.P("sv")
+return new A.qm()},
+qm:function qm(){}}
 B=c[0]
 C=c[119]
-A=a.updateHolder(c[57],A)
-A.qy.prototype={
-gaF(){return"Hata, bir \u015feyler yanl\u0131\u015f gitti"},
-gaE(){return"Beklenmeyen bir hata olu\u015ftu. E-posta raporu g\xf6ndermek ister misiniz?"},
-gaG(){return"Bize e-posta g\xf6nderin"},
-gaD(){return"\u0130ptal"},
-gaA(){return"Sistem Dili"}}
+A=a.updateHolder(c[51],A)
+A.qm.prototype={
+gaF(){return"Hoppsan, n\xe5got gick fel"},
+gaE(){return"Ett ov\xe4ntat fel intr\xe4ffade. Vill du skicka en rapport via e-post?"},
+gaG(){return"Mejla oss"},
+gaD(){return"Avbryt"},
+gaA(){return"Systemspr\xe5k"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.qy,C.u)})()
-B.a4(b.typeUniverse,JSON.parse('{"qy":{"u":[]}}'))};
+y(A.qm,C.u)})()
+B.a4(b.typeUniverse,JSON.parse('{"qm":{"u":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_167",e:"endPart",h:b})})($__dart_deferred_initializers__,"rfBeW+IbZpfnJlmTMuHLepVStR4=");
+a.eventLog.push({p:"main.dart.js_167",e:"endPart",h:b})})($__dart_deferred_initializers__,"p3FchNfgQ2YT5azI2wwky1vn+UQ=");

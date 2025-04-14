@@ -20,5 +20,7 @@
   "index_email_us": "Envia'ns un correu",
   "app_name": "Comptador",
   "app_desc": "Vols saber quanta gent passa pel davant? Aquesta aplicació utilitza la càmera del teu telèfon per identificar intel·ligentment i comptar automàticament els vianants. No cal introducció manual. Digues adéu al recompte tediós i monitora fàcilment el flux de trànsit.",
-  "video_desc": "No requereix internet. No cal comptar manualment persones amb un comptador tradicional. Només configura el teu telèfon per seguir automàticament el trànsit de vianants."
+  "video_desc": "No requereix internet. No cal comptar manualment persones amb un comptador tradicional. Només configura el teu telèfon per seguir automàticament el trànsit de vianants.",
+  "terms": "Condicions del servei",
+  "privacy": "Privadesa"
 }

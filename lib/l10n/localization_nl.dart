@@ -73,6 +73,12 @@ class LocalizationNl extends Localization {
 
   @override
   String get video_desc => 'Geen internet nodig. Geen handmatig tellen van mensen met een traditionele teller. Stel gewoon je telefoon in om automatisch passerende voetgangers te registreren.';
+
+  @override
+  String get terms => 'Servicevoorwaarden';
+
+  @override
+  String get privacy => 'Privacy';
 }
 
 /// The translations for Dutch Flemish, as used in Belgium (`nl_BE`).
@@ -144,4 +150,10 @@ class LocalizationNlBe extends LocalizationNl {
 
   @override
   String get video_desc => 'Geen internet nodig. Geen handmatig tellen van mensen met een traditionele teller. Stel gewoon je gsm in om automatisch passerende voetgangers te registreren.';
+
+  @override
+  String get terms => 'Servicevoorwaarden';
+
+  @override
+  String get privacy => 'Privacy';
 }

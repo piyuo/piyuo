@@ -20,5 +20,7 @@
   "index_email_us": "Napíšte nám",
   "app_name": "Počítadlo",
   "app_desc": "Chcete vedieť, koľko ľudí prejde okolo? Táto aplikácia využíva kameru vášho telefónu na inteligentné rozpoznávanie a automatické počítanie chodcov. Nie je potrebný žiadny manuálny vstup. Rozlúčte sa s únavným počítaním a jednoducho monitorujte tok premávky.",
-  "video_desc": "Nevyžaduje internet. Nie je potrebné manuálne počítať ľudí tradičným počítadlom. Stačí nastaviť telefón na automatické sledovanie prechádzajúcich chodcov."
+  "video_desc": "Nevyžaduje internet. Nie je potrebné manuálne počítať ľudí tradičným počítadlom. Stačí nastaviť telefón na automatické sledovanie prechádzajúcich chodcov.",
+  "terms": "Podmienky služby",
+  "privacy": "Ochrana súkromia"
 }

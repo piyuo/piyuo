@@ -73,4 +73,10 @@ class LocalizationTh extends Localization {
 
   @override
   String get video_desc => 'ไม่จำเป็นต้องใช้อินเทอร์เน็ต ไม่ต้องนับคนด้วยเครื่องนับแบบดั้งเดิม เพียงตั้งค่าโทรศัพท์ให้ติดตามการสัญจรของคนเดินเท้าโดยอัตโนมัติ';
+
+  @override
+  String get terms => 'ข้อกำหนดการให้บริการ';
+
+  @override
+  String get privacy => 'ความเป็นส่วนตัว';
 }

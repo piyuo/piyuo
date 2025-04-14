@@ -20,5 +20,7 @@
   "index_email_us": "Écrivez-nous",
   "app_name": "Compteur",
   "app_desc": "Vous voulez savoir combien de personnes passent? Cette application utilise la caméra de votre cellulaire pour identifier intelligemment et compter automatiquement les piétons. Aucune saisie manuelle requise. Dites adieu au comptage fastidieux et surveillez facilement l'achalandage.",
-  "video_desc": "Aucune connexion Internet requise. Plus besoin de compter manuellement les personnes avec un compteur traditionnel. Configurez simplement votre cellulaire pour suivre automatiquement l'achalandage piétonnier."
+  "video_desc": "Aucune connexion Internet requise. Plus besoin de compter manuellement les personnes avec un compteur traditionnel. Configurez simplement votre cellulaire pour suivre automatiquement l'achalandage piétonnier.",
+  "terms": "Conditions d'utilisation",
+  "privacy": "Confidentialité"
 }

@@ -73,6 +73,12 @@ class LocalizationPt extends Localization {
 
   @override
   String get video_desc => 'Não precisa de internet. Não é necessário contar pessoas manualmente com um contador tradicional. Basta configurar seu celular para rastrear automaticamente o fluxo de pedestres.';
+
+  @override
+  String get terms => 'Termos de serviço';
+
+  @override
+  String get privacy => 'Privacidade';
 }
 
 /// The translations for Portuguese, as used in Portugal (`pt_PT`).
@@ -144,4 +150,10 @@ class LocalizationPtPt extends LocalizationPt {
 
   @override
   String get video_desc => 'Não requer internet. Não é necessário contar pessoas manualmente com um contador tradicional. Basta configurar o seu telemóvel para rastrear automaticamente o fluxo de peões.';
+
+  @override
+  String get terms => 'Termos de serviço';
+
+  @override
+  String get privacy => 'Privacidade';
 }

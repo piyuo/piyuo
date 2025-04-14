@@ -8,10 +8,10 @@ import 'package:provider/provider.dart';
 import 'cover_view.dart';
 import 'desktop_view.dart';
 import 'download_view.dart';
-import 'email_view.dart';
 import 'feature_view.dart';
 import 'glass_container.dart';
 import 'index_page_provider.dart';
+import 'link_view.dart';
 import 'screenshot_player.dart';
 import 'screenshot_view.dart';
 
@@ -227,7 +227,7 @@ class IndexScreen extends StatelessWidget {
 
                             const SizedBox(height: _kContentMargin),
                             const SizedBox(height: 20),
-                            EmailView(isMobile: isMobile),
+                            LinkView(isMobile: isMobile),
                             const SizedBox(height: 20),
                             Center(
                               child: SelectableText(

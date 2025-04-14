@@ -20,5 +20,7 @@
   "index_email_us": "Írjon nekünk e-mailt",
   "app_name": "Számláló",
   "app_desc": "Szeretné tudni, hány ember halad el? Ez az alkalmazás telefonja kameráját használja a gyalogosok intelligens azonosítására és automatikus számlálására. Nincs szükség kézi bevitelre. Búcsúzzon el a fárasztó számolástól, és könnyen figyelje a forgalom áramlását.",
-  "video_desc": "Nem igényel internetet. Nincs szükség hagyományos számláló használatára az emberek kézi számolásához. Egyszerűen állítsa be telefonját, hogy automatikusan követhesse az áthaladó gyalogosforgalmat."
+  "video_desc": "Nem igényel internetet. Nincs szükség hagyományos számláló használatára az emberek kézi számolásához. Egyszerűen állítsa be telefonját, hogy automatikusan követhesse az áthaladó gyalogosforgalmat.",
+  "terms": "Szolgáltatási feltételek",
+  "privacy": "Adatvédelem"
 }

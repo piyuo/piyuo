@@ -73,4 +73,10 @@ class LocalizationHe extends Localization {
 
   @override
   String get video_desc => 'לא נדרש אינטרנט. אין צורך לספור אנשים ידנית עם מונה מסורתי. פשוט הגדר את הטלפון שלך לעקוב אוטומטית אחר תנועת הולכי הרגל.';
+
+  @override
+  String get terms => 'תנאי שירות';
+
+  @override
+  String get privacy => 'פרטיות';
 }

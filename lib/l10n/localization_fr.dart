@@ -73,6 +73,12 @@ class LocalizationFr extends Localization {
 
   @override
   String get video_desc => 'Aucune connexion Internet requise. Plus besoin de compter manuellement les personnes avec un compteur traditionnel. Configurez simplement votre téléphone pour suivre automatiquement le flux piétonnier.';
+
+  @override
+  String get terms => 'Conditions d\'utilisation';
+
+  @override
+  String get privacy => 'Confidentialité';
 }
 
 /// The translations for French, as used in Belgium (`fr_BE`).
@@ -144,6 +150,12 @@ class LocalizationFrBe extends LocalizationFr {
 
   @override
   String get video_desc => 'Pas de connexion Internet nécessaire. Plus besoin de compter manuellement les personnes avec un compteur traditionnel. Paramétrez simplement votre GSM pour suivre automatiquement le passage des piétons.';
+
+  @override
+  String get terms => 'Conditions d\'utilisation';
+
+  @override
+  String get privacy => 'Confidentialité';
 }
 
 /// The translations for French, as used in Canada (`fr_CA`).
@@ -215,6 +227,12 @@ class LocalizationFrCa extends LocalizationFr {
 
   @override
   String get video_desc => 'Aucune connexion Internet requise. Plus besoin de compter manuellement les personnes avec un compteur traditionnel. Configurez simplement votre cellulaire pour suivre automatiquement l\'achalandage piétonnier.';
+
+  @override
+  String get terms => 'Conditions d\'utilisation';
+
+  @override
+  String get privacy => 'Confidentialité';
 }
 
 /// The translations for French, as used in Switzerland (`fr_CH`).
@@ -286,4 +304,10 @@ class LocalizationFrCh extends LocalizationFr {
 
   @override
   String get video_desc => 'Pas de connexion Internet nécessaire. Plus besoin de compter manuellement les personnes avec un compteur traditionnel. Configurez simplement votre natel pour suivre automatiquement le passage des piétons.';
+
+  @override
+  String get terms => 'Conditions d\'utilisation';
+
+  @override
+  String get privacy => 'Confidentialité';
 }

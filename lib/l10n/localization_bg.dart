@@ -73,4 +73,10 @@ class LocalizationBg extends Localization {
 
   @override
   String get video_desc => 'Не се изисква интернет. Не е необходимо ръчно броене на хора с традиционен брояч. Просто настройте телефона си да проследява автоматично преминаващия пешеходен трафик.';
+
+  @override
+  String get terms => 'Условия за ползване';
+
+  @override
+  String get privacy => 'Поверителност';
 }

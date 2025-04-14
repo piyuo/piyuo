@@ -7,8 +7,8 @@ import 'package:piyuo/l10n/l10n.dart';
 @JS('window.open')
 external JSAny? jsOpen(String url, String target);
 
-class EmailView extends StatelessWidget {
-  const EmailView({required this.isMobile, super.key});
+class LinkView extends StatelessWidget {
+  const LinkView({required this.isMobile, super.key});
 
   /// whether the device is mobile or not
   final bool isMobile;
@@ -42,13 +42,13 @@ class EmailView extends StatelessWidget {
           onPressed: () {
             _openLink('/terms');
           },
-          child: Text('Terms of Service', style: TextStyle(fontSize: 18, color: Colors.black)),
+          child: Text(context.l.terms, style: TextStyle(fontSize: 18, color: Colors.black)),
         ),
         TextButton(
           onPressed: () {
             _openLink('/privacy');
           },
-          child: Text('Privacy', style: TextStyle(fontSize: 18, color: Colors.black)),
+          child: Text(context.l.privacy, style: TextStyle(fontSize: 18, color: Colors.black)),
         ),
       ],
     );

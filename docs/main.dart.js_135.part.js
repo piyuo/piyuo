@@ -2,20 +2,20 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_135",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aOw(){B.P("he")
-return new A.pt()},
-pt:function pt(){}}
+aNW(){B.P("el")
+return new A.oZ()},
+oZ:function oZ(){}}
 B=c[0]
 C=c[119]
-A=a.updateHolder(c[28],A)
-A.pt.prototype={
-gaF(){return"\u05d0\u05d5\u05e4\u05e1, \u05de\u05e9\u05d4\u05d5 \u05d4\u05e9\u05ea\u05d1\u05e9"},
-gaE(){return"\u05d0\u05d9\u05e8\u05e2\u05d4 \u05e9\u05d2\u05d9\u05d0\u05d4 \u05d1\u05dc\u05ea\u05d9 \u05e6\u05e4\u05d5\u05d9\u05d4. \u05d4\u05d0\u05dd \u05ea\u05e8\u05e6\u05d4 \u05dc\u05e9\u05dc\u05d5\u05d7 \u05d3\u05d5\u05d7 \u05d1\u05d0\u05d9\u05de\u05d9\u05d9\u05dc?"},
-gaG(){return"\u05e9\u05dc\u05d7 \u05dc\u05e0\u05d5 \u05d0\u05d9\u05de\u05d9\u05d9\u05dc"},
-gaD(){return"\u05d1\u05d9\u05d8\u05d5\u05dc"},
-gaA(){return"\u05e9\u05e4\u05ea \u05de\u05e2\u05e8\u05db\u05ea"}}
+A=a.updateHolder(c[22],A)
+A.oZ.prototype={
+gaF(){return"\u03a9\u03c7, \u03ba\u03ac\u03c4\u03b9 \u03c0\u03ae\u03b3\u03b5 \u03c3\u03c4\u03c1\u03b1\u03b2\u03ac"},
+gaE(){return"\u03a0\u03b1\u03c1\u03bf\u03c5\u03c3\u03b9\u03ac\u03c3\u03c4\u03b7\u03ba\u03b5 \u03ad\u03bd\u03b1 \u03b1\u03c0\u03c1\u03cc\u03c3\u03bc\u03b5\u03bd\u03bf \u03c3\u03c6\u03ac\u03bb\u03bc\u03b1. \u0398\u03b1 \u03b8\u03ad\u03bb\u03b1\u03c4\u03b5 \u03bd\u03b1 \u03c5\u03c0\u03bf\u03b2\u03ac\u03bb\u03b5\u03c4\u03b5 \u03bc\u03b9\u03b1 \u03b1\u03bd\u03b1\u03c6\u03bf\u03c1\u03ac \u03bc\u03ad\u03c3\u03c9 email;"},
+gaG(){return"\u03a3\u03c4\u03b5\u03af\u03bb\u03c4\u03b5 \u03bc\u03b1\u03c2 email"},
+gaD(){return"\u0391\u03ba\u03cd\u03c1\u03c9\u03c3\u03b7"},
+gaA(){return"\u0393\u03bb\u03ce\u03c3\u03c3\u03b1 \u03c3\u03c5\u03c3\u03c4\u03ae\u03bc\u03b1\u03c4\u03bf\u03c2"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.pt,C.u)})()
-B.a4(b.typeUniverse,JSON.parse('{"pt":{"u":[]}}'))};
+y(A.oZ,C.u)})()
+B.a4(b.typeUniverse,JSON.parse('{"oZ":{"u":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_135",e:"endPart",h:b})})($__dart_deferred_initializers__,"s3uQnSSa1K/l/DITeW6UwiTd8rM=");
+a.eventLog.push({p:"main.dart.js_135",e:"endPart",h:b})})($__dart_deferred_initializers__,"QV8mm1WhI+lmyAPowBnY1bf91Xo=");

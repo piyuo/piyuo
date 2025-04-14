@@ -73,4 +73,10 @@ class LocalizationMn extends Localization {
 
   @override
   String get video_desc => 'Интернэт шаардлагагүй. Уламжлалт тоологчоор хүмүүсийг гараар тоолох шаардлагагүй. Зүгээр л утсаа тохируулаад явган хүмүүсийн хөдөлгөөнийг автоматаар хянаарай.';
+
+  @override
+  String get terms => 'Үйлчилгээний нөхцөл';
+
+  @override
+  String get privacy => 'Нууцлал';
 }

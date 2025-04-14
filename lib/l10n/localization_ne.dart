@@ -73,4 +73,10 @@ class LocalizationNe extends Localization {
 
   @override
   String get video_desc => 'इन्टरनेट आवश्यक छैन। परम्परागत क्लिकरले मानिसहरूलाई म्यानुअल रूपमा गन्न आवश्यक छैन। तपाईंको फोनलाई स्वचालित रूपमा बिट्ने पैदल यात्रीहरू ट्र्याक गर्न सेटअप गर्नुहोस्।';
+
+  @override
+  String get terms => 'सेवा सर्तहरू';
+
+  @override
+  String get privacy => 'गोपनीयता';
 }

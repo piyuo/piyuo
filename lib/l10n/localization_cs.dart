@@ -73,4 +73,10 @@ class LocalizationCs extends Localization {
 
   @override
   String get video_desc => 'Nevyžaduje internet. Není potřeba ručně počítat lidi tradičním počítadlem. Stačí nastavit telefon pro automatické sledování procházejících osob.';
+
+  @override
+  String get terms => 'Podmínky služby';
+
+  @override
+  String get privacy => 'Ochrana soukromí';
 }

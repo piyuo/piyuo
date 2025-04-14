@@ -73,4 +73,10 @@ class LocalizationDa extends Localization {
 
   @override
   String get video_desc => 'Kræver ikke internet. Ingen grund til manuelt at tælle personer med en traditionel klikker. Sæt blot din telefon op til automatisk at registrere forbipasserende fodgængere.';
+
+  @override
+  String get terms => 'Servicevilkår';
+
+  @override
+  String get privacy => 'Privatlivspolitik';
 }

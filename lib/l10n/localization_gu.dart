@@ -73,4 +73,10 @@ class LocalizationGu extends Localization {
 
   @override
   String get video_desc => 'ઇન્ટરનેટની જરૂર નથી. પરંપરાગત ક્લિકર સાથે લોકોને મેન્યુઅલી ગણવાની જરૂર નથી. ફક્ત તમારા ફોનને પસાર થતી રાહદારીઓની અવરજવરને આપોઆપ ટ્રેક કરવા માટે સેટ કરો.';
+
+  @override
+  String get terms => 'સેવા શરતો';
+
+  @override
+  String get privacy => 'ગોપનીયતા';
 }

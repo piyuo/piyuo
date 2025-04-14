@@ -73,4 +73,10 @@ class LocalizationSl extends Localization {
 
   @override
   String get video_desc => 'Internet ni potreben. Ni potrebe po ročnem štetju ljudi s tradicionalnim števcem. Preprosto nastavite telefon za samodejno sledenje mimoidočih pešcev.';
+
+  @override
+  String get terms => 'Pogoji uporabe';
+
+  @override
+  String get privacy => 'Zasebnost';
 }

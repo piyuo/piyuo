@@ -73,6 +73,12 @@ class LocalizationZh extends Localization {
 
   @override
   String get video_desc => '無需網路連線。不必再使用傳統計數器手動計算人數。只需設定您的手機，即可自動追蹤經過的人流量。';
+
+  @override
+  String get terms => '服務條款';
+
+  @override
+  String get privacy => '隱私政策';
 }
 
 /// The translations for Chinese, as used in China (`zh_CN`).
@@ -144,6 +150,12 @@ class LocalizationZhCn extends LocalizationZh {
 
   @override
   String get video_desc => '无需联网。无需使用传统计数器手动计数。只需设置您的手机，即可自动追踪经过的人流量。';
+
+  @override
+  String get terms => '服务条款';
+
+  @override
+  String get privacy => '隐私政策';
 }
 
 /// The translations for Chinese, as used in Hong Kong (`zh_HK`).
@@ -215,6 +227,12 @@ class LocalizationZhHk extends LocalizationZh {
 
   @override
   String get video_desc => '無需網絡連接。無需使用傳統計數器手動點算。只需設置您的手機，即可自動追蹤經過的人流量。';
+
+  @override
+  String get terms => '服務條款';
+
+  @override
+  String get privacy => '私隱政策';
 }
 
 /// The translations for Chinese, as used in Macao (`zh_MO`).
@@ -286,6 +304,12 @@ class LocalizationZhMo extends LocalizationZh {
 
   @override
   String get video_desc => '無需網絡連接。無需使用傳統計數器手動點算。只需設置您的手機，即可自動追蹤經過的人流量。';
+
+  @override
+  String get terms => '服務條款';
+
+  @override
+  String get privacy => '私隱政策';
 }
 
 /// The translations for Chinese, as used in Singapore (`zh_SG`).
@@ -357,4 +381,10 @@ class LocalizationZhSg extends LocalizationZh {
 
   @override
   String get video_desc => '无需联网。无需使用传统计数器手动计数。只需设置您的手机，即可自动追踪经过的人流量。';
+
+  @override
+  String get terms => '服务条款';
+
+  @override
+  String get privacy => '隐私政策';
 }

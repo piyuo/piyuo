@@ -20,5 +20,7 @@
   "index_email_us": "Rakstiet mums",
   "app_name": "Skaitītājs",
   "app_desc": "Vēlaties uzzināt, cik daudz cilvēku iet garām? Šī lietotne izmanto jūsu tālruņa kameru, lai gudri identificētu un automātiski skaitītu gājējus. Nav nepieciešama manuāla ievade. Atvadieties no nogurdinošas skaitīšanas un viegli uzraugiet satiksmes plūsmu.",
-  "video_desc": "Nav nepieciešams internets. Nav nepieciešams manuāli skaitīt cilvēkus ar tradicionālo skaitītāju. Vienkārši iestatiet telefonu, lai tas automātiski izsekotu gājēju plūsmu."
+  "video_desc": "Nav nepieciešams internets. Nav nepieciešams manuāli skaitīt cilvēkus ar tradicionālo skaitītāju. Vienkārši iestatiet telefonu, lai tas automātiski izsekotu gājēju plūsmu.",
+  "terms": "Pakalpojumu noteikumi",
+  "privacy": "Privātums"
 }

@@ -73,4 +73,10 @@ class LocalizationAm extends Localization {
 
   @override
   String get video_desc => 'ኢንተርኔት አያስፈልግም። ባህላዊ ቆጣሪ በመጠቀም ሰዎችን በእጅ መቁጠር አያስፈልግም። ስልክዎን ያዘጋጁ እና የሚያልፉ እግረኞችን በራስ-ሰር ይቁጠሩ።';
+
+  @override
+  String get terms => 'የአገልግሎት ውሎች';
+
+  @override
+  String get privacy => 'ግላዊነት';
 }

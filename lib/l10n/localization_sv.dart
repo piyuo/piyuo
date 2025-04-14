@@ -73,4 +73,10 @@ class LocalizationSv extends Localization {
 
   @override
   String get video_desc => 'Ingen internetanslutning krävs. Ingen manuell räkning med traditionell räknare behövs. Ställ bara in din telefon för att automatiskt spåra förbipasserande fotgängare.';
+
+  @override
+  String get terms => 'Användarvillkor';
+
+  @override
+  String get privacy => 'Integritet';
 }

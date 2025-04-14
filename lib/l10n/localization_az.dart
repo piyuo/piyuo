@@ -73,4 +73,10 @@ class LocalizationAz extends Localization {
 
   @override
   String get video_desc => 'İnternet tələb olunmur. Ənənəvi kliklə insanları əl ilə saymağa ehtiyac yoxdur. Sadəcə telefonunuzu keçən piyada hərəkətini avtomatik izləmək üçün qurun.';
+
+  @override
+  String get terms => 'Xidmət Şərtləri';
+
+  @override
+  String get privacy => 'Məxfilik';
 }

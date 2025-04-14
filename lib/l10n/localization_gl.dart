@@ -73,4 +73,10 @@ class LocalizationGl extends Localization {
 
   @override
   String get video_desc => 'Non require internet. Non é necesario contar manualmente ás persoas cun contador tradicional. Simplemente configura o teu móbil para seguir automaticamente o tráfico peonil.';
+
+  @override
+  String get terms => 'Termos de servizo';
+
+  @override
+  String get privacy => 'Privacidade';
 }

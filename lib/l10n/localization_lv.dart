@@ -73,4 +73,10 @@ class LocalizationLv extends Localization {
 
   @override
   String get video_desc => 'Nav nepieciešams internets. Nav nepieciešams manuāli skaitīt cilvēkus ar tradicionālo skaitītāju. Vienkārši iestatiet telefonu, lai tas automātiski izsekotu gājēju plūsmu.';
+
+  @override
+  String get terms => 'Pakalpojumu noteikumi';
+
+  @override
+  String get privacy => 'Privātums';
 }

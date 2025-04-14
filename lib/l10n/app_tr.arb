@@ -20,5 +20,7 @@
   "index_email_us": "Bize e-posta gönderin",
   "app_name": "Sayaç",
   "app_desc": "Kaç kişinin geçtiğini bilmek ister misiniz? Bu uygulama, yayaları akıllıca tanımlamak ve otomatik olarak saymak için telefonunuzun kamerasını kullanır. Manuel giriş gerekmez. Sıkıcı sayımlara veda edin ve trafik akışını kolayca izleyin.",
-  "video_desc": "İnternet bağlantısı gerektirmez. Geleneksel sayaçla insanları manuel olarak saymanıza gerek yok. Sadece telefonunuzu yaya trafiğini otomatik olarak izleyecek şekilde ayarlayın."
+  "video_desc": "İnternet bağlantısı gerektirmez. Geleneksel sayaçla insanları manuel olarak saymanıza gerek yok. Sadece telefonunuzu yaya trafiğini otomatik olarak izleyecek şekilde ayarlayın.",
+  "terms": "Hizmet Şartları",
+  "privacy": "Gizlilik"
 }

@@ -20,5 +20,7 @@
   "index_email_us": "E-Mail an uns",
   "app_name": "Zähler",
   "app_desc": "Möchten Sie wissen, wie viele Menschen vorbeigehen? Diese App nutzt die Kamera Ihres Handys, um Fußgänger intelligent zu identifizieren und automatisch zu zählen. Keine manuelle Eingabe erforderlich. Verabschieden Sie sich vom mühsamen Zählen und überwachen Sie den Personenfluss ganz einfach.",
-  "video_desc": "Kein Internet erforderlich. Kein manuelles Zählen mit herkömmlichen Zählgeräten mehr. Richten Sie einfach Ihr Handy ein, um den vorbeigehenden Personenverkehr automatisch zu erfassen."
+  "video_desc": "Kein Internet erforderlich. Kein manuelles Zählen mit herkömmlichen Zählgeräten mehr. Richten Sie einfach Ihr Handy ein, um den vorbeigehenden Personenverkehr automatisch zu erfassen.",
+  "terms": "Nutzungsbedingungen",
+  "privacy": "Datenschutz"
 }

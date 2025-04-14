@@ -20,5 +20,7 @@
   "index_email_us": "Mail ons",
   "app_name": "Teller",
   "app_desc": "Wil je weten hoeveel mensen er langskomen? Deze app gebruikt de camera van je gsm om op intelligente wijze voetgangers te identificeren en automatisch te tellen. Geen handmatige invoer vereist. Zeg vaarwel tegen vervelend telwerk en monitor eenvoudig verkeersstromen.",
-  "video_desc": "Geen internet nodig. Geen handmatig tellen van mensen met een traditionele teller. Stel gewoon je gsm in om automatisch passerende voetgangers te registreren."
+  "video_desc": "Geen internet nodig. Geen handmatig tellen van mensen met een traditionele teller. Stel gewoon je gsm in om automatisch passerende voetgangers te registreren.",
+  "terms": "Servicevoorwaarden",
+  "privacy": "Privacy"
 }

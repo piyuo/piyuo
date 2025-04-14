@@ -73,6 +73,12 @@ class LocalizationUr extends Localization {
 
   @override
   String get video_desc => 'انٹرنیٹ کی ضرورت نہیں۔ روایتی کلکر سے لوگوں کو دستی طور پر گننے کی ضرورت نہیں۔ بس اپنے فون کو گزرنے والے پیدل ٹریفک کی خودکار نگرانی کے لیے ترتیب دیں۔';
+
+  @override
+  String get terms => 'سروس کی شرائط';
+
+  @override
+  String get privacy => 'رازداری';
 }
 
 /// The translations for Urdu, as used in India (`ur_IN`).
@@ -144,4 +150,10 @@ class LocalizationUrIn extends LocalizationUr {
 
   @override
   String get video_desc => 'انٹرنیٹ کی ضرورت نہیں۔ روایتی کلکر سے لوگوں کو دستی طور پر گننے کی ضرورت نہیں۔ بس اپنے فون کو گزرنے والے پیدل یاتایات کی خودکار ٹریکنگ کے لیے سیٹ کریں۔';
+
+  @override
+  String get terms => 'सेवा की शर्तें';
+
+  @override
+  String get privacy => 'गोपनीयता';
 }

@@ -2,20 +2,20 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_145",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aOO(){B.P("lt")
-return new A.pL()},
-pL:function pL(){}}
+aOC(){B.P("hu")
+return new A.pz()},
+pz:function pz(){}}
 B=c[0]
 C=c[119]
-A=a.updateHolder(c[37],A)
-A.pL.prototype={
-gaF(){return"Oi, ka\u017ekas nutiko"},
-gaE(){return"\u012evyko netik\u0117ta klaida. Ar nor\u0117tum\u0117te pateikti el. pa\u0161to ataskait\u0105?"},
-gaG(){return"Susisiekite el. pa\u0161tu"},
-gaD(){return"At\u0161aukti"},
-gaA(){return"Sistemos kalba"}}
+A=a.updateHolder(c[31],A)
+A.pz.prototype={
+gaF(){return"Hopp\xe1, valami hiba t\xf6rt\xe9nt"},
+gaE(){return"V\xe1ratlan hiba t\xf6rt\xe9nt. Szeretne e-mail jelent\xe9st k\xfcldeni?"},
+gaG(){return"E-mail k\xfcld\xe9se nek\xfcnk"},
+gaD(){return"M\xe9gse"},
+gaA(){return"Rendszer nyelve"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.pL,C.u)})()
-B.a4(b.typeUniverse,JSON.parse('{"pL":{"u":[]}}'))};
+y(A.pz,C.u)})()
+B.a4(b.typeUniverse,JSON.parse('{"pz":{"u":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_145",e:"endPart",h:b})})($__dart_deferred_initializers__,"H9LCTOVemIpnKoRmNXtpaeUzmmI=");
+a.eventLog.push({p:"main.dart.js_145",e:"endPart",h:b})})($__dart_deferred_initializers__,"V4FE3Rn+7sLxsbGJKezr1rXoVPo=");

@@ -2,35 +2,37 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_35",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aNL(){B.P("ca")
-return new A.oQ()},
-oQ:function oQ(){}}
+aNt(){B.P("am")
+return new A.oC()},
+oC:function oC(){}}
 B=c[0]
 C=c[120]
-A=a.updateHolder(c[77],A)
-A.oQ.prototype={
-gaQ(){return"Descarregar"},
-gaX(){return"Properament."},
-gaW(){return"Disponible a la primavera de 2025."},
-gb_(){return"El teu tel\xe8fon ara pot utilitzar la IA per recon\xe8ixer vianants."},
-gaZ(){return"No requereix internet. No cal comptar manualment persones amb un comptador tradicional. Nom\xe9s configura el teu tel\xe8fon per seguir autom\xe0ticament el tr\xe0nsit de vianants."},
-gaI(){return"Seguiment 24/7"},
-gaJ(){return"Visualitza el recompte de vianants per a qualsevol per\xedode de temps."},
-gaK(){return"Seguiment de M\xfaltiples Objectes"},
-gaL(){return"Compta simult\xe0niament vianants, cotxes, bicicletes i m\xe9s"},
-gaM(){return"Zones de Detecci\xf3 Personalitzades"},
-gaN(){return"Defineix zones de detecci\xf3 personalitzades per comptar el tr\xe0nsit en \xe0rees espec\xedfiques."},
-gaO(){return"Modes de Recompte Flexibles"},
-gaP(){return"Tria comptar els objectes que apareixen de nou dins de la zona de detecci\xf3 o els que romanen est\xe0tics."},
-gaV(){return"Disponibilitat de la Versi\xf3 d'Escriptori"},
-gaU(){return"Tamb\xe9 oferim una versi\xf3 d'escriptori. Proporcionem versions per a iOS/Android/Mac/Windows, permetent-te utilitzar tant dispositius m\xf2bils com ordinadors amb webcams. La versi\xf3 d'escriptori tamb\xe9 admet m\xfaltiples fonts de v\xeddeo, permetent el recompte simultani de diversos fluxos."},
-gaT(){return"Suport per a Transmissions en Directe"},
-gaS(){return"A m\xe9s de les c\xe0meres de dispositius m\xf2bils, donem suport a arxius de v\xeddeo enregistrats, entrades de webcam i transmissions en directe per internet com RTSP. Aix\xf2 et permet connectar-te a dispositius existents i comen\xe7ar immediatament a mesurar el flux de tr\xe0nsit."},
-gaY(){return"Envia'ns un correu"},
-gaC(){return"Comptador"},
-gaB(){return"Vols saber quanta gent passa pel davant? Aquesta aplicaci\xf3 utilitza la c\xe0mera del teu tel\xe8fon per identificar intel\xb7ligentment i comptar autom\xe0ticament els vianants. No cal introducci\xf3 manual. Digues ad\xe9u al recompte tedi\xf3s i monitora f\xe0cilment el flux de tr\xe0nsit."}}
+A=a.updateHolder(c[74],A)
+A.oC.prototype={
+gaQ(){return"\u12a0\u12cd\u122d\u12f5"},
+gaX(){return"\u1260\u1245\u122d\u1261 \u12ed\u1218\u1323\u120d\u1362"},
+gaW(){return"\u12602025 \u1340\u12f0\u12ed \u12ed\u1308\u129b\u120d\u1362"},
+gb_(){return"\u1235\u120d\u12ad\u12ce \u12a0\u1201\u1295 \u12a5\u130d\u1228\u129e\u127d\u1295 \u1208\u1218\u1208\u12e8\u1275 \u1230\u12cd \u1230\u122b\u123d \u1265\u120d\u1205\u1290\u1275 (AI) \u1218\u1320\u1240\u121d \u12ed\u127d\u120b\u120d\u1362"},
+gaZ(){return"\u12a2\u1295\u1270\u122d\u1294\u1275 \u12a0\u12eb\u1235\u1348\u120d\u130d\u121d\u1362 \u1263\u1205\u120b\u12ca \u1246\u1323\u122a \u1260\u1218\u1320\u1240\u121d \u1230\u12ce\u127d\u1295 \u1260\u12a5\u1305 \u1218\u1241\u1320\u122d \u12a0\u12eb\u1235\u1348\u120d\u130d\u121d\u1362 \u1235\u120d\u12ad\u12ce\u1295 \u12eb\u12d8\u130b\u1301 \u12a5\u1293 \u12e8\u121a\u12eb\u120d\u1349 \u12a5\u130d\u1228\u129e\u127d\u1295 \u1260\u122b\u1235-\u1230\u122d \u12ed\u1241\u1320\u1229\u1362"},
+gaI(){return"24/7 \u12ad\u1275\u1275\u120d"},
+gaJ(){return"\u1260\u121b\u1295\u129b\u12cd\u121d \u130a\u12dc \u12cd\u1235\u1325 \u12e8\u12a5\u130d\u1228\u129b \u12a5\u1295\u1245\u1235\u1243\u1234 \u1265\u12db\u1275\u1295 \u12ed\u1218\u120d\u12a8\u1271\u1362"},
+gaK(){return"\u1265\u12d9 \u1290\u1308\u122e\u127d \u12ad\u1275\u1275\u120d"},
+gaL(){return"\u12a5\u130d\u1228\u129e\u127d\u1295\u1363 \u1218\u12aa\u1293\u12ce\u127d\u1295\u1363 \u1265\u1235\u12ad\u120c\u1276\u127d\u1295 \u12a5\u1293 \u120c\u120e\u127d\u1295\u121d \u1260\u12a0\u1295\u12f5 \u130a\u12dc \u12ed\u1241\u1320\u1229"},
+gaM(){return"\u1265\u1301 \u1218\u1208\u12eb \u12de\u1296\u127d"},
+gaN(){return"\u1260\u1270\u12c8\u1230\u1291 \u12a0\u12ab\u1263\u1262\u12ce\u127d \u12e8\u1218\u1313\u1313\u12e3 \u12a5\u1295\u1245\u1235\u1243\u1234 \u1208\u1218\u1241\u1320\u122d \u1265\u1301 \u12e8\u1218\u1208\u12eb \u12de\u1296\u127d\u1295 \u12ed\u130d\u1208\u1339\u1362"},
+gaO(){return"\u1270\u1208\u12cb\u12cb\u132d \u12e8\u1246\u1320\u122b \u12d8\u12f4\u12ce\u127d"},
+gaP(){return"\u1260\u1218\u1208\u12eb \u12de\u1291 \u12cd\u1235\u1325 \u12a0\u12f2\u1235 \u12e8\u121a\u1273\u12e9 \u1290\u1308\u122e\u127d\u1295 \u12c8\u12ed\u121d \u1266\u1273\u1278\u12cd\u1295 \u1233\u12ed\u1208\u1241 \u12e8\u121a\u1246\u12e9\u1275\u1295 \u1208\u1218\u1241\u1320\u122d \u12ed\u121d\u1228\u1321\u1362"},
+gaV(){return"\u12e8\u12f4\u1235\u12ad\u1276\u1355 \u1225\u122a\u1275 \u12dd\u130d\u1301\u1290\u1275"},
+gaU(){return"\u12e8\u12f4\u1235\u12ad\u1276\u1355 \u1225\u122a\u1275\u121d \u12a5\u1293\u1240\u122d\u1263\u1208\u1295\u1362 \u1208iOS/Android/Mac/Windows \u1225\u122a\u1276\u127d\u1295 \u12a5\u1293\u1240\u122d\u1263\u1208\u1295\u1363 \u12ed\u1205\u121d \u1270\u1295\u1240\u1233\u1243\u123d \u1218\u1233\u122a\u12eb\u12ce\u127d\u1295\u121d \u1206\u1290 \u12f5\u1205\u1228 \u1308\u133d \u12ab\u121c\u122b\u12ce\u127d \u12eb\u1209\u1278\u12cd \u12f4\u1235\u12ad\u1276\u1356\u127d\u1295 \u12a5\u1295\u12f2\u1320\u1240\u1219 \u12eb\u1235\u127d\u120d\u12ce\u1273\u120d\u1362 \u12e8\u12f4\u1235\u12ad\u1276\u1355 \u1225\u122a\u1275 \u1260\u1270\u1328\u121b\u122a \u1265\u12d9 \u12e8\u126a\u12f2\u12ee \u121d\u1295\u132e\u127d\u1295 \u12ed\u12f0\u130d\u134b\u120d\u1363 \u12ed\u1205\u121d \u12a8\u1265\u12d9 \u121d\u1295\u132e\u127d \u1260\u12a0\u1295\u12f5 \u130a\u12dc \u1218\u1241\u1320\u122d \u12eb\u1235\u127d\u120b\u120d\u1362"},
+gaT(){return"\u12e8\u1240\u1325\u1273 \u1235\u122d\u132d\u1275 \u12f5\u130b\u134d"},
+gaS(){return"\u12a8\u121e\u1263\u12ed\u120d \u1218\u1233\u122a\u12eb \u12ab\u121c\u122b\u12ce\u127d \u1260\u1270\u1328\u121b\u122a\u1363 \u12e8\u1270\u1240\u12f1 \u12e8\u126a\u12f2\u12ee \u134b\u12ed\u120e\u127d\u1295\u1363 \u12e8\u12f5\u1205\u1228 \u1308\u133d \u12ab\u121c\u122b \u130d\u1265\u12d3\u1276\u127d\u1295 \u12a5\u1293 \u12a5\u1295\u12f0 RTSP \u12eb\u1209 \u12e8\u12a2\u1295\u1270\u122d\u1294\u1275 \u1240\u1325\u1273 \u1235\u122d\u132d\u1276\u127d\u1295 \u12a5\u1295\u12f0\u130d\u134b\u1208\u1295\u1362 \u12ed\u1205 \u12c8\u12f0 \u1290\u1263\u122d \u1218\u1233\u122a\u12eb\u12ce\u127d \u1218\u1308\u1293\u1298\u1275 \u12a5\u1293 \u12c8\u12f2\u12eb\u12cd\u1291 \u12e8\u1275\u122b\u134a\u12ad \u134d\u1230\u1275 \u1218\u1208\u12ab\u1275 \u12a5\u1295\u12f2\u1300\u121d\u1229 \u12eb\u1235\u127d\u120d\u12ce\u1273\u120d\u1362"},
+gaY(){return"\u12a2\u121c\u12ed\u120d \u12ed\u120b\u12a9\u120d\u1295"},
+gaC(){return"\u1246\u1323\u122a"},
+gaB(){return"\u1235\u1295\u1275 \u1230\u12ce\u127d \u12a5\u1295\u12f0\u121a\u12eb\u120d\u1349 \u121b\u12c8\u1245 \u12ed\u1348\u120d\u130b\u1209? \u12ed\u1205 \u1218\u1270\u130d\u1260\u122a\u12eb \u12e8\u1235\u120d\u12ad\u12ce\u1295 \u12ab\u121c\u122b \u1260\u1218\u1320\u1240\u121d \u12a5\u130d\u1228\u129e\u127d\u1295 \u1260\u1265\u120d\u1203\u1275 \u12e8\u1218\u1208\u12e8\u1275 \u12a5\u1293 \u1260\u122b\u1235-\u1230\u122d \u1218\u1241\u1320\u122d \u12ed\u127d\u120b\u120d\u1362 \u12e8\u12a5\u1305 \u130d\u1265\u12d3\u1275 \u12a0\u12eb\u1235\u1348\u120d\u130d\u121d\u1362 \u12eb\u12f5\u12ab\u121a \u1246\u1320\u122b\u1295 \u12ed\u1230\u1293\u1260\u1271 \u12a5\u1293 \u1260\u1240\u120b\u1209 \u12e8\u1275\u122b\u134a\u12ad \u134d\u1230\u1275\u1295 \u12ed\u1246\u1323\u1320\u1229\u1362"},
+gb1(){return"\u12e8\u12a0\u1308\u120d\u130d\u120e\u1275 \u12cd\u120e\u127d"},
+gb0(){return"\u130d\u120b\u12ca\u1290\u1275"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.oQ,C.x)})()
-B.a4(b.typeUniverse,JSON.parse('{"oQ":{"x":[]}}'))};
+y(A.oC,C.x)})()
+B.a4(b.typeUniverse,JSON.parse('{"oC":{"x":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_35",e:"endPart",h:b})})($__dart_deferred_initializers__,"A4PX4zml/SCpQnQJBaPaTuTjnkE=");
+a.eventLog.push({p:"main.dart.js_35",e:"endPart",h:b})})($__dart_deferred_initializers__,"Wpqs/KGZPajtp8Jvm8G6cYcdPRo=");

@@ -73,6 +73,12 @@ class LocalizationDe extends Localization {
 
   @override
   String get video_desc => 'Keine Internetverbindung erforderlich. Kein manuelles Zählen mit herkömmlichen Klickzählern mehr. Richten Sie einfach Ihr Smartphone ein, um den vorbeigehenden Fußgängerverkehr automatisch zu erfassen.';
+
+  @override
+  String get terms => 'Nutzungsbedingungen';
+
+  @override
+  String get privacy => 'Datenschutz';
 }
 
 /// The translations for German, as used in Austria (`de_AT`).
@@ -144,6 +150,12 @@ class LocalizationDeAt extends LocalizationDe {
 
   @override
   String get video_desc => 'Kein Internet erforderlich. Kein manuelles Zählen mit herkömmlichen Zählgeräten mehr. Richten Sie einfach Ihr Handy ein, um den vorbeigehenden Personenverkehr automatisch zu erfassen.';
+
+  @override
+  String get terms => 'Nutzungsbedingungen';
+
+  @override
+  String get privacy => 'Datenschutz';
 }
 
 /// The translations for German, as used in Switzerland (`de_CH`).
@@ -215,4 +227,10 @@ class LocalizationDeCh extends LocalizationDe {
 
   @override
   String get video_desc => 'Kein Internet erforderlich. Kein manuelles Zählen mit herkömmlichen Klickzählern mehr. Richten Sie einfach Ihr Mobiltelefon ein, um den vorbeigehenden Fussgängerverkehr automatisch zu erfassen.';
+
+  @override
+  String get terms => 'Nutzungsbedingungen';
+
+  @override
+  String get privacy => 'Datenschutz';
 }

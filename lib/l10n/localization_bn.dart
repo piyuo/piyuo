@@ -73,6 +73,12 @@ class LocalizationBn extends Localization {
 
   @override
   String get video_desc => 'ইন্টারনেট প্রয়োজন নেই। পারম্পরিক ক্লিকার দিয়ে ম্যানুয়ালি লোক গণনা করার প্রয়োজন নেই। শুধু আপনার ফোনকে স্বয়ংক্রিয়ভাবে অতিক্রান্ত পথচারী ট্র্যাফিক অনুসরণ করতে সেট করুন।';
+
+  @override
+  String get terms => 'পরিষেবার শর্তাবলী';
+
+  @override
+  String get privacy => 'গোপনীয়তা';
 }
 
 /// The translations for Bengali Bangla, as used in India (`bn_IN`).
@@ -144,4 +150,10 @@ class LocalizationBnIn extends LocalizationBn {
 
   @override
   String get video_desc => 'ইন্টারনেট প্রয়োজন নেই। পারম্পরিক ক্লিকার দিয়ে মানুষ গণনা করার প্রয়োজন নেই। শুধুমাত্র আপনার ফোনকে স্বয়ংক্রিয়ভাবে পথচারী গতিবিধি ট্র্যাক করতে সেট করুন।';
+
+  @override
+  String get terms => 'सेवा की शर्तें';
+
+  @override
+  String get privacy => 'गोपनीयता';
 }

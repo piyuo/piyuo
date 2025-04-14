@@ -2,20 +2,20 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_134",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aOu(){B.P("gu")
-return new A.pr()},
-pr:function pr(){}}
+aNO(){B.P("da")
+return new A.oT()},
+oT:function oT(){}}
 B=c[0]
 C=c[119]
-A=a.updateHolder(c[27],A)
-A.pr.prototype={
-gaF(){return"\u0a85\u0ab0\u0ac7, \u0a95\u0a82\u0a88\u0a95 \u0a96\u0acb\u0a9f\u0ac1\u0a82 \u0aa5\u0aaf\u0ac1\u0a82"},
-gaE(){return"\u0a85\u0aa8\u0aaa\u0ac7\u0a95\u0acd\u0ab7\u0abf\u0aa4 \u0aad\u0ac2\u0ab2 \u0a86\u0ab5\u0ac0. \u0ab6\u0ac1\u0a82 \u0aa4\u0aae\u0ac7 \u0a88\u0aae\u0ac7\u0ab2 \u0ab0\u0abf\u0aaa\u0acb\u0ab0\u0acd\u0a9f \u0aae\u0acb\u0a95\u0ab2\u0ab5\u0abe \u0aae\u0abe\u0a82\u0a97\u0acb \u0a9b\u0acb?"},
-gaG(){return"\u0a85\u0aae\u0aa8\u0ac7 \u0a88\u0aae\u0ac7\u0ab2 \u0a95\u0ab0\u0acb"},
-gaD(){return"\u0ab0\u0aa6 \u0a95\u0ab0\u0acb"},
-gaA(){return"\u0ab8\u0abf\u0ab8\u0acd\u0a9f\u0aae \u0aad\u0abe\u0ab7\u0abe"}}
+A=a.updateHolder(c[21],A)
+A.oT.prototype={
+gaF(){return"Ups, noget gik galt"},
+gaE(){return"Der opstod en uventet fejl. Vil du indsende en e-mailrapport?"},
+gaG(){return"Send os en e-mail"},
+gaD(){return"Annuller"},
+gaA(){return"Systemsprog"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.pr,C.u)})()
-B.a4(b.typeUniverse,JSON.parse('{"pr":{"u":[]}}'))};
+y(A.oT,C.u)})()
+B.a4(b.typeUniverse,JSON.parse('{"oT":{"u":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_134",e:"endPart",h:b})})($__dart_deferred_initializers__,"71ZN0/EXzGND1X/oSTTz7I7qSzg=");
+a.eventLog.push({p:"main.dart.js_134",e:"endPart",h:b})})($__dart_deferred_initializers__,"8doG6DLbtTtqMc1ga5zVrfz/Jqg=");

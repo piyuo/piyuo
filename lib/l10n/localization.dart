@@ -362,6 +362,18 @@ abstract class Localization {
   /// In en, this message translates to:
   /// **'No internet required. No need to manually count people with a traditional clicker. Just set up your phone to automatically track passing foot traffic.'**
   String get video_desc;
+
+  /// No description provided for @terms.
+  ///
+  /// In en, this message translates to:
+  /// **'Terms of Service'**
+  String get terms;
+
+  /// No description provided for @privacy.
+  ///
+  /// In en, this message translates to:
+  /// **'Privacy Policy'**
+  String get privacy;
 }
 
 class _LocalizationDelegate extends LocalizationsDelegate<Localization> {

@@ -73,4 +73,10 @@ class LocalizationCa extends Localization {
 
   @override
   String get video_desc => 'No requereix internet. No cal comptar manualment persones amb un comptador tradicional. Només configura el teu telèfon per seguir automàticament el trànsit de vianants.';
+
+  @override
+  String get terms => 'Condicions del servei';
+
+  @override
+  String get privacy => 'Privadesa';
 }

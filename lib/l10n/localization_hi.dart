@@ -73,4 +73,10 @@ class LocalizationHi extends Localization {
 
   @override
   String get video_desc => 'इंटरनेट की आवश्यकता नहीं। पारंपरिक क्लिकर से लोगों को मैन्युअल रूप से गिनने की आवश्यकता नहीं। बस अपने फोन को ऑटोमैटिक रूप से पैदल यातायात को ट्रैक करने के लिए सेट करें।';
+
+  @override
+  String get terms => 'सेवा शर्तें';
+
+  @override
+  String get privacy => 'निजता नीति';
 }

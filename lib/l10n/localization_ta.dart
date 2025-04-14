@@ -73,4 +73,10 @@ class LocalizationTa extends Localization {
 
   @override
   String get video_desc => 'இணைய இணைப்பு தேவையில்லை. பாரம்பரிய கிளிக்கர் கொண்டு எண்ணத் தேவையில்லை. கடந்து செல்லும் நடைபயணிகளை தானாகவே கண்காணிக்க உங்கள் தொலைபேசியை அமைக்கவும்.';
+
+  @override
+  String get terms => 'சேவை விதிமுறைகள்';
+
+  @override
+  String get privacy => 'தனியுரிமை';
 }

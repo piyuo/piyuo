@@ -73,6 +73,12 @@ class LocalizationMs extends Localization {
 
   @override
   String get video_desc => 'Tidak memerlukan internet. Tidak perlu mengira orang secara manual dengan pengira tradisional. Hanya tetapkan telefon anda untuk menjejak lalu lintas pejalan kaki secara automatik.';
+
+  @override
+  String get terms => 'Terma Perkhidmatan';
+
+  @override
+  String get privacy => 'Privasi';
 }
 
 /// The translations for Malay, as used in Singapore (`ms_SG`).
@@ -144,4 +150,10 @@ class LocalizationMsSg extends LocalizationMs {
 
   @override
   String get video_desc => 'Tidak perlu internet. Tidak perlu mengira orang secara manual dengan alat pengira tradisional. Hanya sediakan telefon bimbit anda untuk mengesan lalu lintas pejalan kaki secara automatik.';
+
+  @override
+  String get terms => 'Terma Perkhidmatan';
+
+  @override
+  String get privacy => 'Privasi';
 }

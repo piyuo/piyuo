@@ -73,4 +73,10 @@ class LocalizationLt extends Localization {
 
   @override
   String get video_desc => 'Nereikia interneto. Nereikia rankiniu būdu skaičiuoti žmonių tradiciniu skaičiuokliu. Tiesiog nustatykite savo telefoną automatiškai sekti praeinančių pėsčiųjų srautą.';
+
+  @override
+  String get terms => 'Paslaugų teikimo sąlygos';
+
+  @override
+  String get privacy => 'Privatumas';
 }
