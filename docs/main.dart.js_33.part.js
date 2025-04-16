@@ -2,37 +2,37 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_33",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aNr(){B.P("af")
-return new A.oA()},
-oA:function oA(){}}
+aTV(){B.S("af")
+return new A.pQ()},
+pQ:function pQ(){}}
 B=c[0]
 C=c[120]
 A=a.updateHolder(c[73],A)
-A.oA.prototype={
-gaQ(){return"Aflaai"},
-gaX(){return"Binnekort beskikbaar."},
-gaW(){return"Beskikbaar in Lente 2025."},
-gb_(){return"Jou foon kan nou KI gebruik om voetgangers te herken."},
-gaZ(){return"Geen internet benodig nie. Geen behoefte om mense handmatig te tel met 'n tradisionele klikker nie. Stel net jou foon op om outomaties verbygaande voetgangersverkeer te monitor."},
-gaI(){return"24/7 Monitering"},
-gaJ(){return"Besigtig voetgangersverkeer-tellings vir enige tydperk."},
-gaK(){return"Veelvuldige Voorwerp Opsporing"},
-gaL(){return"Tel gelyktydig voetgangers, motors, fietse, en meer"},
-gaM(){return"Pasgemaakte Opsporingsones"},
-gaN(){return"Definieer pasgemaakte opsporingsones om verkeer in spesifieke areas te tel."},
-gaO(){return"Buigsame Telmodus"},
-gaP(){return"Kies om nuut-verskyende voorwerpe binne die opsporingsone te tel, of di\xe9 wat stilstaande bly."},
-gaV(){return"Lessenaar Weergawe Beskikbaarheid"},
-gaU(){return"Ons bied ook 'n lessenaar weergawe aan. Ons voorsien weergawes vir iOS/Android/Mac/Windows, wat jou toelaat om beide mobiele toestelle en lessenaars met webkameras te gebruik. Die lessenaar weergawe ondersteun verder veelvuldige videobronne, wat gelyktydige telling van verskeie strome moontlik maak."},
-gaT(){return"Regstreekse Stroom Ondersteuning"},
-gaS(){return"Bykomend tot mobiele toestel kameras, ondersteun ons opgeneemde videol\xeaers, webkamera-insette, en internet regstreekse strome soos RTSP. Dit laat jou toe om aan bestaande toestelle te koppel en dadelik verkeersvloei te begin meet."},
-gaY(){return"E-pos ons"},
-gaC(){return"Teller"},
-gaB(){return"Wil jy weet hoeveel mense verbygaan? Hierdie toepassing gebruik jou foon se kamera om intelligent voetgangers te identifiseer en outomaties te tel. Geen handmatige invoer benodig nie. S\xea totsiens aan vervelige telwerk en monitor verkeersvloei met gemak."},
-gb1(){return"Diensvoorwaardes"},
-gb0(){return"Privaatheid"}}
+A.pQ.prototype={
+gaW(){return"Aflaai"},
+gb4(){return"Binnekort beskikbaar."},
+gb3(){return"Beskikbaar in Lente 2025."},
+gb7(){return"Jou foon kan nou KI gebruik om voetgangers te herken."},
+gb6(){return"Geen internet benodig nie. Geen behoefte om mense handmatig te tel met 'n tradisionele klikker nie. Stel net jou foon op om outomaties verbygaande voetgangersverkeer te monitor."},
+gaO(){return"24/7 Monitering"},
+gaP(){return"Besigtig voetgangersverkeer-tellings vir enige tydperk."},
+gaQ(){return"Veelvuldige Voorwerp Opsporing"},
+gaR(){return"Tel gelyktydig voetgangers, motors, fietse, en meer"},
+gaS(){return"Pasgemaakte Opsporingsones"},
+gaT(){return"Definieer pasgemaakte opsporingsones om verkeer in spesifieke areas te tel."},
+gaU(){return"Buigsame Telmodus"},
+gaV(){return"Kies om nuut-verskyende voorwerpe binne die opsporingsone te tel, of di\xe9 wat stilstaande bly."},
+gb2(){return"Lessenaar Weergawe Beskikbaarheid"},
+gb1(){return"Ons bied ook 'n lessenaar weergawe aan. Ons voorsien weergawes vir iOS/Android/Mac/Windows, wat jou toelaat om beide mobiele toestelle en lessenaars met webkameras te gebruik. Die lessenaar weergawe ondersteun verder veelvuldige videobronne, wat gelyktydige telling van verskeie strome moontlik maak."},
+gb0(){return"Regstreekse Stroom Ondersteuning"},
+gb_(){return"Bykomend tot mobiele toestel kameras, ondersteun ons opgeneemde videol\xeaers, webkamera-insette, en internet regstreekse strome soos RTSP. Dit laat jou toe om aan bestaande toestelle te koppel en dadelik verkeersvloei te begin meet."},
+gb5(){return"E-pos ons"},
+gaJ(){return"Teller"},
+gaI(){return"Wil jy weet hoeveel mense verbygaan? Hierdie toepassing gebruik jou foon se kamera om intelligent voetgangers te identifiseer en outomaties te tel. Geen handmatige invoer benodig nie. S\xea totsiens aan vervelige telwerk en monitor verkeersvloei met gemak."},
+gaY(){return"Diensvoorwaardes"},
+gaX(){return"Privaatheid"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.oA,C.x)})()
-B.a4(b.typeUniverse,JSON.parse('{"oA":{"x":[]}}'))};
+y(A.pQ,C.z)})()
+B.ab(b.typeUniverse,JSON.parse('{"pQ":{"z":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_33",e:"endPart",h:b})})($__dart_deferred_initializers__,"tj8eM9eewgifgTgkec4ZkbTr3SA=");
+a.eventLog.push({p:"main.dart.js_33",e:"endPart",h:b})})($__dart_deferred_initializers__,"7UEGGHJjFTEMgWHdKLy7+usbrYM=");
