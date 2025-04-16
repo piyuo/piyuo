@@ -1,21 +1,14 @@
-import 'dart:js_interop';
-
 import 'package:flutter/material.dart';
 import 'package:libcli/cli/cli.dart' as cli;
 import 'package:piyuo/l10n/l10n.dart';
 
-@JS('window.open')
-external JSAny? jsOpen(String url, String target);
+import 'open_link.dart';
 
 class LinkView extends StatelessWidget {
   const LinkView({required this.isMobile, super.key});
 
   /// whether the device is mobile or not
   final bool isMobile;
-
-  void _openLink(String url) {
-    jsOpen(url, '_blank');
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -32,25 +25,45 @@ class LinkView extends StatelessWidget {
       );
     }
 
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: [
-        buildButton(),
-        const SizedBox(width: 20),
-        SelectableText('service@piyuo.com', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
-        TextButton(
-          onPressed: () {
-            _openLink('/terms');
-          },
-          child: Text(context.l.terms, style: TextStyle(fontSize: 18, color: Colors.black)),
-        ),
-        TextButton(
-          onPressed: () {
-            _openLink('/privacy');
-          },
-          child: Text(context.l.privacy, style: TextStyle(fontSize: 18, color: Colors.black)),
-        ),
-      ],
-    );
+    return isMobile
+        ? Column(
+          children: [
+            buildButton(),
+            const SizedBox(width: 20),
+            SelectableText('service@piyuo.com', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
+            TextButton(
+              onPressed: () {
+                openLink('/terms');
+              },
+              child: Text(context.l.terms, style: TextStyle(fontSize: 18, color: Colors.black)),
+            ),
+            TextButton(
+              onPressed: () {
+                openLink('/privacy');
+              },
+              child: Text(context.l.privacy, style: TextStyle(fontSize: 18, color: Colors.black)),
+            ),
+          ],
+        )
+        : Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            buildButton(),
+            const SizedBox(width: 20),
+            SelectableText('service@piyuo.com', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
+            TextButton(
+              onPressed: () {
+                openLink('/terms');
+              },
+              child: Text(context.l.terms, style: TextStyle(fontSize: 18, color: Colors.black)),
+            ),
+            TextButton(
+              onPressed: () {
+                openLink('/privacy');
+              },
+              child: Text(context.l.privacy, style: TextStyle(fontSize: 18, color: Colors.black)),
+            ),
+          ],
+        );
   }
 }

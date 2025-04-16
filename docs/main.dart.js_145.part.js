@@ -2,20 +2,20 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_145",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aOC(){B.P("hu")
-return new A.pz()},
-pz:function pz(){}}
+aV5(){B.S("hu")
+return new A.qP()},
+qP:function qP(){}}
 B=c[0]
 C=c[119]
 A=a.updateHolder(c[31],A)
-A.pz.prototype={
-gaF(){return"Hopp\xe1, valami hiba t\xf6rt\xe9nt"},
-gaE(){return"V\xe1ratlan hiba t\xf6rt\xe9nt. Szeretne e-mail jelent\xe9st k\xfcldeni?"},
-gaG(){return"E-mail k\xfcld\xe9se nek\xfcnk"},
-gaD(){return"M\xe9gse"},
-gaA(){return"Rendszer nyelve"}}
+A.qP.prototype={
+gaM(){return"Hopp\xe1, valami hiba t\xf6rt\xe9nt"},
+gaL(){return"V\xe1ratlan hiba t\xf6rt\xe9nt. Szeretne e-mail jelent\xe9st k\xfcldeni?"},
+gaN(){return"E-mail k\xfcld\xe9se nek\xfcnk"},
+gaK(){return"M\xe9gse"},
+gaH(){return"Rendszer nyelve"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.pz,C.u)})()
-B.a4(b.typeUniverse,JSON.parse('{"pz":{"u":[]}}'))};
+y(A.qP,C.y)})()
+B.ab(b.typeUniverse,JSON.parse('{"qP":{"y":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_145",e:"endPart",h:b})})($__dart_deferred_initializers__,"V4FE3Rn+7sLxsbGJKezr1rXoVPo=");
+a.eventLog.push({p:"main.dart.js_145",e:"endPart",h:b})})($__dart_deferred_initializers__,"84JtfiO4NpXIp0dzQtwMIsduNXo=");
