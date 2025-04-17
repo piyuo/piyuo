@@ -2,20 +2,20 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_167",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aW0(){B.S("sv")
-return new A.rC()},
-rC:function rC(){}}
+aWa(){B.S("tl")
+return new A.rM()},
+rM:function rM(){}}
 B=c[0]
 C=c[119]
-A=a.updateHolder(c[51],A)
-A.rC.prototype={
-gaM(){return"Hoppsan, n\xe5got gick fel"},
-gaL(){return"Ett ov\xe4ntat fel intr\xe4ffade. Vill du skicka en rapport via e-post?"},
-gaN(){return"Mejla oss"},
-gaK(){return"Avbryt"},
-gaH(){return"Systemspr\xe5k"}}
+A=a.updateHolder(c[56],A)
+A.rM.prototype={
+gaL(){return"Oops, may mali na nangyari"},
+gaK(){return"Mayroong hindi inaasahang error na nangyari. Gusto mo bang magsumite ng email report?"},
+gaM(){return"Mag-email sa amin"},
+gaJ(){return"Kanselahin"},
+gaH(){return"Wika ng sistema"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.rC,C.y)})()
-B.ab(b.typeUniverse,JSON.parse('{"rC":{"y":[]}}'))};
+y(A.rM,C.y)})()
+B.ab(b.typeUniverse,JSON.parse('{"rM":{"y":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_167",e:"endPart",h:b})})($__dart_deferred_initializers__,"bw8inT2BiyHPaxwpuZQaMKfouXo=");
+a.eventLog.push({p:"main.dart.js_167",e:"endPart",h:b})})($__dart_deferred_initializers__,"393/CW9aYnEwP+s6VtyfbgwNbdE=");

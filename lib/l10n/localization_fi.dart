@@ -66,9 +66,6 @@ class LocalizationFi extends Localization {
   String get index_email_us => 'Lähetä sähköpostia';
 
   @override
-  String get app_name => 'Laskuri';
-
-  @override
   String get app_desc => 'Haluatko tietää, kuinka monta ihmistä kulkee ohi? Tämä sovellus käyttää puhelimesi kameraa tunnistamaan älykkäästi ja laskemaan automaattisesti jalankulkijoita. Ei vaadi manuaalista syöttöä. Unohda työläs laskeminen ja seuraa liikennevirtaa helposti.';
 
   @override

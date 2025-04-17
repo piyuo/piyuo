@@ -66,9 +66,6 @@ class LocalizationUz extends Localization {
   String get index_email_us => 'Bizga xat yozing';
 
   @override
-  String get app_name => 'Sanoq';
-
-  @override
   String get app_desc => 'Qancha odam o\'tib ketishini bilmoqchimisiz? Bu ilova telefoningiz kamerasidan foydalanib, aqlli ravishda piyodalarni aniqlaydi va avtomatik ravishda sanaydi. Qo\'lda kiritish shart emas. Zerikarli sanashga xayrlashing va osonlik bilan harakat oqimini kuzating.';
 
   @override

@@ -66,9 +66,6 @@ class LocalizationLt extends Localization {
   String get index_email_us => 'Rašykite mums';
 
   @override
-  String get app_name => 'Skaičiuoklis';
-
-  @override
   String get app_desc => 'Norite žinoti, kiek žmonių praeina pro šalį? Ši programėlė naudoja jūsų telefono kamerą išmaniam pėsčiųjų atpažinimui ir automatiniam skaičiavimui. Nereikia rankinio įvedimo. Atsisveikinkite su varginančiu skaičiavimu ir lengvai stebėkite eismo srautą.';
 
   @override

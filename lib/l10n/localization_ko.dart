@@ -66,9 +66,6 @@ class LocalizationKo extends Localization {
   String get index_email_us => '이메일 문의';
 
   @override
-  String get app_name => '카운터';
-
-  @override
   String get app_desc => '얼마나 많은 사람들이 지나가는지 알고 싶으신가요? 이 앱은 휴대폰 카메라를 사용하여 보행자를 지능적으로 식별하고 자동으로 계수합니다. 수동 입력이 필요하지 않습니다. 지루한 계수 작업에 작별을 고하고 손쉽게 통행량을 모니터링하세요.';
 
   @override

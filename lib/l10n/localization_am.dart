@@ -66,9 +66,6 @@ class LocalizationAm extends Localization {
   String get index_email_us => 'ኢሜይል ይላኩልን';
 
   @override
-  String get app_name => 'ቆጣሪ';
-
-  @override
   String get app_desc => 'ስንት ሰዎች እንደሚያልፉ ማወቅ ይፈልጋሉ? ይህ መተግበሪያ የስልክዎን ካሜራ በመጠቀም እግረኞችን በብልሃት የመለየት እና በራስ-ሰር መቁጠር ይችላል። የእጅ ግብዓት አያስፈልግም። ያድካሚ ቆጠራን ይሰናበቱ እና በቀላሉ የትራፊክ ፍሰትን ይቆጣጠሩ።';
 
   @override

@@ -2,35 +2,36 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_95",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aQ2(){B.N("sw")
-return new A.qz()},
-qz:function qz(){}}
+aWb(){B.S("tl")
+return new A.rN()},
+rN:function rN(){}}
 B=c[0]
-C=c[130]
-A=a.updateHolder(c[120],A)
-A.qz.prototype={
-gaJ(){return"Pakua"},
-gaS(){return"Inakuja hivi karibuni."},
-gaR(){return"Itapatikana katika Majira ya Kuchipua 2025."},
-gaV(){return"Simu yako sasa inaweza kutumia AI kutambua waendao kwa miguu."},
-gaU(){return"Haihitaji intaneti. Hakuna haja ya kuhesabu watu kwa mkono kwa kutumia kifaa cha kuhesabu cha kawaida. Weka tu simu yako ihesabu watu wanaopita kiotomatiki."},
-gaB(){return"Ufuatiliaji wa saa 24/7"},
-gaC(){return"Tazama idadi ya watu wanaopita kwa kipindi chochote."},
-gaD(){return"Ufuatiliaji wa Vitu Mbalimbali"},
-gaE(){return"Hesabu waendao kwa miguu, magari, baiskeli na zaidi kwa wakati mmoja"},
-gaF(){return"Maeneo ya Utambuzi Maalum"},
-gaG(){return"Tengeneza maeneo ya utambuzi maalum kuhesabu mzunguko katika sehemu maalum."},
-gaH(){return"Njia za Kuhesabu Zinazobadilika"},
-gaI(){return"Chagua kuhesabu vitu vipya vinavyotokea ndani ya eneo la utambuzi, au vile ambavyo havitembei."},
-gaQ(){return"Upatikanaji wa Toleo la Kompyuta"},
-gaP(){return"Tunatoa pia toleo la kompyuta. Tunatoa matoleo ya iOS/Android/Mac/Windows, kukuwezesha kutumia vifaa vya mkononi na kompyuta zenye kamera. Toleo la kompyuta linasaidia pia vyanzo vingi vya video, kuwezesha kuhesabu kutoka njia nyingi kwa wakati mmoja."},
-gaO(){return"Usaidizi wa Matangazo ya Moja kwa Moja"},
-gaN(){return"Mbali na kamera za simu, tunasaidia faili za video zilizorekodiwa, kamera za kompyuta, na matangazo ya moja kwa moja ya intaneti kama RTSP. Hii inakuwezesha kuunganisha na vifaa vilivyopo na kuanza kupima mtiririko wa watu mara moja."},
-gaT(){return"Tuma barua pepe"},
-gau(){return"Hesabu"},
-gar(){return"Unataka kujua watu wangapi wanapita? Programu hii hutumia kamera ya simu yako kutambua kwa uerevu na kuhesabu watu kiotomatiki. Hakuna ulazima wa kuingiza data kwa mkono. Sema kwaheri kwa kuhesabu kwa kuchosha na fuatilia mtiririko wa watu kwa urahisi."}}
+C=c[120]
+A=a.updateHolder(c[114],A)
+A.rN.prototype={
+gaV(){return"I-download"},
+gb3(){return"Malapit nang dumating."},
+gb2(){return"Magagamit sa Spring 2025."},
+gb6(){return"Ang iyong telepono ay maaari nang gumamit ng AI para kilalanin ang mga naglalakad."},
+gb5(){return"Hindi kailangan ng internet. Hindi na kailangang manu-manong bilangin ang mga tao gamit ang tradisyonal na clicker. I-set up lang ang iyong telepono para awtomatikong subaybayan ang dumadaang mga tao."},
+gaN(){return"24/7 na Pagsubaybay"},
+gaO(){return"Tingnan ang bilang ng mga naglalakad sa anumang oras."},
+gaP(){return"Sabayang Pagsubaybay ng Maraming Bagay"},
+gaQ(){return"Sabay-sabay na bilangin ang mga taong naglalakad, mga sasakyan, bisikleta, at iba pa"},
+gaR(){return"Pasadyang Detection Zones"},
+gaS(){return"Magtakda ng pasadyang detection zones para bilangin ang mga dumadaan sa mga tiyak na lugar."},
+gaT(){return"Nababagong Counting Modes"},
+gaU(){return"Piliin kung bilangin ang mga bagong lumilitaw na bagay sa loob ng detection zone, o iyong mga nananatiling nakatayo."},
+gb1(){return"Pagkakaroon ng Desktop Version"},
+gb0(){return"Nag-aalok din kami ng desktop version. Nagbibigay kami ng mga bersyon para sa iOS/Android/Mac/Windows, na nagbibigay-daan sa paggamit ng parehong mga mobile device at desktop na may webcam. Ang desktop version ay sumusuporta rin sa maraming video sources, na nagbibigay-daan sa sabay-sabay na pagbilang mula sa maraming streams."},
+gb_(){return"Suporta sa Live Stream"},
+gaZ(){return"Bukod sa mga camera ng mobile device, sumusuporta kami sa mga naka-record na video file, webcam inputs, at internet live streams tulad ng RTSP. Ito ay nagbibigay-daan sa iyo na kumonekta sa mga umiiral na device at agad na magsimulang sukatin ang daloy ng trapiko."},
+gb4(){return"Mag-email sa amin"},
+gaI(){return"Gusto mo bang malaman kung ilang tao ang dumadaan? Ang app na ito ay gumagamit ng camera ng iyong telepono para matalinong tukuyin at awtomatikong bilangin ang mga naglalakad. Hindi kailangan ng manu-manong pag-input. Magpaalam sa nakakainip na pagbibilang at madaling subaybayan ang daloy ng trapiko."},
+gaX(){return"Mga Tuntunin ng Serbisyo"},
+gaW(){return"Pagkapribado"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.qz,C.q)})()
-B.a3(b.typeUniverse,JSON.parse('{"qz":{"q":[]}}'))};
+y(A.rN,C.z)})()
+B.ab(b.typeUniverse,JSON.parse('{"rN":{"z":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_95",e:"endPart",h:b})})($__dart_deferred_initializers__,"cacKCeI5yaTrNWbwQ/dfx7kxjAM=");
+a.eventLog.push({p:"main.dart.js_95",e:"endPart",h:b})})($__dart_deferred_initializers__,"XMi21bqf4ggJ9H//m0+th2VNxKY=");

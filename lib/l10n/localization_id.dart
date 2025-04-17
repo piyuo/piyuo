@@ -66,9 +66,6 @@ class LocalizationId extends Localization {
   String get index_email_us => 'Email kami';
 
   @override
-  String get app_name => 'Penghitung';
-
-  @override
   String get app_desc => 'Ingin tahu berapa banyak orang yang lewat? Aplikasi ini menggunakan kamera ponsel Anda untuk secara cerdas mengidentifikasi dan menghitung pejalan kaki secara otomatis. Tidak diperlukan input manual. Ucapkan selamat tinggal pada penghitungan yang membosankan dan dengan mudah pantau arus lalu lintas.';
 
   @override

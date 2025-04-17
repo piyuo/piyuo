@@ -66,9 +66,6 @@ class LocalizationAr extends Localization {
   String get index_email_us => 'راسلنا عبر البريد الإلكتروني';
 
   @override
-  String get app_name => 'العداد';
-
-  @override
   String get app_desc => 'هل تريد معرفة عدد الأشخاص المارين؟ يستخدم هذا التطبيق كاميرا هاتفك للتعرف بذكاء على المشاة وعدهم تلقائيًا. لا حاجة لإدخال يدوي. ودع العد المرهق وراقب تدفق حركة المرور بسهولة.';
 
   @override
@@ -141,9 +138,6 @@ class LocalizationArAe extends LocalizationAr {
 
   @override
   String get index_email_us => 'راسلنا عبر البريد الإلكتروني';
-
-  @override
-  String get app_name => 'العداد';
 
   @override
   String get app_desc => 'هل تريد معرفة عدد الأشخاص المارين؟ يستخدم هذا التطبيق كاميرا هاتفك للتعرف بذكاء على المشاة وعدهم تلقائياً. لا حاجة لإدخال يدوي. ودّع العد المرهق وراقب بسهولة تدفق حركة المرور.';
@@ -220,9 +214,6 @@ class LocalizationArDz extends LocalizationAr {
   String get index_email_us => 'راسلنا عبر البريد الإلكتروني';
 
   @override
-  String get app_name => 'العداد';
-
-  @override
   String get app_desc => 'هل تريد معرفة عدد الأشخاص المارين؟ يستخدم هذا التطبيق كاميرا هاتفك للتعرف بذكاء على المارة وعدهم تلقائياً. لا حاجة لإدخال يدوي. ودع العد المتعب وراقب بسهولة تدفق الحركة.';
 
   @override
@@ -295,9 +286,6 @@ class LocalizationArEg extends LocalizationAr {
 
   @override
   String get index_email_us => 'راسلنا عبر الإيميل';
-
-  @override
-  String get app_name => 'العداد';
 
   @override
   String get app_desc => 'عايز تعرف كم شخص بيمر من قدامك؟ التطبيق ده بيستخدم كاميرا موبايلك للتعرف بذكاء على المارة وعدهم تلقائياً. مفيش داعي للإدخال اليدوي. ودع العد المتعب وراقب بسهولة تدفق الحركة.';

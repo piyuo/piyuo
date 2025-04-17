@@ -2,20 +2,20 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_135",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aUp(){B.S("el")
-return new A.qe()},
-qe:function qe(){}}
+aUY(){B.S("gu")
+return new A.qH()},
+qH:function qH(){}}
 B=c[0]
 C=c[119]
-A=a.updateHolder(c[22],A)
-A.qe.prototype={
-gaM(){return"\u03a9\u03c7, \u03ba\u03ac\u03c4\u03b9 \u03c0\u03ae\u03b3\u03b5 \u03c3\u03c4\u03c1\u03b1\u03b2\u03ac"},
-gaL(){return"\u03a0\u03b1\u03c1\u03bf\u03c5\u03c3\u03b9\u03ac\u03c3\u03c4\u03b7\u03ba\u03b5 \u03ad\u03bd\u03b1 \u03b1\u03c0\u03c1\u03cc\u03c3\u03bc\u03b5\u03bd\u03bf \u03c3\u03c6\u03ac\u03bb\u03bc\u03b1. \u0398\u03b1 \u03b8\u03ad\u03bb\u03b1\u03c4\u03b5 \u03bd\u03b1 \u03c5\u03c0\u03bf\u03b2\u03ac\u03bb\u03b5\u03c4\u03b5 \u03bc\u03b9\u03b1 \u03b1\u03bd\u03b1\u03c6\u03bf\u03c1\u03ac \u03bc\u03ad\u03c3\u03c9 email;"},
-gaN(){return"\u03a3\u03c4\u03b5\u03af\u03bb\u03c4\u03b5 \u03bc\u03b1\u03c2 email"},
-gaK(){return"\u0391\u03ba\u03cd\u03c1\u03c9\u03c3\u03b7"},
-gaH(){return"\u0393\u03bb\u03ce\u03c3\u03c3\u03b1 \u03c3\u03c5\u03c3\u03c4\u03ae\u03bc\u03b1\u03c4\u03bf\u03c2"}}
+A=a.updateHolder(c[27],A)
+A.qH.prototype={
+gaL(){return"\u0a85\u0ab0\u0ac7, \u0a95\u0a82\u0a88\u0a95 \u0a96\u0acb\u0a9f\u0ac1\u0a82 \u0aa5\u0aaf\u0ac1\u0a82"},
+gaK(){return"\u0a85\u0aa8\u0aaa\u0ac7\u0a95\u0acd\u0ab7\u0abf\u0aa4 \u0aad\u0ac2\u0ab2 \u0a86\u0ab5\u0ac0. \u0ab6\u0ac1\u0a82 \u0aa4\u0aae\u0ac7 \u0a88\u0aae\u0ac7\u0ab2 \u0ab0\u0abf\u0aaa\u0acb\u0ab0\u0acd\u0a9f \u0aae\u0acb\u0a95\u0ab2\u0ab5\u0abe \u0aae\u0abe\u0a82\u0a97\u0acb \u0a9b\u0acb?"},
+gaM(){return"\u0a85\u0aae\u0aa8\u0ac7 \u0a88\u0aae\u0ac7\u0ab2 \u0a95\u0ab0\u0acb"},
+gaJ(){return"\u0ab0\u0aa6 \u0a95\u0ab0\u0acb"},
+gaH(){return"\u0ab8\u0abf\u0ab8\u0acd\u0a9f\u0aae \u0aad\u0abe\u0ab7\u0abe"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.qe,C.y)})()
-B.ab(b.typeUniverse,JSON.parse('{"qe":{"y":[]}}'))};
+y(A.qH,C.y)})()
+B.ab(b.typeUniverse,JSON.parse('{"qH":{"y":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_135",e:"endPart",h:b})})($__dart_deferred_initializers__,"SlEpRL3k/+GmPzhZaU/yAxL4B5o=");
+a.eventLog.push({p:"main.dart.js_135",e:"endPart",h:b})})($__dart_deferred_initializers__,"H2i9UPPwq89kN3gZTsIkIGd1uYE=");

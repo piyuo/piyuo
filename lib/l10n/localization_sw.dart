@@ -66,9 +66,6 @@ class LocalizationSw extends Localization {
   String get index_email_us => 'Tuma barua pepe';
 
   @override
-  String get app_name => 'Hesabu';
-
-  @override
   String get app_desc => 'Unataka kujua watu wangapi wanapita? Programu hii hutumia kamera ya simu yako kutambua kwa uerevu na kuhesabu watu kiotomatiki. Hakuna ulazima wa kuingiza data kwa mkono. Sema kwaheri kwa kuhesabu kwa kuchosha na fuatilia mtiririko wa watu kwa urahisi.';
 
   @override

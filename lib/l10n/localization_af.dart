@@ -66,9 +66,6 @@ class LocalizationAf extends Localization {
   String get index_email_us => 'E-pos ons';
 
   @override
-  String get app_name => 'Teller';
-
-  @override
   String get app_desc => 'Wil jy weet hoeveel mense verbygaan? Hierdie toepassing gebruik jou foon se kamera om intelligent voetgangers te identifiseer en outomaties te tel. Geen handmatige invoer benodig nie. Sê totsiens aan vervelige telwerk en monitor verkeersvloei met gemak.';
 
   @override

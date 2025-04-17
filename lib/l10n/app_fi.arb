@@ -18,7 +18,6 @@
   "index_desktop2_title": "Suoratoiston tuki",
   "index_desktop2_desc": "Mobiililaitteiden kameroiden lisäksi tuemme tallennettuja videotiedostoja, verkkokameratuloja ja internetin suoratoistoja kuten RTSP. Tämä mahdollistaa yhteyden olemassa oleviin laitteisiin ja liikennevirran mittaamisen välittömästi.",
   "index_email_us": "Lähetä sähköpostia",
-  "app_name": "Laskuri",
   "app_desc": "Haluatko tietää, kuinka monta ihmistä kulkee ohi? Tämä sovellus käyttää puhelimesi kameraa tunnistamaan älykkäästi ja laskemaan automaattisesti jalankulkijoita. Ei vaadi manuaalista syöttöä. Unohda työläs laskeminen ja seuraa liikennevirtaa helposti.",
   "video_desc": "Ei vaadi internetyhteyttä. Ei tarvetta laskea ihmisiä manuaalisesti perinteisellä laskurilla. Aseta vain puhelimesi seuraamaan automaattisesti ohikulkevaa jalankulkuliikennettä.",
   "terms": "Käyttöehdot",

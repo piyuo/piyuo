@@ -66,9 +66,6 @@ class LocalizationEn extends Localization {
   String get index_email_us => 'Email us';
 
   @override
-  String get app_name => 'Counter';
-
-  @override
   String get app_desc => 'Want to know how many people pass by? This app uses your phone\'s camera to intelligently identify and automatically count pedestrians. No manual input required. Say goodbye to tedious counting and easily monitor traffic flow.';
 
   @override
@@ -141,9 +138,6 @@ class LocalizationEnAu extends LocalizationEn {
 
   @override
   String get index_email_us => 'Email us';
-
-  @override
-  String get app_name => 'Counter';
 
   @override
   String get app_desc => 'Want to know how many people pass by? This app uses your mobile\'s camera to intelligently identify and automatically count pedestrians. No manual input required. Say goodbye to tedious counting and easily monitor traffic flow.';
@@ -220,9 +214,6 @@ class LocalizationEnCa extends LocalizationEn {
   String get index_email_us => 'Email us';
 
   @override
-  String get app_name => 'Counter';
-
-  @override
   String get app_desc => 'Want to know how many people pass by? This app uses your phone\'s camera to intelligently identify and automatically count pedestrians. No manual input required. Say goodbye to tedious counting and easily monitor traffic flow.';
 
   @override
@@ -297,9 +288,6 @@ class LocalizationEnGb extends LocalizationEn {
   String get index_email_us => 'Email us';
 
   @override
-  String get app_name => 'Counter';
-
-  @override
   String get app_desc => 'Want to know how many people pass by? This app uses your mobile\'s camera to intelligently identify and automatically count pedestrians. No manual input required. Say goodbye to tedious counting and easily monitor traffic flow.';
 
   @override
@@ -372,9 +360,6 @@ class LocalizationEnIn extends LocalizationEn {
 
   @override
   String get index_email_us => 'Email us';
-
-  @override
-  String get app_name => 'Counter';
 
   @override
   String get app_desc => 'Want to know how many people pass by? This app uses your mobile\'s camera to intelligently identify and automatically count pedestrians. No manual input required. Say goodbye to tedious counting and easily monitor traffic flow.';

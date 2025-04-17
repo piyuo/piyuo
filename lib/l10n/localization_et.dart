@@ -66,9 +66,6 @@ class LocalizationEt extends Localization {
   String get index_email_us => 'Kirjuta meile';
 
   @override
-  String get app_name => 'Loendur';
-
-  @override
   String get app_desc => 'Soovite teada, kui palju inimesi möödub? See rakendus kasutab teie telefoni kaamerat, et intelligentselt tuvastada ja automaatselt loendada jalakäijaid. Käsitsi sisestamine pole vajalik. Jätke tüütu lugemine seljataha ja jälgige liiklusvoogu hõlpsalt.';
 
   @override

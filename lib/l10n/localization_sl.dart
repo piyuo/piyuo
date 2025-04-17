@@ -66,9 +66,6 @@ class LocalizationSl extends Localization {
   String get index_email_us => 'Pišite nam';
 
   @override
-  String get app_name => 'Števec';
-
-  @override
   String get app_desc => 'Želite vedeti, koliko ljudi gre mimo? Ta aplikacija uporablja kamero vašega telefona za inteligentno prepoznavanje in samodejno štetje pešcev. Ročni vnos ni potreben. Poslovite se od napornega štetja in enostavno spremljajte pretok prometa.';
 
   @override

@@ -66,9 +66,6 @@ class LocalizationPl extends Localization {
   String get index_email_us => 'Napisz do nas';
 
   @override
-  String get app_name => 'Licznik';
-
-  @override
   String get app_desc => 'Chcesz wiedzieć, ile osób przechodzi obok? Ta aplikacja wykorzystuje kamerę Twojego telefonu do inteligentnego identyfikowania i automatycznego liczenia pieszych. Nie wymaga ręcznego wprowadzania danych. Pożegnaj się z żmudnym liczeniem i łatwo monitoruj przepływ ruchu.';
 
   @override

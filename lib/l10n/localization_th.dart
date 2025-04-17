@@ -66,9 +66,6 @@ class LocalizationTh extends Localization {
   String get index_email_us => 'อีเมลถึงเรา';
 
   @override
-  String get app_name => 'เครื่องนับ';
-
-  @override
   String get app_desc => 'อยากรู้ว่ามีคนเดินผ่านไปกี่คน? แอปนี้ใช้กล้องโทรศัพท์ของคุณเพื่อระบุและนับคนเดินเท้าโดยอัตโนมัติอย่างชาญฉลาด ไม่ต้องป้อนข้อมูลด้วยตนเอง บอกลาการนับที่น่าเบื่อและติดตามการไหลของการจราจรได้อย่างง่ายดาย';
 
   @override

@@ -66,9 +66,6 @@ class LocalizationZh extends Localization {
   String get index_email_us => '寄信給我們';
 
   @override
-  String get app_name => '計數器';
-
-  @override
   String get app_desc => '想知道有多少人經過？這款應用程式使用您手機的相機智慧辨識並自動計算行人數量。無需手動輸入。告別繁瑣的計數工作，輕鬆監控人流量。';
 
   @override
@@ -141,9 +138,6 @@ class LocalizationZhCn extends LocalizationZh {
 
   @override
   String get index_email_us => '给我们发邮件';
-
-  @override
-  String get app_name => '计数器';
 
   @override
   String get app_desc => '想知道有多少人经过吗？此应用程序使用您手机的摄像头智能识别并自动计数行人。无需手动输入。告别繁琐的计数，轻松监控交通流量。';
@@ -220,9 +214,6 @@ class LocalizationZhHk extends LocalizationZh {
   String get index_email_us => '電郵聯絡我們';
 
   @override
-  String get app_name => '計數器';
-
-  @override
   String get app_desc => '想知道有多少人經過嗎？此應用程式使用您手機的相機智能識別並自動點算行人。無需手動輸入。告別繁瑣的計數，輕鬆監控人流量。';
 
   @override
@@ -297,9 +288,6 @@ class LocalizationZhMo extends LocalizationZh {
   String get index_email_us => '電郵聯絡我們';
 
   @override
-  String get app_name => '計數器';
-
-  @override
   String get app_desc => '想知道有多少人經過嗎？此應用程式使用您手機的相機智能識別並自動點算行人。無需手動輸入。告別繁瑣的計數，輕鬆監控人流量。';
 
   @override
@@ -372,9 +360,6 @@ class LocalizationZhSg extends LocalizationZh {
 
   @override
   String get index_email_us => '给我们发电邮';
-
-  @override
-  String get app_name => '计数器';
 
   @override
   String get app_desc => '想知道有多少人经过吗？此应用程序使用您手机的摄像头智能识别并自动计数行人。无需手动输入。告别繁琐的计数，轻松监控交通流量。';

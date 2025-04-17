@@ -2,35 +2,36 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_84",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aPw(){B.P("sr")
-return new A.ql()},
-ql:function ql(){}}
+aVY(){B.S("sl")
+return new A.rz()},
+rz:function rz(){}}
 B=c[0]
 C=c[120]
-A=a.updateHolder(c[108],A)
-A.ql.prototype={
-gaQ(){return"Preuzmi"},
-gaX(){return"Uskoro dostupno."},
-gaW(){return"Dostupno na prole\u0107e 2025."},
-gb_(){return"Va\u0161 telefon sada mo\u017ee da koristi ve\u0161ta\u010dku inteligenciju za prepoznavanje pe\u0161aka."},
-gaZ(){return"Nije potreban internet. Nije potrebno ru\u010dno brojanje ljudi tradicionalnim broja\u010dem. Samo podesite telefon da automatski prati prolaznike."},
-gaI(){return"Pra\u0107enje 24/7"},
-gaJ(){return"Pregledajte broj prolaznika za bilo koji vremenski period."},
-gaK(){return"Pra\u0107enje vi\u0161e objekata"},
-gaL(){return"Istovremeno brojite pe\u0161ake, automobile, bicikle i jo\u0161 mnogo toga"},
-gaM(){return"Prilago\u0111ene zone detekcije"},
-gaN(){return"Defini\u0161ite prilago\u0111ene zone detekcije za brojanje saobra\u0107aja u odre\u0111enim oblastima."},
-gaO(){return"Fleksibilni re\u017eimi brojanja"},
-gaP(){return"Izaberite da brojite nove objekte koji se pojavljuju u zoni detekcije ili one koji ostaju nepokretni."},
-gaV(){return"Dostupnost desktop verzije"},
-gaU(){return"Tako\u0111e nudimo desktop verziju. Obezbe\u0111ujemo verzije za iOS/Android/Mac/Windows, omogu\u0107avaju\u0107i vam da koristite i mobilne ure\u0111aje i desktop ra\u010dunare sa veb kamerama. Desktop verzija dodatno podr\u017eava vi\u0161e video izvora, omogu\u0107avaju\u0107i istovremeno brojanje sa vi\u0161e tokova."},
-gaT(){return"Podr\u0161ka za prenos u\u017eivo"},
-gaS(){return"Pored kamera mobilnih ure\u0111aja, podr\u017eavamo snimljene video datoteke, unose veb kamera i internet prenose u\u017eivo kao \u0161to je RTSP. Ovo vam omogu\u0107ava da se pove\u017eete sa postoje\u0107im ure\u0111ajima i odmah po\u010dnete meriti protok saobra\u0107aja."},
-gaY(){return"Po\u0161aljite nam e-po\u0161tu"},
-gaC(){return"Broja\u010d"},
-gaB(){return"\u017delite da znate koliko ljudi prolazi pored vas? Ova aplikacija koristi kameru va\u0161eg telefona da inteligentno identifikuje i automatski broji pe\u0161ake. Nije potreban ru\u010dni unos. Oprostite se od dosadnog brojanja i lako pratite protok saobra\u0107aja."}}
+A=a.updateHolder(c[107],A)
+A.rz.prototype={
+gaV(){return"Prenesi"},
+gb3(){return"Kmalu na voljo."},
+gb2(){return"Na voljo spomladi 2025."},
+gb6(){return"Va\u0161 telefon lahko zdaj z umetno inteligenco prepoznava pe\u0161ce."},
+gb5(){return"Internet ni potreben. Ni potrebe po ro\u010dnem \u0161tetju ljudi s tradicionalnim \u0161tevcem. Preprosto nastavite telefon za samodejno sledenje mimoido\u010dih pe\u0161cev."},
+gaN(){return"Sledenje 24/7"},
+gaO(){return"Oglejte si \u0161tevilo pe\u0161cev za katero koli \u010dasovno obdobje."},
+gaP(){return"Sledenje ve\u010d objektom"},
+gaQ(){return"Hkrati \u0161tejte pe\u0161ce, avtomobile, kolesa in ve\u010d"},
+gaR(){return"Prilagojene cone zaznavanja"},
+gaS(){return"Dolo\u010dite prilagojene cone zaznavanja za \u0161tetje prometa na dolo\u010denih obmo\u010djih."},
+gaT(){return"Prilagodljivi na\u010dini \u0161tetja"},
+gaU(){return"Izberite \u0161tetje novo pojavljivih objektov znotraj cone zaznavanja ali tistih, ki ostanejo nepremi\u010dni."},
+gb1(){return"Razpolo\u017eljivost namizne razli\u010dice"},
+gb0(){return"Ponujamo tudi namizno razli\u010dico. Zagotavljamo razli\u010dice za iOS/Android/Mac/Windows, kar vam omogo\u010da uporabo mobilnih naprav in namiznih ra\u010dunalnikov s spletnimi kamerami. Namizna razli\u010dica dodatno podpira ve\u010d video virov, kar omogo\u010da so\u010dasno \u0161tetje iz ve\u010d pretokov."},
+gb_(){return"Podpora za preto\u010dne vsebine v \u017eivo"},
+gaZ(){return"Poleg kamer mobilnih naprav podpiramo tudi posnete video datoteke, vnose spletnih kamer in spletne pretoke v \u017eivo, kot je RTSP. To vam omogo\u010da povezavo z obstoje\u010dimi napravami in takoj\u0161en za\u010detek merjenja pretoka prometa."},
+gb4(){return"Pi\u0161ite nam"},
+gaI(){return"\u017delite vedeti, koliko ljudi gre mimo? Ta aplikacija uporablja kamero va\u0161ega telefona za inteligentno prepoznavanje in samodejno \u0161tetje pe\u0161cev. Ro\u010dni vnos ni potreben. Poslovite se od napornega \u0161tetja in enostavno spremljajte pretok prometa."},
+gaX(){return"Pogoji uporabe"},
+gaW(){return"Zasebnost"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.ql,C.x)})()
-B.a4(b.typeUniverse,JSON.parse('{"ql":{"x":[]}}'))};
+y(A.rz,C.z)})()
+B.ab(b.typeUniverse,JSON.parse('{"rz":{"z":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_84",e:"endPart",h:b})})($__dart_deferred_initializers__,"L2vhE5npgz5znvj9Z0RyUPsHFJQ=");
+a.eventLog.push({p:"main.dart.js_84",e:"endPart",h:b})})($__dart_deferred_initializers__,"0C2zsbRdwQc9RwFAuDvxN8WbGxE=");

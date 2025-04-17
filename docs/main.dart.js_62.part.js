@@ -2,37 +2,36 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_62",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aV4(){B.S("hr")
-return new A.qO()},
-qO:function qO(){}}
+aVa(){B.S("it")
+return new A.qU()},
+qU:function qU(){}}
 B=c[0]
 C=c[120]
-A=a.updateHolder(c[88],A)
-A.qO.prototype={
-gaW(){return"Preuzmi"},
-gb4(){return"Uskoro dostupno."},
-gb3(){return"Dostupno u prolje\u0107e 2025."},
-gb7(){return"Va\u0161 telefon sada mo\u017ee koristiti AI za prepoznavanje pje\u0161aka."},
-gb6(){return"Nije potreban internet. Nije potrebno ru\u010dno brojati ljude tradicionalnim broja\u010dem. Jednostavno postavite svoj telefon da automatski prati prolaznost pje\u0161aka."},
-gaO(){return"Pra\u0107enje 24/7"},
-gaP(){return"Pregledajte broj prolaznika za bilo koje vremensko razdoblje."},
-gaQ(){return"Pra\u0107enje vi\u0161e objekata"},
-gaR(){return"Istovremeno brojite pje\u0161ake, automobile, bicikle i vi\u0161e"},
-gaS(){return"Prilago\u0111ene zone detekcije"},
-gaT(){return"Definirajte prilago\u0111ene zone detekcije za brojanje prometa u odre\u0111enim podru\u010djima."},
-gaU(){return"Fleksibilni na\u010dini brojanja"},
-gaV(){return"Odaberite brojanje novih objekata unutar zone detekcije ili onih koji ostaju nepomi\u010dni."},
-gb2(){return"Dostupnost desktop verzije"},
-gb1(){return"Tako\u0111er nudimo desktop verziju. Pru\u017eamo verzije za iOS/Android/Mac/Windows, omogu\u0107uju\u0107i vam kori\u0161tenje mobilnih ure\u0111aja i stolnih ra\u010dunala s web kamerama. Desktop verzija dodatno podr\u017eava vi\u0161e video izvora, omogu\u0107uju\u0107i istovremeno brojanje iz vi\u0161e tokova."},
-gb0(){return"Podr\u0161ka za live stream"},
-gb_(){return"Osim kamera mobilnih ure\u0111aja, podr\u017eavamo snimljene video datoteke, unose web kamera i internetske live streamove poput RTSP-a. To vam omogu\u0107uje povezivanje s postoje\u0107im ure\u0111ajima i trenutno zapo\u010dinjanje mjerenja protoka prometa."},
-gb5(){return"Po\u0161aljite nam e-mail"},
-gaJ(){return"Broja\u010d"},
-gaI(){return"\u017delite znati koliko ljudi prolazi? Ova aplikacija koristi kameru va\u0161eg telefona za inteligentno prepoznavanje i automatsko brojanje pje\u0161aka. Nije potreban ru\u010dni unos. Oprostite se od dosadnog brojanja i jednostavno pratite protok prometa."},
-gaY(){return"Uvjeti kori\u0161tenja"},
-gaX(){return"Privatnost"}}
+A=a.updateHolder(c[91],A)
+A.qU.prototype={
+gaV(){return"Scarica"},
+gb3(){return"Disponibile a breve."},
+gb2(){return"Disponibile in primavera 2025."},
+gb6(){return"Il tuo telefono pu\xf2 ora utilizzare l'IA per riconoscere i pedoni."},
+gb5(){return"Non richiede internet. Non \xe8 necessario contare manualmente le persone con un contatore tradizionale. Basta configurare il telefono per monitorare automaticamente il flusso pedonale."},
+gaN(){return"Monitoraggio 24/7"},
+gaO(){return"Visualizza i conteggi del traffico pedonale per qualsiasi periodo di tempo."},
+gaP(){return"Tracciamento di Oggetti Multipli"},
+gaQ(){return"Conta simultaneamente pedoni, auto, biciclette e altro"},
+gaR(){return"Zone di Rilevamento Personalizzate"},
+gaS(){return"Definisci zone di rilevamento personalizzate per contare il traffico in aree specifiche."},
+gaT(){return"Modalit\xe0 di Conteggio Flessibili"},
+gaU(){return"Scegli se contare i nuovi oggetti che appaiono nella zona di rilevamento o quelli che rimangono fermi."},
+gb1(){return"Disponibilit\xe0 Versione Desktop"},
+gb0(){return"Offriamo anche una versione desktop. Forniamo versioni per iOS/Android/Mac/Windows, permettendoti di utilizzare sia dispositivi mobili che desktop con webcam. La versione desktop supporta inoltre pi\xf9 fonti video, consentendo il conteggio simultaneo da pi\xf9 flussi."},
+gb_(){return"Supporto per Flussi in Diretta"},
+gaZ(){return"Oltre alle fotocamere dei dispositivi mobili, supportiamo file video registrati, input da webcam e flussi in diretta da internet come RTSP. Questo ti permette di connetterti a dispositivi esistenti e iniziare immediatamente a misurare il flusso di traffico."},
+gb4(){return"Contattaci via email"},
+gaI(){return"Vuoi sapere quante persone passano? Questa app utilizza la fotocamera del tuo telefono per identificare in modo intelligente e contare automaticamente i pedoni. Nessun input manuale richiesto. D\xec addio al conteggio tedioso e monitora facilmente il flusso del traffico."},
+gaX(){return"Termini di servizio"},
+gaW(){return"Privacy"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.qO,C.z)})()
-B.ab(b.typeUniverse,JSON.parse('{"qO":{"z":[]}}'))};
+y(A.qU,C.z)})()
+B.ab(b.typeUniverse,JSON.parse('{"qU":{"z":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_62",e:"endPart",h:b})})($__dart_deferred_initializers__,"40lQo++9bWm4BAeDZ3+Vwc5lzp4=");
+a.eventLog.push({p:"main.dart.js_62",e:"endPart",h:b})})($__dart_deferred_initializers__,"A6gussf9DlqXbAaHFklXW/ACy9o=");

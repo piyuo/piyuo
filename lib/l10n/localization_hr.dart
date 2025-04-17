@@ -66,9 +66,6 @@ class LocalizationHr extends Localization {
   String get index_email_us => 'Pošaljite nam e-mail';
 
   @override
-  String get app_name => 'Brojač';
-
-  @override
   String get app_desc => 'Želite znati koliko ljudi prolazi? Ova aplikacija koristi kameru vašeg telefona za inteligentno prepoznavanje i automatsko brojanje pješaka. Nije potreban ručni unos. Oprostite se od dosadnog brojanja i jednostavno pratite protok prometa.';
 
   @override

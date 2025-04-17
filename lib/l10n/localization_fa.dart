@@ -66,9 +66,6 @@ class LocalizationFa extends Localization {
   String get index_email_us => 'به ما ایمیل بزنید';
 
   @override
-  String get app_name => 'شمارنده';
-
-  @override
   String get app_desc => 'می‌خواهید بدانید چند نفر از کنار شما عبور می‌کنند؟ این برنامه از دوربین تلفن شما برای شناسایی هوشمند و شمارش خودکار عابران پیاده استفاده می‌کند. نیازی به ورودی دستی نیست. با شمارش خسته‌کننده خداحافظی کنید و به راحتی جریان ترافیک را نظارت کنید.';
 
   @override

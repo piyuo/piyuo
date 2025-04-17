@@ -2,35 +2,36 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_59",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aOF(){B.P("id")
-return new A.pC()},
-pC:function pC(){}}
+aV6(){B.S("hu")
+return new A.qQ()},
+qQ:function qQ(){}}
 B=c[0]
 C=c[120]
-A=a.updateHolder(c[90],A)
-A.pC.prototype={
-gaQ(){return"Unduh"},
-gaX(){return"Segera hadir."},
-gaW(){return"Tersedia pada Musim Semi 2025."},
-gb_(){return"Ponsel Anda kini dapat menggunakan AI untuk mengenali pejalan kaki."},
-gaZ(){return"Tidak memerlukan internet. Tidak perlu menghitung orang secara manual dengan penghitung tradisional. Cukup atur ponsel Anda untuk melacak lalu lintas pejalan kaki secara otomatis."},
-gaI(){return"Pelacakan 24/7"},
-gaJ(){return"Lihat jumlah lalu lintas pejalan kaki untuk periode waktu apa pun."},
-gaK(){return"Pelacakan Beberapa Objek"},
-gaL(){return"Menghitung pejalan kaki, mobil, sepeda, dan lainnya secara bersamaan"},
-gaM(){return"Zona Deteksi Kustom"},
-gaN(){return"Tentukan zona deteksi kustom untuk menghitung lalu lintas di area tertentu."},
-gaO(){return"Mode Penghitungan Fleksibel"},
-gaP(){return"Pilih untuk menghitung objek yang baru muncul dalam zona deteksi, atau objek yang tetap diam."},
-gaV(){return"Ketersediaan Versi Desktop"},
-gaU(){return"Kami juga menawarkan versi desktop. Kami menyediakan versi untuk iOS/Android/Mac/Windows, memungkinkan Anda menggunakan perangkat seluler dan desktop dengan webcam. Versi desktop juga mendukung beberapa sumber video, memungkinkan penghitungan simultan dari beberapa aliran."},
-gaT(){return"Dukungan Siaran Langsung"},
-gaS(){return"Selain kamera perangkat seluler, kami mendukung file video yang direkam, input webcam, dan siaran langsung internet seperti RTSP. Ini memungkinkan Anda terhubung ke perangkat yang ada dan langsung mulai mengukur arus lalu lintas."},
-gaY(){return"Email kami"},
-gaC(){return"Penghitung"},
-gaB(){return"Ingin tahu berapa banyak orang yang lewat? Aplikasi ini menggunakan kamera ponsel Anda untuk secara cerdas mengidentifikasi dan menghitung pejalan kaki secara otomatis. Tidak diperlukan input manual. Ucapkan selamat tinggal pada penghitungan yang membosankan dan dengan mudah pantau arus lalu lintas."}}
+A=a.updateHolder(c[89],A)
+A.qQ.prototype={
+gaV(){return"Let\xf6lt\xe9s"},
+gb3(){return"Hamarosan \xe9rkezik."},
+gb2(){return"2025 tavasz\xe1n el\xe9rhet\u0151."},
+gb6(){return"Telefonja most m\xe1r AI seg\xedts\xe9g\xe9vel ismeri fel a gyalogosokat."},
+gb5(){return"Nem ig\xe9nyel internetet. Nincs sz\xfcks\xe9g hagyom\xe1nyos sz\xe1ml\xe1l\xf3 haszn\xe1lat\xe1ra az emberek k\xe9zi sz\xe1mol\xe1s\xe1hoz. Egyszer\u0171en \xe1ll\xedtsa be telefonj\xe1t, hogy automatikusan k\xf6vethesse az \xe1thalad\xf3 gyalogosforgalmat."},
+gaN(){return"24/7 k\xf6vet\xe9s"},
+gaO(){return"Tekintse meg a gyalogosforgalom sz\xe1m\xe1t b\xe1rmely id\u0151szakra."},
+gaP(){return"T\xf6bb objektum k\xf6vet\xe9se"},
+gaQ(){return"Egyidej\u0171leg sz\xe1molja a gyalogosokat, aut\xf3kat, ker\xe9kp\xe1rokat \xe9s egyebeket"},
+gaR(){return"Egy\xe9ni \xe9rz\xe9kel\xe9si z\xf3n\xe1k"},
+gaS(){return"Hat\xe1rozzon meg egy\xe9ni \xe9rz\xe9kel\xe9si z\xf3n\xe1kat a forgalom sz\xe1ml\xe1l\xe1s\xe1hoz meghat\xe1rozott ter\xfcleteken."},
+gaT(){return"Rugalmas sz\xe1ml\xe1l\xe1si m\xf3dok"},
+gaU(){return"V\xe1lassza az \xfajonnan megjelen\u0151 objektumok sz\xe1ml\xe1l\xe1s\xe1t az \xe9rz\xe9kel\xe9si z\xf3n\xe1n bel\xfcl, vagy azokat, amelyek egy helyben maradnak."},
+gb1(){return"Asztali verzi\xf3 el\xe9rhet\u0151s\xe9ge"},
+gb0(){return"Asztali verzi\xf3t is k\xedn\xe1lunk. iOS/Android/Mac/Windows verzi\xf3kat biztos\xedtunk, lehet\u0151v\xe9 t\xe9ve mind a mobileszk\xf6z\xf6k, mind a webkamer\xe1kkal ell\xe1tott asztali sz\xe1m\xedt\xf3g\xe9pek haszn\xe1lat\xe1t. Az asztali verzi\xf3 tov\xe1bb\xe1 t\xf6bb videoforr\xe1st is t\xe1mogat, lehet\u0151v\xe9 t\xe9ve az egyidej\u0171 sz\xe1ml\xe1l\xe1st t\xf6bb adatfolyamb\xf3l."},
+gb_(){return"\xc9l\u0151 k\xf6zvet\xedt\xe9s t\xe1mogat\xe1s"},
+gaZ(){return"A mobileszk\xf6z\xf6k kamer\xe1in k\xedv\xfcl t\xe1mogatjuk a r\xf6gz\xedtett videof\xe1jlokat, webkamera bemeneteket \xe9s internetes \xe9l\u0151 k\xf6zvet\xedt\xe9seket, p\xe9ld\xe1ul RTSP-t. Ez lehet\u0151v\xe9 teszi a megl\xe9v\u0151 eszk\xf6z\xf6kh\xf6z val\xf3 csatlakoz\xe1st \xe9s a forgalom \xe1raml\xe1s\xe1nak azonnali m\xe9r\xe9s\xe9t."},
+gb4(){return"\xcdrjon nek\xfcnk e-mailt"},
+gaI(){return"Szeretn\xe9 tudni, h\xe1ny ember halad el? Ez az alkalmaz\xe1s telefonja kamer\xe1j\xe1t haszn\xe1lja a gyalogosok intelligens azonos\xedt\xe1s\xe1ra \xe9s automatikus sz\xe1ml\xe1l\xe1s\xe1ra. Nincs sz\xfcks\xe9g k\xe9zi bevitelre. B\xfacs\xfazzon el a f\xe1raszt\xf3 sz\xe1mol\xe1st\xf3l, \xe9s k\xf6nnyen figyelje a forgalom \xe1raml\xe1s\xe1t."},
+gaX(){return"Szolg\xe1ltat\xe1si felt\xe9telek"},
+gaW(){return"Adatv\xe9delem"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.pC,C.x)})()
-B.a4(b.typeUniverse,JSON.parse('{"pC":{"x":[]}}'))};
+y(A.qQ,C.z)})()
+B.ab(b.typeUniverse,JSON.parse('{"qQ":{"z":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_59",e:"endPart",h:b})})($__dart_deferred_initializers__,"lsW1XbWCnq4aLN7vjzYAqUZCMAk=");
+a.eventLog.push({p:"main.dart.js_59",e:"endPart",h:b})})($__dart_deferred_initializers__,"w77yKuvwPKKmIHeYtQ4AihMF7zY=");

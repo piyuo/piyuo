@@ -66,9 +66,6 @@ class LocalizationTr extends Localization {
   String get index_email_us => 'Bize e-posta gönderin';
 
   @override
-  String get app_name => 'Sayaç';
-
-  @override
   String get app_desc => 'Kaç kişinin geçtiğini bilmek ister misiniz? Bu uygulama, yayaları akıllıca tanımlamak ve otomatik olarak saymak için telefonunuzun kamerasını kullanır. Manuel giriş gerekmez. Sıkıcı sayımlara veda edin ve trafik akışını kolayca izleyin.';
 
   @override

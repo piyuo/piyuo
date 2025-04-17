@@ -66,9 +66,6 @@ class LocalizationDe extends Localization {
   String get index_email_us => 'E-Mail an uns';
 
   @override
-  String get app_name => 'Zähler';
-
-  @override
   String get app_desc => 'Möchten Sie wissen, wie viele Menschen vorbeigehen? Diese App nutzt die Kamera Ihres Smartphones, um Fußgänger intelligent zu identifizieren und automatisch zu zählen. Keine manuelle Eingabe erforderlich. Verabschieden Sie sich vom mühsamen Zählen und überwachen Sie den Verkehrsfluss ganz einfach.';
 
   @override
@@ -143,9 +140,6 @@ class LocalizationDeAt extends LocalizationDe {
   String get index_email_us => 'E-Mail an uns';
 
   @override
-  String get app_name => 'Zähler';
-
-  @override
   String get app_desc => 'Möchten Sie wissen, wie viele Menschen vorbeigehen? Diese App nutzt die Kamera Ihres Handys, um Fußgänger intelligent zu identifizieren und automatisch zu zählen. Keine manuelle Eingabe erforderlich. Verabschieden Sie sich vom mühsamen Zählen und überwachen Sie den Personenfluss ganz einfach.';
 
   @override
@@ -218,9 +212,6 @@ class LocalizationDeCh extends LocalizationDe {
 
   @override
   String get index_email_us => 'E-Mail an uns';
-
-  @override
-  String get app_name => 'Zähler';
 
   @override
   String get app_desc => 'Möchten Sie wissen, wie viele Menschen vorbeigehen? Diese App nutzt die Kamera Ihres Mobiltelefons, um Fussgänger intelligent zu identifizieren und automatisch zu zählen. Keine manuelle Eingabe erforderlich. Verabschieden Sie sich vom mühsamen Zählen und überwachen Sie den Verkehrsfluss ganz einfach.';

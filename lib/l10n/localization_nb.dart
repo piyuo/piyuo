@@ -66,9 +66,6 @@ class LocalizationNb extends Localization {
   String get index_email_us => 'Send e-post til oss';
 
   @override
-  String get app_name => 'Counter';
-
-  @override
   String get app_desc => 'Vil du vite hvor mange mennesker som passerer forbi? Denne appen bruker telefonens kamera for å intelligent identifisere og automatisk telle fotgjengere. Ingen manuell inntasting nødvendig. Si farvel til kjedelig telling og overvåk trafikkflyten enkelt.';
 
   @override

@@ -66,9 +66,6 @@ class LocalizationJa extends Localization {
   String get index_email_us => 'メールでのお問い合わせ';
 
   @override
-  String get app_name => 'カウンター';
-
-  @override
   String get app_desc => 'どれだけの人が通過するか知りたいですか？このアプリはスマートフォンのカメラを使用して、歩行者をインテリジェントに識別し、自動的にカウントします。手動入力は不要です。面倒なカウント作業にさよならして、交通の流れを簡単にモニタリングしましょう。';
 
   @override

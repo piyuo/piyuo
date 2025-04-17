@@ -1,38 +1,31 @@
 ((a,b,c)=>{a[b]=a[b]||{}
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_106",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var B,A={
-aWl(){B.S("uz")
-return new A.rV()},
-rV:function rV(){}},C
+$__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
+aU9(d){B.S(d)
+return new A.mK()},
+aUb(){B.S("bn_IN")
+return new A.q2()},
+mK:function mK(){},
+q2:function q2(){}}
 B=c[0]
-A=a.updateHolder(c[117],A)
-C=c[120]
-A.rV.prototype={
-gaW(){return"Yuklab olish"},
-gb4(){return"Tez orada."},
-gb3(){return"2025-yil bahorida mavjud bo'ladi."},
-gb7(){return"Telefoningiz endi AI yordamida piyodalarni taniy oladi."},
-gb6(){return"Internet kerak emas. An'anaviy kliker bilan odamlarni qo'lda sanashning hojati yo'q. Shunchaki telefoningizni o'tib ketayotgan piyodalar oqimini avtomatik kuzatib borish uchun sozlang."},
-gaO(){return"24/7 kuzatuv"},
-gaP(){return"Istalgan vaqt davomida piyodalar oqimi sonini ko'rish."},
-gaQ(){return"Ko'p ob'ektlarni kuzatish"},
-gaR(){return"Piyodalar, mashinalar, velosipedlar va boshqalarni bir vaqtning o'zida sanash"},
-gaS(){return"Maxsus aniqlash zonalari"},
-gaT(){return"Ma'lum joylarda harakatni sanash uchun maxsus aniqlash zonalarini belgilang."},
-gaU(){return"Moslashuvchan sanash rejimi"},
-gaV(){return"Aniqlash zonasida yangi paydo bo'lgan ob'ektlarni yoki harakatsiz qolganlarini sanashni tanlang."},
-gb2(){return"Ish stoli versiyasi mavjudligi"},
-gb1(){return"Biz ish stoli versiyasini ham taklif qilamiz. Biz iOS/Android/Mac/Windows versiyalarini taqdim etamiz, bu sizga ham mobil qurilmalar, ham veb-kamerali ish stolilaridan foydalanish imkonini beradi. Ish stoli versiyasi ko'p video manbalarini qo'llab-quvvatlaydi, bu bir vaqtning o'zida bir nechta oqimlardan sanashga imkon beradi."},
-gb0(){return"Jonli uzatishni qo'llab-quvvatlash"},
-gb_(){return"Mobil qurilma kameralaridan tashqari, biz yozib olingan video fayllar, veb-kamera kiritishlari va RTSP kabi internet jonli uzatishlarini qo'llab-quvvatlaymiz. Bu sizga mavjud qurilmalarga ulanish va darhol harakat oqimini o'lchashni boshlash imkonini beradi."},
-gb5(){return"Bizga xat yozing"},
-gaJ(){return"Sanoq"},
-gaI(){return"Qancha odam o'tib ketishini bilmoqchimisiz? Bu ilova telefoningiz kamerasidan foydalanib, aqlli ravishda piyodalarni aniqlaydi va avtomatik ravishda sanaydi. Qo'lda kiritish shart emas. Zerikarli sanashga xayrlashing va osonlik bilan harakat oqimini kuzating."},
-gaY(){return"Xizmat shartlari"},
-gaX(){return"Maxfiylik"}}
+C=c[119]
+A=a.updateHolder(c[4],A)
+A.mK.prototype={
+gaL(){return"\u0989\u09ab, \u0995\u09bf\u099b\u09c1 \u098f\u0995\u099f\u09be \u09ad\u09c1\u09b2 \u09b9\u09af\u09bc\u09c7\u099b\u09c7"},
+gaK(){return"\u098f\u0995\u099f\u09bf \u0985\u09aa\u09cd\u09b0\u09a4\u09cd\u09af\u09be\u09b6\u09bf\u09a4 \u09a4\u09cd\u09b0\u09c1\u099f\u09bf \u0998\u099f\u09c7\u099b\u09c7\u0964 \u0986\u09aa\u09a8\u09bf \u0995\u09bf \u098f\u0995\u099f\u09bf \u0987\u09ae\u09c7\u09b2 \u09b0\u09bf\u09aa\u09cb\u09b0\u09cd\u099f \u099c\u09ae\u09be \u09a6\u09bf\u09a4\u09c7 \u099a\u09be\u09a8?"},
+gaM(){return"\u0986\u09ae\u09be\u09a6\u09c7\u09b0 \u0987\u09ae\u09c7\u09b2 \u0995\u09b0\u09c1\u09a8"},
+gaJ(){return"\u09ac\u09be\u09a4\u09bf\u09b2"},
+gaH(){return"\u09b8\u09bf\u09b8\u09cd\u099f\u09c7\u09ae \u09ad\u09be\u09b7\u09be"}}
+A.q2.prototype={
+gaL(){return"\u0993\u09b9\u09cb, \u0995\u09bf\u099b\u09c1 \u098f\u0995\u099f\u09be \u09ad\u09c1\u09b2 \u09b9\u09af\u09bc\u09c7\u099b\u09c7"},
+gaK(){return"\u098f\u0995\u099f\u09bf \u0985\u09aa\u09cd\u09b0\u09a4\u09cd\u09af\u09be\u09b6\u09bf\u09a4 \u09a4\u09cd\u09b0\u09c1\u099f\u09bf \u0998\u099f\u09c7\u099b\u09c7\u0964 \u0986\u09aa\u09a8\u09bf \u0995\u09bf \u098f\u0995\u099f\u09bf \u0987\u09ae\u09c7\u09b2 \u09b0\u09bf\u09aa\u09cb\u09b0\u09cd\u099f \u09aa\u09be\u09a0\u09be\u09a4\u09c7 \u099a\u09be\u09a8?"},
+gaM(){return"\u0986\u09ae\u09be\u09a6\u09c7\u09b0 \u0987\u09ae\u09c7\u09b2 \u0995\u09b0\u09c1\u09a8"},
+gaJ(){return"\u09ac\u09be\u09a4\u09bf\u09b2"},
+gaH(){return"\u09b8\u09bf\u09b8\u09cd\u099f\u09c7\u09ae \u09ad\u09be\u09b7\u09be"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.rV,C.z)})()
-B.ab(b.typeUniverse,JSON.parse('{"rV":{"z":[]}}'))};
+y(A.mK,C.y)
+y(A.q2,A.mK)})()
+B.ab(b.typeUniverse,JSON.parse('{"mK":{"y":[]},"q2":{"y":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_106",e:"endPart",h:b})})($__dart_deferred_initializers__,"5TWNpYq0PZrP4q8BIpkMFhMIWVE=");
+a.eventLog.push({p:"main.dart.js_106",e:"endPart",h:b})})($__dart_deferred_initializers__,"Ztom6m66hy75FsUQDEkZ7n28E6M=");

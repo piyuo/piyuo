@@ -66,9 +66,6 @@ class LocalizationHi extends Localization {
   String get index_email_us => 'हमें ईमेल करें';
 
   @override
-  String get app_name => 'काउंटर';
-
-  @override
   String get app_desc => 'जानना चाहते हैं कि कितने लोग गुजरते हैं? यह ऐप आपके फोन के कैमरे का उपयोग करके बुद्धिमानी से पैदल चलने वालों की पहचान और स्वचालित रूप से गिनती करता है। कोई मैनुअल इनपुट नहीं चाहिए। थकाऊ गिनती को अलविदा कहें और आसानी से यातायात प्रवाह की निगरानी करें।';
 
   @override

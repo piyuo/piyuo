@@ -2,37 +2,36 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_85",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aVM(){B.S("ro")
-return new A.rp()},
-rp:function rp(){}}
+aW_(){B.S("sr")
+return new A.rB()},
+rB:function rB(){}}
 B=c[0]
 C=c[120]
-A=a.updateHolder(c[104],A)
-A.rp.prototype={
-gaW(){return"Desc\u0103rca\u021bi"},
-gb4(){return"\xcen cur\xe2nd."},
-gb3(){return"Disponibil \xeen prim\u0103vara anului 2025."},
-gb7(){return"Telefonul dvs. poate acum s\u0103 foloseasc\u0103 IA pentru a recunoa\u0219te pietonii."},
-gb6(){return"Nu necesit\u0103 internet. Nu e nevoie s\u0103 num\u0103ra\u021bi manual persoanele cu un dispozitiv tradi\u021bional. Configura\u021bi-v\u0103 telefonul pentru a monitoriza automat traficul pietonal."},
-gaO(){return"Monitorizare 24/7"},
-gaP(){return"Vizualiza\u021bi num\u0103rul de pietoni pentru orice perioad\u0103."},
-gaQ(){return"Urm\u0103rirea mai multor obiecte"},
-gaR(){return"Num\u0103ra\u021bi simultan pietoni, ma\u0219ini, biciclete \u0219i altele"},
-gaS(){return"Zone de detec\u021bie personalizate"},
-gaT(){return"Defini\u021bi zone de detec\u021bie personalizate pentru a num\u0103ra traficul \xeen anumite zone."},
-gaU(){return"Moduri de num\u0103rare flexibile"},
-gaV(){return"Alege\u021bi s\u0103 num\u0103ra\u021bi obiectele nou ap\u0103rute \xeen zona de detec\u021bie sau pe cele care r\u0103m\xe2n sta\u021bionare."},
-gb2(){return"Disponibilitatea versiunii pentru desktop"},
-gb1(){return"Oferim \u0219i o versiune pentru desktop. Asigur\u0103m versiuni pentru iOS/Android/Mac/Windows, permi\u021b\xe2ndu-v\u0103 s\u0103 utiliza\u021bi at\xe2t dispozitive mobile, c\xe2t \u0219i desktop-uri cu camere web. Versiunea pentru desktop suport\u0103 mai multe surse video, permi\u021b\xe2nd num\u0103rarea simultan\u0103 din multiple fluxuri."},
-gb0(){return"Suport pentru transmisii live"},
-gb_(){return"Pe l\xe2ng\u0103 camerele dispozitivelor mobile, accept\u0103m fi\u0219iere video \xeenregistrate, camere web \u0219i transmisii live de pe internet, cum ar fi RTSP. Acest lucru v\u0103 permite s\u0103 v\u0103 conecta\u021bi la dispozitivele existente \u0219i s\u0103 \xeencepe\u021bi imediat m\u0103surarea fluxului de trafic."},
-gb5(){return"Trimite\u021bi-ne un e-mail"},
-gaJ(){return"Contor"},
-gaI(){return"Dori\u021bi s\u0103 \u0219ti\u021bi c\xe2te persoane trec? Aceast\u0103 aplica\u021bie folose\u0219te camera telefonului pentru a identifica inteligent \u0219i a num\u0103ra automat pietonii. Nu este necesar\u0103 introducerea manual\u0103. Spune\u021bi adio num\u0103r\u0103rii plictisitoare \u0219i monitoriza\u021bi cu u\u0219urin\u021b\u0103 fluxul de trafic."},
-gaY(){return"Termeni de utilizare"},
-gaX(){return"Confiden\u021bialitate"}}
+A=a.updateHolder(c[108],A)
+A.rB.prototype={
+gaV(){return"Preuzmi"},
+gb3(){return"Uskoro dostupno."},
+gb2(){return"Dostupno na prole\u0107e 2025."},
+gb6(){return"Va\u0161 telefon sada mo\u017ee da koristi ve\u0161ta\u010dku inteligenciju za prepoznavanje pe\u0161aka."},
+gb5(){return"Nije potreban internet. Nije potrebno ru\u010dno brojanje ljudi tradicionalnim broja\u010dem. Samo podesite telefon da automatski prati prolaznike."},
+gaN(){return"Pra\u0107enje 24/7"},
+gaO(){return"Pregledajte broj prolaznika za bilo koji vremenski period."},
+gaP(){return"Pra\u0107enje vi\u0161e objekata"},
+gaQ(){return"Istovremeno brojite pe\u0161ake, automobile, bicikle i jo\u0161 mnogo toga"},
+gaR(){return"Prilago\u0111ene zone detekcije"},
+gaS(){return"Defini\u0161ite prilago\u0111ene zone detekcije za brojanje saobra\u0107aja u odre\u0111enim oblastima."},
+gaT(){return"Fleksibilni re\u017eimi brojanja"},
+gaU(){return"Izaberite da brojite nove objekte koji se pojavljuju u zoni detekcije ili one koji ostaju nepokretni."},
+gb1(){return"Dostupnost desktop verzije"},
+gb0(){return"Tako\u0111e nudimo desktop verziju. Obezbe\u0111ujemo verzije za iOS/Android/Mac/Windows, omogu\u0107avaju\u0107i vam da koristite i mobilne ure\u0111aje i desktop ra\u010dunare sa veb kamerama. Desktop verzija dodatno podr\u017eava vi\u0161e video izvora, omogu\u0107avaju\u0107i istovremeno brojanje sa vi\u0161e tokova."},
+gb_(){return"Podr\u0161ka za prenos u\u017eivo"},
+gaZ(){return"Pored kamera mobilnih ure\u0111aja, podr\u017eavamo snimljene video datoteke, unose veb kamera i internet prenose u\u017eivo kao \u0161to je RTSP. Ovo vam omogu\u0107ava da se pove\u017eete sa postoje\u0107im ure\u0111ajima i odmah po\u010dnete meriti protok saobra\u0107aja."},
+gb4(){return"Po\u0161aljite nam e-po\u0161tu"},
+gaI(){return"\u017delite da znate koliko ljudi prolazi pored vas? Ova aplikacija koristi kameru va\u0161eg telefona da inteligentno identifikuje i automatski broji pe\u0161ake. Nije potreban ru\u010dni unos. Oprostite se od dosadnog brojanja i lako pratite protok saobra\u0107aja."},
+gaX(){return"Uslovi kori\u0161\u0107enja"},
+gaW(){return"\u041f\u0440\u0438\u0432\u0430\u0442\u043d\u043e\u0441\u0442"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.rp,C.z)})()
-B.ab(b.typeUniverse,JSON.parse('{"rp":{"z":[]}}'))};
+y(A.rB,C.z)})()
+B.ab(b.typeUniverse,JSON.parse('{"rB":{"z":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_85",e:"endPart",h:b})})($__dart_deferred_initializers__,"moVj8Ydx9xXkx4XdEMOabEaukAg=");
+a.eventLog.push({p:"main.dart.js_85",e:"endPart",h:b})})($__dart_deferred_initializers__,"JucUHjN0MefesdCl53A48JhxYiM=");

@@ -66,9 +66,6 @@ class LocalizationCa extends Localization {
   String get index_email_us => 'Envia\'ns un correu';
 
   @override
-  String get app_name => 'Comptador';
-
-  @override
   String get app_desc => 'Vols saber quanta gent passa pel davant? Aquesta aplicació utilitza la càmera del teu telèfon per identificar intel·ligentment i comptar automàticament els vianants. No cal introducció manual. Digues adéu al recompte tediós i monitora fàcilment el flux de trànsit.';
 
   @override
