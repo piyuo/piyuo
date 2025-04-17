@@ -2,35 +2,36 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_66",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aOR(){B.P("lv")
-return new A.pO()},
-pO:function pO(){}}
+aVi(){B.S("lt")
+return new A.r1()},
+r1:function r1(){}}
 B=c[0]
 C=c[120]
-A=a.updateHolder(c[96],A)
-A.pO.prototype={
-gaQ(){return"Lejupiel\u0101d\u0113t"},
-gaX(){return"Dr\u012bzum\u0101 pieejams."},
-gaW(){return"Pieejams 2025. gada pavasar\u012b."},
-gb_(){return"J\u016bsu t\u0101lrunis tagad var izmantot MI, lai atpaz\u012btu g\u0101j\u0113jus."},
-gaZ(){return"Nav nepiecie\u0161ams internets. Nav nepiecie\u0161ams manu\u0101li skait\u012bt cilv\u0113kus ar tradicion\u0101lo skait\u012bt\u0101ju. Vienk\u0101r\u0161i iestatiet telefonu, lai tas autom\u0101tiski izsekotu g\u0101j\u0113ju pl\u016bsmu."},
-gaI(){return"24/7 izseko\u0161ana"},
-gaJ(){return"Skatiet g\u0101j\u0113ju pl\u016bsmas datus par jebkuru laika periodu."},
-gaK(){return"Vair\u0101ku objektu izseko\u0161ana"},
-gaL(){return"Vienlaic\u012bgi skaitiet g\u0101j\u0113jus, automa\u0161\u012bnas, velosip\u0113dus un citus objektus"},
-gaM(){return"Piel\u0101gotas noteik\u0161anas zonas"},
-gaN(){return"Izveidojiet piel\u0101gotas noteik\u0161anas zonas, lai skait\u012btu satiksmi noteikt\u0101s viet\u0101s."},
-gaO(){return"Elast\u012bgi skait\u012b\u0161anas re\u017e\u012bmi"},
-gaP(){return"Izv\u0113lieties skait\u012bt jaunus objektus, kas par\u0101d\u0101s noteik\u0161anas zon\u0101, vai tos, kas paliek nekust\u012bgi."},
-gaV(){return"Darbvirsmas versijas pieejam\u012bba"},
-gaU(){return"M\u0113s pied\u0101v\u0101jam ar\u012b darbvirsmas versiju. M\u0113s nodro\u0161in\u0101m versijas iOS/Android/Mac/Windows, \u013caujot izmantot gan mobil\u0101s ier\u012bces, gan darbvirsmas datorus ar t\u012bmek\u013ca kamer\u0101m. Darbvirsmas versija turkl\u0101t atbalsta vair\u0101kus video avotus, \u013caujot vienlaikus skait\u012bt no vair\u0101k\u0101m pl\u016bsm\u0101m."},
-gaT(){return"Tie\u0161raides atbalsts"},
-gaS(){return"Papildus mobilo ier\u012b\u010du kamer\u0101m m\u0113s atbalst\u0101m ierakst\u012btus video failus, t\u012bmek\u013ca kameru ievades un interneta tie\u0161raides, piem\u0113ram, RTSP. Tas \u013cauj piesl\u0113gties eso\u0161aj\u0101m ier\u012bc\u0113m un nekav\u0113joties s\u0101kt m\u0113r\u012bt satiksmes pl\u016bsmu."},
-gaY(){return"Rakstiet mums"},
-gaC(){return"Skait\u012bt\u0101js"},
-gaB(){return"V\u0113laties uzzin\u0101t, cik daudz cilv\u0113ku iet gar\u0101m? \u0160\u012b lietotne izmanto j\u016bsu t\u0101lru\u0146a kameru, lai gudri identific\u0113tu un autom\u0101tiski skait\u012btu g\u0101j\u0113jus. Nav nepiecie\u0161ama manu\u0101la ievade. Atvadieties no nogurdino\u0161as skait\u012b\u0161anas un viegli uzraugiet satiksmes pl\u016bsmu."}}
+A=a.updateHolder(c[95],A)
+A.r1.prototype={
+gaV(){return"Atsisi\u0173sti"},
+gb3(){return"Netrukus."},
+gb2(){return"Bus prieinama 2025 m. pavasar\u012f."},
+gb6(){return"J\u016bs\u0173 telefonas dabar gali naudoti dirbtin\u012f intelekt\u0105 p\u0117s\u010di\u0173j\u0173 atpa\u017einimui."},
+gb5(){return"Nereikia interneto. Nereikia rankiniu b\u016bdu skai\u010diuoti \u017emoni\u0173 tradiciniu skai\u010diuokliu. Tiesiog nustatykite savo telefon\u0105 automati\u0161kai sekti praeinan\u010di\u0173 p\u0117s\u010di\u0173j\u0173 sraut\u0105."},
+gaN(){return"Sekimas 24/7"},
+gaO(){return"Per\u017ei\u016br\u0117kite p\u0117s\u010di\u0173j\u0173 srauto skai\u010dius bet kuriuo laiko periodu."},
+gaP(){return"Keli\u0173 objekt\u0173 sekimas"},
+gaQ(){return"Vienu metu skai\u010diuokite p\u0117s\u010diuosius, automobilius, dvira\u010dius ir kitus objektus"},
+gaR(){return"Pasirinktin\u0117s aptikimo zonos"},
+gaS(){return"Nustatykite pasirinktines aptikimo zonas konkre\u010di\u0173 viet\u0173 eismo skai\u010diavimui."},
+gaT(){return"Lankst\u016bs skai\u010diavimo re\u017eimai"},
+gaU(){return"Pasirinkite skai\u010diuoti naujai atsirandan\u010dius objektus aptikimo zonoje arba tuos, kurie i\u0161lieka nejudantys."},
+gb1(){return"Darbalaukio versijos prieinamumas"},
+gb0(){return"Taip pat si\u016blome darbalaukio versij\u0105. Teikiame versijas iOS/Android/Mac/Windows platformoms, leid\u017eian\u010dias naudoti tiek mobiliuosius \u012frenginius, tiek darbalaukio kompiuterius su internetin\u0117mis kameromis. Darbalaukio versija papildomai palaiko kelis vaizdo \u0161altinius, leid\u017eian\u010dius vienu metu skai\u010diuoti i\u0161 keli\u0173 sraut\u0173."},
+gb_(){return"Tiesiogini\u0173 transliacij\u0173 palaikymas"},
+gaZ(){return"Be mobili\u0173j\u0173 \u012frengini\u0173 kamer\u0173, palaikome \u012fra\u0161ytus vaizdo failus, internetini\u0173 kamer\u0173 \u012fvestis ir interneto tiesiogines transliacijas, tokias kaip RTSP. Tai leid\u017eia prisijungti prie esam\u0173 \u012frengini\u0173 ir i\u0161kart prad\u0117ti matuoti eismo sraut\u0105."},
+gb4(){return"Ra\u0161ykite mums"},
+gaI(){return"Norite \u017einoti, kiek \u017emoni\u0173 praeina pro \u0161al\u012f? \u0160i program\u0117l\u0117 naudoja j\u016bs\u0173 telefono kamer\u0105 i\u0161maniam p\u0117s\u010di\u0173j\u0173 atpa\u017einimui ir automatiniam skai\u010diavimui. Nereikia rankinio \u012fvedimo. Atsisveikinkite su varginan\u010diu skai\u010diavimu ir lengvai steb\u0117kite eismo sraut\u0105."},
+gaX(){return"Paslaug\u0173 teikimo s\u0105lygos"},
+gaW(){return"Privatumas"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.pO,C.x)})()
-B.a4(b.typeUniverse,JSON.parse('{"pO":{"x":[]}}'))};
+y(A.r1,C.z)})()
+B.ab(b.typeUniverse,JSON.parse('{"r1":{"z":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_66",e:"endPart",h:b})})($__dart_deferred_initializers__,"U9gVMaZ9K5mV4AlAxX+jqZI1oII=");
+a.eventLog.push({p:"main.dart.js_66",e:"endPart",h:b})})($__dart_deferred_initializers__,"fMH9SnqMyFXm4o7mUBtZlbglEB4=");
