@@ -345,12 +345,6 @@ abstract class Localization {
   /// **'Email us'**
   String get index_email_us;
 
-  /// No description provided for @app_name.
-  ///
-  /// In en, this message translates to:
-  /// **'Counter'**
-  String get app_name;
-
   /// No description provided for @app_desc.
   ///
   /// In en, this message translates to:

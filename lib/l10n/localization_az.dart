@@ -66,9 +66,6 @@ class LocalizationAz extends Localization {
   String get index_email_us => 'Bizə e-poçt göndərin';
 
   @override
-  String get app_name => 'Sayğac';
-
-  @override
   String get app_desc => 'Neçə insanın keçdiyini bilmək istəyirsiniz? Bu tətbiq telefonunuzun kamerasını istifadə edərək piyadaları ağıllı şəkildə müəyyən edir və avtomatik sayır. Heç bir əl ilə daxiletmə tələb olunmur. Yorucu sayma ilə vidalaşın və trafik axınını asanlıqla izləyin.';
 
   @override

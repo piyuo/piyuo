@@ -66,9 +66,6 @@ class LocalizationHe extends Localization {
   String get index_email_us => 'שלח לנו דוא\"ל';
 
   @override
-  String get app_name => 'מונה';
-
-  @override
   String get app_desc => 'רוצה לדעת כמה אנשים עוברים? אפליקציה זו משתמשת במצלמת הטלפון שלך לזיהוי חכם וספירה אוטומטית של הולכי רגל. ללא צורך בקלט ידני. אמור שלום לספירה מייגעת ועקוב בקלות אחר זרימת התנועה.';
 
   @override

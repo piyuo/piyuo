@@ -66,9 +66,6 @@ class LocalizationGu extends Localization {
   String get index_email_us => 'અમને ઈમેલ કરો';
 
   @override
-  String get app_name => 'કાઉન્ટર';
-
-  @override
   String get app_desc => 'કેટલા લોકો પસાર થાય છે તે જાણવા માંગો છો? આ એપ્લિકેશન રાહદારીઓને બુદ્ધિમાન રીતે ઓળખવા અને આપોઆપ ગણવા માટે તમારા ફોનના કેમેરાનો ઉપયોગ કરે છે. કોઈ મેન્યુઅલ ઇનપુટની જરૂર નથી. કંટાળાજનક ગણતરીને અલવિદા કહો અને સરળતાથી અવરજવર પ્રવાહનું નિરીક્ષણ કરો.';
 
   @override

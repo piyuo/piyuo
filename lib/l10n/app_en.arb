@@ -18,7 +18,6 @@
   "index_desktop2_title": "Live Stream Support",
   "index_desktop2_desc": "In addition to mobile device cameras, we support recorded video files, webcam inputs, and internet live streams such as RTSP. This allows you to connect to existing devices and immediately begin measuring traffic flow.",
   "index_email_us": "Email us",
-  "app_name": "Counter",
   "app_desc": "Want to know how many people pass by? This app uses your phone's camera to intelligently identify and automatically count pedestrians. No manual input required. Say goodbye to tedious counting and easily monitor traffic flow.",
   "video_desc": "No internet required. No need to manually count people with a traditional clicker. Just set up your phone to automatically track passing foot traffic.",
   "terms": "Terms of Service",

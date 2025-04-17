@@ -66,9 +66,6 @@ class LocalizationPt extends Localization {
   String get index_email_us => 'Envie-nos um email';
 
   @override
-  String get app_name => 'Contador';
-
-  @override
   String get app_desc => 'Quer saber quantas pessoas passam por perto? Este aplicativo usa a câmera do seu celular para identificar inteligentemente e contar automaticamente os pedestres. Não é necessária entrada manual. Diga adeus à contagem tediosa e monitore facilmente o fluxo de tráfego.';
 
   @override
@@ -141,9 +138,6 @@ class LocalizationPtPt extends LocalizationPt {
 
   @override
   String get index_email_us => 'Envie-nos um email';
-
-  @override
-  String get app_name => 'Contador';
 
   @override
   String get app_desc => 'Quer saber quantas pessoas passam por perto? Esta aplicação usa a câmara do seu telemóvel para identificar inteligentemente e contar automaticamente os peões. Não é necessária introdução manual. Diga adeus à contagem tediosa e monitorize facilmente o fluxo de tráfego.';

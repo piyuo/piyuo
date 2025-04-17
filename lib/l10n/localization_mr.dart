@@ -66,9 +66,6 @@ class LocalizationMr extends Localization {
   String get index_email_us => 'आम्हाला ईमेल करा';
 
   @override
-  String get app_name => 'काउंटर';
-
-  @override
   String get app_desc => 'किती लोक जातात हे जाणून घ्यायचे आहे? हे अॅप तुमच्या फोनचा कॅमेरा वापरून बुद्धिमत्तेने पादचारी ओळखते आणि स्वयंचलितपणे मोजते. मॅन्युअल इनपुटची आवश्यकता नाही. कंटाळवाणी मोजणीला सोडून द्या आणि वर्दळीचा प्रवाह सहजपणे नियंत्रित करा.';
 
   @override

@@ -66,9 +66,6 @@ class LocalizationHu extends Localization {
   String get index_email_us => 'Írjon nekünk e-mailt';
 
   @override
-  String get app_name => 'Számláló';
-
-  @override
   String get app_desc => 'Szeretné tudni, hány ember halad el? Ez az alkalmazás telefonja kameráját használja a gyalogosok intelligens azonosítására és automatikus számlálására. Nincs szükség kézi bevitelre. Búcsúzzon el a fárasztó számolástól, és könnyen figyelje a forgalom áramlását.';
 
   @override

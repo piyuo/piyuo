@@ -66,9 +66,6 @@ class LocalizationRo extends Localization {
   String get index_email_us => 'Trimiteți-ne un e-mail';
 
   @override
-  String get app_name => 'Contor';
-
-  @override
   String get app_desc => 'Doriți să știți câte persoane trec? Această aplicație folosește camera telefonului pentru a identifica inteligent și a număra automat pietonii. Nu este necesară introducerea manuală. Spuneți adio numărării plictisitoare și monitorizați cu ușurință fluxul de trafic.';
 
   @override

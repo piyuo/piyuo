@@ -66,9 +66,6 @@ class LocalizationIt extends Localization {
   String get index_email_us => 'Contattaci via email';
 
   @override
-  String get app_name => 'Contatore';
-
-  @override
   String get app_desc => 'Vuoi sapere quante persone passano? Questa app utilizza la fotocamera del tuo telefono per identificare in modo intelligente e contare automaticamente i pedoni. Nessun input manuale richiesto. Dì addio al conteggio tedioso e monitora facilmente il flusso del traffico.';
 
   @override

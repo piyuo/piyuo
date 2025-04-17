@@ -66,9 +66,6 @@ class LocalizationGl extends Localization {
   String get index_email_us => 'Envíanos un correo';
 
   @override
-  String get app_name => 'Contador';
-
-  @override
   String get app_desc => 'Queres saber cantas persoas pasan preto? Esta aplicación utiliza a cámara do teu móbil para identificar intelixentemente e contar automaticamente os peóns. Non require entrada manual. Dille adeus ao tedioso conteo e monitoriza facilmente o fluxo de tráfico.';
 
   @override

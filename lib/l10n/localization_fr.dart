@@ -66,9 +66,6 @@ class LocalizationFr extends Localization {
   String get index_email_us => 'Contactez-nous par e-mail';
 
   @override
-  String get app_name => 'Compteur';
-
-  @override
   String get app_desc => 'Vous voulez savoir combien de personnes passent ? Cette application utilise la caméra de votre téléphone pour identifier intelligemment et compter automatiquement les piétons. Aucune saisie manuelle requise. Dites adieu au comptage fastidieux et surveillez facilement le flux de trafic.';
 
   @override
@@ -141,9 +138,6 @@ class LocalizationFrBe extends LocalizationFr {
 
   @override
   String get index_email_us => 'Contactez-nous par e-mail';
-
-  @override
-  String get app_name => 'Compteur';
 
   @override
   String get app_desc => 'Vous voulez savoir combien de personnes passent ? Cette application utilise la caméra de votre GSM pour identifier intelligemment et compter automatiquement les piétons. Aucune saisie manuelle requise. Dites adieu au comptage fastidieux et surveillez facilement le flux de passage.';
@@ -220,9 +214,6 @@ class LocalizationFrCa extends LocalizationFr {
   String get index_email_us => 'Écrivez-nous';
 
   @override
-  String get app_name => 'Compteur';
-
-  @override
   String get app_desc => 'Vous voulez savoir combien de personnes passent? Cette application utilise la caméra de votre cellulaire pour identifier intelligemment et compter automatiquement les piétons. Aucune saisie manuelle requise. Dites adieu au comptage fastidieux et surveillez facilement l\'achalandage.';
 
   @override
@@ -295,9 +286,6 @@ class LocalizationFrCh extends LocalizationFr {
 
   @override
   String get index_email_us => 'Contactez-nous par e-mail';
-
-  @override
-  String get app_name => 'Compteur';
 
   @override
   String get app_desc => 'Vous voulez savoir combien de personnes passent ? Cette application utilise la caméra de votre natel pour identifier intelligemment et compter automatiquement les piétons. Aucune saisie manuelle requise. Dites adieu au comptage fastidieux et surveillez facilement le flux de passage.';

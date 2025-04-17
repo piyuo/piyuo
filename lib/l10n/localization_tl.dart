@@ -66,9 +66,6 @@ class LocalizationTl extends Localization {
   String get index_email_us => 'Mag-email sa amin';
 
   @override
-  String get app_name => 'Counter';
-
-  @override
   String get app_desc => 'Gusto mo bang malaman kung ilang tao ang dumadaan? Ang app na ito ay gumagamit ng camera ng iyong telepono para matalinong tukuyin at awtomatikong bilangin ang mga naglalakad. Hindi kailangan ng manu-manong pag-input. Magpaalam sa nakakainip na pagbibilang at madaling subaybayan ang daloy ng trapiko.';
 
   @override

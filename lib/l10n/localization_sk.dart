@@ -66,9 +66,6 @@ class LocalizationSk extends Localization {
   String get index_email_us => 'Napíšte nám';
 
   @override
-  String get app_name => 'Počítadlo';
-
-  @override
   String get app_desc => 'Chcete vedieť, koľko ľudí prejde okolo? Táto aplikácia využíva kameru vášho telefónu na inteligentné rozpoznávanie a automatické počítanie chodcov. Nie je potrebný žiadny manuálny vstup. Rozlúčte sa s únavným počítaním a jednoducho monitorujte tok premávky.';
 
   @override

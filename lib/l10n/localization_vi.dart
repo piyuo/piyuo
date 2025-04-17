@@ -66,9 +66,6 @@ class LocalizationVi extends Localization {
   String get index_email_us => 'Gửi email cho chúng tôi';
 
   @override
-  String get app_name => 'Bộ đếm';
-
-  @override
   String get app_desc => 'Bạn muốn biết có bao nhiêu người đi ngang qua? Ứng dụng này sử dụng camera điện thoại để nhận diện thông minh và tự động đếm người đi bộ. Không cần nhập liệu thủ công. Tạm biệt việc đếm tẻ nhạt và dễ dàng giám sát lưu lượng người qua lại.';
 
   @override

@@ -66,9 +66,6 @@ class LocalizationLv extends Localization {
   String get index_email_us => 'Rakstiet mums';
 
   @override
-  String get app_name => 'Skaitītājs';
-
-  @override
   String get app_desc => 'Vēlaties uzzināt, cik daudz cilvēku iet garām? Šī lietotne izmanto jūsu tālruņa kameru, lai gudri identificētu un automātiski skaitītu gājējus. Nav nepieciešama manuāla ievade. Atvadieties no nogurdinošas skaitīšanas un viegli uzraugiet satiksmes plūsmu.';
 
   @override

@@ -66,9 +66,6 @@ class LocalizationDa extends Localization {
   String get index_email_us => 'Send os en mail';
 
   @override
-  String get app_name => 'Tæller';
-
-  @override
   String get app_desc => 'Vil du vide, hvor mange mennesker der passerer forbi? Denne app bruger din telefons kamera til intelligent at identificere og automatisk tælle fodgængere. Intet manuelt input påkrævet. Sig farvel til kedelig optælling og overvåg nemt trafikstrømmen.';
 
   @override

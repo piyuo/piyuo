@@ -66,9 +66,6 @@ class LocalizationMs extends Localization {
   String get index_email_us => 'E-mel kami';
 
   @override
-  String get app_name => 'Counter';
-
-  @override
   String get app_desc => 'Ingin tahu berapa ramai orang yang lalu lalang? Aplikasi ini menggunakan kamera telefon anda untuk mengenal pasti secara pintar dan mengira pejalan kaki secara automatik. Tiada input manual diperlukan. Ucapkan selamat tinggal kepada pengiraan yang membosankan dan pantau aliran trafik dengan mudah.';
 
   @override
@@ -141,9 +138,6 @@ class LocalizationMsSg extends LocalizationMs {
 
   @override
   String get index_email_us => 'E-mel kami';
-
-  @override
-  String get app_name => 'Counter';
 
   @override
   String get app_desc => 'Nak tahu berapa ramai orang yang lalu lalang? Aplikasi ini menggunakan kamera telefon bimbit anda untuk mengenal pasti secara pintar dan mengira pejalan kaki secara automatik. Tiada input manual diperlukan. Ucapkan selamat tinggal kepada pengiraan yang membosankan dan pantau aliran trafik dengan mudah.';

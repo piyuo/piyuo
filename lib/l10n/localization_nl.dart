@@ -66,9 +66,6 @@ class LocalizationNl extends Localization {
   String get index_email_us => 'Mail ons';
 
   @override
-  String get app_name => 'Teller';
-
-  @override
   String get app_desc => 'Wil je weten hoeveel mensen er langskomen? Deze app gebruikt de camera van je telefoon om op intelligente wijze voetgangers te identificeren en automatisch te tellen. Geen handmatige invoer vereist. Zeg vaarwel tegen vervelend telwerk en monitor eenvoudig verkeersstromen.';
 
   @override
@@ -141,9 +138,6 @@ class LocalizationNlBe extends LocalizationNl {
 
   @override
   String get index_email_us => 'Mail ons';
-
-  @override
-  String get app_name => 'Teller';
 
   @override
   String get app_desc => 'Wil je weten hoeveel mensen er langskomen? Deze app gebruikt de camera van je gsm om op intelligente wijze voetgangers te identificeren en automatisch te tellen. Geen handmatige invoer vereist. Zeg vaarwel tegen vervelend telwerk en monitor eenvoudig verkeersstromen.';

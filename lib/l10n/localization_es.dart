@@ -66,9 +66,6 @@ class LocalizationEs extends Localization {
   String get index_email_us => 'Envíanos un correo electrónico';
 
   @override
-  String get app_name => 'Contador';
-
-  @override
   String get app_desc => '¿Quieres saber cuántas personas pasan? Esta aplicación utiliza la cámara de tu teléfono para identificar de forma inteligente y contar automáticamente a los peatones. No se requiere entrada manual. Dile adiós al conteo tedioso y monitoriza fácilmente el flujo de tráfico.';
 
   @override
@@ -143,9 +140,6 @@ class LocalizationEsAr extends LocalizationEs {
   String get index_email_us => 'Envianos un correo electrónico';
 
   @override
-  String get app_name => 'Contador';
-
-  @override
   String get app_desc => '¿Querés saber cuántas personas pasan? Esta aplicación utiliza la cámara de tu celular para identificar de forma inteligente y contar automáticamente a los peatones. No se requiere entrada manual. Decile adiós al conteo tedioso y monitoreá fácilmente el flujo de tránsito.';
 
   @override
@@ -218,9 +212,6 @@ class LocalizationEsCo extends LocalizationEs {
 
   @override
   String get index_email_us => 'Envíanos un correo electrónico';
-
-  @override
-  String get app_name => 'Contador';
 
   @override
   String get app_desc => '¿Quieres saber cuántas personas pasan? Esta aplicación utiliza la cámara de tu celular para identificar de forma inteligente y contar automáticamente a los peatones. No se requiere entrada manual. Dile adiós al conteo tedioso y monitorea fácilmente el flujo de tráfico.';

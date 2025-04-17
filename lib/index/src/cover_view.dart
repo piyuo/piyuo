@@ -10,13 +10,13 @@ class CoverView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final textTheme = Theme.of(context).textTheme;
-
+    final appName = 'Piyuo Counter';
     return isMobile
         ? Column(
           children: [
             SizedBox(width: 160, child: Image.asset('assets/images/icon.webp')),
             const SizedBox(height: 20),
-            SelectableText(context.l.app_name, style: textTheme.displaySmall),
+            SelectableText(appName, style: textTheme.displaySmall),
             const SizedBox(height: 20),
             Image.asset('assets/images/app.webp', width: double.infinity, fit: BoxFit.cover),
             const SizedBox(height: 20),
@@ -30,7 +30,7 @@ class CoverView extends StatelessWidget {
                 children: [
                   SizedBox(width: 160, child: Image.asset('assets/images/icon.webp')),
                   const SizedBox(height: 20),
-                  SelectableText(context.l.app_name, style: textTheme.displayLarge),
+                  SelectableText(appName, style: textTheme.displayLarge),
                   const SizedBox(height: 20),
                   SelectableText(context.l.app_desc, style: textTheme.bodyMedium, textAlign: TextAlign.center),
                 ],

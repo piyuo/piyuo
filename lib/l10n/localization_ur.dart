@@ -66,9 +66,6 @@ class LocalizationUr extends Localization {
   String get index_email_us => 'ہمیں ای میل کریں';
 
   @override
-  String get app_name => 'کاؤنٹر';
-
-  @override
   String get app_desc => 'کیا آپ جاننا چاہتے ہیں کہ کتنے لوگ گزرتے ہیں؟ یہ ایپ آپ کے فون کے کیمرے کا استعمال کرکے ہوشیاری سے پیدل چلنے والوں کی شناخت کرتی ہے اور خود بخود گنتی کرتی ہے۔ دستی ان پٹ کی ضرورت نہیں۔ تھکا دینے والی گنتی کو الوداع کہیں اور آسانی سے ٹریفک فلو کی نگرانی کریں۔';
 
   @override
@@ -141,9 +138,6 @@ class LocalizationUrIn extends LocalizationUr {
 
   @override
   String get index_email_us => 'ہمیں ای میل کریں';
-
-  @override
-  String get app_name => 'کاؤنٹر';
 
   @override
   String get app_desc => 'کیا آپ جاننا چاہتے ہیں کہ کتنے لوگ گزرتے ہیں؟ یہ ایپ آپ کے فون کے کیمرے کا استعمال کرکے ہوشیاری سے پیدل چلنے والوں کی شناخت کرتی ہے اور خود بخود گنتی کرتی ہے۔ دستی ان پٹ کی ضرورت نہیں۔ تھکا دینے والی گنتی کو الوداع کہیں اور آسانی سے یاتایات بہاؤ کی نگرانی کریں۔';

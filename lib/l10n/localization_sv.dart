@@ -66,9 +66,6 @@ class LocalizationSv extends Localization {
   String get index_email_us => 'Maila oss';
 
   @override
-  String get app_name => 'Räknare';
-
-  @override
   String get app_desc => 'Vill du veta hur många människor som passerar förbi? Denna app använder din telefons kamera för att intelligent identifiera och automatiskt räkna fotgängare. Ingen manuell inmatning krävs. Säg farväl till tråkig räkning och övervaka enkelt trafikflödet.';
 
   @override

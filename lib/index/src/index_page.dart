@@ -185,7 +185,6 @@ class IndexScreen extends StatelessWidget {
                         Column(
                           children: [
                             SizedBox(height: 85 + safePadding.top),
-                            //SizedBox(height: 350, child: VideoPlayer(indexPageProvider.videoController)),
                             GlassContainer(padding: contentEdgeInsets, child: CoverView(isMobile: isMobile)),
                             const SizedBox(height: _kContentMargin),
                             GlassContainer(padding: contentEdgeInsets, child: ScreenshotView(isMobile: isMobile)),
