@@ -15,9 +15,6 @@ class LocalizationBn extends Localization {
   String get index_download_soon => 'শীঘ্রই আসছে।';
 
   @override
-  String get index_download_available => '২০২৫ সালের বসন্তে উপলব্ধ হবে।';
-
-  @override
   String get index_language => 'ভাষা';
 
   @override
@@ -87,9 +84,6 @@ class LocalizationBnIn extends LocalizationBn {
 
   @override
   String get index_download_soon => 'শীঘ্রই আসছে।';
-
-  @override
-  String get index_download_available => '২০২৫ সালের বসন্তে উপলব্ধ হবে।';
 
   @override
   String get index_language => 'ভাষা';

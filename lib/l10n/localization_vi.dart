@@ -15,9 +15,6 @@ class LocalizationVi extends Localization {
   String get index_download_soon => 'Sắp ra mắt.';
 
   @override
-  String get index_download_available => 'Có sẵn vào mùa xuân 2025.';
-
-  @override
   String get index_language => 'Ngôn ngữ';
 
   @override

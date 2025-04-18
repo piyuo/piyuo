@@ -15,9 +15,6 @@ class LocalizationFa extends Localization {
   String get index_download_soon => 'به زودی.';
 
   @override
-  String get index_download_available => 'در بهار ۲۰۲۵ در دسترس خواهد بود.';
-
-  @override
   String get index_language => 'زبان';
 
   @override

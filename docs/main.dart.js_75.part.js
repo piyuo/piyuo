@@ -10,10 +10,9 @@ C=c[120]
 A=a.updateHolder(c[101],A)
 A.rf.prototype={
 gaV(){return"Last ned"},
-gb3(){return"Kommer snart."},
-gb2(){return"Tilgjengelig v\xe5ren 2025."},
-gb6(){return"Telefonen din kan n\xe5 bruke AI til \xe5 gjenkjenne fotgjengere."},
-gb5(){return"Ingen internett n\xf8dvendig. Ingen behov for \xe5 telle personer manuelt med en tradisjonell klikker. Bare sett opp telefonen din til \xe5 automatisk spore forbipasserende fotgjengertrafikk."},
+gb2(){return"Kommer snart."},
+gb5(){return"Telefonen din kan n\xe5 bruke AI til \xe5 gjenkjenne fotgjengere."},
+gb4(){return"Ingen internett n\xf8dvendig. Ingen behov for \xe5 telle personer manuelt med en tradisjonell klikker. Bare sett opp telefonen din til \xe5 automatisk spore forbipasserende fotgjengertrafikk."},
 gaN(){return"24/7 Sporing"},
 gaO(){return"Se antall fotgjengere for hvilken som helst tidsperiode."},
 gaP(){return"Sporing av flere objekter"},
@@ -26,7 +25,7 @@ gb1(){return"Tilgjengelighet av skrivebordversjon"},
 gb0(){return"Vi tilbyr ogs\xe5 en skrivebordversjon. Vi har versjoner for iOS/Android/Mac/Windows, som lar deg bruke b\xe5de mobile enheter og stasjon\xe6re datamaskiner med webkameraer. Skrivebordversjonen st\xf8tter i tillegg flere videokilder, noe som muliggj\xf8r samtidig telling fra flere str\xf8mmer."},
 gb_(){return"St\xf8tte for direktestr\xf8mming"},
 gaZ(){return"I tillegg til kameraer p\xe5 mobile enheter, st\xf8tter vi innspilte videofiler, webkamerainnganger og internett-direktestr\xf8mmer som RTSP. Dette lar deg koble til eksisterende enheter og umiddelbart begynne \xe5 m\xe5le trafikkflyt."},
-gb4(){return"Send e-post til oss"},
+gb3(){return"Send e-post til oss"},
 gaI(){return"Vil du vite hvor mange mennesker som passerer forbi? Denne appen bruker telefonens kamera for \xe5 intelligent identifisere og automatisk telle fotgjengere. Ingen manuell inntasting n\xf8dvendig. Si farvel til kjedelig telling og overv\xe5k trafikkflyten enkelt."},
 gaX(){return"Tjenestevilk\xe5r"},
 gaW(){return"Personvern"}}
@@ -34,4 +33,4 @@ var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
 y(A.rf,C.z)})()
 B.ab(b.typeUniverse,JSON.parse('{"rf":{"z":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_75",e:"endPart",h:b})})($__dart_deferred_initializers__,"FmnMLLgU8B9DSSIHJ00NUZXdvF0=");
+a.eventLog.push({p:"main.dart.js_75",e:"endPart",h:b})})($__dart_deferred_initializers__,"/J9XW7GZ9LqXIW5a9hMCgl+VJDU=");

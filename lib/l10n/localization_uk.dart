@@ -15,9 +15,6 @@ class LocalizationUk extends Localization {
   String get index_download_soon => 'Скоро буде доступно.';
 
   @override
-  String get index_download_available => 'Доступно навесні 2025 року.';
-
-  @override
   String get index_language => 'Мова';
 
   @override

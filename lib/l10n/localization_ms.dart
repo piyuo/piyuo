@@ -15,9 +15,6 @@ class LocalizationMs extends Localization {
   String get index_download_soon => 'Akan datang.';
 
   @override
-  String get index_download_available => 'Tersedia pada Musim Bunga 2025.';
-
-  @override
   String get index_language => 'Bahasa';
 
   @override
@@ -87,9 +84,6 @@ class LocalizationMsSg extends LocalizationMs {
 
   @override
   String get index_download_soon => 'Akan datang tidak lama lagi.';
-
-  @override
-  String get index_download_available => 'Boleh didapati pada Musim Bunga 2025.';
 
   @override
   String get index_language => 'Bahasa';

@@ -15,9 +15,6 @@ class LocalizationZh extends Localization {
   String get index_download_soon => '即將推出';
 
   @override
-  String get index_download_available => '2025年春季上線';
-
-  @override
   String get index_language => '語言';
 
   @override
@@ -87,9 +84,6 @@ class LocalizationZhCn extends LocalizationZh {
 
   @override
   String get index_download_soon => '即将推出。';
-
-  @override
-  String get index_download_available => '2025年春季上线。';
 
   @override
   String get index_language => '语言';
@@ -163,9 +157,6 @@ class LocalizationZhHk extends LocalizationZh {
   String get index_download_soon => '即將推出。';
 
   @override
-  String get index_download_available => '2025年春季推出。';
-
-  @override
   String get index_language => '語言';
 
   @override
@@ -237,9 +228,6 @@ class LocalizationZhMo extends LocalizationZh {
   String get index_download_soon => '即將推出。';
 
   @override
-  String get index_download_available => '2025年春季推出。';
-
-  @override
   String get index_language => '語言';
 
   @override
@@ -309,9 +297,6 @@ class LocalizationZhSg extends LocalizationZh {
 
   @override
   String get index_download_soon => '即将推出。';
-
-  @override
-  String get index_download_available => '2025年春季上线。';
 
   @override
   String get index_language => '语言';

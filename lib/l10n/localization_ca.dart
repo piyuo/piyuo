@@ -15,9 +15,6 @@ class LocalizationCa extends Localization {
   String get index_download_soon => 'Properament.';
 
   @override
-  String get index_download_available => 'Disponible a la primavera de 2025.';
-
-  @override
   String get index_language => 'Idioma';
 
   @override

@@ -15,9 +15,6 @@ class LocalizationEn extends Localization {
   String get index_download_soon => 'Coming soon.';
 
   @override
-  String get index_download_available => 'Available in Spring 2025.';
-
-  @override
   String get index_language => 'Language';
 
   @override
@@ -87,9 +84,6 @@ class LocalizationEnAu extends LocalizationEn {
 
   @override
   String get index_download_soon => 'Coming soon.';
-
-  @override
-  String get index_download_available => 'Available in Autumn 2025.';
 
   @override
   String get index_language => 'Language';
@@ -163,9 +157,6 @@ class LocalizationEnCa extends LocalizationEn {
   String get index_download_soon => 'Coming soon.';
 
   @override
-  String get index_download_available => 'Available in Spring 2025.';
-
-  @override
   String get index_language => 'Language';
 
   @override
@@ -237,9 +228,6 @@ class LocalizationEnGb extends LocalizationEn {
   String get index_download_soon => 'Coming soon.';
 
   @override
-  String get index_download_available => 'Available in Spring 2025.';
-
-  @override
   String get index_language => 'Language';
 
   @override
@@ -309,9 +297,6 @@ class LocalizationEnIn extends LocalizationEn {
 
   @override
   String get index_download_soon => 'Coming soon.';
-
-  @override
-  String get index_download_available => 'Available in Spring 2025.';
 
   @override
   String get index_language => 'Language';

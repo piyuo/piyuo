@@ -15,9 +15,6 @@ class LocalizationKo extends Localization {
   String get index_download_soon => '곧 출시 예정.';
 
   @override
-  String get index_download_available => '2025년 봄에 이용 가능합니다.';
-
-  @override
   String get index_language => '언어';
 
   @override

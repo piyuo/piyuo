@@ -15,9 +15,6 @@ class LocalizationUr extends Localization {
   String get index_download_soon => 'جلد آ رہا ہے۔';
 
   @override
-  String get index_download_available => 'بہار 2025 میں دستیاب۔';
-
-  @override
   String get index_language => 'زبان';
 
   @override
@@ -87,9 +84,6 @@ class LocalizationUrIn extends LocalizationUr {
 
   @override
   String get index_download_soon => 'جلد آ رہا ہے۔';
-
-  @override
-  String get index_download_available => 'بہار 2025 میں دستیاب۔';
 
   @override
   String get index_language => 'زبان';

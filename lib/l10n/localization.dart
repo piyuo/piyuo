@@ -243,12 +243,6 @@ abstract class Localization {
   /// **'Coming soon.'**
   String get index_download_soon;
 
-  /// No description provided for @index_download_available.
-  ///
-  /// In en, this message translates to:
-  /// **'Available in Spring 2025.'**
-  String get index_download_available;
-
   /// No description provided for @index_language.
   ///
   /// In en, this message translates to:

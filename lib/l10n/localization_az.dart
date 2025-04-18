@@ -15,9 +15,6 @@ class LocalizationAz extends Localization {
   String get index_download_soon => 'Tezliklə gələcək.';
 
   @override
-  String get index_download_available => '2025-ci ilin yazında mövcud olacaq.';
-
-  @override
   String get index_language => 'Dil';
 
   @override

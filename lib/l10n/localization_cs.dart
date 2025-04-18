@@ -15,9 +15,6 @@ class LocalizationCs extends Localization {
   String get index_download_soon => 'Již brzy.';
 
   @override
-  String get index_download_available => 'K dispozici na jaře 2025.';
-
-  @override
   String get index_language => 'Jazyk';
 
   @override

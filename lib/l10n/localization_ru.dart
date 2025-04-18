@@ -15,9 +15,6 @@ class LocalizationRu extends Localization {
   String get index_download_soon => 'Скоро в доступе.';
 
   @override
-  String get index_download_available => 'Доступно весной 2025 года.';
-
-  @override
   String get index_language => 'Язык';
 
   @override
@@ -89,9 +86,6 @@ class LocalizationRuKz extends LocalizationRu {
   String get index_download_soon => 'Скоро в доступе.';
 
   @override
-  String get index_download_available => 'Доступно весной 2025 года.';
-
-  @override
   String get index_language => 'Язык';
 
   @override
@@ -161,9 +155,6 @@ class LocalizationRuUa extends LocalizationRu {
 
   @override
   String get index_download_soon => 'Скоро в доступе.';
-
-  @override
-  String get index_download_available => 'Доступно весной 2025 года.';
 
   @override
   String get index_language => 'Язык';

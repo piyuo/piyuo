@@ -15,9 +15,6 @@ class LocalizationSl extends Localization {
   String get index_download_soon => 'Kmalu na voljo.';
 
   @override
-  String get index_download_available => 'Na voljo spomladi 2025.';
-
-  @override
   String get index_language => 'Jezik';
 
   @override

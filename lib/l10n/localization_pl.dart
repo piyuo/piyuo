@@ -15,9 +15,6 @@ class LocalizationPl extends Localization {
   String get index_download_soon => 'Wkrótce dostępne.';
 
   @override
-  String get index_download_available => 'Dostępne wiosną 2025.';
-
-  @override
   String get index_language => 'Język';
 
   @override

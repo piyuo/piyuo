@@ -15,9 +15,6 @@ class LocalizationFi extends Localization {
   String get index_download_soon => 'Tulossa pian.';
 
   @override
-  String get index_download_available => 'Saatavilla keväällä 2025.';
-
-  @override
   String get index_language => 'Kieli';
 
   @override

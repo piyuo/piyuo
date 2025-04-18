@@ -15,9 +15,6 @@ class LocalizationTe extends Localization {
   String get index_download_soon => 'త్వరలో వస్తోంది.';
 
   @override
-  String get index_download_available => '2025 వసంతకాలంలో అందుబాటులో ఉంటుంది.';
-
-  @override
   String get index_language => 'భాష';
 
   @override

@@ -15,9 +15,6 @@ class LocalizationAf extends Localization {
   String get index_download_soon => 'Binnekort beskikbaar.';
 
   @override
-  String get index_download_available => 'Beskikbaar in Lente 2025.';
-
-  @override
   String get index_language => 'Taal';
 
   @override

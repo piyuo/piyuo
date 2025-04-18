@@ -15,9 +15,6 @@ class LocalizationNe extends Localization {
   String get index_download_soon => 'चाँडै आउँदैछ।';
 
   @override
-  String get index_download_available => 'वसन्त २०२५ मा उपलब्ध।';
-
-  @override
   String get index_language => 'भाषा';
 
   @override

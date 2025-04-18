@@ -15,9 +15,6 @@ class LocalizationTh extends Localization {
   String get index_download_soon => 'เร็วๆ นี้';
 
   @override
-  String get index_download_available => 'พร้อมให้บริการในฤดูใบไม้ผลิ 2025';
-
-  @override
   String get index_language => 'ภาษา';
 
   @override

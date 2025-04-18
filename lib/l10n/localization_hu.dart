@@ -15,9 +15,6 @@ class LocalizationHu extends Localization {
   String get index_download_soon => 'Hamarosan érkezik.';
 
   @override
-  String get index_download_available => '2025 tavaszán elérhető.';
-
-  @override
   String get index_language => 'Nyelv';
 
   @override

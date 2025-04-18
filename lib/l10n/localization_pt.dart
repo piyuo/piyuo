@@ -15,9 +15,6 @@ class LocalizationPt extends Localization {
   String get index_download_soon => 'Em breve.';
 
   @override
-  String get index_download_available => 'Disponível na primavera de 2025.';
-
-  @override
   String get index_language => 'Idioma';
 
   @override
@@ -87,9 +84,6 @@ class LocalizationPtPt extends LocalizationPt {
 
   @override
   String get index_download_soon => 'Brevemente disponível.';
-
-  @override
-  String get index_download_available => 'Disponível na primavera de 2025.';
 
   @override
   String get index_language => 'Idioma';
