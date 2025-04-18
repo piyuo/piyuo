@@ -15,9 +15,6 @@ class LocalizationSw extends Localization {
   String get index_download_soon => 'Inakuja hivi karibuni.';
 
   @override
-  String get index_download_available => 'Itapatikana katika Majira ya Kuchipua 2025.';
-
-  @override
   String get index_language => 'Lugha';
 
   @override

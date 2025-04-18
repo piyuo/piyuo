@@ -15,9 +15,6 @@ class LocalizationAm extends Localization {
   String get index_download_soon => 'በቅርቡ ይመጣል።';
 
   @override
-  String get index_download_available => 'በ2025 ፀደይ ይገኛል።';
-
-  @override
   String get index_language => 'ቋንቋ';
 
   @override

@@ -15,9 +15,6 @@ class LocalizationMl extends Localization {
   String get index_download_soon => 'ഉടൻ വരുന്നു.';
 
   @override
-  String get index_download_available => '2025 വസന്തകാലത്ത് ലഭ്യമാകും.';
-
-  @override
   String get index_language => 'ഭാഷ';
 
   @override

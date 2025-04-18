@@ -15,9 +15,6 @@ class LocalizationMr extends Localization {
   String get index_download_soon => 'लवकरच येत आहे.';
 
   @override
-  String get index_download_available => '२०२५ च्या वसंत ऋतूमध्ये उपलब्ध.';
-
-  @override
   String get index_language => 'भाषा';
 
   @override

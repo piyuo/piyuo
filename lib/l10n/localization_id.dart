@@ -15,9 +15,6 @@ class LocalizationId extends Localization {
   String get index_download_soon => 'Segera hadir.';
 
   @override
-  String get index_download_available => 'Tersedia pada Musim Semi 2025.';
-
-  @override
   String get index_language => 'Bahasa';
 
   @override

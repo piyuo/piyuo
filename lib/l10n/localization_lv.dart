@@ -15,9 +15,6 @@ class LocalizationLv extends Localization {
   String get index_download_soon => 'Drīzumā pieejams.';
 
   @override
-  String get index_download_available => 'Pieejams 2025. gada pavasarī.';
-
-  @override
   String get index_language => 'Valoda';
 
   @override

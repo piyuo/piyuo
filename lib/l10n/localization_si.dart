@@ -15,9 +15,6 @@ class LocalizationSi extends Localization {
   String get index_download_soon => 'ඉක්මනින් එළැඹෙනු ඇත.';
 
   @override
-  String get index_download_available => '2025 වසන්ත කාලයේදී ලබා ගත හැකිය.';
-
-  @override
   String get index_language => 'භාෂාව';
 
   @override

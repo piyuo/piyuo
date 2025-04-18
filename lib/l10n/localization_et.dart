@@ -15,9 +15,6 @@ class LocalizationEt extends Localization {
   String get index_download_soon => 'Tulemas peagi.';
 
   @override
-  String get index_download_available => 'Saadaval 2025. aasta kevadel.';
-
-  @override
   String get index_language => 'Keel';
 
   @override

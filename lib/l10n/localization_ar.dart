@@ -15,9 +15,6 @@ class LocalizationAr extends Localization {
   String get index_download_soon => 'قريبًا.';
 
   @override
-  String get index_download_available => 'متوفر في ربيع 2025.';
-
-  @override
   String get index_language => 'اللغة';
 
   @override
@@ -87,9 +84,6 @@ class LocalizationArAe extends LocalizationAr {
 
   @override
   String get index_download_soon => 'قريباً.';
-
-  @override
-  String get index_download_available => 'متوفر في ربيع ٢٠٢٥.';
 
   @override
   String get index_language => 'اللغة';
@@ -163,9 +157,6 @@ class LocalizationArDz extends LocalizationAr {
   String get index_download_soon => 'قريباً.';
 
   @override
-  String get index_download_available => 'متوفر في ربيع ٢٠٢٥.';
-
-  @override
   String get index_language => 'اللغة';
 
   @override
@@ -235,9 +226,6 @@ class LocalizationArEg extends LocalizationAr {
 
   @override
   String get index_download_soon => 'قريباً.';
-
-  @override
-  String get index_download_available => 'متوفر في ربيع ٢٠٢٥.';
 
   @override
   String get index_language => 'اللغة';

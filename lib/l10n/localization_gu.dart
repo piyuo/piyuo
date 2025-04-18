@@ -15,9 +15,6 @@ class LocalizationGu extends Localization {
   String get index_download_soon => 'ટૂંક સમયમાં આવી રહ્યું છે.';
 
   @override
-  String get index_download_available => 'વસંત 2025 માં ઉપલબ્ધ.';
-
-  @override
   String get index_language => 'ભાષા';
 
   @override

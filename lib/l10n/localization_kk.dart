@@ -15,9 +15,6 @@ class LocalizationKk extends Localization {
   String get index_download_soon => 'Жақында шығады.';
 
   @override
-  String get index_download_available => '2025 жылдың көктемінде қолжетімді болады.';
-
-  @override
   String get index_language => 'Тіл';
 
   @override

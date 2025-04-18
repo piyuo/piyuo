@@ -15,9 +15,6 @@ class LocalizationTa extends Localization {
   String get index_download_soon => 'விரைவில் வருகிறது.';
 
   @override
-  String get index_download_available => '2025 வசந்த காலத்தில் கிடைக்கும்.';
-
-  @override
   String get index_language => 'மொழி';
 
   @override

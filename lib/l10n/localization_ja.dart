@@ -15,9 +15,6 @@ class LocalizationJa extends Localization {
   String get index_download_soon => '近日公開予定。';
 
   @override
-  String get index_download_available => '2025年春に利用可能。';
-
-  @override
   String get index_language => '言語';
 
   @override

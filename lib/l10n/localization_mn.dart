@@ -15,9 +15,6 @@ class LocalizationMn extends Localization {
   String get index_download_soon => 'Удахгүй.';
 
   @override
-  String get index_download_available => '2025 оны хавар гарна.';
-
-  @override
   String get index_language => 'Хэл';
 
   @override

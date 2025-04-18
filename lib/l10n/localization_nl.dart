@@ -15,9 +15,6 @@ class LocalizationNl extends Localization {
   String get index_download_soon => 'Binnenkort beschikbaar.';
 
   @override
-  String get index_download_available => 'Beschikbaar in voorjaar 2025.';
-
-  @override
   String get index_language => 'Taal';
 
   @override
@@ -87,9 +84,6 @@ class LocalizationNlBe extends LocalizationNl {
 
   @override
   String get index_download_soon => 'Binnenkort beschikbaar.';
-
-  @override
-  String get index_download_available => 'Beschikbaar in de lente van 2025.';
 
   @override
   String get index_language => 'Taal';

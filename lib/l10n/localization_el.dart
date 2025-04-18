@@ -15,9 +15,6 @@ class LocalizationEl extends Localization {
   String get index_download_soon => 'Έρχεται σύντομα.';
 
   @override
-  String get index_download_available => 'Διαθέσιμο την Άνοιξη του 2025.';
-
-  @override
   String get index_language => 'Γλώσσα';
 
   @override

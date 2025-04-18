@@ -15,9 +15,6 @@ class LocalizationTl extends Localization {
   String get index_download_soon => 'Malapit nang dumating.';
 
   @override
-  String get index_download_available => 'Magagamit sa Spring 2025.';
-
-  @override
   String get index_language => 'Wika';
 
   @override

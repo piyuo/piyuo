@@ -15,9 +15,6 @@ class LocalizationMy extends Localization {
   String get index_download_soon => 'မကြာမီလာမည်။';
 
   @override
-  String get index_download_available => '၂၀၂၅ နွေဦးရာသီတွင် ရရှိနိုင်ပါမည်။';
-
-  @override
   String get index_language => 'ဘာသာစကား';
 
   @override

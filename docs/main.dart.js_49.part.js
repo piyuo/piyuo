@@ -10,10 +10,9 @@ C=c[120]
 A=a.updateHolder(c[84],A)
 A.qG.prototype={
 gaV(){return"Descargar"},
-gb3(){return"Proximamente."},
-gb2(){return"Dispo\xf1ible na primavera de 2025."},
-gb6(){return"O teu m\xf3bil agora pode usar IA para reco\xf1ecer pe\xf3ns."},
-gb5(){return"Non require internet. Non \xe9 necesario contar manualmente \xe1s persoas cun contador tradicional. Simplemente configura o teu m\xf3bil para seguir automaticamente o tr\xe1fico peonil."},
+gb2(){return"Proximamente."},
+gb5(){return"O teu m\xf3bil agora pode usar IA para reco\xf1ecer pe\xf3ns."},
+gb4(){return"Non require internet. Non \xe9 necesario contar manualmente \xe1s persoas cun contador tradicional. Simplemente configura o teu m\xf3bil para seguir automaticamente o tr\xe1fico peonil."},
 gaN(){return"Seguimento as 24 horas"},
 gaO(){return"Consulta o conteo de tr\xe1fico peonil para calquera per\xedodo de tempo."},
 gaP(){return"Seguimento de m\xfaltiples obxectos"},
@@ -26,7 +25,7 @@ gb1(){return"Dispo\xf1ibilidade da versi\xf3n de escritorio"},
 gb0(){return"Tam\xe9n ofrecemos unha versi\xf3n de escritorio. Proporcionamos versi\xf3ns para iOS/Android/Mac/Windows, permit\xedndoche utilizar tanto dispositivos m\xf3biles como computadores de escritorio con webcams. A versi\xf3n de escritorio ademais soporta m\xfaltiples fontes de v\xeddeo, permitindo o conteo simult\xe1neo desde m\xfaltiples fluxos."},
 gb_(){return"Soporte para transmisi\xf3n en directo"},
 gaZ(){return"Ademais das c\xe1maras de dispositivos m\xf3biles, admitimos arquivos de v\xeddeo gravados, entradas de webcam e transmisi\xf3ns en directo de internet como RTSP. Isto perm\xedteche conectarte a dispositivos existentes e comezar inmediatamente a medir o fluxo de tr\xe1fico."},
-gb4(){return"Env\xedanos un correo"},
+gb3(){return"Env\xedanos un correo"},
 gaI(){return"Queres saber cantas persoas pasan preto? Esta aplicaci\xf3n utiliza a c\xe1mara do teu m\xf3bil para identificar intelixentemente e contar automaticamente os pe\xf3ns. Non require entrada manual. Dille adeus ao tedioso conteo e monitoriza facilmente o fluxo de tr\xe1fico."},
 gaX(){return"Termos de servizo"},
 gaW(){return"Privacidade"}}
@@ -34,4 +33,4 @@ var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
 y(A.qG,C.z)})()
 B.ab(b.typeUniverse,JSON.parse('{"qG":{"z":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_49",e:"endPart",h:b})})($__dart_deferred_initializers__,"dAFaoGmaKt3knRUJix+UDULGAt0=");
+a.eventLog.push({p:"main.dart.js_49",e:"endPart",h:b})})($__dart_deferred_initializers__,"mBTWPynZeZbSx2cXQ+91J5cuFk4=");
