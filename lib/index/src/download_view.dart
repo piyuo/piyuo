@@ -52,8 +52,14 @@ class DownloadView extends StatelessWidget {
 
     final appleBtn = buildButton(
       image: 'apple.webp',
-      qrCode: 'app-store.svg',
+      qrCode: 'store-apple.svg',
       url: 'https://apps.apple.com/app/piyuo-counter/id6743642606',
+    );
+
+    final windowsBtn = buildButton(
+      image: 'windows.webp',
+      qrCode: 'store-microsoft.svg',
+      url: 'https://apps.microsoft.com/detail/9nz6vcxrjjzd',
     );
 
     final androidTesterDesc =
@@ -71,7 +77,7 @@ class DownloadView extends StatelessWidget {
                 const SizedBox(height: 10),
                 buildButton(image: 'google.webp', desc: androidTesterDesc),
                 const SizedBox(height: 10),
-                buildButton(image: 'windows.webp'),
+                windowsBtn,
               ],
             )
             : Row(
@@ -82,7 +88,7 @@ class DownloadView extends StatelessWidget {
                 const SizedBox(width: 20),
                 Expanded(child: buildButton(image: 'google.webp', desc: androidTesterDesc)),
                 const SizedBox(width: 20),
-                Expanded(child: buildButton(image: 'windows.webp')),
+                Expanded(child: windowsBtn),
               ],
             ),
       ],

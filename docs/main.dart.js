@@ -40437,7 +40437,6 @@ $4$textDirection(a,b,c,d){return this.L(this,A.P("call","$4$textDirection",0,[a,
 $2$composing$selection(a,b){return this.L(this,A.P("call","$2$composing$selection",0,[a,b],["composing","selection"],0))},
 $3$image$qrCode$url(a,b,c){return this.L(this,A.P("call","$3$image$qrCode$url",0,[a,b,c],["image","qrCode","url"],0))},
 $2$desc$image(a,b){return this.L(this,A.P("call","$2$desc$image",0,[a,b],["desc","image"],0))},
-$1$image(a){return this.L(this,A.P("call","$1$image",0,[a],["image"],0))},
 $5$colors$indices$textureCoordinates(a,b,c,d,e){return this.L(this,A.P("call","$5$colors$indices$textureCoordinates",0,[a,b,c,d,e],["colors","indices","textureCoordinates"],0))},
 $3$context$exception$stack(a,b,c){return this.L(this,A.P("call","$3$context$exception$stack",0,[a,b,c],["context","exception","stack"],0))},
 $4$allowUpscaling$targetHeight$targetWidth(a,b,c,d){return this.L(this,A.P("call","$4$allowUpscaling$targetHeight$targetWidth",0,[a,b,c,d],["allowUpscaling","targetHeight","targetWidth"],0))},
@@ -83942,13 +83941,13 @@ o=A.fh(s.d,o,r)
 p=p?q.Q:q.z
 return A.eq(A.a([o,A.fh(s.e,p,B.b9),B.c_,A.cF(A.w5("assets/images/"+s.f,r,r),r,960)],t.p),B.a1,B.Q,B.a7)}}
 A.NX.prototype={
-S(a){var s,r,q="Our Android app is in closed testing on the Google Play Store. If you're interested and have a Google account, email us and we'll add you to the tester list so you can try it out!",p="google.webp",o="windows.webp",n=A.ax(a).p1,m=new A.a8G(this,n,a),l=m.$3$image$qrCode$url("apple.webp","app-store.svg","https://apps.apple.com/app/piyuo-counter/id6743642606"),k=A.bx(a,B.O,t.Y)
+S(a){var s,r,q="Our Android app is in closed testing on the Google Play Store. If you're interested and have a Google account, email us and we'll add you to the tester list so you can try it out!",p="google.webp",o=A.ax(a).p1,n=new A.a8G(this,o,a),m=n.$3$image$qrCode$url("apple.webp","store-apple.svg","https://apps.apple.com/app/piyuo-counter/id6743642606"),l=n.$3$image$qrCode$url("windows.webp","store-microsoft.svg","https://apps.microsoft.com/detail/9nz6vcxrjjzd"),k=A.bx(a,B.O,t.Y)
 k.toString
 k=k.gaV()
 s=this.c
-k=A.fh(k,s?n.f:n.e,null)
+k=A.fh(k,s?o.f:o.e,null)
 r=t.p
-return A.eq(A.a([k,B.c_,s?A.eq(A.a([l,B.j0,m.$2$desc$image(q,p),B.j0,m.$1$image(o)],r),B.a1,B.Q,B.a7):A.le(A.a([A.iG(l,1),B.fn,A.iG(m.$2$desc$image(q,p),1),B.fn,A.iG(m.$1$image(o),1)],r),B.cb,B.l9,B.a7)],r),B.a1,B.Q,B.a7)}}
+return A.eq(A.a([k,B.c_,s?A.eq(A.a([m,B.j0,n.$2$desc$image(q,p),B.j0,l],r),B.a1,B.Q,B.a7):A.le(A.a([A.iG(m,1),B.fn,A.iG(n.$2$desc$image(q,p),1),B.fn,A.iG(l,1)],r),B.cb,B.l9,B.a7)],r),B.a1,B.Q,B.a7)}}
 A.a8G.prototype={
 $4$desc$image$qrCode$url(a,b,c,d){var s,r=this,q=null,p=d==null,o=!p?new A.a8H(d):q,n=A.a([A.cF(A.w5("assets/images/"+b,q,q),q,300)],t.p),m=a==null
 if(!m){s=r.b
@@ -83961,7 +83960,6 @@ m=r.b
 n.push(A.fh(p,r.a.c?m.Q:m.z,B.b9))}return A.kW(A.w1(q,A.eq(n,B.a1,B.Q,B.a7),B.az,!1,q,q,q,q,q,q,q,q,q,q,q,q,o,q,q,q),B.c0,q,q,q,q)},
 $3$image$qrCode$url(a,b,c){return this.$4$desc$image$qrCode$url(null,a,b,c)},
 $2$desc$image(a,b){return this.$4$desc$image$qrCode$url(a,b,null,null)},
-$1$image(a){return this.$4$desc$image$qrCode$url(null,a,null,null)},
 $S:592}
 A.a8H.prototype={
 $0(){self.window.open(this.a,"_blank")
