@@ -2,13 +2,13 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_87",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aW1(){B.S("sv")
-return new A.rD()},
-rD:function rD(){}}
+aWz(){B.S("sv")
+return new A.rF()},
+rF:function rF(){}}
 B=c[0]
 C=c[120]
 A=a.updateHolder(c[109],A)
-A.rD.prototype={
+A.rF.prototype={
 gaV(){return"Ladda ner"},
 gb2(){return"Kommer snart."},
 gb5(){return"Din telefon kan nu anv\xe4nda AI f\xf6r att k\xe4nna igen fotg\xe4ngare."},
@@ -30,7 +30,7 @@ gaI(){return"Vill du veta hur m\xe5nga m\xe4nniskor som passerar f\xf6rbi? Denna
 gaX(){return"Anv\xe4ndarvillkor"},
 gaW(){return"Integritet"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.rD,C.z)})()
-B.ab(b.typeUniverse,JSON.parse('{"rD":{"z":[]}}'))};
+y(A.rF,C.z)})()
+B.ac(b.typeUniverse,JSON.parse('{"rF":{"z":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_87",e:"endPart",h:b})})($__dart_deferred_initializers__,"i+ArIIzRLK/MgOAGSmBfWVWlSjE=");
+a.eventLog.push({p:"main.dart.js_87",e:"endPart",h:b})})($__dart_deferred_initializers__,"kCzI1jkWh+AGXT/HAmzby0KvxOc=");

@@ -2,19 +2,19 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_12",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,A={
-aUC(d){B.S(d)
-return new A.mR()},
-aUE(){B.S("es_AR")
-return new A.qp()},
-aUG(){B.S("es_CO")
+aV9(d){B.S(d)
+return new A.mV()},
+aVb(){B.S("es_AR")
 return new A.qr()},
-mR:function mR(){},
-qp:function qp(){},
-qr:function qr(){}},C
+aVd(){B.S("es_CO")
+return new A.qt()},
+mV:function mV(){},
+qr:function qr(){},
+qt:function qt(){}},C
 B=c[0]
 A=a.updateHolder(c[65],A)
 C=c[120]
-A.mR.prototype={
+A.mV.prototype={
 gaV(){return"Descargar"},
 gb2(){return"Pr\xf3ximamente."},
 gb5(){return"Tu tel\xe9fono ahora puede usar IA para reconocer peatones."},
@@ -35,7 +35,7 @@ gb3(){return"Env\xedanos un correo electr\xf3nico"},
 gaI(){return"\xbfQuieres saber cu\xe1ntas personas pasan? Esta aplicaci\xf3n utiliza la c\xe1mara de tu tel\xe9fono para identificar de forma inteligente y contar autom\xe1ticamente a los peatones. No se requiere entrada manual. Dile adi\xf3s al conteo tedioso y monitoriza f\xe1cilmente el flujo de tr\xe1fico."},
 gaX(){return"T\xe9rminos de servicio"},
 gaW(){return"Privacidad"}}
-A.qp.prototype={
+A.qr.prototype={
 gaV(){return"Descargar"},
 gb2(){return"Pr\xf3ximamente."},
 gb5(){return y.a},
@@ -56,7 +56,7 @@ gb3(){return"Envianos un correo electr\xf3nico"},
 gaI(){return"\xbfQuer\xe9s saber cu\xe1ntas personas pasan? Esta aplicaci\xf3n utiliza la c\xe1mara de tu celular para identificar de forma inteligente y contar autom\xe1ticamente a los peatones. No se requiere entrada manual. Decile adi\xf3s al conteo tedioso y monitore\xe1 f\xe1cilmente el flujo de tr\xe1nsito."},
 gaX(){return"T\xe9rminos de servicio"},
 gaW(){return"Privacidad"}}
-A.qr.prototype={
+A.qt.prototype={
 gaV(){return"Descargar"},
 gb2(){return"Pr\xf3ximamente."},
 gb5(){return y.a},
@@ -78,9 +78,9 @@ gaI(){return"\xbfQuieres saber cu\xe1ntas personas pasan? Esta aplicaci\xf3n uti
 gaX(){return"T\xe9rminos de servicio"},
 gaW(){return"Privacidad"}}
 var z=a.updateTypes([]);(function inheritance(){var x=a.inherit,w=a.inheritMany
-x(A.mR,C.z)
-w(A.mR,[A.qp,A.qr])})()
-B.ab(b.typeUniverse,JSON.parse('{"mR":{"z":[]},"qp":{"z":[]},"qr":{"z":[]}}'))
+x(A.mV,C.z)
+w(A.mV,[A.qr,A.qt])})()
+B.ac(b.typeUniverse,JSON.parse('{"mV":{"z":[]},"qr":{"z":[]},"qt":{"z":[]}}'))
 var y={j:"Define zonas de detecci\xf3n personalizadas para contar el tr\xe1fico en \xe1reas espec\xedficas.",g:"Elige contar objetos que aparecen nuevamente dentro de la zona de detecci\xf3n, o aquellos que permanecen estacionarios.",a:"Tu celular ahora puede usar IA para reconocer peatones.",i:"Visualiza el conteo de tr\xe1fico peatonal para cualquier per\xedodo de tiempo."}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_12",e:"endPart",h:b})})($__dart_deferred_initializers__,"4VcaTCX8B8nxshjuhUGWROcfteo=");
+a.eventLog.push({p:"main.dart.js_12",e:"endPart",h:b})})($__dart_deferred_initializers__,"0c08PzOKFPeNzEho31ONbyuxZgM=");

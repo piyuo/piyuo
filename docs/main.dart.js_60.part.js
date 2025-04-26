@@ -2,13 +2,13 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_60",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aV8(){B.S("id")
-return new A.qS()},
-qS:function qS(){}}
+aVG(){B.S("id")
+return new A.qU()},
+qU:function qU(){}}
 B=c[0]
 C=c[120]
 A=a.updateHolder(c[90],A)
-A.qS.prototype={
+A.qU.prototype={
 gaV(){return"Unduh"},
 gb2(){return"Segera hadir."},
 gb5(){return"Ponsel Anda kini dapat menggunakan AI untuk mengenali pejalan kaki."},
@@ -30,7 +30,7 @@ gaI(){return"Ingin tahu berapa banyak orang yang lewat? Aplikasi ini menggunakan
 gaX(){return"Ketentuan Layanan"},
 gaW(){return"Privasi"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.qS,C.z)})()
-B.ab(b.typeUniverse,JSON.parse('{"qS":{"z":[]}}'))};
+y(A.qU,C.z)})()
+B.ac(b.typeUniverse,JSON.parse('{"qU":{"z":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_60",e:"endPart",h:b})})($__dart_deferred_initializers__,"5n3Q8G5auQ+5jBEob0bnA/oRWZI=");
+a.eventLog.push({p:"main.dart.js_60",e:"endPart",h:b})})($__dart_deferred_initializers__,"9l34Ub4P21fu6VyjJd13l80OBvY=");

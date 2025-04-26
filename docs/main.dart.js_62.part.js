@@ -2,13 +2,13 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_62",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aVa(){B.S("it")
-return new A.qU()},
-qU:function qU(){}}
+aVI(){B.S("it")
+return new A.qW()},
+qW:function qW(){}}
 B=c[0]
 C=c[120]
 A=a.updateHolder(c[91],A)
-A.qU.prototype={
+A.qW.prototype={
 gaV(){return"Scarica"},
 gb2(){return"Disponibile a breve."},
 gb5(){return"Il tuo telefono pu\xf2 ora utilizzare l'IA per riconoscere i pedoni."},
@@ -30,7 +30,7 @@ gaI(){return"Vuoi sapere quante persone passano? Questa app utilizza la fotocame
 gaX(){return"Termini di servizio"},
 gaW(){return"Privacy"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.qU,C.z)})()
-B.ab(b.typeUniverse,JSON.parse('{"qU":{"z":[]}}'))};
+y(A.qW,C.z)})()
+B.ac(b.typeUniverse,JSON.parse('{"qW":{"z":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_62",e:"endPart",h:b})})($__dart_deferred_initializers__,"031dIH/opectaSxqvpimPGmvNxA=");
+a.eventLog.push({p:"main.dart.js_62",e:"endPart",h:b})})($__dart_deferred_initializers__,"awTD47iDfIKJ9UCIOL/S+BDnOZI=");

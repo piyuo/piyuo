@@ -2,13 +2,13 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_95",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aWb(){B.S("tl")
-return new A.rN()},
-rN:function rN(){}}
+aWJ(){B.S("tl")
+return new A.rP()},
+rP:function rP(){}}
 B=c[0]
 C=c[120]
 A=a.updateHolder(c[114],A)
-A.rN.prototype={
+A.rP.prototype={
 gaV(){return"I-download"},
 gb2(){return"Malapit nang dumating."},
 gb5(){return"Ang iyong telepono ay maaari nang gumamit ng AI para kilalanin ang mga naglalakad."},
@@ -30,7 +30,7 @@ gaI(){return"Gusto mo bang malaman kung ilang tao ang dumadaan? Ang app na ito a
 gaX(){return"Mga Tuntunin ng Serbisyo"},
 gaW(){return"Pagkapribado"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.rN,C.z)})()
-B.ab(b.typeUniverse,JSON.parse('{"rN":{"z":[]}}'))};
+y(A.rP,C.z)})()
+B.ac(b.typeUniverse,JSON.parse('{"rP":{"z":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_95",e:"endPart",h:b})})($__dart_deferred_initializers__,"lpo30/8XRKVXAY1sb+wfSxOtf48=");
+a.eventLog.push({p:"main.dart.js_95",e:"endPart",h:b})})($__dart_deferred_initializers__,"7HX67KC5qDMmYcf/FKOPHqF/8tE=");

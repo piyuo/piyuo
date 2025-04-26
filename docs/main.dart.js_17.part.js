@@ -2,16 +2,16 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_17",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,A={
-aVC(d){B.S(d)
-return new A.mX()},
-aVE(){B.S("nl_BE")
-return new A.rj()},
-mX:function mX(){},
-rj:function rj(){}},C
+aW9(d){B.S(d)
+return new A.n0()},
+aWb(){B.S("nl_BE")
+return new A.rl()},
+n0:function n0(){},
+rl:function rl(){}},C
 B=c[0]
 A=a.updateHolder(c[68],A)
 C=c[120]
-A.mX.prototype={
+A.n0.prototype={
 gaV(){return"Downloaden"},
 gb2(){return"Binnenkort beschikbaar."},
 gb5(){return"Je telefoon kan nu AI gebruiken om voetgangers te herkennen."},
@@ -32,7 +32,7 @@ gb3(){return"Mail ons"},
 gaI(){return"Wil je weten hoeveel mensen er langskomen? Deze app gebruikt de camera van je telefoon om op intelligente wijze voetgangers te identificeren en automatisch te tellen. Geen handmatige invoer vereist. Zeg vaarwel tegen vervelend telwerk en monitor eenvoudig verkeersstromen."},
 gaX(){return"Servicevoorwaarden"},
 gaW(){return"Privacy"}}
-A.rj.prototype={
+A.rl.prototype={
 gaV(){return"Downloaden"},
 gb2(){return"Binnenkort beschikbaar."},
 gb5(){return"Je gsm kan nu AI gebruiken om voetgangers te herkennen."},
@@ -54,9 +54,9 @@ gaI(){return"Wil je weten hoeveel mensen er langskomen? Deze app gebruikt de cam
 gaX(){return"Servicevoorwaarden"},
 gaW(){return"Privacy"}}
 var z=a.updateTypes([]);(function inheritance(){var x=a.inherit
-x(A.mX,C.z)
-x(A.rj,A.mX)})()
-B.ab(b.typeUniverse,JSON.parse('{"mX":{"z":[]},"rj":{"z":[]}}'))
+x(A.n0,C.z)
+x(A.rl,A.n0)})()
+B.ac(b.typeUniverse,JSON.parse('{"n0":{"z":[]},"rl":{"z":[]}}'))
 var y={n:"Bekijk voetgangersaantallen voor elke tijdsperiode.",g:"Definieer aangepaste detectiezones om verkeer in specifieke gebieden te tellen.",h:"Kies ervoor om nieuw verschijnende objecten binnen de detectiezone te tellen, of objecten die stil blijven staan.",e:"Tel gelijktijdig voetgangers, auto's, fietsen en meer"}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_17",e:"endPart",h:b})})($__dart_deferred_initializers__,"n0kylB9B+O665/BZ73AQsl3Ved8=");
+a.eventLog.push({p:"main.dart.js_17",e:"endPart",h:b})})($__dart_deferred_initializers__,"htMxFDGeWUrGsyMY6N6tiPedJC4=");

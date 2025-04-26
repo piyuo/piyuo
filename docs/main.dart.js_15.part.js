@@ -2,16 +2,16 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_15",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,A={
-aVs(d){B.S(d)
-return new A.mV()},
-aVu(){B.S("ms_SG")
-return new A.rb()},
-mV:function mV(){},
-rb:function rb(){}},C
+aW_(d){B.S(d)
+return new A.mZ()},
+aW1(){B.S("ms_SG")
+return new A.rd()},
+mZ:function mZ(){},
+rd:function rd(){}},C
 B=c[0]
 A=a.updateHolder(c[67],A)
 C=c[120]
-A.mV.prototype={
+A.mZ.prototype={
 gaV(){return"Muat turun"},
 gb2(){return"Akan datang."},
 gb5(){return"Telefon anda kini boleh menggunakan AI untuk mengenal pasti pejalan kaki."},
@@ -32,7 +32,7 @@ gb3(){return"E-mel kami"},
 gaI(){return"Ingin tahu berapa ramai orang yang lalu lalang? Aplikasi ini menggunakan kamera telefon anda untuk mengenal pasti secara pintar dan mengira pejalan kaki secara automatik. Tiada input manual diperlukan. Ucapkan selamat tinggal kepada pengiraan yang membosankan dan pantau aliran trafik dengan mudah."},
 gaX(){return"Terma Perkhidmatan"},
 gaW(){return"Privasi"}}
-A.rb.prototype={
+A.rd.prototype={
 gaV(){return"Muat turun"},
 gb2(){return"Akan datang tidak lama lagi."},
 gb5(){return"Telefon bimbit anda kini boleh menggunakan AI untuk mengenal pasti pejalan kaki."},
@@ -54,9 +54,9 @@ gaI(){return"Nak tahu berapa ramai orang yang lalu lalang? Aplikasi ini mengguna
 gaX(){return"Terma Perkhidmatan"},
 gaW(){return"Privasi"}}
 var z=a.updateTypes([]);(function inheritance(){var x=a.inherit
-x(A.mV,C.z)
-x(A.rb,A.mV)})()
-B.ab(b.typeUniverse,JSON.parse('{"mV":{"z":[]},"rb":{"z":[]}}'))
+x(A.mZ,C.z)
+x(A.rd,A.mZ)})()
+B.ac(b.typeUniverse,JSON.parse('{"mZ":{"z":[]},"rd":{"z":[]}}'))
 var y={h:"Mengira pejalan kaki, kereta, basikal, dan lain-lain secara serentak",f:"Pilih untuk mengira objek yang baru muncul dalam zon pengesanan, atau yang kekal pegun.",n:"Selain kamera peranti mudah alih, kami menyokong fail video yang dirakam, input kamera web, dan strim langsung internet seperti RTSP. Ini membolehkan anda menyambung ke peranti sedia ada dan segera mula mengukur aliran trafik.",i:"Tentukan zon pengesanan tersuai untuk mengira lalu lintas di kawasan tertentu."}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_15",e:"endPart",h:b})})($__dart_deferred_initializers__,"kHD9DJt17lvGA33kjiyVxTaq5QQ=");
+a.eventLog.push({p:"main.dart.js_15",e:"endPart",h:b})})($__dart_deferred_initializers__,"vBHLcVwlf2kUlObgT/CrdnN8ovc=");

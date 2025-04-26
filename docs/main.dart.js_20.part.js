@@ -2,16 +2,16 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_20",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aVI(d){B.S(d)
-return new A.mZ()},
-aVK(){B.S("pt_PT")
-return new A.rn()},
-mZ:function mZ(){},
-rn:function rn(){}}
+aWf(d){B.S(d)
+return new A.n2()},
+aWh(){B.S("pt_PT")
+return new A.rp()},
+n2:function n2(){},
+rp:function rp(){}}
 B=c[0]
 C=c[120]
 A=a.updateHolder(c[69],A)
-A.mZ.prototype={
+A.n2.prototype={
 gaV(){return"Baixar"},
 gb2(){return"Em breve."},
 gb5(){return"Seu celular agora pode usar IA para reconhecer pedestres."},
@@ -32,7 +32,7 @@ gb3(){return"Envie-nos um email"},
 gaI(){return"Quer saber quantas pessoas passam por perto? Este aplicativo usa a c\xe2mera do seu celular para identificar inteligentemente e contar automaticamente os pedestres. N\xe3o \xe9 necess\xe1ria entrada manual. Diga adeus \xe0 contagem tediosa e monitore facilmente o fluxo de tr\xe1fego."},
 gaX(){return"Termos de servi\xe7o"},
 gaW(){return"Privacidade"}}
-A.rn.prototype={
+A.rp.prototype={
 gaV(){return"Transferir"},
 gb2(){return"Brevemente dispon\xedvel."},
 gb5(){return"O seu telem\xf3vel agora pode usar IA para reconhecer pe\xf5es."},
@@ -54,8 +54,8 @@ gaI(){return"Quer saber quantas pessoas passam por perto? Esta aplica\xe7\xe3o u
 gaX(){return"Termos de servi\xe7o"},
 gaW(){return"Privacidade"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.mZ,C.z)
-y(A.rn,A.mZ)})()
-B.ab(b.typeUniverse,JSON.parse('{"mZ":{"z":[]},"rn":{"z":[]}}'))};
+y(A.n2,C.z)
+y(A.rp,A.n2)})()
+B.ac(b.typeUniverse,JSON.parse('{"n2":{"z":[]},"rp":{"z":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_20",e:"endPart",h:b})})($__dart_deferred_initializers__,"JQ14dkf0c7AlqSKaR85xTpsojXs=");
+a.eventLog.push({p:"main.dart.js_20",e:"endPart",h:b})})($__dart_deferred_initializers__,"X7VqrmNA7WbgPc+doe5SmHVu3As=");

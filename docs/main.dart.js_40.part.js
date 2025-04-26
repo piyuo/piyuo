@@ -2,13 +2,13 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_40",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aUg(){B.S("cs")
-return new A.q7()},
-q7:function q7(){}}
+aUO(){B.S("cs")
+return new A.q9()},
+q9:function q9(){}}
 B=c[0]
 C=c[120]
 A=a.updateHolder(c[78],A)
-A.q7.prototype={
+A.q9.prototype={
 gaV(){return"St\xe1hnout"},
 gb2(){return"Ji\u017e brzy."},
 gb5(){return"V\xe1\u0161 telefon nyn\xed m\u016f\u017ee vyu\u017e\xedvat um\u011blou inteligenci k rozpozn\xe1v\xe1n\xed chodc\u016f."},
@@ -30,7 +30,7 @@ gaI(){return"Chcete v\u011bd\u011bt, kolik lid\xed proch\xe1z\xed kolem? Tato ap
 gaX(){return"Podm\xednky slu\u017eby"},
 gaW(){return"Ochrana soukrom\xed"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.q7,C.z)})()
-B.ab(b.typeUniverse,JSON.parse('{"q7":{"z":[]}}'))};
+y(A.q9,C.z)})()
+B.ac(b.typeUniverse,JSON.parse('{"q9":{"z":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_40",e:"endPart",h:b})})($__dart_deferred_initializers__,"EhYDeJr831jHUAAODOLXhTxjs8U=");
+a.eventLog.push({p:"main.dart.js_40",e:"endPart",h:b})})($__dart_deferred_initializers__,"Wu2sZU78uxn1ZOm/4sOSGDbhhso=");

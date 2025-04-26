@@ -2,13 +2,13 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_53",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aV0(){B.S("he")
-return new A.qK()},
-qK:function qK(){}}
+aVy(){B.S("he")
+return new A.qM()},
+qM:function qM(){}}
 B=c[0]
 C=c[120]
 A=a.updateHolder(c[86],A)
-A.qK.prototype={
+A.qM.prototype={
 gaV(){return"\u05d4\u05d5\u05e8\u05d3\u05d4"},
 gb2(){return"\u05d1\u05e7\u05e8\u05d5\u05d1."},
 gb5(){return"\u05d4\u05d8\u05dc\u05e4\u05d5\u05df \u05e9\u05dc\u05da \u05d9\u05db\u05d5\u05dc \u05db\u05e2\u05ea \u05dc\u05d4\u05e9\u05ea\u05de\u05e9 \u05d1\u05d1\u05d9\u05e0\u05d4 \u05de\u05dc\u05d0\u05db\u05d5\u05ea\u05d9\u05ea \u05dc\u05d6\u05d9\u05d4\u05d5\u05d9 \u05d4\u05d5\u05dc\u05db\u05d9 \u05e8\u05d2\u05dc."},
@@ -30,7 +30,7 @@ gaI(){return"\u05e8\u05d5\u05e6\u05d4 \u05dc\u05d3\u05e2\u05ea \u05db\u05de\u05d
 gaX(){return"\u05ea\u05e0\u05d0\u05d9 \u05e9\u05d9\u05e8\u05d5\u05ea"},
 gaW(){return"\u05e4\u05e8\u05d8\u05d9\u05d5\u05ea"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.qK,C.z)})()
-B.ab(b.typeUniverse,JSON.parse('{"qK":{"z":[]}}'))};
+y(A.qM,C.z)})()
+B.ac(b.typeUniverse,JSON.parse('{"qM":{"z":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_53",e:"endPart",h:b})})($__dart_deferred_initializers__,"sjtoeXvLMgU2+XpVeg3lEIn0J4s=");
+a.eventLog.push({p:"main.dart.js_53",e:"endPart",h:b})})($__dart_deferred_initializers__,"mgmdxnilPtEm0OJh6DhmPRrWVe0=");
