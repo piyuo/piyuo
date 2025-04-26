@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:piyuo/l10n/l10n.dart';
+import 'package:url_launcher/link.dart';
 
 import 'open_link.dart';
 
@@ -14,7 +15,7 @@ class DownloadView extends StatelessWidget {
   Widget build(BuildContext context) {
     final textTheme = Theme.of(context).textTheme;
 
-    buildButton({required String image, String? url, String? qrCode, String? desc}) {
+    buildButton({required String image, String? url, String? qrCode, String? desc, String? groupLink}) {
       return MouseRegion(
         cursor: SystemMouseCursors.click,
         child: GestureDetector(
@@ -44,6 +45,12 @@ class DownloadView extends StatelessWidget {
                   style: isMobile ? textTheme.bodySmall : textTheme.bodyMedium,
                   textAlign: TextAlign.center,
                 ),
+              if (groupLink != null)
+                Link(
+                  uri: Uri.parse(groupLink),
+                  target: LinkTarget.blank,
+                  builder: (context, followLink) => TextButton(onPressed: followLink, child: Text(groupLink)),
+                ),
             ],
           ),
         ),
@@ -63,7 +70,9 @@ class DownloadView extends StatelessWidget {
     );
 
     final androidTesterDesc =
-        'Our Android app is in closed testing on the Google Play Store. If you\'re interested and have a Google account, email us and we\'ll add you to the tester list so you can try it out!';
+        'Our Android app is currently in closed testing on the Google Play Store. If you\'re interested in early access, join our Google Group to participate and download the app';
+
+    final androidGroup = 'https://groups.google.com/g/piyuo-counter-beta-testers';
 
     return Column(
       children: [
@@ -75,7 +84,7 @@ class DownloadView extends StatelessWidget {
               children: [
                 appleBtn,
                 const SizedBox(height: 10),
-                buildButton(image: 'google.webp', desc: androidTesterDesc),
+                buildButton(image: 'google.webp', desc: androidTesterDesc, groupLink: androidGroup),
                 const SizedBox(height: 10),
                 windowsBtn,
               ],
@@ -86,7 +95,7 @@ class DownloadView extends StatelessWidget {
               children: [
                 Expanded(child: appleBtn),
                 const SizedBox(width: 20),
-                Expanded(child: buildButton(image: 'google.webp', desc: androidTesterDesc)),
+                Expanded(child: buildButton(image: 'google.webp', desc: androidTesterDesc, groupLink: androidGroup)),
                 const SizedBox(width: 20),
                 Expanded(child: windowsBtn),
               ],
