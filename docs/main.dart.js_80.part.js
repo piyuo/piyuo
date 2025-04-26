@@ -2,13 +2,13 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_80",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aVM(){B.S("ro")
-return new A.rp()},
-rp:function rp(){}}
+aWj(){B.S("ro")
+return new A.rr()},
+rr:function rr(){}}
 B=c[0]
 C=c[120]
 A=a.updateHolder(c[104],A)
-A.rp.prototype={
+A.rr.prototype={
 gaV(){return"Desc\u0103rca\u021bi"},
 gb2(){return"\xcen cur\xe2nd."},
 gb5(){return"Telefonul dvs. poate acum s\u0103 foloseasc\u0103 IA pentru a recunoa\u0219te pietonii."},
@@ -30,7 +30,7 @@ gaI(){return"Dori\u021bi s\u0103 \u0219ti\u021bi c\xe2te persoane trec? Aceast\u
 gaX(){return"Termeni de utilizare"},
 gaW(){return"Confiden\u021bialitate"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.rp,C.z)})()
-B.ab(b.typeUniverse,JSON.parse('{"rp":{"z":[]}}'))};
+y(A.rr,C.z)})()
+B.ac(b.typeUniverse,JSON.parse('{"rr":{"z":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_80",e:"endPart",h:b})})($__dart_deferred_initializers__,"EsJauLZayLorbpoikJ7dvR/KFso=");
+a.eventLog.push({p:"main.dart.js_80",e:"endPart",h:b})})($__dart_deferred_initializers__,"zFlygbhTUJ23iluEjNqK1YvoyHo=");

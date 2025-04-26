@@ -2,13 +2,13 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_78",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aVG(){B.S("pl")
-return new A.rl()},
-rl:function rl(){}}
+aWd(){B.S("pl")
+return new A.rn()},
+rn:function rn(){}}
 B=c[0]
 C=c[120]
 A=a.updateHolder(c[103],A)
-A.rl.prototype={
+A.rn.prototype={
 gaV(){return"Pobierz"},
 gb2(){return"Wkr\xf3tce dost\u0119pne."},
 gb5(){return"Tw\xf3j telefon mo\u017ce teraz u\u017cywa\u0107 AI do rozpoznawania pieszych."},
@@ -30,7 +30,7 @@ gaI(){return"Chcesz wiedzie\u0107, ile os\xf3b przechodzi obok? Ta aplikacja wyk
 gaX(){return"Warunki korzystania"},
 gaW(){return"Prywatno\u015b\u0107"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.rl,C.z)})()
-B.ab(b.typeUniverse,JSON.parse('{"rl":{"z":[]}}'))};
+y(A.rn,C.z)})()
+B.ac(b.typeUniverse,JSON.parse('{"rn":{"z":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_78",e:"endPart",h:b})})($__dart_deferred_initializers__,"EfO9o97N/hUGwIRTIle/WtC/f9U=");
+a.eventLog.push({p:"main.dart.js_78",e:"endPart",h:b})})($__dart_deferred_initializers__,"O5fRkKSfJMErFvh6obgF2cevlX4=");

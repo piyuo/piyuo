@@ -2,13 +2,13 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_97",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aWd(){B.S("tr")
-return new A.rP()},
-rP:function rP(){}}
+aWL(){B.S("tr")
+return new A.rR()},
+rR:function rR(){}}
 B=c[0]
 C=c[120]
 A=a.updateHolder(c[115],A)
-A.rP.prototype={
+A.rR.prototype={
 gaV(){return"\u0130ndir"},
 gb2(){return"Yak\u0131nda geliyor."},
 gb5(){return"Telefonunuz art\u0131k yayalar\u0131 tan\u0131mak i\xe7in yapay zeka kullanabiliyor."},
@@ -30,7 +30,7 @@ gaI(){return"Ka\xe7 ki\u015finin ge\xe7ti\u011fini bilmek ister misiniz? Bu uygu
 gaX(){return"Hizmet \u015eartlar\u0131"},
 gaW(){return"Gizlilik"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.rP,C.z)})()
-B.ab(b.typeUniverse,JSON.parse('{"rP":{"z":[]}}'))};
+y(A.rR,C.z)})()
+B.ac(b.typeUniverse,JSON.parse('{"rR":{"z":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_97",e:"endPart",h:b})})($__dart_deferred_initializers__,"3uCr7TxwRDh/963NUvpM/0/h1Kw=");
+a.eventLog.push({p:"main.dart.js_97",e:"endPart",h:b})})($__dart_deferred_initializers__,"OG+O+k0TO5cyq+ku6yW4JgO7BVo=");

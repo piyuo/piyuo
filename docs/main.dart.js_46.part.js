@@ -2,13 +2,13 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_46",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aUL(){B.S("fa")
-return new A.qw()},
-qw:function qw(){}}
+aVi(){B.S("fa")
+return new A.qy()},
+qy:function qy(){}}
 B=c[0]
 C=c[120]
 A=a.updateHolder(c[82],A)
-A.qw.prototype={
+A.qy.prototype={
 gaV(){return"\u062f\u0627\u0646\u0644\u0648\u062f"},
 gb2(){return"\u0628\u0647 \u0632\u0648\u062f\u06cc."},
 gb5(){return"\u062a\u0644\u0641\u0646 \u0634\u0645\u0627 \u0627\u06a9\u0646\u0648\u0646 \u0645\u06cc\u200c\u062a\u0648\u0627\u0646\u062f \u0628\u0627 \u0647\u0648\u0634 \u0645\u0635\u0646\u0648\u0639\u06cc \u0639\u0627\u0628\u0631\u0627\u0646 \u067e\u06cc\u0627\u062f\u0647 \u0631\u0627 \u062a\u0634\u062e\u06cc\u0635 \u062f\u0647\u062f."},
@@ -30,7 +30,7 @@ gaI(){return"\u0645\u06cc\u200c\u062e\u0648\u0627\u0647\u06cc\u062f \u0628\u062f
 gaX(){return"\u0634\u0631\u0627\u06cc\u0637 \u062e\u062f\u0645\u0627\u062a"},
 gaW(){return"\u062d\u0631\u06cc\u0645 \u062e\u0635\u0648\u0635\u06cc"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.qw,C.z)})()
-B.ab(b.typeUniverse,JSON.parse('{"qw":{"z":[]}}'))};
+y(A.qy,C.z)})()
+B.ac(b.typeUniverse,JSON.parse('{"qy":{"z":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_46",e:"endPart",h:b})})($__dart_deferred_initializers__,"LwaFZBQTBx79HsyY6cUAH8jZQjw=");
+a.eventLog.push({p:"main.dart.js_46",e:"endPart",h:b})})($__dart_deferred_initializers__,"76vu/6lePls7RvpqL+dF/t758X0=");

@@ -2,13 +2,13 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_34",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aU6(){B.S("az")
-return new A.q_()},
-q_:function q_(){}}
+aUE(){B.S("az")
+return new A.q1()},
+q1:function q1(){}}
 B=c[0]
 C=c[120]
 A=a.updateHolder(c[75],A)
-A.q_.prototype={
+A.q1.prototype={
 gaV(){return"Y\xfckl\u0259"},
 gb2(){return"Tezlikl\u0259 g\u0259l\u0259c\u0259k."},
 gb5(){return"Telefonunuz art\u0131q piyadalar\u0131 tan\u0131maq \xfc\xe7\xfcn AI istifad\u0259 ed\u0259 bil\u0259r."},
@@ -30,7 +30,7 @@ gaI(){return"Ne\xe7\u0259 insan\u0131n ke\xe7diyini bilm\u0259k ist\u0259yirsini
 gaX(){return"Xidm\u0259t \u015e\u0259rtl\u0259ri"},
 gaW(){return"M\u0259xfilik"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.q_,C.z)})()
-B.ab(b.typeUniverse,JSON.parse('{"q_":{"z":[]}}'))};
+y(A.q1,C.z)})()
+B.ac(b.typeUniverse,JSON.parse('{"q1":{"z":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_34",e:"endPart",h:b})})($__dart_deferred_initializers__,"NZXQUBlCBz4wRh/KWjEJ7w9rc/s=");
+a.eventLog.push({p:"main.dart.js_34",e:"endPart",h:b})})($__dart_deferred_initializers__,"h+ngwbnpe3GqjDxEOk/FvSeuwDY=");

@@ -2,13 +2,13 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_75",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aVy(){B.S("nb")
-return new A.rf()},
-rf:function rf(){}}
+aW5(){B.S("nb")
+return new A.rh()},
+rh:function rh(){}}
 B=c[0]
 C=c[120]
 A=a.updateHolder(c[101],A)
-A.rf.prototype={
+A.rh.prototype={
 gaV(){return"Last ned"},
 gb2(){return"Kommer snart."},
 gb5(){return"Telefonen din kan n\xe5 bruke AI til \xe5 gjenkjenne fotgjengere."},
@@ -30,7 +30,7 @@ gaI(){return"Vil du vite hvor mange mennesker som passerer forbi? Denne appen br
 gaX(){return"Tjenestevilk\xe5r"},
 gaW(){return"Personvern"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.rf,C.z)})()
-B.ab(b.typeUniverse,JSON.parse('{"rf":{"z":[]}}'))};
+y(A.rh,C.z)})()
+B.ac(b.typeUniverse,JSON.parse('{"rh":{"z":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_75",e:"endPart",h:b})})($__dart_deferred_initializers__,"/J9XW7GZ9LqXIW5a9hMCgl+VJDU=");
+a.eventLog.push({p:"main.dart.js_75",e:"endPart",h:b})})($__dart_deferred_initializers__,"7Arz4OTUp6XDTjuwcwxaKdDkr3Y=");

@@ -2,13 +2,13 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_42",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aUi(){B.S("da")
-return new A.q9()},
-q9:function q9(){}}
+aUQ(){B.S("da")
+return new A.qb()},
+qb:function qb(){}}
 B=c[0]
 C=c[120]
 A=a.updateHolder(c[79],A)
-A.q9.prototype={
+A.qb.prototype={
 gaV(){return"Download"},
 gb2(){return"Kommer snart."},
 gb5(){return"Din telefon kan nu bruge AI til at genkende fodg\xe6ngere."},
@@ -30,7 +30,7 @@ gaI(){return"Vil du vide, hvor mange mennesker der passerer forbi? Denne app bru
 gaX(){return"Servicevilk\xe5r"},
 gaW(){return"Privatlivspolitik"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.q9,C.z)})()
-B.ab(b.typeUniverse,JSON.parse('{"q9":{"z":[]}}'))};
+y(A.qb,C.z)})()
+B.ac(b.typeUniverse,JSON.parse('{"qb":{"z":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_42",e:"endPart",h:b})})($__dart_deferred_initializers__,"53KOf4LKV7VfcspphYiCABiX5+4=");
+a.eventLog.push({p:"main.dart.js_42",e:"endPart",h:b})})($__dart_deferred_initializers__,"JKS2B6iqwLZ8SESte7gnSo0LgW0=");

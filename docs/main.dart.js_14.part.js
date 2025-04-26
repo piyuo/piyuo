@@ -2,22 +2,22 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_14",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,A={
-aUP(d){B.S(d)
-return new A.mT()},
-aUR(){B.S("fr_BE")
-return new A.qA()},
-aUT(){B.S("fr_CA")
+aVm(d){B.S(d)
+return new A.mX()},
+aVo(){B.S("fr_BE")
 return new A.qC()},
-aUV(){B.S("fr_CH")
+aVq(){B.S("fr_CA")
 return new A.qE()},
-mT:function mT(){},
-qA:function qA(){},
+aVs(){B.S("fr_CH")
+return new A.qG()},
+mX:function mX(){},
 qC:function qC(){},
-qE:function qE(){}},C
+qE:function qE(){},
+qG:function qG(){}},C
 B=c[0]
 A=a.updateHolder(c[66],A)
 C=c[120]
-A.mT.prototype={
+A.mX.prototype={
 gaV(){return"T\xe9l\xe9charger"},
 gb2(){return"Bient\xf4t disponible."},
 gb5(){return"Votre t\xe9l\xe9phone peut d\xe9sormais utiliser l'IA pour reconna\xeetre les pi\xe9tons."},
@@ -38,7 +38,7 @@ gb3(){return"Contactez-nous par e-mail"},
 gaI(){return"Vous voulez savoir combien de personnes passent ? Cette application utilise la cam\xe9ra de votre t\xe9l\xe9phone pour identifier intelligemment et compter automatiquement les pi\xe9tons. Aucune saisie manuelle requise. Dites adieu au comptage fastidieux et surveillez facilement le flux de trafic."},
 gaX(){return"Conditions d'utilisation"},
 gaW(){return"Confidentialit\xe9"}}
-A.qA.prototype={
+A.qC.prototype={
 gaV(){return"T\xe9l\xe9charger"},
 gb2(){return"Bient\xf4t disponible."},
 gb5(){return"Votre GSM peut d\xe9sormais utiliser l'IA pour reconna\xeetre les pi\xe9tons."},
@@ -59,7 +59,7 @@ gb3(){return"Contactez-nous par e-mail"},
 gaI(){return"Vous voulez savoir combien de personnes passent ? Cette application utilise la cam\xe9ra de votre GSM pour identifier intelligemment et compter automatiquement les pi\xe9tons. Aucune saisie manuelle requise. Dites adieu au comptage fastidieux et surveillez facilement le flux de passage."},
 gaX(){return"Conditions d'utilisation"},
 gaW(){return"Confidentialit\xe9"}}
-A.qC.prototype={
+A.qE.prototype={
 gaV(){return"T\xe9l\xe9charger"},
 gb2(){return"Bient\xf4t disponible."},
 gb5(){return"Votre cellulaire peut maintenant utiliser l'IA pour reconna\xeetre les pi\xe9tons."},
@@ -80,7 +80,7 @@ gb3(){return"\xc9crivez-nous"},
 gaI(){return"Vous voulez savoir combien de personnes passent? Cette application utilise la cam\xe9ra de votre cellulaire pour identifier intelligemment et compter automatiquement les pi\xe9tons. Aucune saisie manuelle requise. Dites adieu au comptage fastidieux et surveillez facilement l'achalandage."},
 gaX(){return"Conditions d'utilisation"},
 gaW(){return"Confidentialit\xe9"}}
-A.qE.prototype={
+A.qG.prototype={
 gaV(){return"T\xe9l\xe9charger"},
 gb2(){return"Bient\xf4t disponible."},
 gb5(){return"Votre natel peut d\xe9sormais utiliser l'IA pour reconna\xeetre les pi\xe9tons."},
@@ -102,9 +102,9 @@ gaI(){return"Vous voulez savoir combien de personnes passent ? Cette application
 gaX(){return"Conditions d'utilisation"},
 gaW(){return"Confidentialit\xe9"}}
 var z=a.updateTypes([]);(function inheritance(){var x=a.inherit,w=a.inheritMany
-x(A.mT,C.z)
-w(A.mT,[A.qA,A.qC,A.qE])})()
-B.ab(b.typeUniverse,JSON.parse('{"mT":{"z":[]},"qA":{"z":[]},"qC":{"z":[]},"qE":{"z":[]}}'))
+x(A.mX,C.z)
+w(A.mX,[A.qC,A.qE,A.qG])})()
+B.ac(b.typeUniverse,JSON.parse('{"mX":{"z":[]},"qC":{"z":[]},"qE":{"z":[]},"qG":{"z":[]}}'))
 var y={i:"Choisissez de compter les nouveaux objets apparaissant dans la zone de d\xe9tection, ou ceux qui restent stationnaires.",e:"Comptez simultan\xe9ment les pi\xe9tons, voitures, v\xe9los et plus encore",a:"Consultez les comptages de passage pour n'importe quelle p\xe9riode.",h:"D\xe9finissez des zones de d\xe9tection personnalis\xe9es pour compter le trafic dans des zones sp\xe9cifiques."}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_14",e:"endPart",h:b})})($__dart_deferred_initializers__,"799LfJB9Xg5F0H+IfyjrnoX8PKA=");
+a.eventLog.push({p:"main.dart.js_14",e:"endPart",h:b})})($__dart_deferred_initializers__,"OOFT7x64qeuyBHm65u349sxyH7I=");

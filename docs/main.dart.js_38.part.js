@@ -2,13 +2,13 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_38",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aUe(){B.S("ca")
-return new A.q5()},
-q5:function q5(){}}
+aUM(){B.S("ca")
+return new A.q7()},
+q7:function q7(){}}
 B=c[0]
 C=c[120]
 A=a.updateHolder(c[77],A)
-A.q5.prototype={
+A.q7.prototype={
 gaV(){return"Descarregar"},
 gb2(){return"Properament."},
 gb5(){return"El teu tel\xe8fon ara pot utilitzar la IA per recon\xe8ixer vianants."},
@@ -30,7 +30,7 @@ gaI(){return"Vols saber quanta gent passa pel davant? Aquesta aplicaci\xf3 utili
 gaX(){return"Condicions del servei"},
 gaW(){return"Privadesa"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.q5,C.z)})()
-B.ab(b.typeUniverse,JSON.parse('{"q5":{"z":[]}}'))};
+y(A.q7,C.z)})()
+B.ac(b.typeUniverse,JSON.parse('{"q7":{"z":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_38",e:"endPart",h:b})})($__dart_deferred_initializers__,"nNBX9OitMzrA6s9a4xLO6JX50A8=");
+a.eventLog.push({p:"main.dart.js_38",e:"endPart",h:b})})($__dart_deferred_initializers__,"ZpIR5AG3mFmy5hS187Pr923WfdA=");

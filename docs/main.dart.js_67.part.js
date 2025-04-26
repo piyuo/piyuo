@@ -2,13 +2,13 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_67",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aVk(){B.S("lv")
-return new A.r3()},
-r3:function r3(){}}
+aVS(){B.S("lv")
+return new A.r5()},
+r5:function r5(){}}
 B=c[0]
 C=c[120]
 A=a.updateHolder(c[96],A)
-A.r3.prototype={
+A.r5.prototype={
 gaV(){return"Lejupiel\u0101d\u0113t"},
 gb2(){return"Dr\u012bzum\u0101 pieejams."},
 gb5(){return"J\u016bsu t\u0101lrunis tagad var izmantot MI, lai atpaz\u012btu g\u0101j\u0113jus."},
@@ -30,7 +30,7 @@ gaI(){return"V\u0113laties uzzin\u0101t, cik daudz cilv\u0113ku iet gar\u0101m? 
 gaX(){return"Pakalpojumu noteikumi"},
 gaW(){return"Priv\u0101tums"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.r3,C.z)})()
-B.ab(b.typeUniverse,JSON.parse('{"r3":{"z":[]}}'))};
+y(A.r5,C.z)})()
+B.ac(b.typeUniverse,JSON.parse('{"r5":{"z":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_67",e:"endPart",h:b})})($__dart_deferred_initializers__,"ridei+qFZzfpiQdyXf0dzU8G0so=");
+a.eventLog.push({p:"main.dart.js_67",e:"endPart",h:b})})($__dart_deferred_initializers__,"/mqffWxdLz80qmJlw+MEGzPTkh8=");

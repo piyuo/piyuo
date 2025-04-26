@@ -2,13 +2,13 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_48",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aUN(){B.S("fi")
-return new A.qy()},
-qy:function qy(){}}
+aVk(){B.S("fi")
+return new A.qA()},
+qA:function qA(){}}
 B=c[0]
 C=c[120]
 A=a.updateHolder(c[83],A)
-A.qy.prototype={
+A.qA.prototype={
 gaV(){return"Lataa"},
 gb2(){return"Tulossa pian."},
 gb5(){return"Puhelimesi voi nyt k\xe4ytt\xe4\xe4 teko\xe4ly\xe4 jalankulkijoiden tunnistamiseen."},
@@ -30,7 +30,7 @@ gaI(){return"Haluatko tiet\xe4\xe4, kuinka monta ihmist\xe4 kulkee ohi? T\xe4m\x
 gaX(){return"K\xe4ytt\xf6ehdot"},
 gaW(){return"Tietosuoja"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.qy,C.z)})()
-B.ab(b.typeUniverse,JSON.parse('{"qy":{"z":[]}}'))};
+y(A.qA,C.z)})()
+B.ac(b.typeUniverse,JSON.parse('{"qA":{"z":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_48",e:"endPart",h:b})})($__dart_deferred_initializers__,"QWWsW3KKWhKF3/1sqpXH41nW+hY=");
+a.eventLog.push({p:"main.dart.js_48",e:"endPart",h:b})})($__dart_deferred_initializers__,"AzysNxM+X26S9OZ7p19hvYi7ZyY=");

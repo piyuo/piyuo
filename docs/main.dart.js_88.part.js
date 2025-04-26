@@ -2,13 +2,13 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_88",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aW3(){B.S("sw")
-return new A.rF()},
-rF:function rF(){}}
+aWB(){B.S("sw")
+return new A.rH()},
+rH:function rH(){}}
 B=c[0]
 C=c[120]
 A=a.updateHolder(c[110],A)
-A.rF.prototype={
+A.rH.prototype={
 gaV(){return"Pakua"},
 gb2(){return"Inakuja hivi karibuni."},
 gb5(){return"Simu yako sasa inaweza kutumia AI kutambua waendao kwa miguu."},
@@ -30,7 +30,7 @@ gaI(){return"Unataka kujua watu wangapi wanapita? Programu hii hutumia kamera ya
 gaX(){return"Masharti ya Huduma"},
 gaW(){return"Faragha"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.rF,C.z)})()
-B.ab(b.typeUniverse,JSON.parse('{"rF":{"z":[]}}'))};
+y(A.rH,C.z)})()
+B.ac(b.typeUniverse,JSON.parse('{"rH":{"z":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_88",e:"endPart",h:b})})($__dart_deferred_initializers__,"NQ0CPibyyTSdmZ77N63Lviy86QM=");
+a.eventLog.push({p:"main.dart.js_88",e:"endPart",h:b})})($__dart_deferred_initializers__,"ohbmxK2Livo3KyHChLrcVDmIeSA=");

@@ -2,13 +2,13 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_83",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aVW(){B.S("sk")
-return new A.rx()},
-rx:function rx(){}}
+aWt(){B.S("sk")
+return new A.rz()},
+rz:function rz(){}}
 B=c[0]
 C=c[120]
 A=a.updateHolder(c[106],A)
-A.rx.prototype={
+A.rz.prototype={
 gaV(){return"Stiahnu\u0165"},
 gb2(){return"\u010coskoro k dispoz\xedcii."},
 gb5(){return"V\xe1\u0161 telef\xf3n teraz m\xf4\u017ee pomocou AI rozpozn\xe1va\u0165 chodcov."},
@@ -30,7 +30,7 @@ gaI(){return"Chcete vedie\u0165, ko\u013eko \u013eud\xed prejde okolo? T\xe1to a
 gaX(){return"Podmienky slu\u017eby"},
 gaW(){return"Ochrana s\xfakromia"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.rx,C.z)})()
-B.ab(b.typeUniverse,JSON.parse('{"rx":{"z":[]}}'))};
+y(A.rz,C.z)})()
+B.ac(b.typeUniverse,JSON.parse('{"rz":{"z":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_83",e:"endPart",h:b})})($__dart_deferred_initializers__,"9f06vY3JQBl3j5KT4chofqnxxmM=");
+a.eventLog.push({p:"main.dart.js_83",e:"endPart",h:b})})($__dart_deferred_initializers__,"/iFS5nklqS4ewr4AAT9DkEvYX9s=");

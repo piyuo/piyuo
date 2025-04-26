@@ -2,13 +2,13 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_59",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aV6(){B.S("hu")
-return new A.qQ()},
-qQ:function qQ(){}}
+aVE(){B.S("hu")
+return new A.qS()},
+qS:function qS(){}}
 B=c[0]
 C=c[120]
 A=a.updateHolder(c[89],A)
-A.qQ.prototype={
+A.qS.prototype={
 gaV(){return"Let\xf6lt\xe9s"},
 gb2(){return"Hamarosan \xe9rkezik."},
 gb5(){return"Telefonja most m\xe1r AI seg\xedts\xe9g\xe9vel ismeri fel a gyalogosokat."},
@@ -30,7 +30,7 @@ gaI(){return"Szeretn\xe9 tudni, h\xe1ny ember halad el? Ez az alkalmaz\xe1s tele
 gaX(){return"Szolg\xe1ltat\xe1si felt\xe9telek"},
 gaW(){return"Adatv\xe9delem"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.qQ,C.z)})()
-B.ab(b.typeUniverse,JSON.parse('{"qQ":{"z":[]}}'))};
+y(A.qS,C.z)})()
+B.ac(b.typeUniverse,JSON.parse('{"qS":{"z":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_59",e:"endPart",h:b})})($__dart_deferred_initializers__,"LXCuxtJawAFQnDkAXykRjeUeLuM=");
+a.eventLog.push({p:"main.dart.js_59",e:"endPart",h:b})})($__dart_deferred_initializers__,"+ZL2E7iMogVUUNIMWts8t0tYnZc=");

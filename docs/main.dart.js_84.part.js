@@ -2,13 +2,13 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_84",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aVY(){B.S("sl")
-return new A.rz()},
-rz:function rz(){}}
+aWv(){B.S("sl")
+return new A.rB()},
+rB:function rB(){}}
 B=c[0]
 C=c[120]
 A=a.updateHolder(c[107],A)
-A.rz.prototype={
+A.rB.prototype={
 gaV(){return"Prenesi"},
 gb2(){return"Kmalu na voljo."},
 gb5(){return"Va\u0161 telefon lahko zdaj z umetno inteligenco prepoznava pe\u0161ce."},
@@ -30,7 +30,7 @@ gaI(){return"\u017delite vedeti, koliko ljudi gre mimo? Ta aplikacija uporablja 
 gaX(){return"Pogoji uporabe"},
 gaW(){return"Zasebnost"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.rz,C.z)})()
-B.ab(b.typeUniverse,JSON.parse('{"rz":{"z":[]}}'))};
+y(A.rB,C.z)})()
+B.ac(b.typeUniverse,JSON.parse('{"rB":{"z":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_84",e:"endPart",h:b})})($__dart_deferred_initializers__,"xqq0GQktDzlJ8XTTTin+FXa2MAE=");
+a.eventLog.push({p:"main.dart.js_84",e:"endPart",h:b})})($__dart_deferred_initializers__,"zlc/I46IV79S8gxc0Jzhs446g30=");

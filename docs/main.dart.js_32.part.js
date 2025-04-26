@@ -2,13 +2,13 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_32",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={
-aTX(){B.S("am")
-return new A.pS()},
-pS:function pS(){}}
+aUu(){B.S("am")
+return new A.pU()},
+pU:function pU(){}}
 B=c[0]
 C=c[120]
 A=a.updateHolder(c[74],A)
-A.pS.prototype={
+A.pU.prototype={
 gaV(){return"\u12a0\u12cd\u122d\u12f5"},
 gb2(){return"\u1260\u1245\u122d\u1261 \u12ed\u1218\u1323\u120d\u1362"},
 gb5(){return"\u1235\u120d\u12ad\u12ce \u12a0\u1201\u1295 \u12a5\u130d\u1228\u129e\u127d\u1295 \u1208\u1218\u1208\u12e8\u1275 \u1230\u12cd \u1230\u122b\u123d \u1265\u120d\u1205\u1290\u1275 (AI) \u1218\u1320\u1240\u121d \u12ed\u127d\u120b\u120d\u1362"},
@@ -30,7 +30,7 @@ gaI(){return"\u1235\u1295\u1275 \u1230\u12ce\u127d \u12a5\u1295\u12f0\u121a\u12e
 gaX(){return"\u12e8\u12a0\u1308\u120d\u130d\u120e\u1275 \u12cd\u120e\u127d"},
 gaW(){return"\u130d\u120b\u12ca\u1290\u1275"}}
 var z=a.updateTypes([]);(function inheritance(){var y=a.inherit
-y(A.pS,C.z)})()
-B.ab(b.typeUniverse,JSON.parse('{"pS":{"z":[]}}'))};
+y(A.pU,C.z)})()
+B.ac(b.typeUniverse,JSON.parse('{"pU":{"z":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_32",e:"endPart",h:b})})($__dart_deferred_initializers__,"rwdqseyUtDgllGKydOzEbrHeEqk=");
+a.eventLog.push({p:"main.dart.js_32",e:"endPart",h:b})})($__dart_deferred_initializers__,"cgp6cR9nAAXjTQzeAjHV3wEpta8=");
