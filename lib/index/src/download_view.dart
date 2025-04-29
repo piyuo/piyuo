@@ -49,7 +49,19 @@ class DownloadView extends StatelessWidget {
                 Link(
                   uri: Uri.parse(groupLink),
                   target: LinkTarget.blank,
-                  builder: (context, followLink) => TextButton(onPressed: followLink, child: Text(groupLink)),
+                  builder:
+                      (context, followLink) => TextButton(
+                        onPressed: followLink,
+                        child: Text(
+                          groupLink,
+                          style: TextStyle(
+                            color: Colors.blue.shade800,
+                            fontSize: 23,
+                            decoration: TextDecoration.underline,
+                            decorationColor: Colors.blue.shade800,
+                          ),
+                        ),
+                      ),
                 ),
             ],
           ),
