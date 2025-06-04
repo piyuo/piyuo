@@ -21,7 +21,8 @@ class LocalizationKo extends Localization {
   String get index_video_title => '이제 휴대폰의 AI로 보행자를 인식할 수 있습니다.';
 
   @override
-  String get index_video_desc => '인터넷 연결 불필요. 전통적인 카운터로 사람을 수동으로 세지 않아도 됩니다. 휴대폰을 설정하여 지나가는 보행자 통행량을 자동으로 추적하세요.';
+  String get index_video_desc =>
+      '인터넷 연결 불필요. 전통적인 카운터로 사람을 수동으로 세지 않아도 됩니다. 휴대폰을 설정하여 지나가는 보행자 통행량을 자동으로 추적하세요.';
 
   @override
   String get index_1 => '24시간 추적';
@@ -51,22 +52,26 @@ class LocalizationKo extends Localization {
   String get index_desktop_title => '데스크톱 버전 이용 가능';
 
   @override
-  String get index_desktop_desc => '데스크톱 버전도 제공합니다. iOS/Android/Mac/Windows 버전을 제공하여 모바일 기기와 웹캠이 있는 데스크톱을 모두 활용할 수 있습니다. 데스크톱 버전은 여러 비디오 소스를 지원하여 여러 스트림에서 동시에 계수할 수 있습니다.';
+  String get index_desktop_desc =>
+      '데스크톱 버전도 제공합니다. iOS/Android/Mac/Windows 버전을 제공하여 모바일 기기와 웹캠이 있는 데스크톱을 모두 활용할 수 있습니다. 데스크톱 버전은 여러 비디오 소스를 지원하여 여러 스트림에서 동시에 계수할 수 있습니다.';
 
   @override
   String get index_desktop2_title => '실시간 스트림 지원';
 
   @override
-  String get index_desktop2_desc => '모바일 기기 카메라 외에도 녹화된 비디오 파일, 웹캠 입력, RTSP와 같은 인터넷 실시간 스트림을 지원합니다. 이를 통해 기존 장치에 연결하여 즉시 통행량 측정을 시작할 수 있습니다.';
+  String get index_desktop2_desc =>
+      '모바일 기기 카메라 외에도 녹화된 비디오 파일, 웹캠 입력, RTSP와 같은 인터넷 실시간 스트림을 지원합니다. 이를 통해 기존 장치에 연결하여 즉시 통행량 측정을 시작할 수 있습니다.';
 
   @override
   String get index_email_us => '이메일 문의';
 
   @override
-  String get app_desc => '얼마나 많은 사람들이 지나가는지 알고 싶으신가요? 이 앱은 휴대폰 카메라를 사용하여 보행자를 지능적으로 식별하고 자동으로 계수합니다. 수동 입력이 필요하지 않습니다. 지루한 계수 작업에 작별을 고하고 손쉽게 통행량을 모니터링하세요.';
+  String get app_desc =>
+      '얼마나 많은 사람들이 지나가는지 알고 싶으신가요? 이 앱은 휴대폰 카메라를 사용하여 보행자를 지능적으로 식별하고 자동으로 계수합니다. 수동 입력이 필요하지 않습니다. 지루한 계수 작업에 작별을 고하고 손쉽게 통행량을 모니터링하세요.';
 
   @override
-  String get video_desc => '인터넷 연결 불필요. 전통적인 카운터로 사람을 수동으로 세지 않아도 됩니다. 휴대폰을 설정하여 지나가는 보행자 통행량을 자동으로 추적하세요.';
+  String get video_desc =>
+      '인터넷 연결 불필요. 전통적인 카운터로 사람을 수동으로 세지 않아도 됩니다. 휴대폰을 설정하여 지나가는 보행자 통행량을 자동으로 추적하세요.';
 
   @override
   String get terms => '서비스 약관';
